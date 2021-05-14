@@ -20,3 +20,46 @@ body{
     max-width: 200px;
     width: 100%;
 }
+
+
+.containerScroll{
+    display: flexbox;
+    flex-direction: column;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 25px 10px 0 10px;
+    background-color: #212529;
+}
+
+.projectContainer{
+    display: block;
+    box-sizing: content-box;
+    width: 85%;
+    margin-left: 5%;
+    margin-right: 0;
+    padding: 10px 5% 10px 5%;
+    height: fit-content;
+    max-height: 200px;
+}
+
+.projectDescription{
+    display: inline-block;
+    box-sizing: content-box;
+    width: 50%;
+    color: white;
+    text-align: justify;
+}
+
+.projectThumbnail{
+    display: inline-block;
+    box-sizing: content-box;
+    width: 40%;
+    padding-right: 0;
+}
+
+.projectSeparator{
+    margin-left: 2.5%;
+    width: 95%;
+    height: 5px;
+    background-color: white;
+}
