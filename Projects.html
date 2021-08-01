@@ -12,15 +12,21 @@
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <style>
+    .containerScroll p {
+      margin-left: 20px;
+      margin-right: 20px;
+      font-size: 20px;
+    }
 
     .containerScroll span {
-      font-size: 8vw;
+      font-size: min(5.5vw, 120px);
       color: #1282A2;
     }
 
     span {
+      animation-name: powerLetters;
       animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-      animation-duration: 20s;
+      animation-duration: 5s;
       animation-iteration-count: infinite;
     }
 
@@ -75,29 +81,12 @@
           <a class="nav-link" href="Personality.html">Who am I?</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Future.html">Future goals</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link" href="CV.html">CV <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active">
           <a class="nav-link " href="Projects.html">
             Projects
           </a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="Tutoring.html" id="navbarDropdownMenuLink" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            Tutoring
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="Tutoring.html">Mathematics</a>
-            <a class="dropdown-item" href="Tutoring.html">Computer Science</a>
-            <a class="dropdown-item" href="Tutoring.html">Physics</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Contact.html">Contact me<span class="sr-only">(current)</span></a>
         </li>
       </ul>
     </div>
@@ -109,58 +98,40 @@
     <div class="pageDescription">
       <div class="descriptionText">
         <h1 style="margin: 5px auto 5px 20px; height: 8.5vw;">
-          <span style="animation-name: powerLetters; animation-delay: 0ms;">P</span>
-          <span style="animation-name: powerLetters; animation-delay: 40ms;">r</span>
-          <span style="animation-name: powerLetters; animation-delay: 80ms;">o</span>
-          <span style="animation-name: powerLetters; animation-delay: 120ms;">j</span>
-          <span style="animation-name: powerLetters; animation-delay: 160ms;">e</span>
-          <span style="animation-name: powerLetters; animation-delay: 200ms;">c</span>
-          <span style="animation-name: powerLetters; animation-delay: 240ms;">t</span>
-          <span style="animation-name: powerLetters; animation-delay: 280ms;">s</span>
+          <span>Projects</span>
+          <script>
+            function orangeLetter(letter) {
+              letter.style = "font-size: min(7vw, 160px); color: coral;";
+            }
+          </script>
         </h1>
-        <p style="margin: 50px auto 20px 20px; text-indent: 10px;">
-          These are personal, academic or professional proyects that I've
-          found the most interesting or where I have learned the most so far.
-          <br><br>
-          A project below caught your eye? Hover it to read more about it!
+        <p style="margin-top: 50px; text-indent: 10px;">
+          I'm currently an international student at the University of Montreal.
+          Funnily enough, because of the pandemic I have yet to set foot on it,
+          but I have already learned far more than I'd imagined.
+          Both in computer science and outside of it.
         </p>
+        <p style="margin-top: 10px; text-indent: 10px;">
+          I love playing the electric guitar;
+          reading - especially topics outside of my field;
+          I have some weird obsession with water and all its sports, even those I'm terrible at.
+        </p>
+        <p style="margin-top: 10px; text-indent: 10px;">
+          I also really like teaching and communicating science;
+          I had the privilege to meet all kinds of people throughout my life and our different tastes,
+          talents, experience, backgrounds, handicaps and challenges have taught me more than I could ever repay.
+          The least I can do is make sure no-one dismisses STEM because of a bad experience.
+        </p>
+
       </div>
-      <div class="imgContainer" style="border-radius: 50%; background: linear-gradient(black, #212529)">
-        <!-- Sphere -->
-        <div class="sphere">
-          <div class="sphereLine" style="animation-name: rotateLine1;">
-            <div class="row" style="position:relative; top: -2vw;">
-              <img src="Images/ProjectThumbnails/GrimThumbnail.png" style="left: 4vw; animation-name: moveThumbnail1;"
-                alt="GrimThumbnail">
-            </div>
-          </div>
-          <div class="sphereLine" style="animation-name: rotateLine2;">
-            <div class="row" style="position:relative; top: -2vw;">
-              <img src="Images/ProjectThumbnails/SolitaireThumbnail.png"
-                style="left: 7vw; animation-name: moveThumbnail2;" alt="SolitaireThumbnail">
-            </div>
-          </div>
-          <div class="sphereLine" style="animation-name: rotateLine3;">
-            <div class="row" style="position:relative; top: -2vw;">
-              <img src="Images/ProjectThumbnails/CounterThumbnail.png"
-                style="left: 10vw; animation-name: moveThumbnail3;" alt="CounterThumbnail">
-            </div>
-          </div>
-          <div class="sphereLine" style="animation-name: rotateLine4;">
-            <div class="row" style="position:relative; top: -2vw;">
-              <img src="Images/ProjectThumbnails/PersonalThumbnail.png"
-                style="left: 13vw; animation-name: moveThumbnail4;" alt="ThisSiteThumbnail">
-            </div>
-          </div>
-          <div class="sphereLine" style="transform: rotate(45deg);">
-            <div class="row" style="position:relative; top: -2vw;">
-              <img src="Images/ProjectThumbnails/ArchitectsThumbnail.png"
-                style="transform: rotate(-45deg); left: 4vw; animation-name: slideThumbnail1;" alt="ThisSiteThumbnail">
-            </div>
-          </div>
+      <div class="descriptionImage">
+        <div class="imgContainer">
+          <img src="Images/S.svg" style="height: 100%; max-width: 100%; margin: 0; transform: rotate(-15deg);"
+            alt="bigS">
         </div>
       </div>
     </div>
+
 
     <div class="projectSection">
       <div class="project thisProject" onmouseover="expandDescription(this)">

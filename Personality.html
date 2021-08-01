@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <style>
     .containerScroll span {
-      font-size: 5.5vw;
+      font-size: min(5.5vw, 120px);
     }
 
     .containerScroll {
@@ -27,11 +27,9 @@
     .containerScroll p {
       margin-left: 20px;
       margin-right: 20px;
-    }
-
-    p {
       font-size: 20px;
     }
+
 
     .bookShelf {
       grid-template-rows: 50% 50%;
@@ -90,29 +88,12 @@
           <a class="nav-link" href="Personality.html">Who am I?</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Future.html">Future goals</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link" href="CV.html">CV <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link " href="Projects.html">
             Projects
           </a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="Tutoring.html" id="navbarDropdownMenuLink" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            Tutoring
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="Tutoring.html">Mathematics</a>
-            <a class="dropdown-item" href="Tutoring.html">Computer Science</a>
-            <a class="dropdown-item" href="Tutoring.html">Physics</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Contact.html">Contact me<span class="sr-only">(current)</span></a>
         </li>
       </ul>
     </div>
@@ -137,7 +118,7 @@
           <span onmouseover="orangeLetter(this)">o</span>
           <script>
             function orangeLetter(letter) {
-              letter.style = "font-size: 7vw; color: coral;";
+              letter.style = "font-size: min(7vw, 160px); color: coral;";
             }
           </script>
         </h1>

@@ -40,11 +40,11 @@ h6 {
 .containerScroll {
     display: grid;
     grid-template-rows: 1000px 1500px;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin: auto;
     padding: 25px 10px 0 10px;
     background-color: #212529;
     color: white;
+    max-width: 1600px;
 }
 
 .pageDescription {
