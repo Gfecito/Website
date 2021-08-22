@@ -12,26 +12,43 @@
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <style>
+    .containerScroll {
+      display: flex;
+      height: 3500px;
+      margin: auto;
+      padding: 25px 10px 0 10px;
+      background-color: #212529;
+      color: white;
+      max-width: 1600px;
+    }
+
     .containerScroll p {
+      position: relative;
       margin-left: 20px;
       margin-right: 20px;
       font-size: 20px;
     }
 
     .containerScroll span {
-      font-size: min(5.5vw, 120px);
+      font-size: min(10.5vw, 260px);
       color: #1282A2;
+    }
+
+    .pageDescription {
+      background-color: #fff;
+      display: grid;
+      grid-template-rows: 80px 400px;
+      grid-template-columns: 100%;
+      height: 500px;
+      overflow: hidden;
+      margin: 0;
     }
 
     span {
       animation-name: powerLetters;
       animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-      animation-duration: 5s;
+      animation-duration: 2s;
       animation-iteration-count: infinite;
-    }
-
-    .col-5 h4 {
-      font-size: 55px;
     }
 
     @keyframes powerLetters {
@@ -93,204 +110,136 @@
   </nav>
 
 
-  <!-- Make it on hover expand, giga fancy -->
-  <div class="containerScroll">
+  <!-- Title on right, paragraph on left, alternate colors use waves
+  Animate project sections with SIMPLE animations using css-->
+  <div class="containerScroll" style="padding: 0;">
     <div class="pageDescription">
       <div class="descriptionText">
-        <h1 style="margin: 5px auto 5px 20px; height: 8.5vw;">
-          <span>Projects</span>
-          <script>
-            function orangeLetter(letter) {
-              letter.style = "font-size: min(7vw, 160px); color: coral;";
-            }
-          </script>
+        <h1 style="margin: auto; height: min(16.5vw,30px);">
+          <span style="animation-delay: 0s;">P</span>
+          <span style="animation-delay: 0.13s">r</span>
+          <span style="animation-delay: 0.26s">o</span>
+          <span style="animation-delay: 0.39s">j</span>
+          <span style="animation-delay: 0.52s">e</span>
+          <span style="animation-delay: 0.65s">c</span>
+          <span style="animation-delay: 0.78s">t</span>
+          <span style="animation-delay: 0.91s">s</span>
         </h1>
-        <p style="margin-top: 50px; text-indent: 10px;">
-          I'm currently an international student at the University of Montreal.
-          Funnily enough, because of the pandemic I have yet to set foot on it,
-          but I have already learned far more than I'd imagined.
-          Both in computer science and outside of it.
-        </p>
-        <p style="margin-top: 10px; text-indent: 10px;">
-          I love playing the electric guitar;
-          reading - especially topics outside of my field;
-          I have some weird obsession with water and all its sports, even those I'm terrible at.
-        </p>
-        <p style="margin-top: 10px; text-indent: 10px;">
-          I also really like teaching and communicating science;
-          I had the privilege to meet all kinds of people throughout my life and our different tastes,
-          talents, experience, backgrounds, handicaps and challenges have taught me more than I could ever repay.
-          The least I can do is make sure no-one dismisses STEM because of a bad experience.
-        </p>
-
       </div>
-      <div class="descriptionImage">
-        <div class="imgContainer">
-          <img src="Images/S.svg" style="height: 100%; max-width: 100%; margin: 0; transform: rotate(-15deg);"
-            alt="bigS">
-        </div>
+
+
+      <div class="descriptionText">
+        <h2 style="margin: 50px max(60px,20%); text-align: center; color: #212529;">
+          From Machine Learning and a webgame backend to web design and a JavaFX applet,
+          these are the projects that have taught me the most.
+        </h2>
+      </div>
+      <div class="wave1 ">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path
+            d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+            opacity=".25" class="shape-fill"></path>
+          <path
+            d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+            opacity=".5" class="shape-fill"></path>
+          <path
+            d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+            class="shape-fill"></path>
+        </svg>
       </div>
     </div>
 
-
-    <div class="projectSection">
-      <div class="project thisProject" onmouseover="expandDescription(this)">
-        <h3>This Website</h3>
-        <div class="projectImage">
-          <img src="Images/ProjectThumbnails/PersonalThumbnail.png" alt="ThisSite">
-        </div>
+    <div class="projectLeft" id="oaye">
+      <div class="projectDescriptor">
+        <h3>AI Launch Labs, ML for indigenous people</h3>
+        <p>Web application using a gesture recognition model.</p>
       </div>
-      <!-- Space anhilator: high tech
-        -->
-      <div class="project wordpressProject" onmouseover="expandDescription(this)">
-        <h3>Cool Architects</h3>
-        <div class="projectImage">
-          <img src="Images/ProjectThumbnails/ArchitectsThumbnail.png" alt="ArchitectMockup">
-        </div>
-      </div>
-      <!-- Space anhilator: high tech
-        -->
-      <div class="project webDesignProject" onmouseover="expandDescription(this)">
-        <h3>Grim Reaper's</h3>
-        <div class="projectImage">
-          <img src="Images/ProjectThumbnails/GrimThumbnail.png" alt="GrimThumbnail">
-        </div>
-      </div>
-      <!-- Space anhilator: high tech
-        -->
-      <div class="project solitaireProject" onmouseover="expandDescription(this)">
-        <h3>Online Solitaire</h3>
-        <div class="projectImage">
-          <img src="Images/ProjectThumbnails/SolitaireThumbnail.png" alt="Solitaire">
-        </div>
-      </div>
-      <!-- Space anhilator: high tech
-        -->
-      <div class="project javaFXProject" onmouseover="expandDescription(this)">
-        <h3>Counter Interface</h3>
-        <div class="projectImage">
-          <img src="Images/ProjectThumbnails/CounterThumbnail.png" alt="CounterThumbnail">
-        </div>
-      </div>
+      <div class="projectDisplay">
 
-      <script>
-        function expandDescription(project) {
-          var allProjectsExpanded = document.getElementsByClassName("projectExpanded");
-          for (var i = 0; i < allProjectsExpanded.length; i++) {
-            allProjectsExpanded[i].style = "visibility: hidden; margin-bottom: 0px; height: 0;";
-          }
-          allProjectsExpanded.style = "visibility: hidden; margin-bottom: 0px; height: 0;";
-          var projectName = project.classList[1];
-          var projectExpanded = document.getElementsByClassName(projectName)[1];
-          projectExpanded.style = "visibility: visible; padding: 35px 0; height: auto";
-        }
-      </script>
+      </div>
+    </div>
+    <div class="wave2">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path
+          d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+          class="shape-fill"></path>
+      </svg>
+    </div>
 
+    <div class="projectRight" id="counter">
+      <div class="projectDisplay">
+      </div>
+      <div class="projectDescriptor">
+        <h3>Simple user interface made with JavaFX and CSS</h3>
+        <p>Web application using a gesture recognition model.</p>
+      </div>
+    </div>
 
+    <div class="wave3">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M741,116.23C291,117.43,0,27.57,0,6V120H1200V6C1200,27.93,1186.4,119.83,741,116.23Z" class="shape-fill">
+        </path>
+      </svg>
+    </div>
 
-      <div class="projectExpandedContainer">
-        <!-- Project container -->
-        <div class="row projectExpanded thisProject" style="visibility: hidden; margin-bottom: 0px; height: 0;">
-          <div class="col-1"></div>
-          <div class="col-5">
-            <h4>This website</h4>
-            <p style="text-align: justify;">Personal website made with HTML, JavaScript, and CSS - including Bootstrap,
-              W3
-              CSS and Vue.js <br>
-              Managed to host it for free so it ran me for $0 - perfect fit for my student budget.
-            </p>
-          </div>
-          <div class="col-5">
-            <img src="Images/ProjectThumbnails/PersonalThumbnail.png"
-              style="box-sizing:border-box; width: 100%; margin: 5px 0 0 15px; border-radius: 15px;"
-              alt="ThisSiteThumbnail">
-          </div>
-          <div class="col-1"></div>
-        </div>
-        <!-- Project container -->
-        <div class="row projectExpanded wordpressProject" style="visibility: hidden; margin-bottom: 0px; height: 0;">
-          <div class="col-1"></div>
-          <div class="col-5">
-            <h4>Cool Architects</h4>
-            <p style="text-align: justify;">Mock website made with wordpress to practice.<br>
-              While the writing is mostly humorous, it was useful to get familiarized with different wordpress
-              functionalities and hosting. <br> <br>
-              I was also able to host it for free, but in exchange functionalities are very limited. A real site'd have
-              a
-              lot more leeway, specially for e-commerce or SEO. <br>
-              You can visit the website <a target="_blank" href="https://architectbuildings.wordpress.com/">here</a>
-              <br>
-            </p>
-          </div>
-          <div class="col-5">
-            <img src="Images/ProjectThumbnails/ArchitectsThumbnail.png"
-              style="box-sizing:border-box; width: 100%; margin: 5px 0 0 15px; border-radius: 15px;"
-              alt="ThisSiteThumbnail">
-          </div>
-          <div class="col-1"></div>
-        </div>
-        <!-- Project container -->
-        <div class="row projectExpanded webDesignProject" style="visibility: hidden; margin-bottom: 0px; height: 0;">
-          <div class="col-1"></div>
-          <div class="col-5">
-            <h4>Grim Reaper's site</h4>
-            <p style="text-align: justify;">School project for web design; the site is simple with just 3 pages:<br>
-              A welcome page, a CV page and a contact page. <br>
-              You can visit the website <a target="_blank"
-                href="https://www.webdepot.umontreal.ca/Usagers/ap13487/MonDepotPublic/projet2-diego_gonzalez_santiago_gomez/Home.html">here</a>
-              <br>
-              Warning: it <em>is</em> in <em>french</em>
-            </p>
-          </div>
-          <div class="col-5">
-            <img src="Images/ProjectThumbnails/GrimThumbnail.png"
-              style="box-sizing:border-box; width: 100%; margin: 5px 0 0 15px; border-radius: 15px;"
-              alt="ThisSiteThumbnail">
-          </div>
-          <div class="col-1"></div>
-        </div>
-        <!-- Project container -->
-        <div class="row projectExpanded solitaireProject" style="visibility: hidden; margin-bottom: 0px; height: 0;">
-          <div class="col-1"></div>
-          <div class="col-5">
-            <h4>Adiction Solitaire</h4>
-            <p style="text-align: justify;">School project for procedural programming with python; its solitaire on your
-              browser:<br>
-              The program was made entirely with python; it made the html file on its own.<br> <br>
-              The professor restricted access to the code I gave in, but the experience stays. We built the board using
-              two matrices, which made our program particularly fast. It's the first good piece of code I made.
-            </p>
-          </div>
-          <div class="col-5">
-            <img src="Images/ProjectThumbnails/SolitaireThumbnail.png"
-              style="box-sizing:border-box; width: 100%; margin: 5px 0 0 15px; border-radius: 15px;"
-              alt="ThisSiteThumbnail">
-          </div>
-          <div class="col-1"></div>
-        </div>
-        <!-- Project container -->
-        <div class="row projectExpanded javaFXProject" style="visibility: hidden; margin-bottom: 0px; height: 0;">
-          <div class="col-1"></div>
-          <div class="col-5">
-            <h4>Simple interface</h4>
-            <p style="text-align: justify;">School project for object oriented programming with java; its a small
-              window:<br> <br>
-              Using JavaFX, we (2 people) made a fancy window with 2 counters: you can add and substract, divide and
-              multiply, undo and redo, and export a .txt file with all registered operations<br>
-              You can <a target="_blank"
-                href="https://docs.google.com/uc?export=download&id=1C0trEs0PgjXB1vcU6hALwtBdeMufHwef">download</a>
-              the .zip of the project (requires everything you usually need for coding Java and JavaFX to run)
-              or you can see it on <a target="_blank" href="https://github.com/Gfecito/JavaFX-Counter">Github</a> <br>
-              Warning: it <em>is</em> in <em>french</em>
-            </p>
-          </div>
-          <div class="col-5">
-            <img src="Images/ProjectThumbnails/CounterThumbnail.png"
-              style="box-sizing:border-box; width: 100%; margin: 5px 0 0 15px; border-radius: 15px;"
-              alt="ThisSiteThumbnail">
-          </div>
-          <div class="col-1"></div>
-        </div>
+    <div class="projectLeft" id="website">
+      <div class="projectDescriptor">
+        <h3>This Website!</h3>
+        <p>Made with HTML, CSS, JS, Vue.js and a sprinkle of love</p>
+      </div>
+      <div class="projectDisplay">
+
+      </div>
+    </div>
+
+    <div class="wave4">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+      </svg>
+  </div>
+
+    <div class="projectRight" id="simulation">
+      <div class="projectDisplay">
+
+      </div>
+      <div class="projectDescriptor">
+        <h3>Environment simulation made through Object Oriented Programming, with Java</h3>
+        <p>Web application using a gesture recognition model.</p>
+      </div>
+    </div>
+
+    <div class="wave5">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M0,0V7.23C0,65.52,268.63,112.77,600,112.77S1200,65.52,1200,7.23V0Z" class="shape-fill"></path>
+      </svg>
+  </div>
+
+    <div class="projectLeft" id="solitaire">
+      <div class="projectDescriptor">
+        <h3>Web based game; Solitaire</h3>
+        <p>Web application using a gesture recognition model.</p>
+      </div>
+      <div class="projectDisplay">
+
+      </div>
+    </div>
+
+    <div class="wave6">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+          <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+          <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+      </svg>
+  </div>
+
+    <div class="projectRight" id="websites">
+      <div class="projectDisplay">
+
+      </div>
+      <div class="projectDescriptor">
+        <h3>A couple of websites I made, very basic.</h3>
+        <p>You can find one <a href="">here</a><br>
+          And <a href=""> here </a> </p>
       </div>
     </div>
   </div>

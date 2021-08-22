@@ -22,44 +22,15 @@ span {
     width: 100%;
 }
 
-
-
-html,
-body,
-header,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Roboto", sans-serif
+html, body, header, h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto", sans-serif
 }
 
-
-.containerScroll {
-    display: grid;
-    grid-template-rows: 1000px 1500px;
-    margin: auto;
-    padding: 25px 10px 0 10px;
-    background-color: #212529;
-    color: white;
-    max-width: 1600px;
-}
-
-.pageDescription {
-    display: grid;
-    grid-template-rows: 1000px;
-    grid-template-columns: 50% 50%;
-    height: 1000px;
-    overflow: hidden;
-}
-
-.descriptionText{
+.descriptionText {
     margin: auto;
 }
 
-.descriptionImage{
+z .descriptionImage {
     overflow: hidden;
 }
 
@@ -71,351 +42,198 @@ h6 {
     margin: 0 5% 0 5%;
 }
 
-
-
-
-
-.sphere {
+.projectLeft{
+    text-align: left;
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    margin: 0;
+    padding: 30px 20px;
     box-sizing: content-box;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-
-.sphereLine {
-    width: 30vw;
-    height: 0px;
-    background-color: white;
-    transform-origin: 20vw 2.5px;
-    overflow: visible;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
-
-.sphereContainer {
-    width: 7.5vw;
-    height: 7.5vw;
-    margin: 0 auto;
-    display: inline-block;
-}
-
-.sphereLine>.row>img {
-    transform-origin: 0 0;
-    position: relative;
-    box-sizing: border-box;
-    width: 20%;
-    max-height: 100px;
-    border-radius: 15px;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
-
-
-
-
-
-.projectSection{
     display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 300px;
+    grid-template-columns: 4fr 1fr;
+}
+
+.projectRight{
+    text-align: right;
+    position: absolute;
+    height: 500px;
     width: 100%;
+    margin: 0;
+    padding: 30px 60px 30px 20px;
+    box-sizing: content-box;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
 }
 
-.projectSeparator {
-    margin-left: 2.5%;
-    width: 95%;
-    height: 5px;
-    background-color: white;
+.projectDescriptor{
+    height: 500px;
+    display: grid;
+    grid-template-rows: 100px 400px;
 }
 
-.projectRow{
+.projectRight > .projectDescriptor{
+    margin-right: 50px;
+}
+
+.projectDisplay{
+    height: 500px;
+}
+
+#oaye {
+    top: 500px;
+    background-color: #1282A2;
+}
+
+#counter {
+    top: 1000px;
+    background-color: #212529;
+}
+
+#website {
+    top: 1500px;
+    background-color: #ff7f50;
+}
+
+#simulation {
+    top: 2000px;
+    background-color: #63C132;
+}
+
+#solitaire {
+    top: 2500px;
+    background-color: #08b2e3;
+}
+
+#websites {
+    top: 3000px;
+    background-color: #212529;
+}
+
+
+/*-------------------WAVES-----------------*/
+.wave1 {
+    position: absolute;
+    top: 420px;
+    left: 0;
     width: 100%;
-    height: 300px;
-    box-sizing: border-box;
-    padding: 10px 1px 1px 1px;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
 }
 
-.project{
-    vertical-align: top;
+.wave1 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 97px;
+}
+
+.wave1 .shape-fill {
+    fill: #1282A2;
+}
+
+
+.wave2 {
+    position: absolute;
+    top: 904px;
+    left: 0;
     width: 100%;
-    height: 100%;
-    box-sizing: border-box;
-    border: #1282A2;
-    border-width: 1px;
-    border-style: solid;
-    margin: 2px 0 0 0;
-    padding: 0;
-    background-color: white;
+    overflow: hidden;
+    line-height: 0;
 }
 
-.project h3{
-    height: 20%;
-    margin-top: 10%;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-    color: #1282A2;
+.wave2 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 96px;
 }
 
-.projectImage{
-    box-sizing: border-box;
-    width: 60%;
-    height: auto;
-    margin: 10% 20%;
+.wave2 .shape-fill {
+    fill: #212529;
 }
 
-.projectImage img{
-    max-width: 100%;
-    max-height: 100%;
+.wave3 {
+    position: absolute;
+    top: 1366px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
 }
 
-.projectExpandedContainer{
-    height: 650px; 
-    width: 500%;
-    color: white;
+.wave3 svg {
+    position: relative;
+    display: block;
+    width: calc(109% + 1.3px);
+    height: 134px;
+    transform: rotateY(180deg);
 }
 
-
-
-
-
-@keyframes rotateLine1 {
-    0% {
-        transform: rotate(0deg);
-    }
-    25% {
-        transform: rotate(90deg);
-    }
-    50% {
-        transform: rotate(180deg);
-    }
-    75% {
-        transform: rotate(270deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
+.wave3 .shape-fill {
+    fill: #FF7F50;
 }
 
-@keyframes rotateLine2 {
-    0% {
-        transform: rotate(450deg);
-    }
-    25% {
-        transform: rotate(360deg);
-    }
-    50% {
-        transform: rotate(270deg);
-    }
-    75% {
-        transform: rotate(180deg);
-    }
-    100% {
-        transform: rotate(90deg);
-    }
+.wave4 {
+    position: absolute;
+    top: 1866px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
 }
 
-@keyframes rotateLine3 {
-    0% {
-        transform: rotate(180deg);
-    }
-    50% {
-        transform: rotate(360deg);
-    }
-    100% {
-        transform: rotate(540deg);
-    }
+.wave4 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 134px;
+    transform: rotateY(180deg);
 }
 
-@keyframes rotateLine4 {
-    0% {
-        transform: rotate(270deg);
-    }
-    50% {
-        transform: rotate(450deg);
-    }
-    100% {
-        transform: rotate(630deg);
-    }
+.wave4 .shape-fill {
+    fill: #63C132;
 }
 
-@keyframes moveThumbnail1 {
-    0% {
-        transform: rotate(0deg);
-        width: 30%
-    }
-    12.5% {
-        transform: rotate(-90deg);
-        width: 27.5%
-    }
-    25% {
-        transform: rotate(-180deg);
-        width: 25.5%
-    }
-    37.5% {
-        transform: rotate(-270deg);
-        width: 22.5%
-    }
-    50% {
-        transform: rotate(-360deg);
-        width: 7.5%;
-    }
-    62.5% {
-        transform: rotate(-450deg);
-        width: 22.5%
-    }
-    75% {
-        transform: rotate(-540deg);
-        width: 25.5%;
-    }
-    87.5% {
-        transform: rotate(-630deg);
-        width: 27.5%
-    }
-    100% {
-        transform: rotate(-720deg);
-        width: 30%
-    }
+.wave5 {
+    position: absolute;
+    top: 2370px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
 }
 
-@keyframes moveThumbnail2 {
-    0% {
-        transform: rotate(-90deg);
-        width: 5%;
-    }
-    12.5% {
-        transform: rotate(0deg);
-        width: 10%;
-    }
-    25% {
-        transform: rotate(90deg);
-        width: 12.5%
-    }
-    37.5% {
-        transform: rotate(180deg);
-        width: 15%;
-    }
-    50% {
-        transform: rotate(270deg);
-        width: 20%
-    }
-    62.5% {
-        transform: rotate(360deg);
-        width: 15%;
-    }
-    75% {
-        transform: rotate(450deg);
-        width: 12.5%
-    }
-    87.5% {
-        transform: rotate(540deg);
-        width: 10%;
-    }
-    100% {
-        transform: rotate(630deg);
-        width: 5%;
-    }
+.wave5 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 130px;
 }
 
-@keyframes moveThumbnail3 {
-    0% {
-        transform: rotate(180deg);
-        width: 20%;
-    }
-    12.5% {
-        transform: rotate(90deg);
-        width: 17.5%;
-    }
-    25% {
-        transform: rotate(0deg);
-        width: 15%
-    }
-    37.5% {
-        transform: rotate(-90deg);
-        width: 12.5%;
-    }
-    50% {
-        transform: rotate(-180deg);
-        width: 7.5%
-    }
-    62.5% {
-        transform: rotate(-270deg);
-        width: 12.5%;
-    }
-    75% {
-        transform: rotate(-360deg);
-        width: 15%
-    }
-    87.5% {
-        transform: rotate(-450deg);
-        width: 17.5%;
-    }
-    100% {
-        transform: rotate(-540deg);
-        width: 20%;
-    }
+.wave5 .shape-fill {
+    fill: #08B2E3;
 }
 
-@keyframes moveThumbnail4 {
-    0% {
-        transform: rotate(90deg);
-        width: 2.5%;
-    }
-    12.5% {
-        transform: rotate(0deg);
-        width: 5%;
-    }
-    25% {
-        transform: rotate(-90deg);
-        width: 7.5%
-    }
-    37.5% {
-        transform: rotate(-180deg);
-        width: 5%;
-    }
-    50% {
-        transform: rotate(-270deg);
-        width: 2.5%
-    }
-    62.5% {
-        transform: rotate(-360deg);
-        width: 5%;
-    }
-    75% {
-        transform: rotate(-450deg);
-        width: 7.5%
-    }
-    87.5% {
-        transform: rotate(-540deg);
-        width: 5%;
-    }
-    100% {
-        transform: rotate(-630deg);
-        width: 2.5%;
-    }
+.wave6 {
+    position: absolute;
+    top: 2937px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
 }
 
-@keyframes slideThumbnail1 {
-    0% {
-        left: 4vw;
-        width: 15%;
-    }
-    25% {
-        left: 19vw;
-        width: 2.5%;
-    }
-    50% {
-        left: 34vw;
-        width: 15%;
-    }
-    75% {
-        left: 19vw;
-        width: 22.5%;
-    }
-    100% {
-        left: 4vw;
-        width: 15%;
-    }
+.wave6 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 63px;
+}
+
+.wave6 .shape-fill {
+    fill: #212529;
 }
