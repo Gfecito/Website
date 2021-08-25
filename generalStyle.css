@@ -48,10 +48,10 @@ z .descriptionImage {
     height: 500px;
     width: 100%;
     margin: 0;
-    padding: 30px 20px;
-    box-sizing: content-box;
+    padding: 30px 50px 30px 20px;
+    box-sizing: border-box;
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 5fr 3fr;
 }
 
 .projectRight{
@@ -60,16 +60,17 @@ z .descriptionImage {
     height: 500px;
     width: 100%;
     margin: 0;
-    padding: 30px 60px 30px 20px;
-    box-sizing: content-box;
+    padding: 30px 20px 30px 50px;
+    box-sizing: border-box;
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 3fr 5fr;
 }
 
 .projectDescriptor{
     height: 500px;
+    padding-top: 40px;
     display: grid;
-    grid-template-rows: 100px 400px;
+    grid-template-rows: 80px 380px;
 }
 
 .projectRight > .projectDescriptor{
@@ -80,19 +81,42 @@ z .descriptionImage {
     height: 500px;
 }
 
+.projectDisplay > img, .projectDisplay > .mySlides{
+    height: 60%;
+    max-width: 100%;
+    border-radius: 25px;
+}
+
+.mySlides{
+    overflow: hidden;
+    display: none;  
+    animation-name: slide;
+    animation-duration: 3.5s;
+}
+
+.mySlides > img{
+    height: 100%;
+    max-width: 100%;
+}
+
+@keyframes slide {
+    0% {opacity: 0.8}
+    50% {opacity: 1}
+  }
+
 #oaye {
     top: 500px;
     background-color: #1282A2;
 }
 
 #counter {
-    top: 1000px;
-    background-color: #212529;
+    top: 1500px;
+    background-color: #ff7f50;
 }
 
 #website {
-    top: 1500px;
-    background-color: #ff7f50;
+    top: 1000px;
+    background-color: #212529;
 }
 
 #simulation {
@@ -102,12 +126,16 @@ z .descriptionImage {
 
 #solitaire {
     top: 2500px;
-    background-color: #08b2e3;
+    background-color: #1282A2;
 }
 
 #websites {
     top: 3000px;
     background-color: #212529;
+}
+
+#websites > .projectDescriptor, #websites > .projectDisplay{
+    margin-top: 40px;
 }
 
 
@@ -214,7 +242,7 @@ z .descriptionImage {
 }
 
 .wave5 .shape-fill {
-    fill: #08B2E3;
+    fill: #1282A2;
 }
 
 .wave6 {
