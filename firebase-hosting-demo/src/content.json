@@ -125,11 +125,11 @@
             "Web development and design - TA"
         ],
         "images": [
-            "Images/Experience/fullstack.png",
-            "Images/Experience/Paradigms.png",
-            "Images/Experience/Programming1.png",
-            "Images/Experience/DiscreteStruct.png",
-            "Images/Experience/WebDev.png"
+            "Images/Experience/fullstack.jpg",
+            "Images/Experience/Paradigms.jpg",
+            "Images/Experience/Programming1.jpg",
+            "Images/Experience/DiscreteStruct.jpg",
+            "Images/Experience/WebDev.jpg"
         ]
     },
     "projects": {
@@ -180,7 +180,7 @@
         ],
         "images": [
             "Images/ProjectThumbnails/FAT32.jpeg",
-            "Images/ProjectThumbnails/Database.png",
+            "Images/ProjectThumbnails/Database.jpeg",
             "Images/ProjectThumbnails/GestureRecognition.gif",
             "Images/ProjectThumbnails/Vaccination.png",
             "Images/ProjectThumbnails/CounterThumbnail.png",
@@ -239,14 +239,14 @@
             ]
         ],
         "images": [
-            "Images/Interests/medicine.png",
-            "Images/Interests/social.png",
-            "Images/Interests/ai.png",
+            "Images/Interests/medicine.jpg",
+            "Images/Interests/social.jpg",
+            "Images/Interests/ai.jpg",
             "Images/Interests/web.jpeg",
-            "Images/Interests/game.png",
-            "Images/Interests/graphics.png",
+            "Images/Interests/game.jpg",
+            "Images/Interests/graphics.jpg",
             "Images/Interests/robot.jpeg",
-            "Images/Interests/os.png"
+            "Images/Interests/os.jpg"
         ]
     },
     "awards": {
