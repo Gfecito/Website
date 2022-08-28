@@ -49,7 +49,7 @@ class Introduction extends React.PureComponent<Props>{
 
         return (
             <section id="introduction">
-                <h1>$ cat person/personality.txt ⏎</h1>
+                <h1 style={{color:"orangered"}}>$ cat personality.txt ⏎</h1>
                 <div id="intro-content">
                     {traits}
                     <span className="expand_text" style={{ color: "var(--light-blue)" }}>

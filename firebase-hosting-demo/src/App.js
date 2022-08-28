@@ -1,5 +1,5 @@
 import './App.css';
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 
 import content from "./content.json"
 
@@ -64,8 +64,24 @@ function App() {
   const award_trophee = awards.trophee;
 
   /* ------ Form ------- */
+
+  // Parallax
+  const [offsetY, setOffsetY] = useState(0);
+  const handleScroll = () => setOffsetY(window.pageYOffset);
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }
+
+  )
   return (
     <div className="App">
+      <div id='appBackground'></div>
+      <div id='appBackgroundDecor'  style={{
+        transform:`translateY(${offsetY*0.5}px)`
+      }}></div>
       <main>
         <Introduction one_liners={intro_hooks} expansions={intro_text} books={books} />
         <Education images={school_images} shorthands={shorthands} titles={school_titles}
