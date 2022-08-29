@@ -115,7 +115,7 @@
             "Under the supervision of titular professor Stefan Monnier I worked with another BSc student to teach and grade a class of 50 on the concepts and paradigms that programming languages mainly use/belong to - through Haskell, Lisp (mainly Elisp), Prolog, C and Java.",
             "Under the supervision of titular professor Marc Feeley and lecturer Olivier Melançon I worked alongside 7 other students to teach and grade a class of almost 300 on the basics of programming - through python",
             "Under the supervision of titular professor Miklós Csűrös I worked with a Masters student to teach and grade a class of 100 on the discrete structures from mathematics that we most commonly use as computer scientists.",
-            "Under the supervision of titular professor Miklós Csűrös I worked with a Masters student to teach and grade a class of 100 on the discrete structures from mathematics that we most commonly use as computer scientists."
+            "Under the supervision of titular professor Sébastien Roy I worked with another student to teach and grade a class of 150 on how the internet works, the tools we use in web development, as well as design best practices and how to build their own websites."
         ],
         "titles": [
             "Full Stack Developer - intern",
@@ -146,7 +146,7 @@
         "descriptions": [
             [
                 "We implemented a 'File Allocation Table'-based storage management system using C for a 32bit Linux system.",
-                "In human talk: we built the file, and memory, management section of an operating system."
+                "In human talk: we built the file -and memory- management section of an operating system."
             ],
             [
                 "Planned then built a small database for a library",
