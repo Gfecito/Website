@@ -105,17 +105,17 @@
             "Intro to genetics",
             "(Current - Grad level) Computer vision",
             "(Current - Grad level) Image processing",
-            "(Current) Bioinformatics",
+            "(Current) Introduction to data science",
             "(Current) Foundations of Machine Learning"
         ]
     },
     "work": {
         "descriptions": [
-            "Implemented experimental features, documented and debugged on Ixiasoft's DITA CCMS web application for technical documentation. Mainly worked with Java, TypeScript, React (by itself and with Redux), and Apache. Also handled -to a lesser extent- Maven and CSS.",
-            "Under the supervision of titular professor Stefan Monnier I worked with another BSc student to teach and grade a class of 50 on the concepts and paradigms that programming languages mainly use/belong to - through Haskell, Lisp (mainly Elisp), Prolog, C and Java.",
-            "Under the supervision of titular professor Marc Feeley and lecturer Olivier Melançon I worked alongside 7 other students to teach and grade a class of almost 300 on the basics of programming - through python",
-            "Under the supervision of titular professor Miklós Csűrös I worked with a Masters student to teach and grade a class of 100 on the discrete structures from mathematics that we most commonly use as computer scientists.",
-            "Under the supervision of titular professor Sébastien Roy I worked with another student to teach and grade a class of 150 on how the internet works, the tools we use in web development, as well as design best practices and how to build their own websites."
+            "During the summer of 2022: I Implemented experimental features, documented and debugged on Ixiasoft's DITA CCMS web application for technical documentation. Mainly worked with Java, TypeScript, React (by itself and with Redux), and Apache. Also handled -to a lesser extent- Maven and CSS.",
+            "During the summer of 2022: I worked under the supervision of titular professor Stefan Monnier -with another BSc student- to teach and grade a class of 50 on the concepts and paradigms that programming languages mainly use/belong to - through Haskell, Lisp (mainly Elisp), Prolog, C and Java.",
+            "During fall of 2021, winter of 2022 and fall of 2022: I worked under the supervision of titular professor Marc Feeley and lecturer Olivier Melançon alongside 6, 5 and then 6 other students (respectively) to teach and grade a class of almost 300, then 150, and then 300 again on the basics of programming - through python",
+            "During fall of 2021 and of 2022: I worked under the supervision of titular professor Miklós Csűrös with 1, then 3 graduate students to teach and grade a class of 100, and then 300 on the discrete structures -and fundamentals- from mathematics that we most commonly use as computer scientists.",
+            "During winter and fall of 2022: I worked under the supervision of titular professor Sébastien Roy, and later with lecturer Amal Ben Abdellah. At first with a fellow other student -and then solo- to teach and grade a class of 150 each time, on how the internet works, the tools we use in web development, as well as design best practices and how to build their own websites."
         ],
         "titles": [
             "Full Stack Developer - intern",

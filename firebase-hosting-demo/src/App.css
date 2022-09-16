@@ -350,6 +350,11 @@ https://www.w3schools.com/howto/howto_css_cards.asp*/
   font-size: 1.3rem;
 }
 
+.job_description p{
+  color: whitesmoke;
+  font-weight: 500;
+}
+
 @media only screen and (min-width: 770px) {
   #experience {
     grid-template-rows: 1fr 15fr;

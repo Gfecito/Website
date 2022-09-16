@@ -45,7 +45,7 @@ class Education extends React.PureComponent<Props>{
 
         return (
             <section id="education" >
-                <h1>Brain buildings:</h1>
+                <h1 style={{color:"black"}}>Brain buildings:</h1>
                 <div className="schools">
                     {cards}
                 </div>
