@@ -18,6 +18,11 @@ class Tabs extends React.PureComponent<Props>{
         this.forceUpdate();
     }
 
+    addLinks(paragraph: String): JSX.Element{
+        const splitted = paragraph.split("<l");
+        return <>{splitted[0]} <a href={splitted[1]} target="_blank"> {splitted[1]} </a></>
+    }
+
     render() {
         const { big_title, titles, descriptions, illustrations, prefix } = this.props;
         const openProject = this.openProject.bind(this);
@@ -57,7 +62,7 @@ class Tabs extends React.PureComponent<Props>{
                 <div id={key} key={key} className="tabContent">
                     <div className="tabDescriptor">
                         <h3>{titles[i]}</h3>
-                        {descriptions[i].map(paragraph => <p key={"tab-descriptor-" + i + paragraph.substring(0, 3)}>{paragraph}</p>)}
+                        {descriptions[i].map(paragraph => <p key={"tab-descriptor-" + i + paragraph.substring(0, 3)}>{this.addLinks(paragraph)}</p>)}
                     </div>
                     <div className="tabDisplay">
                         <img src={process.env.PUBLIC_URL + "/" + illustrations[i]} alt="Tab Content" />

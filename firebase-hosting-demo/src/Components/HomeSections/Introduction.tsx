@@ -53,7 +53,7 @@ class Introduction extends React.PureComponent<Props>{
                 <div id="intro-content">
                     {traits}
                     <span className="expand_text" style={{ color: "var(--light-blue)" }}>
-                        If books are a reflection of our hearts, I'll give you a peek of mine:
+                        If books are a reflection of our hearts, here's a peek of mine:
                     </span>
                     <div id="library">
                         <div className="bookShelfs">

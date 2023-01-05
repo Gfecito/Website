@@ -55,7 +55,6 @@
         "descriptions": [
             [
                 "Current average of 3.75/4.3 (A-)",
-                "Honors candidate",
                 "Consulting director at 180DC UdeM",
                 ""
             ],
@@ -103,10 +102,9 @@
             "Operating systems",
             "Algorithms",
             "Intro to genetics",
-            "(Current - Grad level) Computer vision",
-            "(Current - Grad level) Image processing",
-            "(Current) Introduction to data science",
-            "(Current) Foundations of Machine Learning"
+            "(Graduate course) 3D Computer vision",
+            "Honors project in genomic bioinformatics",
+            "Foundations of Machine Learning"
         ]
     },
     "work": {
@@ -134,6 +132,9 @@
     },
     "projects": {
         "titles": [
+            "Genome Assembly Refinement",
+            "GC-Neat",
+            "Models",
             "FAT32 file management system",
             "Database",
             "Gesture recognition web-application",
@@ -144,6 +145,23 @@
             "This site!"
         ],
         "descriptions": [
+            [
+                "Under supervision, I implemented an API for genome assemblty refinement, as well as a binning scheme data structure, using JAVA and the htsjdk library",
+                "The work is throughly documented and explained here: <lhttps://genome-assembly-scaffolding.web.app/"
+            ],
+            [
+                "Under guidance from the computer vision lab at UdeM, I implemented and compared several CNN architectures based on GC-Net by Kendal et al.",
+                "The model is able to do binocular stereoscopy: it can determine depth based on two images, a bit like human eyes!",
+                "I mainly experimented with variations in depth and with use of residual nets, and was interested by estimation quality as well as computational expense.",
+                "You can access the code, analysis and trained models here: <lhttps://github.com/Gfecito/GC-Neat"
+            ],
+            [
+                "Worked on various machine learning models for supervised learning tasks, such as regression and classification",
+                "Implemented:",
+                "From scratch: non parametric models such as KNN and Parzen Windows (with gaussian kernel); and parametric models such as a perceptron (logistic regressor) and a SVM (with and without kernel)",
+                "With libraries: neural networks, CNNs, and SVMs",
+                "And tested them with several databases, like bank records, phone records or image datasets (like MNIST)"
+            ],
             [
                 "We implemented a 'File Allocation Table'-based storage management system using C for a 32bit Linux system.",
                 "In human talk: we built the file -and memory- management section of an operating system."
@@ -179,6 +197,9 @@
             ]
         ],
         "images": [
+            "Images/ProjectThumbnails/Genomics.jpeg",
+            "Images/ProjectThumbnails/Disparity.png",
+            "Images/ProjectThumbnails/ML.png",
             "Images/ProjectThumbnails/FAT32.jpeg",
             "Images/ProjectThumbnails/Database.jpeg",
             "Images/ProjectThumbnails/GestureRecognition.gif",
@@ -203,7 +224,7 @@
         "descriptions": [
             [
                 "From mathematical modelling and computational biology to drug discovery and immunology, I think there's a lot of opportunity to facilitate medical advancements taking advantage of our computing resources. And that potential is easily the most exciting prospect to me.",
-                "It's also only natural for me to be interested after Google DeepMind's breakthrough of protein structure prediction, and subsequent publication of their prediction database. As if the heavens were telling us: 'yes, it can be easier and faster. Yes, some of your illnesses could be cured following this example.'"
+                "It's also only natural for me to be interested after Google DeepMind's breakthrough of protein structure prediction, and subsequent publication of their prediction database. As if it were telling us: 'yes, it can be easier and faster. Yes, some of your illnesses could be cured following this example.'"
             ],
             [
                 "I care about other people, I'd like them to live dignified lives and to be able to enjoy themselves. It also seems obviously preferable to live surrounded with happy, healthy people -who can help, too- than otherwise.",
