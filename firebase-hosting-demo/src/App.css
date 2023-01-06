@@ -6,6 +6,7 @@
   --metallic-blue: #1282A2;
   --jungle-green: #63C132;
   font-size: 18px;
+  scroll-behavior: smooth;
 }
 
 #root {
@@ -23,50 +24,61 @@ img {
   color: var(--dark-gray);
   /*Separates nav from main*/
   margin: 0;
-  display: flex;
   overflow-x: hidden;
   overflow-y: hidden;
-  height: fit-content;
+  height: 100%;
   position: relative;
 }
 
 /*Navigation*/
 nav {
   /*Display*/
-  min-width: 55px;
   display: grid;
-  grid-template-rows: repeat(6, 1fr) 4fr;
-  height: 100vh;
-  margin: 0 20px 0 0;
-  /*For proper collapse/expansion*/
-  overflow-x: hidden;
+  grid-template-columns: 3fr repeat(6, 1fr);
+  grid-template-rows: 1fr;
+  width: 100%;
+  height: fit-content;
+  padding: 10px 0;
+  /*Simple animation*/
   transition: 0.8s;
   /*Stickiness and position on scroll*/
   position: -webkit-sticky;
   /* Safari */
   position: sticky;
   top: 0;
+  z-index: 1;
   /*Style (Maybe just leave it white?)*/
-  background-color: inherit;
+  background-color: #a6c0f9;
 }
 
-.nav_element {
+nav > * {
   /*Display*/
-  margin: 10px 0;
-  padding: 5px 10px;
+  padding: 12px 0 12px 10px;
   text-decoration: solid;
-  color: orangered;
+  text-align: center;
+  color: white;
   /*Expansion*/
-  transition: 0.6s;
+  transition: 0.3s;
   font-size: 1.2em;
 }
 
-.nav_element:hover {
+nav > a:hover {
   /*Display*/
-  color: pink;
+  background-color: var(--metallic-blue);
   font-size: 1.3em;
   font-weight: bolder;
-  padding: 10px 15px;
+  padding: 20px 20px;
+}
+
+nav:hover{
+  padding: 0px;
+}
+
+/*Icon*/
+nav img{
+  height: 1.2em;
+  max-width: 1.2em;
+  margin: 0 auto 0 20px;
 }
 
 #appBackground {
@@ -84,7 +96,7 @@ nav {
 }
 
 #appBackgroundDecor {
-  height: 65%;
+  height: 50%;
   width: 100%;
   overflow-y: hidden;
   overflow-x: hidden;
@@ -176,12 +188,12 @@ header>a:hover {
 }
 
 /*Intro sections*/
-#introduction {
+#me {
   margin-right: 10px;
   font-size: 1.2em;
 }
 
-#introduction h1 {
+#me h1 {
   animation: enter 1.5s linear;
 }
 
@@ -242,7 +254,7 @@ header>a:hover {
   height: 110px;
 }
 
-@media only screen and (min-width: 770px) {
+@media only screen and (min-width: 850px) {
   .book {
     width: min(95%, 160px);
     height: 220px;
@@ -267,7 +279,7 @@ header>a:hover {
   grid-template-rows: 1fr 1fr;
 }
 
-@media only screen and (min-width: 770px) {
+@media only screen and (min-width: 850px) {
   .schools {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
@@ -279,7 +291,7 @@ header>a:hover {
   margin: auto;
 }
 
-@media only screen and (min-width: 770px) {
+@media only screen and (min-width: 850px) {
   .class-listing ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -303,7 +315,7 @@ https://www.w3schools.com/howto/howto_css_cards.asp*/
   background-color: white;
 }
 
-@media only screen and (min-width: 770px) {
+@media only screen and (min-width: 850px) {
   .card {
     margin: 0 20px 0 5px;
   }
@@ -331,7 +343,7 @@ https://www.w3schools.com/howto/howto_css_cards.asp*/
   grid-template-rows: 1fr 20fr;
 }
 
-@media only screen and (min-width: 770px) {
+@media only screen and (min-width: 850px) {
   #jobs {
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -355,7 +367,7 @@ https://www.w3schools.com/howto/howto_css_cards.asp*/
   font-weight: 500;
 }
 
-@media only screen and (min-width: 770px) {
+@media only screen and (min-width: 850px) {
   #experience {
     grid-template-rows: 1fr 15fr;
   }
@@ -457,7 +469,7 @@ https://www.w3schools.com/howto/howto_css_cards.asp*/
   margin: auto;
 }
 
-@media only screen and (min-width: 770px) {
+@media only screen and (min-width: 850px) {
   .tabs_and_content {
     display: grid;
     grid-template-columns: 1fr 7fr;
@@ -493,7 +505,7 @@ https://www.w3schools.com/howto/howto_css_cards.asp*/
   margin: auto;
 }
 
-@media only screen and (min-width: 770px) {
+@media only screen and (min-width: 850px) {
   #awards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -551,7 +563,7 @@ https://www.w3schools.com/howto/howto_css_cards.asp*/
   }
 }
 
-@media only screen and (min-width: 770px) {
+@media only screen and (min-width: 850px) {
   @keyframes enter {
     0% {
       background-color: inherit;

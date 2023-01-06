@@ -2,7 +2,7 @@
     "nav": {
         "icon": "Images/Logos/earth.png",
         "sections": [
-            "introduction",
+            "me",
             "education",
             "experience",
             "projects",
@@ -21,18 +21,21 @@
             "",
             "I'm currently",
             "I love",
-            "I really like teaching"
+            "I really like teaching",
+            "Lately"
         ],
         "paragraphs": [
             "my mother got my sister and I the privilege of going to fancy schools and learning english. I then got the chance of going on to learn french at another - even fancier - place, and getting several scholarships to study what I love most in the lovely maple land of Canada.",
             "I'm trying to become reliable and competent, to be able to give back to the people that have pushed me forward.",
-            "a senior year student and teacher assistant at the University of Montreal, in the Department of Computer Science and Operational Research (DIRO). It's been a bit odd to start my career during the pandemic, but the unique challenges that came with that have taught me things I wouldn't have expected.",
+            "a senior year student and tutor at the University of Montreal, in the Department of Computer Science and Operational Research (DIRO). It's been a bit odd to start my career during the pandemic, but the unique challenges that came with that have taught me things I wouldn't have expected.",
             "playing the guitar; reading - especially about social action and topics adjacent to the field I love most (don't tell anyone, but it's computer related); I have some weird obsession with water, its sports, particularily those I'm terrible at. Like rowing with the UdeM's team, it's pretty fun to scream synchronously with a bunch of charismatic strangers while desperately trying not to tip over.",
-            "and communicating science; I've met all kinds of people throughout my life and our different tastes, talents, experience, backgrounds, handicaps and challenges have taught me more than I could ever repay. I feel like by teaching, I pay back just a bit of that debt."
+            "and communicating science; I've met all kinds of people throughout my life and our different tastes, talents, experience, backgrounds, handicaps and challenges have taught me more than I could ever repay. That might be why I ended up teaching over 1500 students - which, honestly, still feels surreal. I feel like by teaching, I pay back just a bit of that debt and I also learn so, so, so much.",
+            "I've been getting a little obsessed with statistical learning, AI and vision. I remember when I was a kid they taught us at school that computers would never be able to see! They would never be able to learn! Turns out (as it so often happens with the impossible), we just needed to get creative!"
         ],
         "book_covers": [
             "Images/BookCovers/anElegantDefense.jpg",
             "Images/BookCovers/immune.jpeg",
+            "Images/BookCovers/whenTheBodySaysNo.jpeg",
             "Images/BookCovers/gunsGermsAndSteel.jpg",
             "Images/BookCovers/theJakartaMethod.jpg",
             "Images/BookCovers/crimeAndPunishment.jpg",
@@ -48,7 +51,8 @@
             "Images/BookCovers/braveNewWorld.jpg",
             "Images/BookCovers/fahrenheit451.jpg",
             "Images/BookCovers/hitchikersGuide.jpeg",
-            "Images/BookCovers/understandingPower.jpeg"
+            "Images/BookCovers/understandingPower.jpeg",
+            "Images/BookCovers/theMinistryForTheFuture.jpg"
         ]
     },
     "school": {
@@ -85,26 +89,31 @@
             "LFM"
         ],
         "classes": [
-            "Beginner programming with Python",
-            "Multivariable calculus",
-            "Intro to digital systems",
             "Web design and development",
-            "Probabilities and Statistics",
-            "Computer architecture",
+            "Beginner programming with Python",
             "Intermediate Programming with Java",
-            "Intro to theoretical computer science",
-            "Software engineering",
             "Programming language paradigms and concepts",
-            "Data structures",
-            "Operational research methods",
-            "Philosophy of sciences",
-            "Databases",
+            "Intro to digital systems",
+            "Computer architecture",
             "Operating systems",
+            "Software engineering",
+            "(Current) Software: analysis and design",
+            "(Current) UI/UX",
+            "Data structures",
             "Algorithms",
+            "Intro to theoretical computer science",
+            "Operational research methods",
+            "(Current) Quantum computing",
+            "Databases",
+            "(Current) Theoretical foundations of data science",
+            "Foundations of Machine Learning",
+            "(Current) Projects in Machine Learning",
+            "Probabilities and Statistics",
+            "Multivariable calculus",
+            "Philosophy of sciences",
             "Intro to genetics",
-            "(Graduate course) 3D Computer vision",
             "Honors project in genomic bioinformatics",
-            "Foundations of Machine Learning"
+            "(Graduate course) 3D Computer vision"
         ]
     },
     "work": {
@@ -146,18 +155,18 @@
         ],
         "descriptions": [
             [
-                "Under supervision, I implemented an API for genome assemblty refinement, as well as a binning scheme data structure, using JAVA and the htsjdk library",
+                "Under supervision, I implemented an API for genome assembly refinement, as well as a binning scheme data structure, using JAVA and the htsjdk library",
                 "The work is throughly documented and explained here: <lhttps://genome-assembly-scaffolding.web.app/"
             ],
             [
-                "Under guidance from the computer vision lab at UdeM, I implemented and compared several CNN architectures based on GC-Net by Kendal et al.",
+                "Under guidance from the computer vision lab at UdeM, I implemented and compared several CNN architectures based on GC-Net by Kendal et al. Worked using Mathematica.",
                 "The model is able to do binocular stereoscopy: it can determine depth based on two images, a bit like human eyes!",
                 "I mainly experimented with variations in depth and with use of residual nets, and was interested by estimation quality as well as computational expense.",
                 "You can access the code, analysis and trained models here: <lhttps://github.com/Gfecito/GC-Neat"
             ],
             [
                 "Worked on various machine learning models for supervised learning tasks, such as regression and classification",
-                "Implemented:",
+                "Implemented with Python:",
                 "From scratch: non parametric models such as KNN and Parzen Windows (with gaussian kernel); and parametric models such as a perceptron (logistic regressor) and a SVM (with and without kernel)",
                 "With libraries: neural networks, CNNs, and SVMs",
                 "And tested them with several databases, like bank records, phone records or image datasets (like MNIST)"

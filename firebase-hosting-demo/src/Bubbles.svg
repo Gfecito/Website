@@ -1,1 +1,46 @@
-<svg id="visual" viewBox="0 0 540 960" width="540" height="960" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"><g fill="#93b2f7"><circle r="51" cx="529" cy="629"></circle><circle r="4" cx="108" cy="929"></circle><circle r="39" cx="405" cy="453"></circle><circle r="29" cx="271" cy="678"></circle><circle r="33" cx="101" cy="461"></circle><circle r="37" cx="43" cy="839"></circle><circle r="29" cx="141" cy="61"></circle><circle r="7" cx="517" cy="834"></circle><circle r="36" cx="185" cy="772"></circle><circle r="5" cx="470" cy="87"></circle><circle r="13" cx="53" cy="714"></circle><circle r="29" cx="331" cy="772"></circle><circle r="8" cx="165" cy="339"></circle><circle r="36" cx="537" cy="945"></circle><circle r="4" cx="167" cy="195"></circle><circle r="12" cx="298" cy="145"></circle><circle r="11" cx="466" cy="265"></circle><circle r="15" cx="328" cy="578"></circle><circle r="7" cx="274" cy="36"></circle><circle r="22" cx="21" cy="374"></circle><circle r="31" cx="220" cy="889"></circle><circle r="38" cx="425" cy="725"></circle><circle r="5" cx="381" cy="24"></circle><circle r="40" cx="53" cy="165"></circle><circle r="21" cx="325" cy="934"></circle><circle r="19" cx="263" cy="258"></circle><circle r="11" cx="188" cy="551"></circle><circle r="15" cx="260" cy="399"></circle><circle r="10" cx="63" cy="579"></circle><circle r="8" cx="428" cy="622"></circle><circle r="22" cx="534" cy="393"></circle><circle r="38" cx="361" cy="343"></circle><circle r="23" cx="533" cy="174"></circle><circle r="10" cx="507" cy="511"></circle><circle r="40" cx="51" cy="7"></circle><circle r="47" cx="13" cy="266"></circle><circle r="24" cx="400" cy="850"></circle><circle r="12" cx="150" cy="656"></circle><circle r="5" cx="432" cy="957"></circle><circle r="28" cx="363" cy="229"></circle><circle r="11" cx="4" cy="935"></circle></g></svg>
+<svg id="visual" viewBox="0 0 540 960" width="540" height="960" xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+    <g fill="#a6c0f9">
+        <circle r="51" cx="529" cy="629"></circle>
+        <circle r="4" cx="108" cy="929"></circle>
+        <circle r="39" cx="405" cy="453"></circle>
+        <circle r="29" cx="271" cy="678"></circle>
+        <circle r="33" cx="101" cy="461"></circle>
+        <circle r="37" cx="43" cy="839"></circle>
+        <circle r="29" cx="141" cy="61"></circle>
+        <circle r="7" cx="517" cy="834"></circle>
+        <circle r="36" cx="185" cy="772"></circle>
+        <circle r="5" cx="470" cy="87"></circle>
+        <circle r="13" cx="53" cy="714"></circle>
+        <circle r="29" cx="331" cy="772"></circle>
+        <circle r="8" cx="165" cy="339"></circle>
+        <circle r="36" cx="537" cy="945"></circle>
+        <circle r="4" cx="167" cy="195"></circle>
+        <circle r="12" cx="298" cy="145"></circle>
+        <circle r="11" cx="466" cy="265"></circle>
+        <circle r="15" cx="328" cy="578"></circle>
+        <circle r="7" cx="274" cy="36"></circle>
+        <circle r="22" cx="21" cy="374"></circle>
+        <circle r="31" cx="220" cy="889"></circle>
+        <circle r="38" cx="425" cy="725"></circle>
+        <circle r="5" cx="381" cy="24"></circle>
+        <circle r="40" cx="53" cy="165"></circle>
+        <circle r="21" cx="325" cy="934"></circle>
+        <circle r="19" cx="263" cy="258"></circle>
+        <circle r="11" cx="188" cy="551"></circle>
+        <circle r="15" cx="260" cy="399"></circle>
+        <circle r="10" cx="63" cy="579"></circle>
+        <circle r="8" cx="428" cy="622"></circle>
+        <circle r="22" cx="534" cy="393"></circle>
+        <circle r="38" cx="361" cy="343"></circle>
+        <circle r="23" cx="533" cy="174"></circle>
+        <circle r="10" cx="507" cy="511"></circle>
+        <circle r="40" cx="51" cy="7"></circle>
+        <circle r="47" cx="13" cy="266"></circle>
+        <circle r="24" cx="400" cy="850"></circle>
+        <circle r="12" cx="150" cy="656"></circle>
+        <circle r="5" cx="432" cy="957"></circle>
+        <circle r="28" cx="363" cy="229"></circle>
+        <circle r="11" cx="4" cy="935"></circle>
+    </g>
+</svg>

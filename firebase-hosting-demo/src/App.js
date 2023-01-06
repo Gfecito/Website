@@ -1,10 +1,10 @@
 import './App.css';
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
 
 import content from "./content.json"
 
 // Components
-//import Navbar from "./Components/Navbar.tsx"
+import Navbar from "./Components/Navbar.tsx"
 //import Header from "./Components/Header.tsx"
 import Education from "./Components/HomeSections/Education.tsx"
 import Experience from "./Components/HomeSections/Experience.tsx"
@@ -17,10 +17,10 @@ function App() {
   /* ------ Content ------- */
 
   // Nav
-  /* = content.nav;
+  const nav = content.nav;
   const sections = nav.sections;
   const languages = nav.languages;
-  const icon = nav.icon;*/
+  const icon = nav.icon;
 
   // Intro
   const intro = content.introduction;
@@ -76,25 +76,30 @@ function App() {
   }
 
   )
+  // Evil div hack; usual sticky css works only if the nav is outside of App.
   return (
-    <div className="App">
-      <div id='appBackground'></div>
-      <div id='appBackgroundDecor'  style={{
-        transform:`translateY(${offsetY*0.5}px)`
-      }}></div>
-      <main>
-        <Introduction one_liners={intro_hooks} expansions={intro_text} books={books} />
-        <Education images={school_images} shorthands={shorthands} titles={school_titles}
-          degrees={degrees} times_and_places={time_n_places} descriptions={school_descriptions} 
-          classes={classes} />
-        <Experience titles={work_titles} images={work_images} descriptions={work_descriptions} />
-        <Tabs big_title={"let Projects ="}  titles={projects_titles} descriptions={projects_descriptions}
-          illustrations={projects_images} prefix={"projects"} />
-      <Tabs big_title={"in Interests"} titles={interests_titles} descriptions={interests_descriptions}
-          illustrations={interests_images} prefix={"interests"} />
-        <Awards titles={award_titles} dates={award_dates} descriptions={award_descriptions} trophee={award_trophee}/>
-      </main>
-    </div>
+    <>
+      
+      <Navbar icon={icon} sections={sections} languages={languages}></Navbar>
+      <div className="App">
+        <div id='appBackground'></div>
+        <div id='appBackgroundDecor' style={{
+          transform: `translateY(${offsetY * 0.5}px)`
+        }}></div>
+        <main>
+          <Introduction one_liners={intro_hooks} expansions={intro_text} books={books} />
+          <Education images={school_images} shorthands={shorthands} titles={school_titles}
+            degrees={degrees} times_and_places={time_n_places} descriptions={school_descriptions}
+            classes={classes} />
+          <Experience titles={work_titles} images={work_images} descriptions={work_descriptions} />
+          <Tabs big_title={"let Projects ="} titles={projects_titles} descriptions={projects_descriptions}
+            illustrations={projects_images} prefix={"projects"} />
+          <Tabs big_title={"in Interests"} titles={interests_titles} descriptions={interests_descriptions}
+            illustrations={interests_images} prefix={"interests"} />
+          <Awards titles={award_titles} dates={award_dates} descriptions={award_descriptions} trophee={award_trophee} />
+        </main>
+      </div>
+    </>
   );
 }
 

@@ -37,7 +37,7 @@ class Tabs extends React.PureComponent<Props>{
             return (phrase.split(" ").map(word =>
                 (filter(word) ? word + " " : newWord(word))).join(""));
         };
-        const firstThree = (word: string) => { return (initialCapitalizer(word) + word.substring(1, 2)) };
+        const firstThree = (word: string) => { return (initialCapitalizer(word) + word.substring(1, 3)) };
 
         // Make buttons with abbreviations
         for (let i = 0; i < titles.length; i++) {

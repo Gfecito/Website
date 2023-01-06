@@ -48,12 +48,12 @@ class Introduction extends React.PureComponent<Props>{
 
 
         return (
-            <section id="introduction">
+            <section id="me">
                 <h1 style={{color:"orangered"}}>$ cat personality.txt ⏎</h1>
                 <div id="intro-content">
                     {traits}
                     <span className="expand_text" style={{ color: "var(--light-blue)" }}>
-                        If books are a reflection of our hearts, here's a peek of mine:
+                        Seemingly you can tell a lot about a person based on what they like to read. Well, here I am!
                     </span>
                     <div id="library">
                         <div className="bookShelfs">
