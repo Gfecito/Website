@@ -31,25 +31,23 @@ img {
 }
 
 /*Navigation*/
+
 nav {
   /*Display*/
   display: grid;
-  grid-template-columns: 3fr repeat(6, 1fr);
-  grid-template-rows: 1fr;
+  grid-template-rows: 1fr repeat(6, 1fr);
+  grid-template-columns: 1fr;
   width: 100%;
   height: fit-content;
   padding: 10px 0;
   /*Simple animation*/
   transition: 0.8s;
-  /*Stickiness and position on scroll*/
-  position: -webkit-sticky;
   /* Safari */
-  position: sticky;
-  top: 0;
-  z-index: 1;
+  position: relative;
   /*Style (Maybe just leave it white?)*/
   background-color: #a6c0f9;
 }
+
 
 nav > * {
   /*Display*/
@@ -62,23 +60,44 @@ nav > * {
   font-size: 1.2em;
 }
 
-nav > a:hover {
-  /*Display*/
-  background-color: var(--metallic-blue);
-  font-size: 1.3em;
-  font-weight: bolder;
-  padding: 20px 20px;
-}
-
-nav:hover{
-  padding: 0px;
-}
-
 /*Icon*/
 nav img{
   height: 1.2em;
   max-width: 1.2em;
-  margin: 0 auto 0 20px;
+  margin: 0 auto;
+}
+
+
+@media only screen and (min-width: 850px) {
+  nav {
+    grid-template-columns: 3fr repeat(6, 1fr);
+    grid-template-rows: 1fr;
+
+    /*Stickiness and position on scroll*/
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+
+  nav img{
+    height: 1.2em;
+    max-width: 1.2em;
+    margin: 0 auto 0 20px;
+  }
+
+  nav > a:hover {
+    /*Display*/
+    background-color: var(--metallic-blue);
+    font-size: 1.3em;
+    font-weight: bolder;
+    padding: 20px 20px;
+  }
+  
+  nav:hover{
+    padding: 0px;
+  }
 }
 
 #appBackground {
