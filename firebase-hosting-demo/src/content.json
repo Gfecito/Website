@@ -89,6 +89,7 @@
             "LFM"
         ],
         "classes": [
+            "Understanding the universe (Introductory Physics)",
             "Web design and development",
             "Beginner programming with Python",
             "Intermediate Programming with Java",
@@ -103,7 +104,7 @@
             "Algorithms",
             "Intro to theoretical computer science",
             "Operational research methods",
-            "(Current) Quantum computing",
+            "(Current) Quantum Informatics",
             "Databases",
             "(Current) Theoretical foundations of data science",
             "Foundations of Machine Learning",
@@ -141,25 +142,42 @@
     },
     "projects": {
         "titles": [
-            "Genome Assembly Refinement",
-            "GC-Neat",
-            "Models",
-            "FAT32 file management system",
+            "AI for Climate",
+            "Sentiment Analysis",
+            "Genomics",
+            "AI 3D Computer-Vision",
+            "ML Models",
+            "File Management System",
             "Database",
-            "Gesture recognition web-application",
-            "Vaccination management",
-            "21st century abacus",
+            "Gesture Recognition Web-App",
+            "Vaccination Management",
+            "21st Century Abacus",
             "Interpreters",
             "Environnemental Simulation",
             "This site!"
         ],
         "descriptions": [
             [
-                "Under supervision, I implemented an API for genome assembly refinement, as well as a binning scheme data structure, using JAVA and the htsjdk library",
+                "This is a research and development project under Mila - Quebec AI Institute's supervision",
+                "The climate is chaotic, but modeling it has advantages, from weather forecasting to event planning, agriculture, and the economy. Thusly, climate models at different scales would be a powerful tool for our societies.",
+                "Currently, we have access to global climate models, but they are based on large-scale measurements. At smaller scales, data can be unreliable, leading to incorrect conclusions.",
+                "I have the opportunity to lead a team that aims to build on the state of the art to solve this problem like no one has before.",
+                "I made a website for it which you can access here: <lhttps://climate-model-downscaling.web.app/"
+            ],
+            [
+                "This is a research and development project under Mila - Quebec AI Institute's supervision",
+                "Sentiment analysis is a very important aspect in companies, especially in terms of customer experience. Indeed, sentiment analysis is a natural language processing application that aims to identify the different tones found in texts. Especially with the huge wave of popularity with social media, sentiment analysis is becoming even more important.",
+                "In this project, we explore machine learning and deep learning techniques in natural language processing (NLP) to identify sentiments in texts.",
+                "I made a website for it which you can access here: <lhttps://causality-text-based-inference.web.app/"
+            ],
+            [
+                "This is a research and development project for UdeM's Laboratory of Computational and Theoretical Biology",
+                "Researched and implemented an API for genome assembly refinement, as well as a binning scheme data structure, using JAVA and the htsjdk library",
                 "The work is throughly documented and explained here: <lhttps://genome-assembly-scaffolding.web.app/"
             ],
             [
-                "Under guidance from the computer vision lab at UdeM, I implemented and compared several CNN architectures based on GC-Net by Kendal et al. Worked using Mathematica.",
+                "This is a research and development project for UdeM's Laboratory of 3D Computer Vision",
+                "Implemented and compared several CNN architectures based on GC-Net by Kendal et al. Worked using Mathematica.",
                 "The model is able to do binocular stereoscopy: it can determine depth based on two images, a bit like human eyes!",
                 "I mainly experimented with variations in depth and with use of residual nets, and was interested by estimation quality as well as computational expense.",
                 "You can access the code, analysis and trained models here: <lhttps://github.com/Gfecito/GC-Neat"
@@ -206,6 +224,8 @@
             ]
         ],
         "images": [
+            "Images/ProjectThumbnails/MLClimate.png",
+            "Images/ProjectThumbnails/NLP.jpeg",
             "Images/ProjectThumbnails/Genomics.jpeg",
             "Images/ProjectThumbnails/Disparity.png",
             "Images/ProjectThumbnails/ML.png",
