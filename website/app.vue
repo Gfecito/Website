@@ -1,4 +1,5 @@
 <script setup>
+
 const version = 2 + 1
 </script>
 
@@ -7,6 +8,7 @@ const version = 2 + 1
   <div class="hello">
     Hello Nuxt {{ version }}!
   </div>
+  <Contenido></Contenido>
   <Footer></Footer>
 </template>
 
