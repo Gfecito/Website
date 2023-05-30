@@ -16,7 +16,7 @@
                 "Español"
             ]
         },
-        "introduction": {
+        "personal": {
             "one_liners": [
                 "Hi! My name is Santiago and I was born and raised in Mexico",
                 "",
@@ -339,7 +339,7 @@
                 "Español"
             ]
         },
-        "introduction": {
+        "personal": {
             "one_liners": [
                 "¡Hola! Mi nombre es Santiago y nací y crecí en México.",
                 "",
@@ -662,7 +662,7 @@
                 "Espagnol"
             ]
         },
-        "introduction": {
+        "personal": {
             "one_liners": [
                 "Salut ! Je m'appelle Santiago et je suis né et j'ai grandi au Mexique",
                 "",
