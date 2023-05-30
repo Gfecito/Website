@@ -16,13 +16,13 @@
     default:
       console.log("Error; human language selected by user not recognized")
   }
-  let activePage = "personal";
+  let activePage = false;
 </script>
 
 <template>
   <Header></Header>
-  <component :is="Personal"></component>
-  {{ activePage=="personal" ? Personal : Professional }}
+  <Personal v-if="activePage"></Personal>
+  <Professional v-else></Professional>
   {{ translated_data }}
   <Footer></Footer>
 </template>
