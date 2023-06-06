@@ -1,11 +1,10 @@
 <template>
     <div class="bg-green-800 w-screen h-screen">
-        <p>{{ data }}</p>
-        <PersonalBooks></PersonalBooks>
-        <PersonalInspiration></PersonalInspiration>
-        <PersonalJourney></PersonalJourney>
-        <PersonalMovies></PersonalMovies>
-        <PersonalThanks></PersonalThanks>
+      <PersonalJourney :data="journeyData"></PersonalJourney>
+      <PersonalBooks :data="booksData"></PersonalBooks>
+      <PersonalMovies :data="moviesData"></PersonalMovies>
+      <PersonalInspiration :data="inspirationData"></PersonalInspiration>
+      <PersonalThanks :data="thanksData"></PersonalThanks>
     </div>
 </template>
   
@@ -13,9 +12,25 @@
 export default {
   props: {
     data: {
-      type: String,
+      type: Object,
       required: true,
     },
+  },
+  data() {
+    return {
+      journeyData: null,
+      booksData: null,
+      moviesData: null,
+      inspirationData: null,
+      thanksData: null,
+    };
+  },
+  created() {
+    this.journeyData = this.data.journey;
+    this.booksData = this.data.books;
+    this.moviesData = this.data.movies;
+    this.inspirationData = this.data.inspiration;
+    this.thanksData = this.data.thanks;
   },
 };
 </script>

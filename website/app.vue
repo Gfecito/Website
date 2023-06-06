@@ -1,7 +1,7 @@
 <script setup>
   import data from '~/data/content.json';
   
-  const language = "es";
+  const language = "en";
   let translated_data;
   switch(language){
     case "en":
@@ -20,12 +20,7 @@
 
   let personalData = translated_data["personal"];
 
-  let professionalData = {};
-  professionalData["school"] = translated_data["school"];
-  professionalData["work"] = translated_data["work"];
-  professionalData["projects"] = translated_data["projects"];
-  professionalData["interests"] = translated_data["interests"];
-  professionalData["awards"] = translated_data["awards"];
+  let professionalData = translated_data["professional"];
 </script>
 
 <template>
