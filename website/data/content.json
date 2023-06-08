@@ -1,7 +1,7 @@
 {
     "en": {
         "nav": {
-            "icon": "Images/Logos/earth.png",
+            "icon": "images/logos/earth.png",
             "sections": [
                 "me",
                 "education",
@@ -36,26 +36,26 @@
                 ]
             },
             "books": [
-                "Images/BookCovers/anElegantDefense.jpg",
-                "Images/BookCovers/immune.jpeg",
-                "Images/BookCovers/whenTheBodySaysNo.jpeg",
-                "Images/BookCovers/gunsGermsAndSteel.jpg",
-                "Images/BookCovers/theJakartaMethod.jpg",
-                "Images/BookCovers/crimeAndPunishment.jpg",
-                "Images/BookCovers/manSearchForMeaning.jpg",
-                "Images/BookCovers/madameBovary.jpg",
-                "Images/BookCovers/aHundreadYearsOfSolitude.jpg",
-                "Images/BookCovers/theFeastOfTheGoat.jpg",
-                "Images/BookCovers/capital.jpeg",
-                "Images/BookCovers/theTyrannyOfMerit.jpg",
-                "Images/BookCovers/braidingSweetgrass.jpeg",
-                "Images/BookCovers/thinkingFastAndSlow.jpg",
-                "Images/BookCovers/1984.jpg",
-                "Images/BookCovers/braveNewWorld.jpg",
-                "Images/BookCovers/fahrenheit451.jpg",
-                "Images/BookCovers/hitchikersGuide.jpeg",
-                "Images/BookCovers/understandingPower.jpeg",
-                "Images/BookCovers/theMinistryForTheFuture.jpg"
+                "images/books/anElegantDefense.jpg",
+                "images/books/immune.jpeg",
+                "images/books/whenTheBodySaysNo.jpeg",
+                "images/books/gunsGermsAndSteel.jpg",
+                "images/books/theJakartaMethod.jpg",
+                "images/books/crimeAndPunishment.jpg",
+                "images/books/manSearchForMeaning.jpg",
+                "images/books/madameBovary.jpg",
+                "images/books/aHundreadYearsOfSolitude.jpg",
+                "images/books/theFeastOfTheGoat.jpg",
+                "images/books/capital.jpeg",
+                "images/books/theTyrannyOfMerit.jpg",
+                "images/books/braidingSweetgrass.jpeg",
+                "images/books/thinkingFastAndSlow.jpg",
+                "images/books/1984.jpg",
+                "images/books/braveNewWorld.jpg",
+                "images/books/fahrenheit451.jpg",
+                "images/books/hitchikersGuide.jpeg",
+                "images/books/understandingPower.jpeg",
+                "images/books/theMinistryForTheFuture.jpg"
             ],
             "movies": ["monvi"],
             "inspiration": ["inspiradou"],
@@ -80,8 +80,8 @@
                     "Lycée franco-mexicain"
                 ],
                 "images": [
-                    "Images/InstitutionLogos/UdeM.jpeg",
-                    "Images/InstitutionLogos/LFM.jpeg"
+                    "images/institutions/UdeM.jpeg",
+                    "images/institutions/LFM.jpeg"
                 ],
                 "degrees": [
                     "Bachelors of Science, Computer Science",
@@ -140,11 +140,11 @@
                     "Web development and design - TA"
                 ],
                 "images": [
-                    "Images/Experience/fullstack.jpg",
-                    "Images/Experience/Paradigms.jpg",
-                    "Images/Experience/Programming1.jpg",
-                    "Images/Experience/DiscreteStruct.jpg",
-                    "Images/Experience/WebDev.jpg"
+                    "images/experience/fullstack.jpg",
+                    "images/experience/Paradigms.jpg",
+                    "images/experience/Programming1.jpg",
+                    "images/experience/DiscreteStruct.jpg",
+                    "images/experience/WebDev.jpg"
                 ]
             },
             "projects": {
@@ -231,19 +231,19 @@
                     ]
                 ],
                 "images": [
-                    "Images/ProjectThumbnails/MLClimate.png",
-                    "Images/ProjectThumbnails/NLP.jpeg",
-                    "Images/ProjectThumbnails/Genomics.jpeg",
-                    "Images/ProjectThumbnails/Disparity.png",
-                    "Images/ProjectThumbnails/ML.png",
-                    "Images/ProjectThumbnails/FAT32.jpeg",
-                    "Images/ProjectThumbnails/Database.jpeg",
-                    "Images/ProjectThumbnails/GestureRecognition.gif",
-                    "Images/ProjectThumbnails/Vaccination.png",
-                    "Images/ProjectThumbnails/CounterThumbnail.png",
-                    "Images/ProjectThumbnails/Interpreter.png",
-                    "Images/ProjectThumbnails/WildLionSimulator3D.jpeg",
-                    "Images/ProjectThumbnails/ThisSite.jpeg"
+                    "images/projects/MLClimate.png",
+                    "images/projects/NLP.jpeg",
+                    "images/projects/Genomics.jpeg",
+                    "images/projects/Disparity.png",
+                    "images/projects/ML.png",
+                    "images/projects/FAT32.jpeg",
+                    "images/projects/Database.jpeg",
+                    "images/projects/GestureRecognition.gif",
+                    "images/projects/Vaccination.png",
+                    "images/projects/CounterThumbnail.png",
+                    "images/projects/Interpreter.png",
+                    "images/projects/WildLionSimulator3D.jpeg",
+                    "images/projects/ThisSite.jpeg"
                 ]
             },
             "interests": {
@@ -296,14 +296,14 @@
                     ]
                 ],
                 "images": [
-                    "Images/Interests/medicine.jpg",
-                    "Images/Interests/social.jpg",
-                    "Images/Interests/ai.jpg",
-                    "Images/Interests/web.jpeg",
-                    "Images/Interests/game.jpg",
-                    "Images/Interests/graphics.jpg",
-                    "Images/Interests/robot.jpeg",
-                    "Images/Interests/os.jpg"
+                    "images/interests/medicine.jpg",
+                    "images/interests/social.jpg",
+                    "images/interests/ai.jpg",
+                    "images/interests/web.jpeg",
+                    "images/interests/game.jpg",
+                    "images/interests/graphics.jpg",
+                    "images/interests/robot.jpeg",
+                    "images/interests/os.jpg"
                 ]
             },
             "awards": {
@@ -325,14 +325,14 @@
                     "Biggest merit-based scholarship for international students at the Université de Montréal",
                     "My region spanned from Mexico to Panama, and included all french teaching institutions there."
                 ],
-                "trophee": "Images/Logos/trophy.png"
+                "trophee": "images/logos/trophy.png"
             }
         }
         
     },
     "es": {
         "nav": {
-            "icon": "Images/Logos/earth.png",
+            "icon": "images/logos/earth.png",
             "sections": [
                 "yo",
                 "educación",
@@ -365,26 +365,26 @@
                 "Me he obsesionado un poco con el aprendizaje estadístico, la inteligencia artificial y la visión. ¡Recuerdo cuando era niño y en la escuela nos enseñaron que las computadoras nunca podrían ver! ¡Nunca podrían aprender! Resulta que (como a menudo sucede con lo imposible), ¡solo necesitábamos ser creativos!"
             ],
             "books": [
-                "Images/BookCovers/anElegantDefense.jpg",
-                "Images/BookCovers/immune.jpeg",
-                "Images/BookCovers/whenTheBodySaysNo.jpeg",
-                "Images/BookCovers/gunsGermsAndSteel.jpg",
-                "Images/BookCovers/theJakartaMethod.jpg",
-                "Images/BookCovers/crimeAndPunishment.jpg",
-                "Images/BookCovers/manSearchForMeaning.jpg",
-                "Images/BookCovers/madameBovary.jpg",
-                "Images/BookCovers/aHundreadYearsOfSolitude.jpg",
-                "Images/BookCovers/theFeastOfTheGoat.jpg",
-                "Images/BookCovers/capital.jpeg",
-                "Images/BookCovers/theTyrannyOfMerit.jpg",
-                "Images/BookCovers/braidingSweetgrass.jpeg",
-                "Images/BookCovers/thinkingFastAndSlow.jpg",
-                "Images/BookCovers/1984.jpg",
-                "Images/BookCovers/braveNewWorld.jpg",
-                "Images/BookCovers/fahrenheit451.jpg",
-                "Images/BookCovers/hitchikersGuide.jpeg",
-                "Images/BookCovers/understandingPower.jpeg",
-                "Images/BookCovers/theMinistryForTheFuture.jpg"
+                "images/books/anElegantDefense.jpg",
+                "images/books/immune.jpeg",
+                "images/books/whenTheBodySaysNo.jpeg",
+                "images/books/gunsGermsAndSteel.jpg",
+                "images/books/theJakartaMethod.jpg",
+                "images/books/crimeAndPunishment.jpg",
+                "images/books/manSearchForMeaning.jpg",
+                "images/books/madameBovary.jpg",
+                "images/books/aHundreadYearsOfSolitude.jpg",
+                "images/books/theFeastOfTheGoat.jpg",
+                "images/books/capital.jpeg",
+                "images/books/theTyrannyOfMerit.jpg",
+                "images/books/braidingSweetgrass.jpeg",
+                "images/books/thinkingFastAndSlow.jpg",
+                "images/books/1984.jpg",
+                "images/books/braveNewWorld.jpg",
+                "images/books/fahrenheit451.jpg",
+                "images/books/hitchikersGuide.jpeg",
+                "images/books/understandingPower.jpeg",
+                "images/books/theMinistryForTheFuture.jpg"
             ]
         },
         "education": {
@@ -405,8 +405,8 @@
                 "Lycée franco-mexicain"
             ],
             "images": [
-                "Images/InstitutionLogos/UdeM.jpeg",
-                "Images/InstitutionLogos/LFM.jpeg"
+                "images/institutions/UdeM.jpeg",
+                "images/institutions/LFM.jpeg"
             ],
             "degrees": [
                 "Licenciatura en Ciencias de la Computación",
@@ -465,11 +465,11 @@
                 "Desarrollo web y diseño - TA"
             ],
             "images": [
-                "Images/Experience/fullstack.jpg",
-                "Images/Experience/Paradigms.jpg",
-                "Images/Experience/Programming1.jpg",
-                "Images/Experience/DiscreteStruct.jpg",
-                "Images/Experience/WebDev.jpg"
+                "images/experience/fullstack.jpg",
+                "images/experience/Paradigms.jpg",
+                "images/experience/Programming1.jpg",
+                "images/experience/DiscreteStruct.jpg",
+                "images/experience/WebDev.jpg"
             ]
         },
         "projects": {
@@ -556,19 +556,19 @@
                 ]
             ],
             "images": [
-                "Images/ProjectThumbnails/MLClimate.png",
-                "Images/ProjectThumbnails/NLP.jpeg",
-                "Images/ProjectThumbnails/Genomics.jpeg",
-                "Images/ProjectThumbnails/Disparity.png",
-                "Images/ProjectThumbnails/ML.png",
-                "Images/ProjectThumbnails/FAT32.jpeg",
-                "Images/ProjectThumbnails/Database.jpeg",
-                "Images/ProjectThumbnails/GestureRecognition.gif",
-                "Images/ProjectThumbnails/Vaccination.png",
-                "Images/ProjectThumbnails/CounterThumbnail.png",
-                "Images/ProjectThumbnails/Interpreter.png",
-                "Images/ProjectThumbnails/WildLionSimulator3D.jpeg",
-                "Images/ProjectThumbnails/ThisSite.jpeg"
+                "images/projects/MLClimate.png",
+                "images/projects/NLP.jpeg",
+                "images/projects/Genomics.jpeg",
+                "images/projects/Disparity.png",
+                "images/projects/ML.png",
+                "images/projects/FAT32.jpeg",
+                "images/projects/Database.jpeg",
+                "images/projects/GestureRecognition.gif",
+                "images/projects/Vaccination.png",
+                "images/projects/CounterThumbnail.png",
+                "images/projects/Interpreter.png",
+                "images/projects/WildLionSimulator3D.jpeg",
+                "images/projects/ThisSite.jpeg"
             ]
         },
         "interests": {
@@ -621,14 +621,14 @@
                 ]
             ],
             "images": [
-                "Images/Interests/medicine.jpg",
-                "Images/Interests/social.jpg",
-                "Images/Interests/ai.jpg",
-                "Images/Interests/web.jpeg",
-                "Images/Interests/game.jpg",
-                "Images/Interests/graphics.jpg",
-                "Images/Interests/robot.jpeg",
-                "Images/Interests/os.jpg"
+                "images/interests/medicine.jpg",
+                "images/interests/social.jpg",
+                "images/interests/ai.jpg",
+                "images/interests/web.jpeg",
+                "images/interests/game.jpg",
+                "images/interests/graphics.jpg",
+                "images/interests/robot.jpeg",
+                "images/interests/os.jpg"
             ]
         },
         "awards": {
@@ -650,12 +650,12 @@
                 "La beca basada en méritos más grande para estudiantes internacionales en la Université de Montréal",
                 "Mi región abarcó desde México hasta Panamá e incluyó todas las instituciones de enseñanza en francés de allí."
             ],
-            "trophee": "Images/Logos/trophy.png"
+            "trophee": "images/logos/trophy.png"
         }
     },
     "fr": {
         "nav": {
-            "icon": "Images/Logos/earth.png",
+            "icon": "images/logos/earth.png",
             "sections": [
                 "moi",
                 "éducation",
@@ -688,26 +688,26 @@
                 "Je suis devenu un peu obsédé par l'apprentissage statistique, l'intelligence artificielle et la vision. Je me souviens quand j'étais enfant, on nous a appris à l'école que les ordinateurs ne pourraient jamais voir ! Ils ne pourraient jamais apprendre ! Il s'avère (comme c'est souvent le cas avec l'impossible) que nous devions simplement faire preuve de créativité !"
             ],
             "books": [
-                "Images/BookCovers/anElegantDefense.jpg",
-                "Images/BookCovers/immune.jpeg",
-                "Images/BookCovers/whenTheBodySaysNo.jpeg",
-                "Images/BookCovers/gunsGermsAndSteel.jpg",
-                "Images/BookCovers/theJakartaMethod.jpg",
-                "Images/BookCovers/crimeAndPunishment.jpg",
-                "Images/BookCovers/manSearchForMeaning.jpg",
-                "Images/BookCovers/madameBovary.jpg",
-                "Images/BookCovers/aHundreadYearsOfSolitude.jpg",
-                "Images/BookCovers/theFeastOfTheGoat.jpg",
-                "Images/BookCovers/capital.jpeg",
-                "Images/BookCovers/theTyrannyOfMerit.jpg",
-                "Images/BookCovers/braidingSweetgrass.jpeg",
-                "Images/BookCovers/thinkingFastAndSlow.jpg",
-                "Images/BookCovers/1984.jpg",
-                "Images/BookCovers/braveNewWorld.jpg",
-                "Images/BookCovers/fahrenheit451.jpg",
-                "Images/BookCovers/hitchikersGuide.jpeg",
-                "Images/BookCovers/understandingPower.jpeg",
-                "Images/BookCovers/theMinistryForTheFuture.jpg"
+                "images/books/anElegantDefense.jpg",
+                "images/books/immune.jpeg",
+                "images/books/whenTheBodySaysNo.jpeg",
+                "images/books/gunsGermsAndSteel.jpg",
+                "images/books/theJakartaMethod.jpg",
+                "images/books/crimeAndPunishment.jpg",
+                "images/books/manSearchForMeaning.jpg",
+                "images/books/madameBovary.jpg",
+                "images/books/aHundreadYearsOfSolitude.jpg",
+                "images/books/theFeastOfTheGoat.jpg",
+                "images/books/capital.jpeg",
+                "images/books/theTyrannyOfMerit.jpg",
+                "images/books/braidingSweetgrass.jpeg",
+                "images/books/thinkingFastAndSlow.jpg",
+                "images/books/1984.jpg",
+                "images/books/braveNewWorld.jpg",
+                "images/books/fahrenheit451.jpg",
+                "images/books/hitchikersGuide.jpeg",
+                "images/books/understandingPower.jpeg",
+                "images/books/theMinistryForTheFuture.jpg"
             ]
         },
         "education": {
@@ -728,8 +728,8 @@
                 "Lycée franco-mexicain"
             ],
             "images": [
-                "Images/InstitutionLogos/UdeM.jpeg",
-                "Images/InstitutionLogos/LFM.jpeg"
+                "images/institutions/UdeM.jpeg",
+                "images/institutions/LFM.jpeg"
             ],
             "degrees": [
                 "Baccalauréat en sciences, informatique",
@@ -788,11 +788,11 @@
                 "Développement web et conception - Assistant d'enseignement"
             ],
             "images": [
-                "Images/Experience/fullstack.jpg",
-                "Images/Experience/Paradigms.jpg",
-                "Images/Experience/Programming1.jpg",
-                "Images/Experience/DiscreteStruct.jpg",
-                "Images/Experience/WebDev.jpg"
+                "images/experience/fullstack.jpg",
+                "images/experience/Paradigms.jpg",
+                "images/experience/Programming1.jpg",
+                "images/experience/DiscreteStruct.jpg",
+                "images/experience/WebDev.jpg"
             ]
         },
         "projects": {
@@ -879,19 +879,19 @@
                 ]
             ],
             "images": [
-                "Images/ProjectThumbnails/MLClimate.png",
-                "Images/ProjectThumbnails/NLP.jpeg",
-                "Images/ProjectThumbnails/Genomics.jpeg",
-                "Images/ProjectThumbnails/Disparity.png",
-                "Images/ProjectThumbnails/ML.png",
-                "Images/ProjectThumbnails/FAT32.jpeg",
-                "Images/ProjectThumbnails/Database.jpeg",
-                "Images/ProjectThumbnails/GestureRecognition.gif",
-                "Images/ProjectThumbnails/Vaccination.png",
-                "Images/ProjectThumbnails/CounterThumbnail.png",
-                "Images/ProjectThumbnails/Interpreter.png",
-                "Images/ProjectThumbnails/WildLionSimulator3D.jpeg",
-                "Images/ProjectThumbnails/ThisSite.jpeg"
+                "images/projects/MLClimate.png",
+                "images/projects/NLP.jpeg",
+                "images/projects/Genomics.jpeg",
+                "images/projects/Disparity.png",
+                "images/projects/ML.png",
+                "images/projects/FAT32.jpeg",
+                "images/projects/Database.jpeg",
+                "images/projects/GestureRecognition.gif",
+                "images/projects/Vaccination.png",
+                "images/projects/CounterThumbnail.png",
+                "images/projects/Interpreter.png",
+                "images/projects/WildLionSimulator3D.jpeg",
+                "images/projects/ThisSite.jpeg"
             ]
         },
         "interests": {
@@ -944,14 +944,14 @@
                 ]
             ],
             "images": [
-                "Images/Interests/medicine.jpg",
-                "Images/Interests/social.jpg",
-                "Images/Interests/ai.jpg",
-                "Images/Interests/web.jpeg",
-                "Images/Interests/game.jpg",
-                "Images/Interests/graphics.jpg",
-                "Images/Interests/robot.jpeg",
-                "Images/Interests/os.jpg"
+                "images/interests/medicine.jpg",
+                "images/interests/social.jpg",
+                "images/interests/ai.jpg",
+                "images/interests/web.jpeg",
+                "images/interests/game.jpg",
+                "images/interests/graphics.jpg",
+                "images/interests/robot.jpeg",
+                "images/interests/os.jpg"
             ]
         },
         "awards": {
@@ -973,7 +973,7 @@
                 "La plus grande bourse basée sur le mérite pour les étudiants internationaux à l'Université de Montréal",
                 "Ma région s'étendait du Mexique au Panama et comprenait toutes les institutions d'enseignement français là-bas."
             ],
-            "trophee": "Images/Logos/trophy.png"
+            "trophee": "images/logos/trophy.png"
         }
     }
 }
