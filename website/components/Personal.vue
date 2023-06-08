@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-green-800 w-screen h-screen">
+    <div class="bg-green-800 min-h-screen">
       <PersonalJourney :data="journeyData"></PersonalJourney>
       <PersonalBooks :data="booksData"></PersonalBooks>
       <PersonalMovies :data="moviesData"></PersonalMovies>
