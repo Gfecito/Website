@@ -16,7 +16,7 @@
     default:
       console.log("Error; human language selected by user not recognized")
   }
-  let activePage = false;
+  let activePage = true;
 
   let personalData = translated_data["personal"];
 
