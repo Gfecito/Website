@@ -57,14 +57,14 @@ export default {
 }
 
 .book-shelf {
-  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
   display: grid;
+  margin: 0 auto 15px 0;
   grid-template-rows: 110fr 25fr;
-  margin-bottom: 15px;
 }
 
 .book-row {
   display: grid;
+  justify-content: center;
 }
 
 .book {
@@ -73,6 +73,14 @@ export default {
   background-size: cover;
   margin: 0 auto;
   height: 110px;
+}
+
+.shelf {
+  margin: 0 auto;
+  height: 25px;
+  width: min(100%, 900px);
+  background-color: #FFF;
+  box-shadow: 10px 10px 6px rgb(180, 179, 179);
 }
 
 @media only screen and (min-width: 850px) {
@@ -86,11 +94,4 @@ export default {
   }
 }
 
-.shelf {
-  margin: 0 auto;
-  height: 25px;
-  width: min(100%, 900px);
-  background-color: #FFF;
-  box-shadow: 10px 10px 6px rgb(180, 179, 179);
-}
 </style>
