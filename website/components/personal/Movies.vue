@@ -1,7 +1,7 @@
 <template>
   <div id="movies" class="bg-red-500 p-4">
     <h2 class="text-2xl font-bold text-white">Personal Movies</h2>
-    <div id="image-track" data-mouse-down-at="0" data-prev-scroll-percentage="0">
+    <div id="image-track">
       <img v-for="poster in posters" :src="poster" draggable="false" alt="movie poster">
     </div>
   </div>
@@ -22,8 +22,8 @@ export default {
   },
   data() {
     return {
-      mouseDownAt: "0",
-      prevScrollPercentage: "0",
+      mouseDownAt: 0,
+      prevScrollPercentage: 0,
       percentageSlid: 0,
     };
   },
@@ -42,28 +42,60 @@ export default {
       this.mouseDownAt = e.clientX;
     },
     handleMouseUp() {
-      this.mouseDownAt = "0";
+      this.mouseDownAt = 0;
       this.prevScrollPercentage = this.percentageSlid;
     },
     handleMouseMove(e) {
-      if (this.mouseDownAt === "0") return;
+      if (this.mouseDownAt === 0) return;
 
       const mouseDelta = parseFloat(this.mouseDownAt) - e.clientX;
       const maxDelta = window.innerWidth / 2;
 
       const currentPercentageSlid = (mouseDelta / maxDelta) * 100;
-      const previousPercentageSlid = parseFloat(this.prevScrollPercentage);
+      const previousPercentageSlid = this.prevScrollPercentage;
       this.percentageSlid = previousPercentageSlid + currentPercentageSlid;
       // Bounds
-      if(this.percentageSlid<-10) this.percentageSlid = -10;
-      if(this.percentageSlid>110) this.percentageSlid = 110;
+      if (this.percentageSlid < -10) this.percentageSlid = -10;
+      if (this.percentageSlid > 280) this.percentageSlid = 280;
 
-      this.$el.querySelector("#image-track").style.transform = `translate(${-this.percentageSlid}%, -50%)`;
-      for(const image of this.$el.querySelector("img")){
-        image.style.objectPosition = `${nextPercentage} 50%`;
+      const imageTrack = this.$el.querySelector("#image-track");
+
+      imageTrack.animate({
+        transform: `translate(${-this.percentageSlid}%, -50%)`
+      },
+        {
+          duration: 1450,
+          fill: "forwards",
+          easing: "cubic-bezier(0.62, 0.7, 0.58, 1)"
+        });
+
+      const images = imageTrack.querySelectorAll("img");
+
+      const inversionPercentage = this.percentageSlid / 2;
+
+      // Avoid ugly middle interval; and make it snappy.
+      if (inversionPercentage > 20 && inversionPercentage < 50) {
+        inversionPercentage = 20;
       }
-    },
-  },
+      else if (inversionPercentage > 50 && inversionPercentage < 80) {
+        inversionPercentage = 80;
+      }
+
+      // Apply the color inversion animation to each image
+      images.forEach((img) => {
+        img.animate(
+          [
+            { filter: `invert(${inversionPercentage}%)` }
+          ],
+          {
+            duration: 850,
+            fill: "forwards",
+            easing: "cubic-bezier(0.62, 0.7, 0.58, 1)"
+          }
+        );
+      });
+    }
+  }
 };
 </script>
   
@@ -82,9 +114,12 @@ export default {
   height: 220px;
   object-fit: cover;
   object-position: 100% 50%;
+  filter: invert(0);
+  user-select: none; /*Prevents ugly 'text selection' blue effect on drag*/
 }
 
 #image-track {
+  width: fit-content;
   display: flex;
   gap: 4vmin;
   position: relative;
@@ -96,8 +131,8 @@ export default {
 
 @media only screen and (min-width: 850px) {
   #image-track>img {
-    width: min(95%, 400px);
-    height: 440px;
+    width: min(95%, 300px);
+    height: 330px;
   }
 }
 </style>
