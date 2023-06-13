@@ -57,11 +57,36 @@
                 "images/books/understandingPower.jpeg",
                 "images/books/theMinistryForTheFuture.jpg"
             ],
-            "movies": ["monvi"],
-            "inspiration": ["inspiradou"],
-            "thanks":["tankyu"]
+            "movies": {
+                "posters": [
+                    "images/movies/1917.png",
+                    "images/movies/blackSwan.png",
+                    "images/movies/coco.png",
+                    "images/movies/howlsMovingCastle.png",
+                    "images/movies/joker.png",
+                    "images/movies/ladyBird.png",
+                    "images/movies/laVieEstBelle.png",
+                    "images/movies/moonlight.png",
+                    "images/movies/pansLabyrinth.png",
+                    "images/movies/parasite.png",
+                    "images/movies/requiem.png",
+                    "images/movies/roma.png",
+                    "images/movies/spiderverse.png",
+                    "images/movies/theIronGiant.png",
+                    "images/movies/theShining.png",
+                    "images/movies/trainspotting.png",
+                    "images/movies/wall-e.png",
+                    "images/movies/whiplash.png"
+                ]
+            },
+            "inspiration": [
+                "inspiradou"
+            ],
+            "thanks": [
+                "tankyu"
+            ]
         },
-        "professional":{
+        "professional": {
             "education": {
                 "descriptions": [
                     [
@@ -328,7 +353,6 @@
                 "trophee": "images/logos/trophy.png"
             }
         }
-        
     },
     "es": {
         "nav": {

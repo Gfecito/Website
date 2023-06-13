@@ -29,7 +29,6 @@ export default {
         const shelf = books.slice(i * 5, (i + 1) * 5);
         shelves.push(shelf);
       }
-      console.log(shelves);
       return shelves;
     },
   },
