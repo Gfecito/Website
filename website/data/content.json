@@ -79,9 +79,55 @@
                     "images/movies/whiplash.png"
                 ]
             },
-            "inspiration": [
-                "inspiradou"
-            ],
+            "inspiration": {
+                "people": [
+                    {
+                        "name": "Einstein",
+                        "description": "Einstein inspires me for his impeccable creativity, his ability to communicate complex scientific concepts with beautiful clarity, and his demonstration that science knows no boundaries. His groundbreaking theories and discoveries have reshaped our understanding of the universe.",
+                        "image":"images/inspiration/einstein.jpeg"
+                    },
+                    {
+                        "name": "Oppenheimer",
+                        "description": "Oppenheimer's story serves as a reminder that even the most brilliant minds can be entangled in tragic circumstances. His contributions to the development of the atomic bomb highlight the importance of compassionate conviction and the ethical responsibilities of scientists.",
+                        "image":"images/inspiration/oppenheimer.jpeg"
+                    },
+                    {
+                        "name": "Geoffrey Hinton, Yann Lecun and Yoshua Bengio",
+                        "description": "These pioneers in the field of artificial intelligence have made enormous contributions to the field. What truly inspires me about them is their commitment to making AI accessible to the public and their dedication to ensuring its ethical use for the benefit of humanity.",
+                        "image":"images/inspiration/aiPeople.jpeg"
+                    },
+                    {
+                        "name": "Marie and Pierre Curie",
+                        "description": "The Curies exemplify excellence, sacrifice, and the power of collaboration. Their groundbreaking work in radioactivity not only earned them Nobel Prizes but also solidified their status as one of the greatest power couples in the history of science.",
+                        "image":"images/inspiration/marieAndPierre.jpeg"
+                    },
+                    {
+                        "name": "Tolstoy, Dostoevsky and Nietzsche",
+                        "description": "These influential thinkers have provided invaluable perspectives on work and the human condition. Their writings explore the depths of the human experience, offering profound insights into the complexities of the mind, the search for meaning, and the pursuit of a fulfilling life.",
+                        "image":"images/inspiration/thinkers.jpeg"
+                    },
+                    {
+                        "name": "Sor Juana Ines de la Cruz",
+                        "description": "Sor Juana's relentless pursuit of excellence in the face of discrimination inspires me deeply. As a brilliant poet and intellectual during the Mexican colonial era, she challenged societal norms and advocated for women's education and intellectual freedom.",
+                        "image":"images/inspiration/sorJuana.jpeg"
+                    },
+                    {
+                        "name": "Frida Kahlo",
+                        "description": "Kahlo's resilience and bravery in embracing her unique self resonate with me. Her art reflects her physical and emotional pain, while also capturing her unyielding spirit and determination to overcome adversity.",
+                        "image":"images/inspiration/fridaKahlo.jpeg"
+                    },
+                    {
+                        "name": "Mandela, Gandhi, and Martin Luther King",
+                        "description": "Mandela, Gandhi, and Martin Luther King embody the power of peaceful resistance and the courage to challenge unjust systems. Their unwavering commitment to justice, equality, and human rights serves as a constant reminder of the strength of the human spirit and the transformative impact individuals can have on society.",
+                        "image":"images/inspiration/mandelaGandhiKing.jpeg"
+                    },
+                    {
+                        "name": "Cuauhtémoc Cárdenas",
+                        "description": "Cárdenas inspires me through his tireless work for a better Mexico. As a politician and social activist, he has fought for social justice, democratic reform, and the rights of marginalized communities, leaving a lasting impact on his country.",
+                        "image":"images/inspiration/cardenas.jpeg"
+                    }
+                ]
+            },
             "thanks": [
                 "tankyu"
             ]
