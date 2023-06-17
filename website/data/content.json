@@ -59,24 +59,24 @@
             ],
             "movies": {
                 "posters": [
-                    "images/movies/1917.png",
-                    "images/movies/blackSwan.png",
+                    "images/movies/wall-e.png",
+                    "images/movies/theIronGiant.png",
+                    "images/movies/spiderverse.png",
                     "images/movies/coco.png",
                     "images/movies/howlsMovingCastle.png",
-                    "images/movies/joker.png",
-                    "images/movies/ladyBird.png",
                     "images/movies/laVieEstBelle.png",
+                    "images/movies/ladyBird.png",
                     "images/movies/moonlight.png",
+                    "images/movies/roma.png",
                     "images/movies/pansLabyrinth.png",
+                    "images/movies/whiplash.png",
+                    "images/movies/blackSwan.png",
+                    "images/movies/1917.png",
+                    "images/movies/joker.png",
                     "images/movies/parasite.png",
                     "images/movies/requiem.png",
-                    "images/movies/roma.png",
-                    "images/movies/spiderverse.png",
-                    "images/movies/theIronGiant.png",
                     "images/movies/theShining.png",
-                    "images/movies/trainspotting.png",
-                    "images/movies/wall-e.png",
-                    "images/movies/whiplash.png"
+                    "images/movies/trainspotting.png"
                 ]
             },
             "inspiration": {
@@ -129,7 +129,11 @@
                 ]
             },
             "thanks": [
-                "tankyu"
+                "I'm very happy (not always! lest us romanticize happiness).",
+                "I'm happy with the life I live, the work I do and the people I know.",
+                "I don't think I did anything in particular to deserve this, but I am profoundly grateful",
+                "With kindness, warmth and A LOT of hard work some very special people have made me... me, imperfect but happy me.",
+                "Thank you for that."
             ]
         },
         "professional": {
