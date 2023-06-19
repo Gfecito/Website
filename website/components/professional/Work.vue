@@ -1,12 +1,14 @@
 <template>
-    <div class="bg-red-500 p-4">
-      <h2 class="text-2xl font-bold text-white">Professional Work</h2>
+    <div class="border-red-500 border-dashed border-8 p-4">
+      <h2 class="text-2xl font-bold">Professional Work</h2>
       <div class="mt-4">
-        <div v-for="(description, index) in data.descriptions" :key="index" class="mb-4">
-          <h3 class="text-xl font-bold text-white">{{ data.titles[index] }}</h3>
-          <img :src="data.images[index]" alt="Work Image" class="my-2 rounded-lg w-64 h-64 object-cover">
-          <p class="text-white">{{ description }}</p>
-        </div>
+        <Card v-for="(description, index) in data.descriptions"
+          :key="index"
+          :image="data.images[index]"
+          :title="data.titles[index]"
+          :paragraph="description"
+          :isImageOnLeft="index % 2 === 0"
+        />
       </div>
     </div>
   </template>

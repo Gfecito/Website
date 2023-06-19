@@ -1,7 +1,7 @@
 <template>
-    <div class="bg-red-500 p-4">
-      <h2 class="text-2xl font-bold text-white">Professional Accolades</h2>
-      <div class="text-white mt-4">
+    <div class="border-red-500 border-dashed border-8 p-4">
+      <h2 class="text-2xl font-bold">Professional Accolades</h2>
+      <div class=" mt-4">
         <ul>
           <li v-for="(title, index) in data.titles" :key="index">
             <div class="flex items-center">

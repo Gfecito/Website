@@ -16,7 +16,7 @@
     default:
       console.log("Error; human language selected by user not recognized")
   }
-  let activePage = true;
+  let activePage = false;
 
   let personalData = translated_data["personal"];
 
@@ -24,16 +24,19 @@
 </script>
 
 <template>
-  <Header></Header>
-  <Personal :data="personalData" v-if="activePage" ></Personal>
-  <Professional :data="professionalData" v-else></Professional>
-  <Footer></Footer>
+  <main>
+    <Header></Header>
+    <Personal :data="personalData" v-if="activePage" ></Personal>
+    <Professional :data="professionalData" v-else></Professional>
+    <Footer></Footer>
+  </main>
 </template>
 
-<style scoped>
-.hello {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 3rem;
-  padding: 10rem;
+<style>
+main {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
+
 </style>

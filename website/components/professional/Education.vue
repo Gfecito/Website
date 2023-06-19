@@ -1,16 +1,13 @@
 <template>
-    <div class="bg-blue-500 p-4">
-        <div v-for="institution in institutions" :key="institution.title">
-            <h2 class="text-2xl font-bold text-white">{{ institution.title }}</h2>
-            <div class="flex items-center mb-4">
-                <img :src="institution.image" alt="Institution Logo" class="w-8 h-8 mr-2">
-                <p class="text-white">{{ institution.degree }}</p>
-            </div>
-            <p class="text-white" v-for="description in institution.descriptions" :key="description">{{ description }}</p>
-            <p class="text-white">{{ institution.details }}</p>
-        </div>
-        <h2 class="text-2xl font-bold text-white">Classes</h2>
-        <ul class="text-white">
+    <div class="border-blue-500 border-dashed border-8 p-4">
+        <Card v-for="(institution, index) in institutions" 
+        :key="institution.title" 
+        :image="institution.image"
+        :title="institution.title" 
+        :paragraph="institution.details" 
+        :isImageOnLeft="index % 2 === 0" />
+        <h2 class="text-2xl font-bold">Classes</h2>
+        <ul class="">
             <li v-for="classItem in classes" :key="classItem">{{ classItem }}</li>
         </ul>
     </div>

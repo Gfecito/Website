@@ -5,9 +5,9 @@
             <img src="" alt="Left Icon 2">
         </div>
         <div class="flex items-center">
-            <nuxt-link to="#" class="mr-4">Link 1</nuxt-link>
-            <nuxt-link to="#" class="mr-4">Link 2</nuxt-link>
-            <nuxt-link to="#">Link 3</nuxt-link>
+            <nuxt-link to="#" class="mr-4">Me</nuxt-link>
+            <nuxt-link to="#" class="mr-4">Work</nuxt-link>
+            <nuxt-link to="#">Vlog</nuxt-link>
         </div>
     </div>
 </template>

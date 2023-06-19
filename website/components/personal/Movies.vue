@@ -1,6 +1,6 @@
 <template>
-  <div id="movies" class="bg-red-500 p-4">
-    <h2 class="text-2xl font-bold text-white">Personal Movies</h2>
+  <div id="movies" class="border-red-500 border-dashed border-8 p-4">
+    <h2 class="text-2xl font-bold">Personal Movies</h2>
     <div id="image-track">
       <img v-for="poster in posters" :src="poster" draggable="false" alt="movie poster">
     </div>
@@ -103,7 +103,6 @@ export default {
 #movies {
   height: 100vh;
   width: 100vw;
-  background-color: black;
   margin: 0rem;
   overflow: hidden;
 }

@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-yellow-500 p-4">
-    <h2 class="text-2xl font-bold text-white">Personal Inspiration</h2>
+  <div class="border-yellow-500 border-dashed border-8 p-4">
+    <h2 class="text-2xl font-bold">Personal Inspiration</h2>
     <div>
       <div v-for="(person, index) in people" :key="person.name" class="my-4">
         <Card 
@@ -8,7 +8,7 @@
           :alt="person.name" 
           :title="person.name" 
           :paragraph="person.description"
-          :isImageOnLeft="index % 2"></Card>
+          :isImageOnLeft="index % 2 === 0"></Card>
       </div>
     </div>
   </div>
