@@ -9,8 +9,10 @@
         py-4 
         px-6">
         <div class="flex items-center">
-            <img src="" alt="Left Icon 1" class="mr-4">
-            <img src="" alt="Left Icon 2">
+            <img src="" alt="darkmode" class="mr-4">
+            <HamburgerMenu :languages="['French', 'English', 'Español']" 
+            @language-change=" language = $event" 
+            @header-height="handleHeaderHeight" />
         </div>
         <div class="flex items-center">
             <nuxt-link to="#" class="mr-4" @click="setActivePage('Me')">Me</nuxt-link>
@@ -24,13 +26,13 @@
 export default {
     methods: {
         setActivePage(page) {
-            this.$emit('page-change', page);
-        }
+            this.$emit("page-change", page);
+        },
     },
     mounted() {
         // Emit custom event after the component is mounted
         this.$nextTick(() => {
-            this.$emit('header-height', this.$el.offsetHeight);
+            this.$emit("header-height", this.$el.offsetHeight);
         });
     }
 };

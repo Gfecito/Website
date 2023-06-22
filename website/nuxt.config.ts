@@ -1,12 +1,12 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-    modules: [
-        '@nuxtjs/tailwindcss'
-      ],
-      components: [
-        { path: '~/components/atomic', prefix: '' },
-        { path: '~/components/personal', prefix: 'Personal' },
-        { path: '~/components/professional', prefix: 'Professional' },
-        '~/components'
-      ]
+  modules: [
+    '@nuxtjs/tailwindcss'
+  ],
+  components: [
+    { path: '~/components/atomic' },
+    { path: '~/components/personal', prefix: 'Personal' },
+    { path: '~/components/professional', prefix: 'Professional' },
+    '~/components'
+  ]
 })

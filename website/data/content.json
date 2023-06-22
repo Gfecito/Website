@@ -1,21 +1,5 @@
 {
     "en": {
-        "nav": {
-            "icon": "images/logos/earth.png",
-            "sections": [
-                "me",
-                "education",
-                "experience",
-                "projects",
-                "interests",
-                "accolades"
-            ],
-            "languages": [
-                "English",
-                "Français",
-                "Español"
-            ]
-        },
         "personal": {
             "journey": {
                 "one_liners": [
@@ -85,47 +69,47 @@
                     {
                         "name": "Einstein",
                         "description": "Einstein inspires me for his impeccable creativity, his ability to communicate complex scientific concepts with beautiful clarity, and his demonstration that science knows no boundaries. His groundbreaking theories and discoveries have reshaped our understanding of the universe.",
-                        "image":"images/inspiration/einstein.jpeg"
+                        "image": "images/inspiration/einstein.jpeg"
                     },
                     {
                         "name": "Oppenheimer",
                         "description": "Oppenheimer's story serves as a reminder that even the most brilliant minds can be entangled in tragic circumstances. His contributions to the development of the atomic bomb highlight the importance of compassionate conviction and the ethical responsibilities of scientists.",
-                        "image":"images/inspiration/oppenheimer.jpeg"
+                        "image": "images/inspiration/oppenheimer.jpeg"
                     },
                     {
                         "name": "Geoffrey Hinton, Yann Lecun and Yoshua Bengio",
                         "description": "These pioneers in the field of artificial intelligence have made enormous contributions to the field. What truly inspires me about them is their commitment to making AI accessible to the public and their dedication to ensuring its ethical use for the benefit of humanity.",
-                        "image":"images/inspiration/aiPeople.jpeg"
+                        "image": "images/inspiration/aiPeople.jpeg"
                     },
                     {
                         "name": "Marie and Pierre Curie",
                         "description": "The Curies exemplify excellence, sacrifice, and the power of collaboration. Their groundbreaking work in radioactivity not only earned them Nobel Prizes but also solidified their status as one of the greatest power couples in the history of science.",
-                        "image":"images/inspiration/marieAndPierre.jpeg"
+                        "image": "images/inspiration/marieAndPierre.jpeg"
                     },
                     {
                         "name": "Tolstoy, Dostoevsky and Nietzsche",
                         "description": "These influential thinkers have provided invaluable perspectives on work and the human condition. Their writings explore the depths of the human experience, offering profound insights into the complexities of the mind, the search for meaning, and the pursuit of a fulfilling life.",
-                        "image":"images/inspiration/thinkers.jpeg"
+                        "image": "images/inspiration/thinkers.jpeg"
                     },
                     {
                         "name": "Sor Juana Ines de la Cruz",
                         "description": "Sor Juana's relentless pursuit of excellence in the face of discrimination inspires me deeply. As a brilliant poet and intellectual during the Mexican colonial era, she challenged societal norms and advocated for women's education and intellectual freedom.",
-                        "image":"images/inspiration/sorJuana.jpeg"
+                        "image": "images/inspiration/sorJuana.jpeg"
                     },
                     {
                         "name": "Frida Kahlo",
                         "description": "Kahlo's resilience and bravery in embracing her unique self resonate with me. Her art reflects her physical and emotional pain, while also capturing her unyielding spirit and determination to overcome adversity.",
-                        "image":"images/inspiration/fridaKahlo.jpeg"
+                        "image": "images/inspiration/fridaKahlo.jpeg"
                     },
                     {
                         "name": "Mandela, Gandhi, and Martin Luther King",
                         "description": "Mandela, Gandhi, and Martin Luther King embody the power of peaceful resistance and the courage to challenge unjust systems. Their unwavering commitment to justice, equality, and human rights serves as a constant reminder of the strength of the human spirit and the transformative impact individuals can have on society.",
-                        "image":"images/inspiration/mandelaGandhiKing.jpeg"
+                        "image": "images/inspiration/mandelaGandhiKing.jpeg"
                     },
                     {
                         "name": "Cuauhtémoc Cárdenas",
                         "description": "Cárdenas inspires me through his tireless work for a better Mexico. As a politician and social activist, he has fought for social justice, democratic reform, and the rights of marginalized communities, leaving a lasting impact on his country.",
-                        "image":"images/inspiration/cardenas.jpeg"
+                        "image": "images/inspiration/cardenas.jpeg"
                     }
                 ]
             },
@@ -259,7 +243,7 @@
                     "https://causality-text-based-inference.web.app/",
                     "https://genome-assembly-scaffolding.web.app/",
                     "https://github.com/Gfecito/GC-Neat"
-                ],                
+                ],
                 "images": [
                     "images/projects/MLClimate.png",
                     "images/projects/NLP.jpeg",
@@ -360,39 +344,25 @@
         }
     },
     "es": {
-        "nav": {
-            "icon": "images/logos/earth.png",
-            "sections": [
-                "yo",
-                "educación",
-                "experiencia",
-                "proyectos",
-                "intereses",
-                "logros"
-            ],
-            "languages": [
-                "Inglés",
-                "Français",
-                "Español"
-            ]
-        },
         "personal": {
-            "one_liners": [
-                "¡Hola! Mi nombre es Santiago y nací y crecí en México.",
-                "",
-                "Actualmente estoy",
-                "Me encanta",
-                "Realmente disfruto enseñar",
-                "Últimamente"
-            ],
-            "paragraphs": [
-                "mi madre nos dio a mi hermana y a mí el privilegio de asistir a escuelas sofisticadas y aprender inglés. Luego tuve la oportunidad de aprender francés en otro lugar, aún más sofisticado, y obtener varias becas para estudiar lo que más amo en la hermosa tierra del arce, Canadá.",
-                "Estoy tratando de convertirme en alguien confiable y competente, para poder devolverle a las personas que me han impulsado hacia adelante.",
-                "un estudiante de último año y tutor en la Universidad de Montreal, en el Departamento de Ciencias de la Computación e Investigación Operativa (DIRO). Ha sido un poco extraño comenzar mi carrera durante la pandemia, pero los desafíos únicos que surgieron me han enseñado cosas que no esperaba.",
-                "tocar la guitarra; leer, especialmente sobre acción social y temas relacionados con el campo que más amo (no se lo digas a nadie, pero está relacionado con la informática); tengo una extraña obsesión con el agua, sus deportes, especialmente aquellos en los que soy terrible. Como remar con el equipo de UdeM, es bastante divertido gritar sincrónicamente con un grupo de extraños carismáticos mientras intentas desesperadamente no volcarte.",
-                "y comunicar la ciencia; he conocido todo tipo de personas a lo largo de mi vida y nuestros diferentes gustos, talentos, experiencias, antecedentes, discapacidades y desafíos me han enseñado más de lo que podría compensar. Eso podría ser la razón por la que terminé enseñando a más de 1500 estudiantes, lo cual, sinceramente, todavía se siente surrealista. Siento que al enseñar, devuelvo un poco de esa deuda y también aprendo mucho, mucho, mucho.",
-                "Me he obsesionado un poco con el aprendizaje estadístico, la inteligencia artificial y la visión. ¡Recuerdo cuando era niño y en la escuela nos enseñaron que las computadoras nunca podrían ver! ¡Nunca podrían aprender! Resulta que (como a menudo sucede con lo imposible), ¡solo necesitábamos ser creativos!"
-            ],
+            "journey": {
+                "one_liners": [
+                    "¡Hola! Mi nombre es Santiago y nací y crecí en México.",
+                    "",
+                    "Actualmente estoy",
+                    "Me encanta",
+                    "Realmente disfruto enseñar",
+                    "Últimamente"
+                ],
+                "paragraphs": [
+                    "mi madre nos dio a mi hermana y a mí el privilegio de asistir a escuelas sofisticadas y aprender inglés. Luego tuve la oportunidad de aprender francés en otro lugar, aún más sofisticado, y obtener varias becas para estudiar lo que más amo en la hermosa tierra del arce, Canadá.",
+                    "Estoy tratando de convertirme en alguien confiable y competente, para poder devolverle a las personas que me han impulsado hacia adelante.",
+                    "un estudiante de último año y tutor en la Universidad de Montreal, en el Departamento de Ciencias de la Computación e Investigación Operativa (DIRO). Ha sido un poco extraño comenzar mi carrera durante la pandemia, pero los desafíos únicos que surgieron me han enseñado cosas que no esperaba.",
+                    "tocar la guitarra; leer, especialmente sobre acción social y temas relacionados con el campo que más amo (no se lo digas a nadie, pero está relacionado con la informática); tengo una extraña obsesión con el agua, sus deportes, especialmente aquellos en los que soy terrible. Como remar con el equipo de UdeM, es bastante divertido gritar sincrónicamente con un grupo de extraños carismáticos mientras intentas desesperadamente no volcarte.",
+                    "y comunicar la ciencia; he conocido todo tipo de personas a lo largo de mi vida y nuestros diferentes gustos, talentos, experiencias, antecedentes, discapacidades y desafíos me han enseñado más de lo que podría compensar. Eso podría ser la razón por la que terminé enseñando a más de 1500 estudiantes, lo cual, sinceramente, todavía se siente surrealista. Siento que al enseñar, devuelvo un poco de esa deuda y también aprendo mucho, mucho, mucho.",
+                    "Me he obsesionado un poco con el aprendizaje estadístico, la inteligencia artificial y la visión. ¡Recuerdo cuando era niño y en la escuela nos enseñaron que las computadoras nunca podrían ver! ¡Nunca podrían aprender! Resulta que (como a menudo sucede con lo imposible), ¡solo necesitábamos ser creativos!"
+                ]
+            },
             "books": [
                 "images/books/anElegantDefense.jpg",
                 "images/books/immune.jpeg",
@@ -414,308 +384,375 @@
                 "images/books/hitchikersGuide.jpeg",
                 "images/books/understandingPower.jpeg",
                 "images/books/theMinistryForTheFuture.jpg"
-            ]
-        },
-        "education": {
-            "descriptions": [
-                [
-                    "Promedio actual de 3.75/4.3 (A-)",
-                    "Director de consultoría en 180DC UdeM",
-                    ""
-                ],
-                [
-                    "Mención muy bien: TB (18.25/20)",
-                    "Fundador y capitán del club de aprendizaje automático",
-                    "Miembro del club de programación"
+            ],
+            "movies": {
+                "posters": [
+                    "images/movies/wall-e.png",
+                    "images/movies/theIronGiant.png",
+                    "images/movies/spiderverse.png",
+                    "images/movies/pussInBoots.png",
+                    "images/movies/coco.png",
+                    "images/movies/howlsMovingCastle.png",
+                    "images/movies/laVieEstBelle.png",
+                    "images/movies/ladyBird.png",
+                    "images/movies/moonlight.png",
+                    "images/movies/roma.png",
+                    "images/movies/pansLabyrinth.png",
+                    "images/movies/whiplash.png",
+                    "images/movies/blackSwan.png",
+                    "images/movies/1917.png",
+                    "images/movies/joker.png",
+                    "images/movies/parasite.png",
+                    "images/movies/requiem.png",
+                    "images/movies/theShining.png",
+                    "images/movies/trainspotting.png"
                 ]
-            ],
-            "titles": [
-                "Université de Montréal",
-                "Lycée franco-mexicain"
-            ],
-            "images": [
-                "images/institutions/UdeM.jpeg",
-                "images/institutions/LFM.jpeg"
-            ],
-            "degrees": [
-                "Licenciatura en Ciencias de la Computación",
-                "Baccalauréat francés, Ciencias de la Ingeniería"
-            ],
-            "details": [
-                "Montreal | 2020-2023 (Esperado)",
-                "México | 2017-2020"
-            ],
-            "abreviations": [
-                "UdeM",
-                "LFM"
-            ],
-            "classes": [
-                "Comprensión del universo (Física Introductoria)",
-                "Diseño y desarrollo web",
-                "Programación para principiantes con Python",
-                "Programación intermedia con Java",
-                "Paradigmas y conceptos de lenguajes de programación",
-                "Introducción a los sistemas digitales",
-                "Arquitectura de computadoras",
-                "Sistemas operativos",
-                "Ingeniería de software",
-                "(Actual) Software: análisis y diseño",
-                "(Actual) UI/UX",
-                "Estructuras de datos",
-                "Algoritmos",
-                "Introducción a la ciencia de la computación teórica",
-                "Métodos de investigación operativa",
-                "(Actual) Informática cuántica",
-                "Bases de datos",
-                "(Actual) Fundamentos teóricos de la ciencia de datos",
-                "Fundamentos del aprendizaje automático",
-                "(Actual) Proyectos de aprendizaje automático",
-                "Probabilidades y estadísticas",
-                "Cálculo multivariable",
-                "Filosofía de las ciencias",
-                "Introducción a la genética",
-                "Proyecto de honores en bioinformática genómica",
-                "(Curso de posgrado) Visión por computadora 3D"
-            ]
-        },
-        "work": {
-            "descriptions": [
-                "Durante el verano de 2022: Implementé características experimentales, documenté y depuré la aplicación web DITA CCMS de Ixiasoft para documentación técnica. Principalmente trabajé con Java, TypeScript, React (por sí solo y con Redux) y Apache. También trabajé, en menor medida, con Maven y CSS.",
-                "Durante el verano de 2022: Trabajé bajo la supervisión del profesor titular Stefan Monnier, junto con otro estudiante de licenciatura, para enseñar y calificar una clase de 50 alumnos sobre los conceptos y paradigmas que las principales lenguajes de programación utilizan/pertenecen, a través de Haskell, Lisp (principalmente Elisp), Prolog, C y Java.",
-                "Durante el otoño de 2021, el invierno de 2022 y el otoño de 2022: Trabajé bajo la supervisión del profesor titular Marc Feeley y el profesor Olivier Melançon junto con otros 6, 5 y luego 6 estudiantes (respectivamente) para enseñar y calificar una clase de casi 300, luego 150 y luego nuevamente 300 sobre los conceptos básicos de programación, a través de Python.",
-                "Durante el otoño de 2021 y de 2022: Trabajé bajo la supervisión del profesor titular Miklós Csűrös con 1 y luego 3 estudiantes de posgrado para enseñar y calificar una clase de 100 y luego 300 sobre las estructuras discretas -y fundamentos- de las matemáticas que más comúnmente utilizamos como científicos de la computación.",
-                "Durante el invierno y el otoño de 2022: Trabajé bajo la supervisión del profesor titular Sébastien Roy y luego con la profesora Amal Ben Abdellah. Al principio, con otro estudiante, y luego solo, para enseñar y calificar una clase de 150 alumnos cada vez, sobre cómo funciona Internet, las herramientas que utilizamos en el desarrollo web, así como las mejores prácticas de diseño y cómo construir sus propios sitios web."
-            ],
-            "titles": [
-                "Desarrollador Full Stack - pasante",
-                "Lenguajes de programación y paradigmas - TA (asistente de enseñanza)",
-                "Introducción a la programación - TA",
-                "Estructuras discretas para ciencias de la computación - TA",
-                "Desarrollo web y diseño - TA"
-            ],
-            "images": [
-                "images/experience/fullstack.jpg",
-                "images/experience/Paradigms.jpg",
-                "images/experience/Programming1.jpg",
-                "images/experience/DiscreteStruct.jpg",
-                "images/experience/WebDev.jpg"
-            ]
-        },
-        "projects": {
-            "titles": [
-                "IA para el clima",
-                "Análisis de sentimientos",
-                "Genómica",
-                "Visión por computadora 3D con IA",
-                "Modelos de ML",
-                "Sistema de gestión de archivos",
-                "Base de datos",
-                "Aplicación web de reconocimiento de gestos",
-                "Gestión de vacunación",
-                "Ábaco del siglo XXI",
-                "Intérpretes",
-                "Simulación ambiental",
-                "¡Este sitio web!"
-            ],
-            "descriptions": [
-                [
-                    "Este es un proyecto de investigación y desarrollo bajo la supervisión del Instituto de IA de Quebec, Mila.",
-                    "El clima es caótico, pero modelarlo tiene ventajas, desde la predicción del clima hasta la planificación de eventos, la agricultura y la economía. Por lo tanto, los modelos climáticos a diferentes escalas serían una poderosa herramienta para nuestras sociedades.",
-                    "Actualmente, tenemos acceso a modelos climáticos globales, pero se basan en mediciones a gran escala. A escalas más pequeñas, los datos pueden ser poco confiables, lo que lleva a conclusiones incorrectas.",
-                    "Tengo la oportunidad de liderar un equipo que tiene como objetivo construir sobre el estado del arte para resolver este problema como nadie lo ha hecho antes.",
-                    "Hice un sitio web para ello al que puedes acceder aquí: <lhttps://climate-model-downscaling.web.app/"
-                ],
-                [
-                    "Este es un proyecto de investigación y desarrollo bajo la supervisión del Instituto de IA de Quebec, Mila.",
-                    "El análisis de sentimientos es un aspecto muy importante en las empresas, especialmente en términos de experiencia del cliente. De hecho, el análisis de sentimientos es una aplicación de procesamiento del lenguaje natural que tiene como objetivo identificar los diferentes tonos que se encuentran en los textos. Especialmente con la gran ola de popularidad de las redes sociales, el análisis de sentimientos es cada vez más importante.",
-                    "En este proyecto, exploramos técnicas de aprendizaje automático y aprendizaje profundo en el procesamiento del lenguaje natural (PLN) para identificar sentimientos en textos.",
-                    "Hice un sitio web para ello al que puedes acceder aquí: <lhttps://causality-text-based-inference.web.app/"
-                ],
-                [
-                    "Este es un proyecto de investigación y desarrollo para el Laboratorio de Biología Computacional y Teórica de la Universidad de Montreal (UdeM).",
-                    "Investigué e implementé una API para el refinamiento del ensamblaje del genoma, así como una estructura de datos de esquema de agrupación, utilizando JAVA y la biblioteca htsjdk.",
-                    "El trabajo está documentado y explicado aquí: <lhttps://genome-assembly-scaffolding.web.app/"
-                ],
-                [
-                    "Este es un proyecto de investigación y desarrollo para el Laboratorio de Visión por Computadora 3D de UdeM.",
-                    "Implementé y comparé varias arquitecturas de redes neuronales convolucionales basadas en GC-Net de Kendal et al. Trabajé con Mathematica.",
-                    "El modelo es capaz de realizar estereoscopía binocular: puede determinar la profundidad basándose en dos imágenes, algo parecido a los ojos humanos.",
-                    "Principalmente experimenté con variaciones en la profundidad y con el uso de redes residuales, y me interesé tanto en la calidad de la estimación como en el costo computacional.",
-                    "Puedes acceder al código, análisis y modelos entrenados aquí: <lhttps://github.com/Gfecito/GC-Neat"
-                ],
-                [
-                    "Trabajé en varios modelos de aprendizaje automático para tareas de aprendizaje supervisado, como regresión y clasificación.",
-                    "Implementados con Python:",
-                    "Desde cero: modelos no paramétricos como KNN y ventanas de Parzen (con kernel gaussiano); y modelos paramétricos como perceptrón (regresor logístico) y SVM (con y sin kernel).",
-                    "Con bibliotecas: redes neuronales, redes neuronales convolucionales (CNN) y SVM.",
-                    "Y los probé con varias bases de datos, como registros bancarios, registros telefónicos o conjuntos de datos de imágenes (como MNIST)."
-                ],
-                [
-                    "Implementamos un sistema de gestión de almacenamiento basado en la 'Tabla de Asignación de Archivos' (FAT) utilizando C para un sistema Linux de 32 bits.",
-                    "En términos sencillos: construimos la sección de administración de archivos (y memoria) de un sistema operativo."
-                ],
-                [
-                    "Planifiqué y construí una pequeña base de datos para una biblioteca.",
-                    "En la planificación, utilizamos métodos formales para el modelado de entidades-relación, luego el modelado relacional, álgebra relacional, optimización de consultas y normalización de bases de datos.",
-                    "Para la implementación, utilizamos SQL, Hibernate (Java) y Maven para la compilación y entrega del ejecutable."
-                ],
-                [
-                    "Particioné y preprocesé una base de datos, construí y entrené un modelo de red neuronal convolucional, lo exporté y luego lo implementé en una plataforma web dinámica.",
-                    "Construí esta última utilizando Flask (Python) y Jinja."
-                ],
-                [
-                    "Una aplicación funcional desarrollada con Java que incluye una interfaz gráfica interactiva y un sistema de gestión de datos.",
-                    "Pasamos por la rigurosa planificación que se espera de los ingenieros: planificación, entrevistas, priorización, definición de casos de uso, análisis (riesgos, requisitos no funcionales, materiales, restricciones), modelado (VPP), diseño, prototipado, pruebas automáticas (JUnit), gestión y programación de equipos, y por último (pero no menos importante) documentación (Javadoc)."
-                ],
-                [
-                    "Proyecto escolar para programación orientada a objetos con Java; es una pequeña ventana:",
-                    "Usando JavaFX, nosotros (2 personas) creamos una ventana elegante con 2 contadores: puedes sumar y restar, dividir y multiplicar, deshacer y rehacer. Cada acción realizada en la aplicación se guardaba temporalmente, por lo que el registro de acciones siempre estaba disponible para exportarlo como un archivo .txt."
-                ],
-                [
-                    "Un intérprete Pseudo-Lisp hecho con Haskell: Construí la sección de interpretación y evaluación de un programa Haskell que podía leer y ejecutar archivos de un lenguaje inspirado en Lisp. Manejé funciones, cierre, entornos, variables, recursión y definiciones recursivas, etc... todo el paquete completo.",
-                    "Luego construí un intérprete Pseudo-Haskell, donde utilicé Prolog para interpretar y ejecutar, con las mismas características que antes, pero con inferencia de tipos añadida."
-                ],
-                [
-                    "Utilizando la programación orientada a objetos, creamos un programa de simulación ambiental.",
-                    "Leía archivos XML que describían animales o plantas y los simulaba durante una cierta cantidad de épocas: la forma en que interactuaban, lo que comían, su consumo de energía, si morían o se reproducían, y demás."
-                ],
-                [
-                    "Originalmente creado desde cero con HTML, CSS, JavaScript, jQuery y la biblioteca Animate on Scroll.",
-                    "Actualmente construido con React, Typescript, JSON, CSS... ¡y un toque de amor!"
+            },
+            "inspiration": {
+                "people": [
+                    {
+                        "name": "Einstein",
+                        "description": "Einstein me inspira por su creatividad impecable, su habilidad para comunicar conceptos científicos complejos con una hermosa claridad y su demostración de que la ciencia no conoce límites. Sus teorías y descubrimientos revolucionarios han transformado nuestra comprensión del universo.",
+                        "image": "images/inspiration/einstein.jpeg"
+                    },
+                    {
+                        "name": "Oppenheimer",
+                        "description": "La historia de Oppenheimer sirve como un recordatorio de que incluso las mentes más brillantes pueden verse envueltas en circunstancias trágicas. Sus contribuciones al desarrollo de la bomba atómica resaltan la importancia de la convicción compasiva y las responsabilidades éticas de los científicos.",
+                        "image": "images/inspiration/oppenheimer.jpeg"
+                    },
+                    {
+                        "name": "Geoffrey Hinton, Yann Lecun y Yoshua Bengio",
+                        "description": "Estos pioneros en el campo de la inteligencia artificial han realizado enormes contribuciones al campo. Lo que realmente me inspira de ellos es su compromiso de hacer que la IA sea accesible para el público y su dedicación para garantizar su uso ético en beneficio de la humanidad.",
+                        "image": "images/inspiration/aiPeople.jpeg"
+                    },
+                    {
+                        "name": "Marie y Pierre Curie",
+                        "description": "Los Curie ejemplifican la excelencia, el sacrificio y el poder de la colaboración. Su trabajo revolucionario en radioactividad no solo les valió premios Nobel, sino que también los consolidó como una de las parejas más destacadas en la historia de la ciencia.",
+                        "image": "images/inspiration/marieAndPierre.jpeg"
+                    },
+                    {
+                        "name": "Tolstoy, Dostoevsky y Nietzsche",
+                        "description": "Estos pensadores influyentes han brindado perspectivas invaluables sobre el trabajo y la condición humana. Sus escritos exploran las profundidades de la experiencia humana, ofreciendo ideas profundas sobre la complejidad de la mente, la búsqueda de sentido y la realización de una vida plena.",
+                        "image": "images/inspiration/thinkers.jpeg"
+                    },
+                    {
+                        "name": "Sor Juana Inés de la Cruz",
+                        "description": "La incansable búsqueda de la excelencia de Sor Juana en medio de la discriminación me inspira profundamente. Como una brillante poeta e intelectual durante la era colonial mexicana, desafió las normas sociales y abogó por la educación de las mujeres y la libertad intelectual.",
+                        "image": "images/inspiration/sorJuana.jpeg"
+                    },
+                    {
+                        "name": "Frida Kahlo",
+                        "description": "La resistencia y valentía de Kahlo al abrazar su ser único resuenan en mí. Su arte refleja su dolor físico y emocional, al tiempo que captura su espíritu indomable y su determinación para superar la adversidad.",
+                        "image": "images/inspiration/fridaKahlo.jpeg"
+                    },
+                    {
+                        "name": "Mandela, Gandhi y Martin Luther King",
+                        "description": "Mandela, Gandhi y Martin Luther King encarnan el poder de la resistencia pacífica y el coraje para desafiar sistemas injustos. Su compromiso inquebrantable con la justicia, la igualdad y los derechos humanos sirve como un recordatorio constante de la fuerza del espíritu humano y el impacto transformador que las personas pueden tener en la sociedad.",
+                        "image": "images/inspiration/mandelaGandhiKing.jpeg"
+                    },
+                    {
+                        "name": "Cuauhtémoc Cárdenas",
+                        "description": "Cárdenas me inspira con su incansable trabajo por un mejor México. Como político y activista social, ha luchado por la justicia social, la reforma democrática y los derechos de las comunidades marginadas, dejando un impacto duradero en su país.",
+                        "image": "images/inspiration/cardenas.jpeg"
+                    }
                 ]
-            ],
-            "images": [
-                "images/projects/MLClimate.png",
-                "images/projects/NLP.jpeg",
-                "images/projects/Genomics.jpeg",
-                "images/projects/Disparity.png",
-                "images/projects/ML.png",
-                "images/projects/FAT32.jpeg",
-                "images/projects/Database.jpeg",
-                "images/projects/GestureRecognition.gif",
-                "images/projects/Vaccination.png",
-                "images/projects/CounterThumbnail.png",
-                "images/projects/Interpreter.png",
-                "images/projects/WildLionSimulator3D.jpeg",
-                "images/projects/ThisSite.jpeg"
+            },
+            "thanks": [
+                "Estoy muy feliz (¡no siempre! evitemos romantizar la felicidad).",
+                "Estoy feliz con la vida que llevo, el trabajo que hago y las personas que conozco.",
+                "No creo haber hecho algo en particular para merecer esto, pero estoy profundamente agradecido/a.",
+                "Con amabilidad, calidez y MUCHO trabajo duro, algunas personas muy especiales me han convertido... en mí, imperfecto pero feliz.",
+                "Gracias por eso."
             ]
         },
-        "interests": {
-            "titles": [
-                "Medicina",
-                "Acción social",
-                "IA",
-                "Desarrollo web",
-                "Desarrollo de videojuegos",
-                "Gráficos por computadora",
-                "Robótica",
-                "Sistemas embebidos"
-            ],
-            "descriptions": [
-                [
-                    "Desde modelado matemático y biología computacional hasta descubrimiento de medicamentos e inmunología, creo que hay muchas oportunidades para facilitar los avances médicos aprovechando nuestros recursos informáticos. Y ese potencial es, sin duda, la perspectiva más emocionante para mí.",
-                    "También es natural que me interese después del avance de Google DeepMind en la predicción de la estructura de proteínas y la posterior publicación de su base de datos de predicción. Como si nos dijera: 'sí, puede ser más fácil y rápido. Sí, algunas de tus enfermedades podrían curarse siguiendo este ejemplo'."
+        "professional": {
+            "education": {
+                "descriptions": [
+                    [
+                        "Promedio actual de 3.75/4.3 (A-)",
+                        "Director de consultoría en 180DC UdeM",
+                        ""
+                    ],
+                    [
+                        "Mención muy bien: TB (18.25/20)",
+                        "Fundador y capitán del club de aprendizaje automático",
+                        "Miembro del club de programación"
+                    ]
                 ],
-                [
-                    "Me preocupo por las demás personas, me gustaría que vivan vidas dignas y que puedan disfrutar. También parece obviamente preferible vivir rodeado de personas felices y saludables, que también pueden ayudar, que de otra manera.",
-                    "No estoy seguro si es el enfoque más eficiente. Pero, ¿a quién le importa cuando puedes ver la sonrisa de alguien a quien has ayudado, aunque sea solo por un momento?"
+                "titles": [
+                    "Université de Montréal",
+                    "Lycée franco-mexicain"
                 ],
-                [
-                    "Ahora, me encantan los algoritmos tanto como al cualquier otra persona, pero algunos problemas son muy difíciles de resolver con algoritmos tradicionales. Y resulta que son casi triviales con estos sofisticados (y con demasiada frecuencia oscuros) métodos estadísticos y probabilísticos.",
-                    "... y sí, también me gustan los autos autónomos, los asistentes personales inteligentes y los artistas de IA.",
-                    "De hecho, todas las imágenes de la sección de experiencia y las de Medicina, Acción social e IA en la sección de intereses fueron generadas por DALL-E, ¡un modelo de generación de imágenes de Open AI! Que, al igual que el resto de su trabajo, es excelente."
+                "images": [
+                    "images/institutions/UdeM.jpeg",
+                    "images/institutions/LFM.jpeg"
                 ],
-                [
-                    "Era el futuro, ahora es el presente.",
-                    "Nuestra capacidad para interconectar adecuadamente el poder computacional y transferir información de manera eficiente y accesible es, para mí, uno de los mayores avances para la democracia en la historia.",
-                    "También soy un gran nerd, así que me gustan las matemáticas y la tecnología detrás de todo esto."
+                "degrees": [
+                    "Licenciatura en Ciencias de la Computación",
+                    "Baccalauréat francés, Ciencias de la Ingeniería"
                 ],
-                [
-                    "Una progresión natural de mi interés en los gráficos, así como mi amor duradero por los juegos, ya sean de video o no.",
-                    "Siento que el desarrollo de videojuegos me permitiría ser mi yo más creativo, y esa es una persona que me gustaría conocer."
+                "details": [
+                    "Montreal | 2020-2023 (Esperado)",
+                    "México | 2017-2020"
                 ],
-                [
-                    "Hay algo fascinante en todos los pequeños trucos matemáticos y psicológicos que hacen que una pantalla en 2D y una calculadora sofisticada engañen a una persona haciéndole creer que está viendo un objeto en 3D. También me gusta que me engañen con objetos 3D bonitos e inexistentes.",
-                    "Además, las GPU son actualmente los componentes informáticos de desarrollo más rápidos. Me gustaría comprender mejor cómo funcionan para aprovechar todo su potencial."
+                "abreviations": [
+                    "UdeM",
+                    "LFM"
                 ],
-                [
-                    "Bueno, sinceramente, si no te parecen al menos un poco interesantes los robots, no podemos ser amigos.",
-                    "Hablando en serio, la robótica parece ser el futuro de los procesos y manipulaciones físicas, desde la medicina hasta la fabricación y el transporte.",
-                    "¿Cómo no voy a estar interesado?"
-                ],
-                [
-                    "Especialmente cómo lidiar con un espacio físico muy limitado y condiciones físicas adversas para el hardware.",
-                    "Me interesa saber cómo podríamos programar computadoras que no tienen las mismas comodidades de estabilidad y espacio que nuestras computadoras normales.",
-                    "¿Cómo aseguramos sistemas mantenibles, rápidos y confiables en estos entornos?"
+                "classes": [
+                    "Comprensión del universo (Física Introductoria)",
+                    "Diseño y desarrollo web",
+                    "Programación para principiantes con Python",
+                    "Programación intermedia con Java",
+                    "Paradigmas y conceptos de lenguajes de programación",
+                    "Introducción a los sistemas digitales",
+                    "Arquitectura de computadoras",
+                    "Sistemas operativos",
+                    "Ingeniería de software",
+                    "(Actual) Software: análisis y diseño",
+                    "(Actual) UI/UX",
+                    "Estructuras de datos",
+                    "Algoritmos",
+                    "Introducción a la ciencia de la computación teórica",
+                    "Métodos de investigación operativa",
+                    "(Actual) Informática cuántica",
+                    "Bases de datos",
+                    "(Actual) Fundamentos teóricos de la ciencia de datos",
+                    "Fundamentos del aprendizaje automático",
+                    "(Actual) Proyectos de aprendizaje automático",
+                    "Probabilidades y estadísticas",
+                    "Cálculo multivariable",
+                    "Filosofía de las ciencias",
+                    "Introducción a la genética",
+                    "Proyecto de honores en bioinformática genómica",
+                    "(Curso de posgrado) Visión por computadora 3D"
                 ]
-            ],
-            "images": [
-                "images/interests/medicine.jpg",
-                "images/interests/social.jpg",
-                "images/interests/ai.jpg",
-                "images/interests/web.jpeg",
-                "images/interests/game.jpg",
-                "images/interests/graphics.jpg",
-                "images/interests/robot.jpeg",
-                "images/interests/os.jpg"
-            ]
-        },
-        "awards": {
-            "titles": [
-                "ICPC NE-NA",
-                "Beca de excelencia de DIRO",
-                "Beca de exención para estudiantes internacionales",
-                "Olimpiadas de matemáticas regionales en Francia | Mejor equipo, Top 3 individual"
-            ],
-            "dates": [
-                "Febrero 2023",
-                "Diciembre 2021",
-                "Agosto 2020",
-                "2019"
-            ],
-            "descriptions": [
-                "El segundo mejor equipo en la historia de DIRO en esta prestigiosa competencia de programación",
-                "Beca de excelencia otorgada a los mejores estudiantes de licenciatura en el DIRO (Departamento de Informática e Investigación de Operaciones)",
-                "La beca basada en méritos más grande para estudiantes internacionales en la Université de Montréal",
-                "Mi región abarcó desde México hasta Panamá e incluyó todas las instituciones de enseñanza en francés de allí."
-            ],
-            "trophee": "images/logos/trophy.png"
+            },
+            "work": {
+                "descriptions": [
+                    "Durante el verano de 2022: Implementé características experimentales, documenté y depuré la aplicación web DITA CCMS de Ixiasoft para documentación técnica. Principalmente trabajé con Java, TypeScript, React (por sí solo y con Redux) y Apache. También trabajé, en menor medida, con Maven y CSS.",
+                    "Durante el verano de 2022: Trabajé bajo la supervisión del profesor titular Stefan Monnier, junto con otro estudiante de licenciatura, para enseñar y calificar una clase de 50 alumnos sobre los conceptos y paradigmas que las principales lenguajes de programación utilizan/pertenecen, a través de Haskell, Lisp (principalmente Elisp), Prolog, C y Java.",
+                    "Durante el otoño de 2021, el invierno de 2022 y el otoño de 2022: Trabajé bajo la supervisión del profesor titular Marc Feeley y el profesor Olivier Melançon junto con otros 6, 5 y luego 6 estudiantes (respectivamente) para enseñar y calificar una clase de casi 300, luego 150 y luego nuevamente 300 sobre los conceptos básicos de programación, a través de Python.",
+                    "Durante el otoño de 2021 y de 2022: Trabajé bajo la supervisión del profesor titular Miklós Csűrös con 1 y luego 3 estudiantes de posgrado para enseñar y calificar una clase de 100 y luego 300 sobre las estructuras discretas -y fundamentos- de las matemáticas que más comúnmente utilizamos como científicos de la computación.",
+                    "Durante el invierno y el otoño de 2022: Trabajé bajo la supervisión del profesor titular Sébastien Roy y luego con la profesora Amal Ben Abdellah. Al principio, con otro estudiante, y luego solo, para enseñar y calificar una clase de 150 alumnos cada vez, sobre cómo funciona Internet, las herramientas que utilizamos en el desarrollo web, así como las mejores prácticas de diseño y cómo construir sus propios sitios web."
+                ],
+                "titles": [
+                    "Desarrollador Full Stack - pasante",
+                    "Lenguajes de programación y paradigmas - TA (asistente de enseñanza)",
+                    "Introducción a la programación - TA",
+                    "Estructuras discretas para ciencias de la computación - TA",
+                    "Desarrollo web y diseño - TA"
+                ],
+                "images": [
+                    "images/experience/fullstack.jpg",
+                    "images/experience/Paradigms.jpg",
+                    "images/experience/Programming1.jpg",
+                    "images/experience/DiscreteStruct.jpg",
+                    "images/experience/WebDev.jpg"
+                ]
+            },
+            "projects": {
+                "titles": [
+                    "IA para el clima",
+                    "Análisis de sentimientos",
+                    "Genómica",
+                    "Visión por computadora 3D con IA",
+                    "Modelos de ML",
+                    "Sistema de gestión de archivos",
+                    "Base de datos",
+                    "Aplicación web de reconocimiento de gestos",
+                    "Gestión de vacunación",
+                    "Ábaco del siglo XXI",
+                    "Intérpretes",
+                    "Simulación ambiental",
+                    "¡Este sitio web!"
+                ],
+                "descriptions": [
+                    [
+                        "Este es un proyecto de investigación y desarrollo bajo la supervisión del Instituto de IA de Quebec, Mila.",
+                        "El clima es caótico, pero modelarlo tiene ventajas, desde la predicción del clima hasta la planificación de eventos, la agricultura y la economía. Por lo tanto, los modelos climáticos a diferentes escalas serían una poderosa herramienta para nuestras sociedades.",
+                        "Actualmente, tenemos acceso a modelos climáticos globales, pero se basan en mediciones a gran escala. A escalas más pequeñas, los datos pueden ser poco confiables, lo que lleva a conclusiones incorrectas.",
+                        "Tengo la oportunidad de liderar un equipo que tiene como objetivo construir sobre el estado del arte para resolver este problema como nadie lo ha hecho antes.",
+                        "Hice un sitio web para ello al que puedes acceder aquí: <lhttps://climate-model-downscaling.web.app/"
+                    ],
+                    [
+                        "Este es un proyecto de investigación y desarrollo bajo la supervisión del Instituto de IA de Quebec, Mila.",
+                        "El análisis de sentimientos es un aspecto muy importante en las empresas, especialmente en términos de experiencia del cliente. De hecho, el análisis de sentimientos es una aplicación de procesamiento del lenguaje natural que tiene como objetivo identificar los diferentes tonos que se encuentran en los textos. Especialmente con la gran ola de popularidad de las redes sociales, el análisis de sentimientos es cada vez más importante.",
+                        "En este proyecto, exploramos técnicas de aprendizaje automático y aprendizaje profundo en el procesamiento del lenguaje natural (PLN) para identificar sentimientos en textos.",
+                        "Hice un sitio web para ello al que puedes acceder aquí: <lhttps://causality-text-based-inference.web.app/"
+                    ],
+                    [
+                        "Este es un proyecto de investigación y desarrollo para el Laboratorio de Biología Computacional y Teórica de la Universidad de Montreal (UdeM).",
+                        "Investigué e implementé una API para el refinamiento del ensamblaje del genoma, así como una estructura de datos de esquema de agrupación, utilizando JAVA y la biblioteca htsjdk.",
+                        "El trabajo está documentado y explicado aquí: <lhttps://genome-assembly-scaffolding.web.app/"
+                    ],
+                    [
+                        "Este es un proyecto de investigación y desarrollo para el Laboratorio de Visión por Computadora 3D de UdeM.",
+                        "Implementé y comparé varias arquitecturas de redes neuronales convolucionales basadas en GC-Net de Kendal et al. Trabajé con Mathematica.",
+                        "El modelo es capaz de realizar estereoscopía binocular: puede determinar la profundidad basándose en dos imágenes, algo parecido a los ojos humanos.",
+                        "Principalmente experimenté con variaciones en la profundidad y con el uso de redes residuales, y me interesé tanto en la calidad de la estimación como en el costo computacional.",
+                        "Puedes acceder al código, análisis y modelos entrenados aquí: <lhttps://github.com/Gfecito/GC-Neat"
+                    ],
+                    [
+                        "Trabajé en varios modelos de aprendizaje automático para tareas de aprendizaje supervisado, como regresión y clasificación.",
+                        "Implementados con Python:",
+                        "Desde cero: modelos no paramétricos como KNN y ventanas de Parzen (con kernel gaussiano); y modelos paramétricos como perceptrón (regresor logístico) y SVM (con y sin kernel).",
+                        "Con bibliotecas: redes neuronales, redes neuronales convolucionales (CNN) y SVM.",
+                        "Y los probé con varias bases de datos, como registros bancarios, registros telefónicos o conjuntos de datos de imágenes (como MNIST)."
+                    ],
+                    [
+                        "Implementamos un sistema de gestión de almacenamiento basado en la 'Tabla de Asignación de Archivos' (FAT) utilizando C para un sistema Linux de 32 bits.",
+                        "En términos sencillos: construimos la sección de administración de archivos (y memoria) de un sistema operativo."
+                    ],
+                    [
+                        "Planifiqué y construí una pequeña base de datos para una biblioteca.",
+                        "En la planificación, utilizamos métodos formales para el modelado de entidades-relación, luego el modelado relacional, álgebra relacional, optimización de consultas y normalización de bases de datos.",
+                        "Para la implementación, utilizamos SQL, Hibernate (Java) y Maven para la compilación y entrega del ejecutable."
+                    ],
+                    [
+                        "Particioné y preprocesé una base de datos, construí y entrené un modelo de red neuronal convolucional, lo exporté y luego lo implementé en una plataforma web dinámica.",
+                        "Construí esta última utilizando Flask (Python) y Jinja."
+                    ],
+                    [
+                        "Una aplicación funcional desarrollada con Java que incluye una interfaz gráfica interactiva y un sistema de gestión de datos.",
+                        "Pasamos por la rigurosa planificación que se espera de los ingenieros: planificación, entrevistas, priorización, definición de casos de uso, análisis (riesgos, requisitos no funcionales, materiales, restricciones), modelado (VPP), diseño, prototipado, pruebas automáticas (JUnit), gestión y programación de equipos, y por último (pero no menos importante) documentación (Javadoc)."
+                    ],
+                    [
+                        "Proyecto escolar para programación orientada a objetos con Java; es una pequeña ventana:",
+                        "Usando JavaFX, nosotros (2 personas) creamos una ventana elegante con 2 contadores: puedes sumar y restar, dividir y multiplicar, deshacer y rehacer. Cada acción realizada en la aplicación se guardaba temporalmente, por lo que el registro de acciones siempre estaba disponible para exportarlo como un archivo .txt."
+                    ],
+                    [
+                        "Un intérprete Pseudo-Lisp hecho con Haskell: Construí la sección de interpretación y evaluación de un programa Haskell que podía leer y ejecutar archivos de un lenguaje inspirado en Lisp. Manejé funciones, cierre, entornos, variables, recursión y definiciones recursivas, etc... todo el paquete completo.",
+                        "Luego construí un intérprete Pseudo-Haskell, donde utilicé Prolog para interpretar y ejecutar, con las mismas características que antes, pero con inferencia de tipos añadida."
+                    ],
+                    [
+                        "Utilizando la programación orientada a objetos, creamos un programa de simulación ambiental.",
+                        "Leía archivos XML que describían animales o plantas y los simulaba durante una cierta cantidad de épocas: la forma en que interactuaban, lo que comían, su consumo de energía, si morían o se reproducían, y demás."
+                    ],
+                    [
+                        "Originalmente creado desde cero con HTML, CSS, JavaScript, jQuery y la biblioteca Animate on Scroll.",
+                        "Actualmente construido con React, Typescript, JSON, CSS... ¡y un toque de amor!"
+                    ]
+                ],
+                "images": [
+                    "images/projects/MLClimate.png",
+                    "images/projects/NLP.jpeg",
+                    "images/projects/Genomics.jpeg",
+                    "images/projects/Disparity.png",
+                    "images/projects/ML.png",
+                    "images/projects/FAT32.jpeg",
+                    "images/projects/Database.jpeg",
+                    "images/projects/GestureRecognition.gif",
+                    "images/projects/Vaccination.png",
+                    "images/projects/CounterThumbnail.png",
+                    "images/projects/Interpreter.png",
+                    "images/projects/WildLionSimulator3D.jpeg",
+                    "images/projects/ThisSite.jpeg"
+                ]
+            },
+            "interests": {
+                "titles": [
+                    "Medicina",
+                    "Acción social",
+                    "IA",
+                    "Desarrollo web",
+                    "Desarrollo de videojuegos",
+                    "Gráficos por computadora",
+                    "Robótica",
+                    "Sistemas embebidos"
+                ],
+                "descriptions": [
+                    [
+                        "Desde modelado matemático y biología computacional hasta descubrimiento de medicamentos e inmunología, creo que hay muchas oportunidades para facilitar los avances médicos aprovechando nuestros recursos informáticos. Y ese potencial es, sin duda, la perspectiva más emocionante para mí.",
+                        "También es natural que me interese después del avance de Google DeepMind en la predicción de la estructura de proteínas y la posterior publicación de su base de datos de predicción. Como si nos dijera: 'sí, puede ser más fácil y rápido. Sí, algunas de tus enfermedades podrían curarse siguiendo este ejemplo'."
+                    ],
+                    [
+                        "Me preocupo por las demás personas, me gustaría que vivan vidas dignas y que puedan disfrutar. También parece obviamente preferible vivir rodeado de personas felices y saludables, que también pueden ayudar, que de otra manera.",
+                        "No estoy seguro si es el enfoque más eficiente. Pero, ¿a quién le importa cuando puedes ver la sonrisa de alguien a quien has ayudado, aunque sea solo por un momento?"
+                    ],
+                    [
+                        "Ahora, me encantan los algoritmos tanto como al cualquier otra persona, pero algunos problemas son muy difíciles de resolver con algoritmos tradicionales. Y resulta que son casi triviales con estos sofisticados (y con demasiada frecuencia oscuros) métodos estadísticos y probabilísticos.",
+                        "... y sí, también me gustan los autos autónomos, los asistentes personales inteligentes y los artistas de IA.",
+                        "De hecho, todas las imágenes de la sección de experiencia y las de Medicina, Acción social e IA en la sección de intereses fueron generadas por DALL-E, ¡un modelo de generación de imágenes de Open AI! Que, al igual que el resto de su trabajo, es excelente."
+                    ],
+                    [
+                        "Era el futuro, ahora es el presente.",
+                        "Nuestra capacidad para interconectar adecuadamente el poder computacional y transferir información de manera eficiente y accesible es, para mí, uno de los mayores avances para la democracia en la historia.",
+                        "También soy un gran nerd, así que me gustan las matemáticas y la tecnología detrás de todo esto."
+                    ],
+                    [
+                        "Una progresión natural de mi interés en los gráficos, así como mi amor duradero por los juegos, ya sean de video o no.",
+                        "Siento que el desarrollo de videojuegos me permitiría ser mi yo más creativo, y esa es una persona que me gustaría conocer."
+                    ],
+                    [
+                        "Hay algo fascinante en todos los pequeños trucos matemáticos y psicológicos que hacen que una pantalla en 2D y una calculadora sofisticada engañen a una persona haciéndole creer que está viendo un objeto en 3D. También me gusta que me engañen con objetos 3D bonitos e inexistentes.",
+                        "Además, las GPU son actualmente los componentes informáticos de desarrollo más rápidos. Me gustaría comprender mejor cómo funcionan para aprovechar todo su potencial."
+                    ],
+                    [
+                        "Bueno, sinceramente, si no te parecen al menos un poco interesantes los robots, no podemos ser amigos.",
+                        "Hablando en serio, la robótica parece ser el futuro de los procesos y manipulaciones físicas, desde la medicina hasta la fabricación y el transporte.",
+                        "¿Cómo no voy a estar interesado?"
+                    ],
+                    [
+                        "Especialmente cómo lidiar con un espacio físico muy limitado y condiciones físicas adversas para el hardware.",
+                        "Me interesa saber cómo podríamos programar computadoras que no tienen las mismas comodidades de estabilidad y espacio que nuestras computadoras normales.",
+                        "¿Cómo aseguramos sistemas mantenibles, rápidos y confiables en estos entornos?"
+                    ]
+                ],
+                "images": [
+                    "images/interests/medicine.jpg",
+                    "images/interests/social.jpg",
+                    "images/interests/ai.jpg",
+                    "images/interests/web.jpeg",
+                    "images/interests/game.jpg",
+                    "images/interests/graphics.jpg",
+                    "images/interests/robot.jpeg",
+                    "images/interests/os.jpg"
+                ]
+            },
+            "awards": {
+                "titles": [
+                    "ICPC NE-NA",
+                    "Beca de excelencia de DIRO",
+                    "Beca de exención para estudiantes internacionales",
+                    "Olimpiadas de matemáticas regionales en Francia | Mejor equipo, Top 3 individual"
+                ],
+                "dates": [
+                    "Febrero 2023",
+                    "Diciembre 2021",
+                    "Agosto 2020",
+                    "2019"
+                ],
+                "descriptions": [
+                    "El segundo mejor equipo en la historia de DIRO en esta prestigiosa competencia de programación",
+                    "Beca de excelencia otorgada a los mejores estudiantes de licenciatura en el DIRO (Departamento de Informática e Investigación de Operaciones)",
+                    "La beca basada en méritos más grande para estudiantes internacionales en la Université de Montréal",
+                    "Mi región abarcó desde México hasta Panamá e incluyó todas las instituciones de enseñanza en francés de allí."
+                ],
+                "trophee": "images/logos/trophy.png"
+            }
         }
     },
     "fr": {
-        "nav": {
-            "icon": "images/logos/earth.png",
-            "sections": [
-                "moi",
-                "éducation",
-                "expérience",
-                "projets",
-                "intérêts",
-                "récompenses"
-            ],
-            "languages": [
-                "Anglais",
-                "Français",
-                "Espagnol"
-            ]
-        },
         "personal": {
-            "one_liners": [
-                "Salut ! Je m'appelle Santiago et je suis né et j'ai grandi au Mexique",
-                "",
-                "Je suis actuellement",
-                "J'adore",
-                "J'aime vraiment enseigner",
-                "Dernièrement"
-            ],
-            "paragraphs": [
-                "ma mère nous a offert, à ma sœur et à moi, le privilège de fréquenter des écoles prestigieuses et d'apprendre l'anglais. J'ai ensuite eu l'occasion d'apprendre le français dans un autre endroit - encore plus prestigieux - et d'obtenir plusieurs bourses pour étudier ce que j'aime le plus dans le charmant pays de l'érable, le Canada.",
-                "J'essaie de devenir fiable et compétent, afin de pouvoir rendre la pareille à ceux qui m'ont poussé vers l'avant.",
-                "un étudiant en dernière année et tuteur à l'Université de Montréal, au Département d'informatique et de recherche opérationnelle (DIRO). Il a été un peu étrange de commencer ma carrière pendant la pandémie, mais les défis uniques qui en ont découlé m'ont appris des choses auxquelles je ne m'attendais pas.",
-                "jouer de la guitare ; lire - en particulier sur l'action sociale et les sujets liés au domaine que j'aime le plus (ne le dites à personne, mais c'est lié à l'informatique) ; j'ai une étrange obsession pour l'eau, ses sports, en particulier ceux dans lesquels je suis nul. Comme l'aviron avec l'équipe de l'UdeM, c'est assez amusant de crier synchroniquement avec un groupe d'étrangers charismatiques tout en essayant désespérément de ne pas chavirer.",
-                "et communiquer la science ; j'ai rencontré toutes sortes de personnes tout au long de ma vie et nos goûts, talents, expériences, origines, handicaps et défis différents m'ont appris plus que je ne pourrais jamais rembourser. C'est peut-être pourquoi j'ai fini par enseigner à plus de 1500 étudiants - ce qui, honnêtement, semble toujours surréaliste. J'ai l'impression qu'en enseignant, je rembourse un peu de cette dette et j'apprends aussi énormément.",
-                "Je suis devenu un peu obsédé par l'apprentissage statistique, l'intelligence artificielle et la vision. Je me souviens quand j'étais enfant, on nous a appris à l'école que les ordinateurs ne pourraient jamais voir ! Ils ne pourraient jamais apprendre ! Il s'avère (comme c'est souvent le cas avec l'impossible) que nous devions simplement faire preuve de créativité !"
-            ],
+            "journey": {
+                "one_liners": [
+                    "Salut ! Je m'appelle Santiago et je suis né et j'ai grandi au Mexique",
+                    "",
+                    "Je suis actuellement",
+                    "J'adore",
+                    "J'aime vraiment enseigner",
+                    "Dernièrement"
+                ],
+                "paragraphs": [
+                    "ma mère nous a offert, à ma sœur et à moi, le privilège de fréquenter des écoles prestigieuses et d'apprendre l'anglais. J'ai ensuite eu l'occasion d'apprendre le français dans un autre endroit - encore plus prestigieux - et d'obtenir plusieurs bourses pour étudier ce que j'aime le plus dans le charmant pays de l'érable, le Canada.",
+                    "J'essaie de devenir fiable et compétent, afin de pouvoir rendre la pareille à ceux qui m'ont poussé vers l'avant.",
+                    "un étudiant en dernière année et tuteur à l'Université de Montréal, au Département d'informatique et de recherche opérationnelle (DIRO). Il a été un peu étrange de commencer ma carrière pendant la pandémie, mais les défis uniques qui en ont découlé m'ont appris des choses auxquelles je ne m'attendais pas.",
+                    "jouer de la guitare ; lire - en particulier sur l'action sociale et les sujets liés au domaine que j'aime le plus (ne le dites à personne, mais c'est lié à l'informatique) ; j'ai une étrange obsession pour l'eau, ses sports, en particulier ceux dans lesquels je suis nul. Comme l'aviron avec l'équipe de l'UdeM, c'est assez amusant de crier synchroniquement avec un groupe d'étrangers charismatiques tout en essayant désespérément de ne pas chavirer.",
+                    "et communiquer la science ; j'ai rencontré toutes sortes de personnes tout au long de ma vie et nos goûts, talents, expériences, origines, handicaps et défis différents m'ont appris plus que je ne pourrais jamais rembourser. C'est peut-être pourquoi j'ai fini par enseigner à plus de 1500 étudiants - ce qui, honnêtement, semble toujours surréaliste. J'ai l'impression qu'en enseignant, je rembourse un peu de cette dette et j'apprends aussi énormément.",
+                    "Je suis devenu un peu obsédé par l'apprentissage statistique, l'intelligence artificielle et la vision. Je me souviens quand j'étais enfant, on nous a appris à l'école que les ordinateurs ne pourraient jamais voir ! Ils ne pourraient jamais apprendre ! Il s'avère (comme c'est souvent le cas avec l'impossible) que nous devions simplement faire preuve de créativité !"
+                ]
+            },
             "books": [
                 "images/books/anElegantDefense.jpg",
                 "images/books/immune.jpeg",
@@ -737,272 +774,353 @@
                 "images/books/hitchikersGuide.jpeg",
                 "images/books/understandingPower.jpeg",
                 "images/books/theMinistryForTheFuture.jpg"
-            ]
-        },
-        "education": {
-            "descriptions": [
-                [
-                    "Moyenne actuelle de 3,75/4,3 (A-)",
-                    "Directeur de consultation à 180DC UdeM",
-                    ""
-                ],
-                [
-                    "Mention très bien : TB (18,25/20)",
-                    "Fondateur et capitaine du club d'apprentissage automatique",
-                    "Membre du club de programmation"
+            ],
+            "movies": {
+                "posters": [
+                    "images/movies/wall-e.png",
+                    "images/movies/theIronGiant.png",
+                    "images/movies/spiderverse.png",
+                    "images/movies/pussInBoots.png",
+                    "images/movies/coco.png",
+                    "images/movies/howlsMovingCastle.png",
+                    "images/movies/laVieEstBelle.png",
+                    "images/movies/ladyBird.png",
+                    "images/movies/moonlight.png",
+                    "images/movies/roma.png",
+                    "images/movies/pansLabyrinth.png",
+                    "images/movies/whiplash.png",
+                    "images/movies/blackSwan.png",
+                    "images/movies/1917.png",
+                    "images/movies/joker.png",
+                    "images/movies/parasite.png",
+                    "images/movies/requiem.png",
+                    "images/movies/theShining.png",
+                    "images/movies/trainspotting.png"
                 ]
-            ],
-            "titles": [
-                "Université de Montréal",
-                "Lycée franco-mexicain"
-            ],
-            "images": [
-                "images/institutions/UdeM.jpeg",
-                "images/institutions/LFM.jpeg"
-            ],
-            "degrees": [
-                "Baccalauréat en sciences, informatique",
-                "Baccalauréat français, sciences de l'ingénieur"
-            ],
-            "details": [
-                "Montréal | 2020-2023 (Prévu)",
-                "Mexique | 2017-2020"
-            ],
-            "abreviations": [
-                "UdeM",
-                "LFM"
-            ],
-            "classes": [
-                "Compréhension de l'univers (Physique introductive)",
-                "Conception et développement web",
-                "Programmation débutante avec Python",
-                "Programmation intermédiaire avec Java",
-                "Paradigmes et concepts des langages de programmation",
-                "Introduction aux systèmes numériques",
-                "Architecture des ordinateurs",
-                "Systèmes d'exploitation",
-                "Génie logiciel",
-                "(Actuel) Logiciel : analyse et conception",
-                "(Actuel) Interface utilisateur/Expérience utilisateur (UI/UX)",
-                "Structures de données",
-                "Algorithmes",
-                "Introduction à l'informatique théorique",
-                "Méthodes de recherche opérationnelle",
-                "(Actuel) Informatique quantique",
-                "Bases de données",
-                "(Actuel) Fondements théoriques de la science des données",
-                "Fondements de l'apprentissage automatique",
-                "(Actuel) Projets en apprentissage automatique",
-                "Probabilités et statistiques",
-                "Calcul multivariable",
-                "Philosophie des sciences",
-                "Introduction à la génétique",
-                "Projet d'honneurs en bio-informatique génomique",
-                "(Cours de troisième cycle) Vision par ordinateur 3D"
-            ]
-        },
-        "work": {
-            "descriptions": [
-                "Pendant l'été 2022 : J'ai implémenté des fonctionnalités expérimentales, documenté et débogué l'application web DITA CCMS d'Ixiasoft pour la documentation technique. J'ai principalement travaillé avec Java, TypeScript, React (seul et avec Redux) et Apache. J'ai également géré - dans une moindre mesure - Maven et CSS.",
-                "Pendant l'été 2022 : J'ai travaillé sous la supervision du professeur titulaire Stefan Monnier - avec un autre étudiant en licence - pour enseigner et évaluer une classe de 50 personnes sur les concepts et les paradigmes utilisés/appartenant principalement aux langages de programmation - à travers Haskell, Lisp (principalement Elisp), Prolog, C et Java.",
-                "Pendant l'automne 2021, l'hiver 2022 et l'automne 2022 : J'ai travaillé sous la supervision du professeur titulaire Marc Feeley et du chargé de cours Olivier Melançon, avec 6, 5 et ensuite 6 autres étudiants (respectivement) pour enseigner et évaluer une classe de près de 300, puis 150, et ensuite à nouveau 300 personnes sur les bases de la programmation - à travers Python.",
-                "Pendant l'automne 2021 et 2022 : J'ai travaillé sous la supervision du professeur titulaire Miklós Csűrös avec 1, puis 3 étudiants diplômés pour enseigner et évaluer une classe de 100, puis 300 personnes sur les structures discrètes - et les fondements - des mathématiques que nous utilisons le plus souvent en tant qu'informaticiens.",
-                "Pendant l'hiver et l'automne 2022 : J'ai travaillé sous la supervision du professeur titulaire Sébastien Roy, puis avec le chargé de cours Amal Ben Abdellah. D'abord avec un autre étudiant - puis seul - pour enseigner et évaluer une classe de 150 personnes à chaque fois, sur le fonctionnement d'Internet, les outils que nous utilisons dans le développement web, ainsi que les meilleures pratiques de conception et la création de leurs propres sites web."
-            ],
-            "titles": [
-                "Développeur Full Stack - stagiaire",
-                "Langages de programmation et paradigmes - Assistant d'enseignement",
-                "Introduction à la programmation - Assistant d'enseignement",
-                "Structures discrètes pour l'informatique - Assistant d'enseignement",
-                "Développement web et conception - Assistant d'enseignement"
-            ],
-            "images": [
-                "images/experience/fullstack.jpg",
-                "images/experience/Paradigms.jpg",
-                "images/experience/Programming1.jpg",
-                "images/experience/DiscreteStruct.jpg",
-                "images/experience/WebDev.jpg"
-            ]
-        },
-        "projects": {
-            "titles": [
-                "IA pour le climat",
-                "Analyse de sentiment",
-                "Génomique",
-                "Vision par ordinateur 3D avec IA",
-                "Modèles d'apprentissage automatique",
-                "Système de gestion de fichiers",
-                "Base de données",
-                "Application Web de reconnaissance des gestes",
-                "Gestion des vaccinations",
-                "Abacus du 21e siècle",
-                "Interprètes",
-                "Simulation environnementale",
-                "Ce site !"
-            ],
-            "descriptions": [
-                [
-                    "Il s'agit d'un projet de recherche et développement supervisé par Mila - Institut québécois d'intelligence artificielle",
-                    "Le climat est chaotique, mais le modéliser présente des avantages, de la prévision météorologique à la planification d'événements, en passant par l'agriculture et l'économie. Ainsi, les modèles climatiques à différentes échelles pourraient être un outil puissant pour nos sociétés.",
-                    "Actuellement, nous avons accès à des modèles climatiques mondiaux, mais ils sont basés sur des mesures à grande échelle. À plus petite échelle, les données peuvent être peu fiables, ce qui conduit à des conclusions incorrectes.",
-                    "J'ai l'opportunité de diriger une équipe dont l'objectif est de construire sur les avancées technologiques pour résoudre ce problème comme personne ne l'a jamais fait auparavant.",
-                    "J'ai créé un site Web pour cela auquel vous pouvez accéder ici : <lhttps://climate-model-downscaling.web.app/"
-                ],
-                [
-                    "Il s'agit d'un projet de recherche et développement supervisé par Mila - Institut québécois d'intelligence artificielle",
-                    "L'analyse de sentiment est un aspect très important pour les entreprises, en particulier en ce qui concerne l'expérience client. En effet, l'analyse de sentiment est une application de traitement du langage naturel qui vise à identifier les différents tons présents dans les textes. Surtout avec l'énorme vague de popularité des médias sociaux, l'analyse de sentiment devient encore plus importante.",
-                    "Dans ce projet, nous explorons les techniques d'apprentissage automatique et d'apprentissage profond en traitement du langage naturel (NLP) pour identifier les sentiments dans les textes.",
-                    "J'ai créé un site Web pour cela auquel vous pouvez accéder ici : <lhttps://causality-text-based-inference.web.app/"
-                ],
-                [
-                    "Il s'agit d'un projet de recherche et développement pour le Laboratoire de biologie computationnelle et théorique de l'UdeM",
-                    "J'ai étudié et implémenté une API pour le raffinement de l'assemblage du génome, ainsi qu'une structure de données pour le regroupement, en utilisant JAVA et la bibliothèque htsjdk.",
-                    "Le travail est soigneusement documenté et expliqué ici : <lhttps://genome-assembly-scaffolding.web.app/"
-                ],
-                [
-                    "Il s'agit d'un projet de recherche et développement pour le Laboratoire de vision par ordinateur 3D de l'UdeM",
-                    "J'ai mis en œuvre et comparé plusieurs architectures de réseaux de neurones convolutifs basées sur GC-Net de Kendal et al. J'ai travaillé avec Mathematica.",
-                    "Le modèle est capable de faire de la stéréoscopie binoculaire : il peut déterminer la profondeur en se basant sur deux images, un peu comme les yeux humains !",
-                    "J'ai principalement expérimenté avec des variations de profondeur et l'utilisation de réseaux résiduels, et j'ai été intéressé par la qualité de l'estimation ainsi que par les ressources informatiques nécessaires.",
-                    "Vous pouvez accéder au code, à l'analyse et aux modèles entraînés ici : <lhttps://github.com/Gfecito/GC-Neat"
-                ],
-                [
-                    "Travail sur divers modèles d'apprentissage automatique pour des tâches d'apprentissage supervisé, telles que la régression et la classification",
-                    "Implémenté avec Python :",
-                    "À partir de zéro : des modèles non paramétriques tels que KNN et Parzen Windows (avec un noyau gaussien) ; et des modèles paramétriques tels qu'un perceptron (régresseur logistique) et un SVM (avec et sans noyau)",
-                    "Avec des bibliothèques : réseaux de neurones, CNN et SVM",
-                    "Et testés avec plusieurs bases de données, comme des relevés bancaires, des relevés téléphoniques ou des ensembles de données d'images (comme MNIST)"
-                ],
-                [
-                    "Nous avons mis en place un système de gestion de stockage basé sur la 'File Allocation Table' en utilisant le langage C pour un système Linux 32 bits.",
-                    "En termes simples : nous avons construit la section de gestion des fichiers (et de la mémoire) d'un système d'exploitation."
-                ],
-                [
-                    "Planifié puis construit une petite base de données pour une bibliothèque",
-                    "Dans la phase de planification, nous avons utilisé des méthodes formelles pour la modélisation entité-relation, puis la modélisation relationnelle, l'algèbre relationnelle, l'optimisation des requêtes et la normalisation de la base de données.",
-                    "Pour l'implémentation, nous avons utilisé SQL, Hibernate (Java) et Maven pour la compilation et la livraison de l'exécutable."
-                ],
-                [
-                    "Partitionné et prétraité une base de données, construit et entraîné un modèle de réseau de neurones convolutifs, exporté puis implémenté dans une plateforme Web dynamique.",
-                    "J'ai construit cette dernière en utilisant Flask (Python) et Jinja."
-                ],
-                [
-                    "Une application fonctionnelle développée en Java qui comprend une interface graphique interactive et un système de gestion des données.",
-                    "Nous avons suivi la planification rigoureuse attendue des ingénieurs : planification, entretiens, priorisation, définition des cas d'utilisation, analyse (risques, exigences non fonctionnelles, matériaux, contraintes), modélisation (VPP), conception, prototypage, tests automatiques (JUnit), gestion d'équipe et planification, et enfin (mais non des moindres) documentation (Javadoc)."
-                ],
-                [
-                    "Projet scolaire en programmation orientée objet avec Java ; c'est une petite fenêtre :",
-                    "À l'aide de JavaFX, nous (2 personnes) avons créé une fenêtre élégante avec 2 compteurs : vous pouvez ajouter et soustraire, diviser et multiplier, annuler et rétablir. Chaque action effectuée dans l'application était temporairement sauvegardée, de sorte que le journal des actions était toujours disponible pour être exporté sous forme de fichier .txt."
-                ],
-                [
-                    "Un interpréteur pseudo-Lisp réalisé en Haskell : J'ai construit la section d'interprétation et d'évaluation d'un programme Haskell capable de lire et d'exécuter des fichiers d'un langage inspiré du Lisp. J'ai traité des fonctions, des fermetures, des environnements, des variables, de la récursion et des définitions récursives, etc... tout y est.",
-                    "Ensuite, j'ai construit un interpréteur pseudo-Haskell, où j'ai utilisé Prolog pour l'interprétation et l'exécution, avec les mêmes fonctionnalités qu'auparavant, mais avec une inférence de type ajoutée."
-                ],
-                [
-                    "À l'aide de la programmation orientée objet, nous avons créé un programme de simulation environnementale.",
-                    "Il lisait des fichiers XML décrivant des animaux ou des plantes et les simulait pendant un certain nombre d'époques : leur interaction, ce qu'ils mangeaient, leur consommation d'énergie, s'ils mouraient ou se reproduisaient, etc."
-                ],
-                [
-                    "Initialement créé à partir de zéro avec HTML, CSS, JavaScript, jQuery ainsi que la bibliothèque Animate on Scroll.",
-                    "Actuellement construit avec React, Typescript, JSON, CSS... et une pincée d'amour !"
+            },
+            "inspiration": {
+                "people": [
+                    {
+                        "name": "Einstein",
+                        "description": "Einstein m'inspire par sa créativité impeccable, sa capacité à communiquer des concepts scientifiques complexes avec une clarté magnifique, et sa démonstration que la science ne connaît pas de limites. Ses théories et découvertes révolutionnaires ont remodelé notre compréhension de l'univers.",
+                        "image": "images/inspiration/einstein.jpeg"
+                    },
+                    {
+                        "name": "Oppenheimer",
+                        "description": "L'histoire d'Oppenheimer sert de rappel que même les esprits les plus brillants peuvent être pris dans des circonstances tragiques. Ses contributions au développement de la bombe atomique soulignent l'importance de la conviction compatissante et des responsabilités éthiques des scientifiques.",
+                        "image": "images/inspiration/oppenheimer.jpeg"
+                    },
+                    {
+                        "name": "Geoffrey Hinton, Yann Lecun et Yoshua Bengio",
+                        "description": "Ces pionniers dans le domaine de l'intelligence artificielle ont apporté d'énormes contributions à ce domaine. Ce qui m'inspire vraiment chez eux, c'est leur engagement à rendre l'IA accessible au public et leur dévouement à assurer son utilisation éthique pour le bien de l'humanité.",
+                        "image": "images/inspiration/aiPeople.jpeg"
+                    },
+                    {
+                        "name": "Marie et Pierre Curie",
+                        "description": "Les Curie incarnent l'excellence, le sacrifice et la puissance de la collaboration. Leurs travaux révolutionnaires sur la radioactivité leur ont non seulement valu des prix Nobel, mais ont également solidifié leur statut de l'un des plus grands couples de pouvoir dans l'histoire de la science.",
+                        "image": "images/inspiration/marieAndPierre.jpeg"
+                    },
+                    {
+                        "name": "Tolstoï, Dostoïevski et Nietzsche",
+                        "description": "Ces penseurs influents ont offert des perspectives inestimables sur le travail et la condition humaine. Leurs écrits explorent les profondeurs de l'expérience humaine, offrant des insights profonds sur les complexités de l'esprit, la recherche de sens et la quête d'une vie épanouissante.",
+                        "image": "images/inspiration/thinkers.jpeg"
+                    },
+                    {
+                        "name": "Sor Juana Inés de la Cruz",
+                        "description": "La quête inlassable de l'excellence de Sor Juana face à la discrimination m'inspire profondément. En tant que brillante poétesse et intellectuelle pendant l'époque coloniale mexicaine, elle a défié les normes sociales et a milité en faveur de l'éducation des femmes et de la liberté intellectuelle.",
+                        "image": "images/inspiration/sorJuana.jpeg"
+                    },
+                    {
+                        "name": "Frida Kahlo",
+                        "description": "La résilience et le courage de Kahlo à embrasser sa propre singularité résonnent en moi. Son art reflète sa douleur physique et émotionnelle, tout en capturant son esprit inébranlable et sa détermination à surmonter l'adversité.",
+                        "image": "images/inspiration/fridaKahlo.jpeg"
+                    },
+                    {
+                        "name": "Mandela, Gandhi et Martin Luther King",
+                        "description": "Mandela, Gandhi et Martin Luther King incarnent le pouvoir de la résistance pacifique et le courage de défier des systèmes injustes. Leur engagement inébranlable envers la justice, l'égalité et les droits de l'homme nous rappelle constamment la force de l'esprit humain et l'impact transformateur que peuvent avoir les individus sur la société.",
+                        "image": "images/inspiration/mandelaGandhiKing.jpeg"
+                    },
+                    {
+                        "name": "Cuauhtémoc Cárdenas",
+                        "description": "Cárdenas m'inspire par son travail inlassable pour un meilleur Mexique. En tant que politicien et militant social, il a lutté pour la justice sociale, la réforme démocratique et les droits des communautés marginalisées, laissant ainsi une empreinte durable sur son pays.",
+                        "image": "images/inspiration/cardenas.jpeg"
+                    }
                 ]
-            ],
-            "images": [
-                "images/projects/MLClimate.png",
-                "images/projects/NLP.jpeg",
-                "images/projects/Genomics.jpeg",
-                "images/projects/Disparity.png",
-                "images/projects/ML.png",
-                "images/projects/FAT32.jpeg",
-                "images/projects/Database.jpeg",
-                "images/projects/GestureRecognition.gif",
-                "images/projects/Vaccination.png",
-                "images/projects/CounterThumbnail.png",
-                "images/projects/Interpreter.png",
-                "images/projects/WildLionSimulator3D.jpeg",
-                "images/projects/ThisSite.jpeg"
+            },
+            "thanks": [
+                "Je suis très heureux/se (pas toujours ! ne romantisons pas le bonheur).",
+                "Je suis heureux/se de la vie que je mène, du travail que je fais et des personnes que je connais.",
+                "Je ne pense pas avoir fait quelque chose de particulier pour mériter cela, mais je suis profondément reconnaissant/e.",
+                "Avec gentillesse, chaleur et BEAUCOUP de travail acharné, certaines personnes très spéciales ont fait de moi... moi, imparfait(e) mais heureux/se.",
+                "Merci pour cela."
             ]
         },
-        "interests": {
-            "titles": [
-                "Médecine",
-                "Action sociale",
-                "IA",
-                "Développement web",
-                "Développement de jeux",
-                "Graphisme informatique",
-                "Robotique",
-                "Systèmes embarqués"
-            ],
-            "descriptions": [
-                [
-                    "De la modélisation mathématique et de la biologie computationnelle à la découverte de médicaments et à l'immunologie, je pense qu'il y a beaucoup d'opportunités pour faciliter les avancées médicales en tirant parti de nos ressources informatiques. Et ce potentiel est sans aucun doute la perspective la plus excitante pour moi.",
-                    "C'est également tout naturel que je m'intéresse à la percée de Google DeepMind dans la prédiction de la structure des protéines, ainsi qu'à la publication ultérieure de leur base de données de prédictions. Comme si cela nous disait : 'oui, cela peut être plus facile et plus rapide. Oui, certaines de vos maladies pourraient être guéries en suivant cet exemple.'"
+        "professional": {
+            "education": {
+                "descriptions": [
+                    [
+                        "Moyenne actuelle de 3,75/4,3 (A-)",
+                        "Directeur de consultation à 180DC UdeM",
+                        ""
+                    ],
+                    [
+                        "Mention très bien : TB (18,25/20)",
+                        "Fondateur et capitaine du club d'apprentissage automatique",
+                        "Membre du club de programmation"
+                    ]
                 ],
-                [
-                    "Je me soucie des autres, j'aimerais qu'ils vivent une vie digne et qu'ils puissent s'amuser. Il semble évident qu'il est préférable de vivre entouré de personnes heureuses et en bonne santé - qui peuvent également aider - plutôt que le contraire.",
-                    "Je ne suis pas sûr que ce soit l'approche la plus efficace. Mais qu'importe lorsque vous pouvez voir le sourire de quelqu'un que vous avez aidé, ne serait-ce qu'un peu ?"
+                "titles": [
+                    "Université de Montréal",
+                    "Lycée franco-mexicain"
                 ],
-                [
-                    "Maintenant, j'adore les algorithmes autant que n'importe qui d'autre, mais certains problèmes sont très difficiles à résoudre avec des algorithmes traditionnels. Et ils se résolvent presque trivialement avec ces méthodes statistiques et probabilistes sophistiquées (et trop souvent obscures).",
-                    "... et oui, j'aime aussi les voitures autonomes, les assistants personnels intelligents et les artistes en IA.",
-                    "En fait, toutes les images de la section expérience, ainsi que celles de Médecine, Action sociale et IA dans la section des intérêts, ont été générées par DALL-E ! Un modèle de génération d'images d'Open AI ; qui, comme le reste de leur travail, est excellent."
+                "images": [
+                    "images/institutions/UdeM.jpeg",
+                    "images/institutions/LFM.jpeg"
                 ],
-                [
-                    "C'était le futur, c'est maintenant le présent.",
-                    "Notre capacité à connecter correctement la puissance de calcul et à transférer des informations de manière efficace et accessible est, selon moi, l'une des plus grandes avancées de l'histoire de la démocratie.",
-                    "Je suis aussi un énorme nerd, donc j'aime les mathématiques et la technologie qui les soutient."
+                "degrees": [
+                    "Baccalauréat en sciences, informatique",
+                    "Baccalauréat français, sciences de l'ingénieur"
                 ],
-                [
-                    "Une progression naturelle de mon intérêt pour le graphisme, ainsi que mon amour de longue date pour les jeux - vidéo ou autres.",
-                    "J'ai l'impression que le développement de jeux me permettrait d'être moi-même le plus créatif possible, et c'est une personne que j'aimerais rencontrer."
+                "details": [
+                    "Montréal | 2020-2023 (Prévu)",
+                    "Mexique | 2017-2020"
                 ],
-                [
-                    "Il y a quelque chose de fascinant dans tous les petits tours de mathématiques et de psychologie qui permettent à un écran en 2D et à une calculatrice sophistiquée de tromper une personne en lui faisant croire qu'elle regarde un objet en 3D. J'aime aussi être trompé par de jolis objets 3D qui n'existent pas.",
-                    "De plus, les GPU sont de loin les composants informatiques les plus rapides en développement de nos jours. J'aimerais vraiment mieux comprendre leur fonctionnement pour exploiter tout leur potentiel."
+                "abreviations": [
+                    "UdeM",
+                    "LFM"
                 ],
-                [
-                    "Franchement, si vous ne trouvez pas les robots au moins un peu cool, nous ne pouvons pas être amis.",
-                    "Sur une note plus sérieuse, la robotique semble être l'avenir des processus physiques et des manipulations, partout de la médecine à la fabrication et au transport.",
-                    "Comment pourrais-je ne pas m'y intéresser ?!"
-                ],
-                [
-                    "Notamment comment faire face à un espace physique très limité et à des conditions physiques défavorables pour le matériel.",
-                    "Je suis intéressé par la façon dont nous pourrions programmer des ordinateurs qui n'ont pas les mêmes avantages en termes de stabilité et d'espace que nos ordinateurs normaux.",
-                    "Comment assurer des systèmes maintenables, rapides et fiables dans ces environnements ?"
+                "classes": [
+                    "Compréhension de l'univers (Physique introductive)",
+                    "Conception et développement web",
+                    "Programmation débutante avec Python",
+                    "Programmation intermédiaire avec Java",
+                    "Paradigmes et concepts des langages de programmation",
+                    "Introduction aux systèmes numériques",
+                    "Architecture des ordinateurs",
+                    "Systèmes d'exploitation",
+                    "Génie logiciel",
+                    "(Actuel) Logiciel : analyse et conception",
+                    "(Actuel) Interface utilisateur/Expérience utilisateur (UI/UX)",
+                    "Structures de données",
+                    "Algorithmes",
+                    "Introduction à l'informatique théorique",
+                    "Méthodes de recherche opérationnelle",
+                    "(Actuel) Informatique quantique",
+                    "Bases de données",
+                    "(Actuel) Fondements théoriques de la science des données",
+                    "Fondements de l'apprentissage automatique",
+                    "(Actuel) Projets en apprentissage automatique",
+                    "Probabilités et statistiques",
+                    "Calcul multivariable",
+                    "Philosophie des sciences",
+                    "Introduction à la génétique",
+                    "Projet d'honneurs en bio-informatique génomique",
+                    "(Cours de troisième cycle) Vision par ordinateur 3D"
                 ]
-            ],
-            "images": [
-                "images/interests/medicine.jpg",
-                "images/interests/social.jpg",
-                "images/interests/ai.jpg",
-                "images/interests/web.jpeg",
-                "images/interests/game.jpg",
-                "images/interests/graphics.jpg",
-                "images/interests/robot.jpeg",
-                "images/interests/os.jpg"
-            ]
-        },
-        "awards": {
-            "titles": [
-                "ICPC NE-NA",
-                "Bourse d'excellence DIRO",
-                "Bourse d'exemption pour les étudiants internationaux",
-                "Olympiades régionales de mathématiques en France | Meilleure équipe, 3 meilleurs individuels"
-            ],
-            "dates": [
-                "Février 2023",
-                "Décembre 2021",
-                "Août 2020",
-                "2019"
-            ],
-            "descriptions": [
-                "La 2e meilleure équipe de l'histoire du DIRO dans cette prestigieuse compétition de programmation",
-                "Bourse d'excellence décernée aux meilleurs étudiants de premier cycle en informatique et recherche opérationnelle du DIRO",
-                "La plus grande bourse basée sur le mérite pour les étudiants internationaux à l'Université de Montréal",
-                "Ma région s'étendait du Mexique au Panama et comprenait toutes les institutions d'enseignement français là-bas."
-            ],
-            "trophee": "images/logos/trophy.png"
+            },
+            "work": {
+                "descriptions": [
+                    "Pendant l'été 2022 : J'ai implémenté des fonctionnalités expérimentales, documenté et débogué l'application web DITA CCMS d'Ixiasoft pour la documentation technique. J'ai principalement travaillé avec Java, TypeScript, React (seul et avec Redux) et Apache. J'ai également géré - dans une moindre mesure - Maven et CSS.",
+                    "Pendant l'été 2022 : J'ai travaillé sous la supervision du professeur titulaire Stefan Monnier - avec un autre étudiant en licence - pour enseigner et évaluer une classe de 50 personnes sur les concepts et les paradigmes utilisés/appartenant principalement aux langages de programmation - à travers Haskell, Lisp (principalement Elisp), Prolog, C et Java.",
+                    "Pendant l'automne 2021, l'hiver 2022 et l'automne 2022 : J'ai travaillé sous la supervision du professeur titulaire Marc Feeley et du chargé de cours Olivier Melançon, avec 6, 5 et ensuite 6 autres étudiants (respectivement) pour enseigner et évaluer une classe de près de 300, puis 150, et ensuite à nouveau 300 personnes sur les bases de la programmation - à travers Python.",
+                    "Pendant l'automne 2021 et 2022 : J'ai travaillé sous la supervision du professeur titulaire Miklós Csűrös avec 1, puis 3 étudiants diplômés pour enseigner et évaluer une classe de 100, puis 300 personnes sur les structures discrètes - et les fondements - des mathématiques que nous utilisons le plus souvent en tant qu'informaticiens.",
+                    "Pendant l'hiver et l'automne 2022 : J'ai travaillé sous la supervision du professeur titulaire Sébastien Roy, puis avec le chargé de cours Amal Ben Abdellah. D'abord avec un autre étudiant - puis seul - pour enseigner et évaluer une classe de 150 personnes à chaque fois, sur le fonctionnement d'Internet, les outils que nous utilisons dans le développement web, ainsi que les meilleures pratiques de conception et la création de leurs propres sites web."
+                ],
+                "titles": [
+                    "Développeur Full Stack - stagiaire",
+                    "Langages de programmation et paradigmes - Assistant d'enseignement",
+                    "Introduction à la programmation - Assistant d'enseignement",
+                    "Structures discrètes pour l'informatique - Assistant d'enseignement",
+                    "Développement web et conception - Assistant d'enseignement"
+                ],
+                "images": [
+                    "images/experience/fullstack.jpg",
+                    "images/experience/Paradigms.jpg",
+                    "images/experience/Programming1.jpg",
+                    "images/experience/DiscreteStruct.jpg",
+                    "images/experience/WebDev.jpg"
+                ]
+            },
+            "projects": {
+                "titles": [
+                    "IA pour le climat",
+                    "Analyse de sentiment",
+                    "Génomique",
+                    "Vision par ordinateur 3D avec IA",
+                    "Modèles d'apprentissage automatique",
+                    "Système de gestion de fichiers",
+                    "Base de données",
+                    "Application Web de reconnaissance des gestes",
+                    "Gestion des vaccinations",
+                    "Abacus du 21e siècle",
+                    "Interprètes",
+                    "Simulation environnementale",
+                    "Ce site !"
+                ],
+                "descriptions": [
+                    [
+                        "Il s'agit d'un projet de recherche et développement supervisé par Mila - Institut québécois d'intelligence artificielle",
+                        "Le climat est chaotique, mais le modéliser présente des avantages, de la prévision météorologique à la planification d'événements, en passant par l'agriculture et l'économie. Ainsi, les modèles climatiques à différentes échelles pourraient être un outil puissant pour nos sociétés.",
+                        "Actuellement, nous avons accès à des modèles climatiques mondiaux, mais ils sont basés sur des mesures à grande échelle. À plus petite échelle, les données peuvent être peu fiables, ce qui conduit à des conclusions incorrectes.",
+                        "J'ai l'opportunité de diriger une équipe dont l'objectif est de construire sur les avancées technologiques pour résoudre ce problème comme personne ne l'a jamais fait auparavant.",
+                        "J'ai créé un site Web pour cela auquel vous pouvez accéder ici : <lhttps://climate-model-downscaling.web.app/"
+                    ],
+                    [
+                        "Il s'agit d'un projet de recherche et développement supervisé par Mila - Institut québécois d'intelligence artificielle",
+                        "L'analyse de sentiment est un aspect très important pour les entreprises, en particulier en ce qui concerne l'expérience client. En effet, l'analyse de sentiment est une application de traitement du langage naturel qui vise à identifier les différents tons présents dans les textes. Surtout avec l'énorme vague de popularité des médias sociaux, l'analyse de sentiment devient encore plus importante.",
+                        "Dans ce projet, nous explorons les techniques d'apprentissage automatique et d'apprentissage profond en traitement du langage naturel (NLP) pour identifier les sentiments dans les textes.",
+                        "J'ai créé un site Web pour cela auquel vous pouvez accéder ici : <lhttps://causality-text-based-inference.web.app/"
+                    ],
+                    [
+                        "Il s'agit d'un projet de recherche et développement pour le Laboratoire de biologie computationnelle et théorique de l'UdeM",
+                        "J'ai étudié et implémenté une API pour le raffinement de l'assemblage du génome, ainsi qu'une structure de données pour le regroupement, en utilisant JAVA et la bibliothèque htsjdk.",
+                        "Le travail est soigneusement documenté et expliqué ici : <lhttps://genome-assembly-scaffolding.web.app/"
+                    ],
+                    [
+                        "Il s'agit d'un projet de recherche et développement pour le Laboratoire de vision par ordinateur 3D de l'UdeM",
+                        "J'ai mis en œuvre et comparé plusieurs architectures de réseaux de neurones convolutifs basées sur GC-Net de Kendal et al. J'ai travaillé avec Mathematica.",
+                        "Le modèle est capable de faire de la stéréoscopie binoculaire : il peut déterminer la profondeur en se basant sur deux images, un peu comme les yeux humains !",
+                        "J'ai principalement expérimenté avec des variations de profondeur et l'utilisation de réseaux résiduels, et j'ai été intéressé par la qualité de l'estimation ainsi que par les ressources informatiques nécessaires.",
+                        "Vous pouvez accéder au code, à l'analyse et aux modèles entraînés ici : <lhttps://github.com/Gfecito/GC-Neat"
+                    ],
+                    [
+                        "Travail sur divers modèles d'apprentissage automatique pour des tâches d'apprentissage supervisé, telles que la régression et la classification",
+                        "Implémenté avec Python :",
+                        "À partir de zéro : des modèles non paramétriques tels que KNN et Parzen Windows (avec un noyau gaussien) ; et des modèles paramétriques tels qu'un perceptron (régresseur logistique) et un SVM (avec et sans noyau)",
+                        "Avec des bibliothèques : réseaux de neurones, CNN et SVM",
+                        "Et testés avec plusieurs bases de données, comme des relevés bancaires, des relevés téléphoniques ou des ensembles de données d'images (comme MNIST)"
+                    ],
+                    [
+                        "Nous avons mis en place un système de gestion de stockage basé sur la 'File Allocation Table' en utilisant le langage C pour un système Linux 32 bits.",
+                        "En termes simples : nous avons construit la section de gestion des fichiers (et de la mémoire) d'un système d'exploitation."
+                    ],
+                    [
+                        "Planifié puis construit une petite base de données pour une bibliothèque",
+                        "Dans la phase de planification, nous avons utilisé des méthodes formelles pour la modélisation entité-relation, puis la modélisation relationnelle, l'algèbre relationnelle, l'optimisation des requêtes et la normalisation de la base de données.",
+                        "Pour l'implémentation, nous avons utilisé SQL, Hibernate (Java) et Maven pour la compilation et la livraison de l'exécutable."
+                    ],
+                    [
+                        "Partitionné et prétraité une base de données, construit et entraîné un modèle de réseau de neurones convolutifs, exporté puis implémenté dans une plateforme Web dynamique.",
+                        "J'ai construit cette dernière en utilisant Flask (Python) et Jinja."
+                    ],
+                    [
+                        "Une application fonctionnelle développée en Java qui comprend une interface graphique interactive et un système de gestion des données.",
+                        "Nous avons suivi la planification rigoureuse attendue des ingénieurs : planification, entretiens, priorisation, définition des cas d'utilisation, analyse (risques, exigences non fonctionnelles, matériaux, contraintes), modélisation (VPP), conception, prototypage, tests automatiques (JUnit), gestion d'équipe et planification, et enfin (mais non des moindres) documentation (Javadoc)."
+                    ],
+                    [
+                        "Projet scolaire en programmation orientée objet avec Java ; c'est une petite fenêtre :",
+                        "À l'aide de JavaFX, nous (2 personnes) avons créé une fenêtre élégante avec 2 compteurs : vous pouvez ajouter et soustraire, diviser et multiplier, annuler et rétablir. Chaque action effectuée dans l'application était temporairement sauvegardée, de sorte que le journal des actions était toujours disponible pour être exporté sous forme de fichier .txt."
+                    ],
+                    [
+                        "Un interpréteur pseudo-Lisp réalisé en Haskell : J'ai construit la section d'interprétation et d'évaluation d'un programme Haskell capable de lire et d'exécuter des fichiers d'un langage inspiré du Lisp. J'ai traité des fonctions, des fermetures, des environnements, des variables, de la récursion et des définitions récursives, etc... tout y est.",
+                        "Ensuite, j'ai construit un interpréteur pseudo-Haskell, où j'ai utilisé Prolog pour l'interprétation et l'exécution, avec les mêmes fonctionnalités qu'auparavant, mais avec une inférence de type ajoutée."
+                    ],
+                    [
+                        "À l'aide de la programmation orientée objet, nous avons créé un programme de simulation environnementale.",
+                        "Il lisait des fichiers XML décrivant des animaux ou des plantes et les simulait pendant un certain nombre d'époques : leur interaction, ce qu'ils mangeaient, leur consommation d'énergie, s'ils mouraient ou se reproduisaient, etc."
+                    ],
+                    [
+                        "Initialement créé à partir de zéro avec HTML, CSS, JavaScript, jQuery ainsi que la bibliothèque Animate on Scroll.",
+                        "Actuellement construit avec React, Typescript, JSON, CSS... et une pincée d'amour !"
+                    ]
+                ],
+                "images": [
+                    "images/projects/MLClimate.png",
+                    "images/projects/NLP.jpeg",
+                    "images/projects/Genomics.jpeg",
+                    "images/projects/Disparity.png",
+                    "images/projects/ML.png",
+                    "images/projects/FAT32.jpeg",
+                    "images/projects/Database.jpeg",
+                    "images/projects/GestureRecognition.gif",
+                    "images/projects/Vaccination.png",
+                    "images/projects/CounterThumbnail.png",
+                    "images/projects/Interpreter.png",
+                    "images/projects/WildLionSimulator3D.jpeg",
+                    "images/projects/ThisSite.jpeg"
+                ]
+            },
+            "interests": {
+                "titles": [
+                    "Médecine",
+                    "Action sociale",
+                    "IA",
+                    "Développement web",
+                    "Développement de jeux",
+                    "Graphisme informatique",
+                    "Robotique",
+                    "Systèmes embarqués"
+                ],
+                "descriptions": [
+                    [
+                        "De la modélisation mathématique et de la biologie computationnelle à la découverte de médicaments et à l'immunologie, je pense qu'il y a beaucoup d'opportunités pour faciliter les avancées médicales en tirant parti de nos ressources informatiques. Et ce potentiel est sans aucun doute la perspective la plus excitante pour moi.",
+                        "C'est également tout naturel que je m'intéresse à la percée de Google DeepMind dans la prédiction de la structure des protéines, ainsi qu'à la publication ultérieure de leur base de données de prédictions. Comme si cela nous disait : 'oui, cela peut être plus facile et plus rapide. Oui, certaines de vos maladies pourraient être guéries en suivant cet exemple.'"
+                    ],
+                    [
+                        "Je me soucie des autres, j'aimerais qu'ils vivent une vie digne et qu'ils puissent s'amuser. Il semble évident qu'il est préférable de vivre entouré de personnes heureuses et en bonne santé - qui peuvent également aider - plutôt que le contraire.",
+                        "Je ne suis pas sûr que ce soit l'approche la plus efficace. Mais qu'importe lorsque vous pouvez voir le sourire de quelqu'un que vous avez aidé, ne serait-ce qu'un peu ?"
+                    ],
+                    [
+                        "Maintenant, j'adore les algorithmes autant que n'importe qui d'autre, mais certains problèmes sont très difficiles à résoudre avec des algorithmes traditionnels. Et ils se résolvent presque trivialement avec ces méthodes statistiques et probabilistes sophistiquées (et trop souvent obscures).",
+                        "... et oui, j'aime aussi les voitures autonomes, les assistants personnels intelligents et les artistes en IA.",
+                        "En fait, toutes les images de la section expérience, ainsi que celles de Médecine, Action sociale et IA dans la section des intérêts, ont été générées par DALL-E ! Un modèle de génération d'images d'Open AI ; qui, comme le reste de leur travail, est excellent."
+                    ],
+                    [
+                        "C'était le futur, c'est maintenant le présent.",
+                        "Notre capacité à connecter correctement la puissance de calcul et à transférer des informations de manière efficace et accessible est, selon moi, l'une des plus grandes avancées de l'histoire de la démocratie.",
+                        "Je suis aussi un énorme nerd, donc j'aime les mathématiques et la technologie qui les soutient."
+                    ],
+                    [
+                        "Une progression naturelle de mon intérêt pour le graphisme, ainsi que mon amour de longue date pour les jeux - vidéo ou autres.",
+                        "J'ai l'impression que le développement de jeux me permettrait d'être moi-même le plus créatif possible, et c'est une personne que j'aimerais rencontrer."
+                    ],
+                    [
+                        "Il y a quelque chose de fascinant dans tous les petits tours de mathématiques et de psychologie qui permettent à un écran en 2D et à une calculatrice sophistiquée de tromper une personne en lui faisant croire qu'elle regarde un objet en 3D. J'aime aussi être trompé par de jolis objets 3D qui n'existent pas.",
+                        "De plus, les GPU sont de loin les composants informatiques les plus rapides en développement de nos jours. J'aimerais vraiment mieux comprendre leur fonctionnement pour exploiter tout leur potentiel."
+                    ],
+                    [
+                        "Franchement, si vous ne trouvez pas les robots au moins un peu cool, nous ne pouvons pas être amis.",
+                        "Sur une note plus sérieuse, la robotique semble être l'avenir des processus physiques et des manipulations, partout de la médecine à la fabrication et au transport.",
+                        "Comment pourrais-je ne pas m'y intéresser ?!"
+                    ],
+                    [
+                        "Notamment comment faire face à un espace physique très limité et à des conditions physiques défavorables pour le matériel.",
+                        "Je suis intéressé par la façon dont nous pourrions programmer des ordinateurs qui n'ont pas les mêmes avantages en termes de stabilité et d'espace que nos ordinateurs normaux.",
+                        "Comment assurer des systèmes maintenables, rapides et fiables dans ces environnements ?"
+                    ]
+                ],
+                "images": [
+                    "images/interests/medicine.jpg",
+                    "images/interests/social.jpg",
+                    "images/interests/ai.jpg",
+                    "images/interests/web.jpeg",
+                    "images/interests/game.jpg",
+                    "images/interests/graphics.jpg",
+                    "images/interests/robot.jpeg",
+                    "images/interests/os.jpg"
+                ]
+            },
+            "awards": {
+                "titles": [
+                    "ICPC NE-NA",
+                    "Bourse d'excellence DIRO",
+                    "Bourse d'exemption pour les étudiants internationaux",
+                    "Olympiades régionales de mathématiques en France | Meilleure équipe, 3 meilleurs individuels"
+                ],
+                "dates": [
+                    "Février 2023",
+                    "Décembre 2021",
+                    "Août 2020",
+                    "2019"
+                ],
+                "descriptions": [
+                    "La 2e meilleure équipe de l'histoire du DIRO dans cette prestigieuse compétition de programmation",
+                    "Bourse d'excellence décernée aux meilleurs étudiants de premier cycle en informatique et recherche opérationnelle du DIRO",
+                    "La plus grande bourse basée sur le mérite pour les étudiants internationaux à l'Université de Montréal",
+                    "Ma région s'étendait du Mexique au Panama et comprenait toutes les institutions d'enseignement français là-bas."
+                ],
+                "trophee": "images/logos/trophy.png"
+            }
         }
     }
 }
