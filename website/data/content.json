@@ -110,6 +110,11 @@
                         "name": "Cuauhtémoc Cárdenas",
                         "description": "Cárdenas inspires me through his tireless work for a better Mexico. As a politician and social activist, he has fought for social justice, democratic reform, and the rights of marginalized communities, leaving a lasting impact on his country.",
                         "image": "images/inspiration/cardenas.jpeg"
+                    },
+                    {
+                        "name": "Hedy Lamarr",
+                        "description": "Hedy Lamarr is an Austrian actress and inventor who inspires me with her unique combination of beauty, artistic talent, and scientific intelligence. Known for her successful film career in the 1930s and 1940s, she also played a crucial role in the development of wireless communication technology.",
+                        "image": "images/inspiration/hedyLamarr.jpeg"
                     }
                 ]
             },
@@ -454,6 +459,11 @@
                         "name": "Cuauhtémoc Cárdenas",
                         "description": "Cárdenas me inspira con su incansable trabajo por un mejor México. Como político y activista social, ha luchado por la justicia social, la reforma democrática y los derechos de las comunidades marginadas, dejando un impacto duradero en su país.",
                         "image": "images/inspiration/cardenas.jpeg"
+                    },
+                    {
+                        "name": "Hedy Lamarr",
+                        "description": "Hedy Lamarr es una actriz e inventora austriaca que me inspira con su combinación única de belleza, talento artístico e inteligencia científica. Conocida por su exitosa carrera cinematográfica en las décadas de 1930 y 1940, también desempeñó un papel crucial en el desarrollo de la tecnología de comunicación inalámbrica.",
+                        "image": "images/inspiration/hedyLamarr.jpeg"
                     }
                 ]
             },
@@ -844,6 +854,11 @@
                         "name": "Cuauhtémoc Cárdenas",
                         "description": "Cárdenas m'inspire par son travail inlassable pour un meilleur Mexique. En tant que politicien et militant social, il a lutté pour la justice sociale, la réforme démocratique et les droits des communautés marginalisées, laissant ainsi une empreinte durable sur son pays.",
                         "image": "images/inspiration/cardenas.jpeg"
+                    },
+                    {
+                        "name": "Hedy Lamarr",
+                        "description": "Hedy Lamarr est une actrice et inventrice autrichienne qui m'inspire par sa combinaison unique de beauté, de talent artistique et d'intelligence scientifique. Connue pour sa carrière cinématographique réussie dans les années 1930 et 1940, elle a également joué un rôle crucial dans le développement de la technologie de la communication sans fil.",
+                        "image": "images/inspiration/hedyLamarr.jpeg"
                     }
                 ]
             },

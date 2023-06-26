@@ -10,8 +10,9 @@
         px-6">
         <div class="flex items-center">
             <img src="" alt="darkmode" class="mr-4">
-            <HamburgerMenu :languages="['French', 'English', 'Español']" 
-            @language-change=" language = $event" 
+            <HamburgerMenu 
+            :languages="['French', 'English', 'Español']" 
+            @language-change="languageChange"
             @header-height="handleHeaderHeight" />
         </div>
         <div class="flex items-center">
@@ -28,6 +29,23 @@ export default {
         setActivePage(page) {
             this.$emit("page-change", page);
         },
+        languageChange(language) {
+            console.log(`On header: ${language}`);
+            switch (language) {
+                case "English":
+                    language = "en";
+                    break;
+                case "Español":
+                    language = "es";
+                    break;
+                case "French":
+                    language = "fr";
+                    break;
+                default:
+                    console.log(`Error; human language selected by user ${language.value} not recognized, couldn't abreviate.`);
+            }
+            this.$emit("language-change", language);
+        }
     },
     mounted() {
         // Emit custom event after the component is mounted

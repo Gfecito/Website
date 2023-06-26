@@ -72,6 +72,7 @@ export default {
       const images = imageTrack.querySelectorAll("img");
 
       let inversionPercentage = this.percentageSlid / 2.8;
+      if (inversionPercentage<0) inversionPercentage = 0;
 
       // Avoid ugly middle interval; and make it snappy.
       if (inversionPercentage > 20 && inversionPercentage < 50) {

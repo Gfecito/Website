@@ -8,9 +8,10 @@
             <span class="block w-4 h-0.5 bg-gray-800"></span>
         </div>
         <div class="absolute right-0 w-36 bg-white mt-2 py-2 rounded-lg shadow-lg" v-show="dropdownOpen">
-            <button v-for="language in languages" :key="language" @click="setLanguage('fr')"
+            <button v-for="language in languages" :key="language" 
+            @click="languageChange(language)"
                 class="px-4 py-2 hover:bg-gray-200 cursor-pointer">{{
-                    language }}</button>
+                    language.toUpperCase() }}</button>
         </div>
     </div>
 </template>
@@ -32,7 +33,8 @@ export default {
         toggleDropdown() {
             this.dropdownOpen = !this.dropdownOpen;
         },
-        setLanguage(language) {
+        languageChange(language) {
+            console.log(`On hamburguer: ${language}`);
             this.$emit("language-change", language);
         }
     },
