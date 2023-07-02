@@ -13,6 +13,7 @@ export default {
 
 
 <template>
+  <NuxtPage/>
 </template>
 
 <style>

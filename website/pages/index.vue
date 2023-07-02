@@ -3,7 +3,7 @@ import data from '~/data/content.json';
 
 export default {
     setup() {
-        const content = data.fr;
+        const content = data.en;
         return {
             content
         };
