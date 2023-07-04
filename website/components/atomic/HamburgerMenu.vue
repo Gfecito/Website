@@ -8,10 +8,20 @@
             <span class="block w-4 h-0.5 bg-gray-800"></span>
         </div>
         <div class="absolute right-0 w-36 bg-white mt-2 py-2 rounded-lg shadow-lg" v-show="dropdownOpen">
-            <button v-for="language in languages" :key="language" 
-            @click="languageChange(language)"
-                class="px-4 py-2 hover:bg-gray-200 cursor-pointer">{{
-                    language.toUpperCase() }}</button>
+                <div>
+                    <div v-if="useButton">
+                        <button v-for="language in languages" :key="language" @click="languageChange(language)"
+                            class="px-4 py-2 hover:bg-gray-200 cursor-pointer">
+                            {{ language.toUpperCase() }}
+                        </button>
+                    </div>
+                    <div v-else>
+                        <NuxtLink v-for="language in languages" :key="language" :to="`/${language}`"
+                            class="px-4 py-2 hover:bg-gray-200 cursor-pointer block">
+                            {{ language.toUpperCase() }}
+                        </NuxtLink>
+                    </div>
+                </div>
         </div>
     </div>
 </template>
@@ -23,6 +33,10 @@ export default {
             type: Array,
             required: true,
         },
+        useButton:{
+            type: Boolean,
+            required: true,
+        }
     },
     data() {
         return {

@@ -11,14 +11,15 @@
         <div class="flex items-center">
             <img src="" alt="darkmode" class="mr-4">
             <HamburgerMenu 
-            :languages="['French', 'English', 'Español']" 
+            :languages="['French', 'English', 'Spanish']" 
+            :use-button="false"
             @language-change="languageChange"
             @header-height="handleHeaderHeight" />
         </div>
         <div class="flex items-center">
-            <nuxt-link to="#" class="mr-4" @click="setActivePage('Me')">Me</nuxt-link>
-            <nuxt-link to="#" class="mr-4" @click="setActivePage('Work')">Work</nuxt-link>
-            <nuxt-link to="#" class="mr-4" @click="setActivePage('Vlog')">Vlog</nuxt-link>
+            <button to="" class="mr-4" @click="setActivePage('Me')">Me</button>
+            <button to="" class="mr-4" @click="setActivePage('Work')">Work</button>
+            <button to="" class="mr-4" @click="setActivePage('Vlog')">Vlog</button>
         </div>
     </div>
 </template>
@@ -35,7 +36,7 @@ export default {
                 case "English":
                     language = "en";
                     break;
-                case "Español":
+                case "Spanish":
                     language = "es";
                     break;
                 case "French":
