@@ -1,6 +1,6 @@
 <template>
   <div id="library" class="border-purple-500 border-dashed border-8 p-4">
-    <h2 class="text-2xl font-bold">Personal Books</h2>
+    <h2 class="text-2xl font-bold">Some Books I Like!</h2>
     <div class="book-shelves">
       <div v-for="(shelf, index) in shelves" :key="index" class="book-shelf">
         <div class="book-row" :style="getBookRowStyle(shelf)">

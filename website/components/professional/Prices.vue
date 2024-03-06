@@ -1,6 +1,6 @@
 <template>
     <div class="border-red-500 border-dashed border-8 p-4">
-      <h2 class="text-2xl font-bold">Professional Accolades</h2>
+      <h2 class="text-2xl font-bold">Awards</h2>
       <div class=" mt-4">
         <ul>
           <li v-for="(title, index) in data.titles" :key="index">

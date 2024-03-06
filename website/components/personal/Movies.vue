@@ -1,6 +1,6 @@
 <template>
   <div id="movies" class="border-red-500 border-dashed border-8 p-4">
-    <h2 class="text-2xl font-bold">Personal Movies</h2>
+    <h2 class="text-2xl font-bold">Some Movies I Like!</h2>
     <div id="image-track">
       <img v-for="poster in posters" :src="poster" draggable="false" alt="movie poster">
     </div>

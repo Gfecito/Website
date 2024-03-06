@@ -13,5 +13,7 @@
     "@types/node": "^18",
     "nuxt": "^3.5.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "npm": "^10.4.0"
+  }
 }
