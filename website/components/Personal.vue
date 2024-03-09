@@ -1,8 +1,9 @@
 <template>
     <div class="border-green-800 min-h-screen">
       <PersonalJourney :data="journeyData"></PersonalJourney>
-      <PersonalBooks :data="booksData"></PersonalBooks>
-      <PersonalMovies :data="moviesData"></PersonalMovies>
+      <PersonalBooks :books="booksData" :movies="moviesData">
+        <!-- <PersonalMovies :data="moviesData"></PersonalMovies> -->
+      </PersonalBooks>
     </div>
 </template>
   

@@ -21,7 +21,7 @@ export default {
 
 <template>
     <Header @header-height="handleHeaderHeight" @page-change="activePage = $event" @language-change="languageChange" />
-    <main :style="{ marginTop: headerHeight + 'px' }">
+    <main class="my-10">
         <Personal :data="data.personal" v-if="activePage === 'Me'">
         </Personal>
         <Professional :data="data.professional" v-if="activePage === 'Work'"></Professional>

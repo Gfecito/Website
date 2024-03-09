@@ -1,8 +1,12 @@
 <template>
-  <div id="movies" class="border-red-500 border-dashed border-8 p-4">
-    <h2 class="text-2xl font-bold">Some Movies I Like!</h2>
-    <div id="image-track">
+  <div id="movies" class="border-red-500 border-dashed border-8 p-4" style="z-index: -1; overflow: hidden;">
+    <div style="grid-template-columns: 1fr 1fr;">
+      <div id="image-track-1" class="image-track">
       <img v-for="poster in posters" :src="poster" draggable="false" alt="movie poster">
+    </div>
+    <div id="image-track-2" class="image-track">
+      <img v-for="poster in posters" :src="poster" draggable="false" alt="movie poster">
+    </div>
     </div>
   </div>
 </template>
@@ -39,7 +43,7 @@ export default {
   },
   methods: {
     handleMouseDown(e) {
-      this.mouseDownAt = e.clientX;
+      this.mouseDownAt = e.clientY;
     },
     handleMouseUp() {
       this.mouseDownAt = 0;
@@ -48,7 +52,7 @@ export default {
     handleMouseMove(e) {
       if (this.mouseDownAt === 0) return;
 
-      const mouseDelta = parseFloat(this.mouseDownAt) - e.clientX;
+      const mouseDelta = parseFloat(this.mouseDownAt) - e.clientY;
       const maxDelta = window.innerWidth / 2;
 
       const currentPercentageSlid = (mouseDelta / maxDelta) * 100;
@@ -58,10 +62,11 @@ export default {
       if (this.percentageSlid < -10) this.percentageSlid = -10;
       if (this.percentageSlid > 280) this.percentageSlid = 280;
 
-      const imageTrack = this.$el.querySelector("#image-track");
+      const imageTrack = this.$el.querySelector("#image-track-1");
+      const imageTrack2 = this.$el.querySelector("#image-track-2");
 
       imageTrack.animate({
-        transform: `translate(${-this.percentageSlid}%, -50%)`
+        transform: `translate(0%, ${-this.percentageSlid}%)`
       },
         {
           duration: 1450,
@@ -70,6 +75,17 @@ export default {
         });
 
       const images = imageTrack.querySelectorAll("img");
+
+      imageTrack2.animate({
+        transform: `translate(0%, ${-this.percentageSlid}%)`
+      },
+        {
+          duration: 1450,
+          fill: "forwards",
+          easing: "cubic-bezier(0.62, 0.7, 0.58, 1)"
+        });
+
+      const images2 = imageTrack.querySelectorAll("img");
 
       let inversionPercentage = this.percentageSlid / 2.8;
       if (inversionPercentage<0) inversionPercentage = 0;
@@ -95,6 +111,18 @@ export default {
           }
         );
       });
+      images2.forEach((img) => {
+        img.animate(
+          [
+            { filter: `invert(${inversionPercentage}%)` }
+          ],
+          {
+            duration: 850,
+            fill: "forwards",
+            easing: "cubic-bezier(0.62, 0.7, 0.58, 1)"
+          }
+        );
+      });
     }
   }
 };
@@ -108,7 +136,17 @@ export default {
   overflow: hidden;
 }
 
-#image-track>img {
+.image-track {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 4vmin;
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+}
+
+.image-track>img {
   width: min(95%, 200px);
   margin: 0 auto;
   height: 220px;
@@ -118,19 +156,17 @@ export default {
   user-select: none; /*Prevents ugly 'text selection' blue effect on drag*/
 }
 
-#image-track {
-  width: fit-content;
-  display: flex;
-  gap: 4vmin;
-  position: relative;
-  left: 50%;
-  top: 50%;
-  transform: translate(0%, -50%);
+#image-track-1 {
+  left: 0%;
+}
+
+#image-track-2 {
+  right: 0%;
 }
 
 
 @media only screen and (min-width: 850px) {
-  #image-track>img {
+  .image-track>img {
     width: min(95%, 300px);
     height: 330px;
   }
