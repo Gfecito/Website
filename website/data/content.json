@@ -70,28 +70,19 @@
         "professional": {
             "work": {
                 "descriptions": [
-                    "Figma since 2023: Mainly learning A LOT. Working on maintaining our file and ML infrastructure through huge growth in scale, both in features and in traffic. The work is by nature very result focused, so the tools I use vary significantly. However I've done a lot of Ruby, TypeScript, Terraform and AWS work. I've had to learn to understand code regardless of language however.",
-                    "During the summer of 2022: I Implemented experimental features, documented and debugged on Ixiasoft's DITA CCMS web application for technical documentation. Mainly worked with Java, TypeScript, React (by itself and with Redux), and Apache. Also handled -to a lesser extent- Maven and CSS.",
-                    "During the summer of 2022: I worked under the supervision of titular professor Stefan Monnier -with another BSc student- to teach and grade a class of 50 on the concepts and paradigms that programming languages mainly use/belong to - through Haskell, Lisp (mainly Elisp), Prolog, C and Java.",
-                    "During fall of 2021, winter of 2022 and fall of 2022: I worked under the supervision of titular professor Marc Feeley and lecturer Olivier Melançon alongside 6, 5 and then 6 other students (respectively) to teach and grade a class of almost 300, then 150, and then 300 again on the basics of programming - through python",
-                    "During fall of 2021 and of 2022: I worked under the supervision of titular professor Miklós Csűrös with 1, then 3 graduate students to teach and grade a class of 100, and then 300 on the discrete structures -and fundamentals- from mathematics that we most commonly use as computer scientists.",
-                    "During winter and fall of 2022: I worked under the supervision of titular professor Sébastien Roy, and later with lecturer Amal Ben Abdellah. At first with a fellow other student -and then solo- to teach and grade a class of 150 each time, on how the internet works, the tools we use in web development, as well as design best practices and how to build their own websites."
+                    "Figma since 2023: Mainly learning A LOT. Working on maintaining our file and ML infrastructure through huge growth in scale, both in features and in traffic. The work is by nature very result focused, so the tools I use vary significantly. However I've done a lot of --Ruby, --TypeScript, --Terraform --and AWS work. --I've had to learn to understand code regardless of language however. --Migrating from and deprecating a major service (All of our thumbnailing and our REST API's backend). --AI Search Infrastructure",
+                    "From the moment I landed in Montreal, fall 2021, to the moment I left for NYC - end of summer 2023- I worked as a Teacher Assistant for 11 classes -across 6 courses- and amounting to ~1650 students (not accounting for overlap): --Programming 101 with Python with professor Marc Feeley and lecturer Olivier Melançon (for 3 terms) --Programming Language Concepts and Paradigms with professor Stefan Monnier (for 2 terms): worked mainly with Haskell, Elisp, Prolog, C, Rust and Java --Discrete Structures in Computer Science with professor Miklós Csűrös (for 2 terms): teaching the discrete structures -and fundamentals- from mathematics that we most commonly use as computer scientists --Web development and design with Sébastien Roy (for 2 terms) --Software Engineering with Dr Amal Ben Abdellah --Advanced Java Concepts with lecturer Michel Reid",
+                    "During the summer of 2022: I Implemented experimental features, documented and debugged on Ixiasoft's DITA CCMS web application for technical documentation. Mainly worked with: --Java, --TypeScript, --React (by itself and with Redux), --and Apache. --Also handled -to a lesser extent- Maven and CSS."
                 ],
                 "titles": [
                     "Software Engineer: Infrastructure",
-                    "Full Stack Developer - intern",
-                    "Programming Languages and Paradigms - TA (teacher assistant)",
-                    "Intro to programming - TA",
-                    "Discrete structures for computer science - TA",
-                    "Web development and design - TA"
+                    "Teaching Assistant.",
+                    "Full Stack Developer - intern"
                 ],
                 "images": [
                     "images/experience/figma.png",
-                    "images/experience/fullstack.jpg",
                     "images/experience/Paradigms.jpg",
-                    "images/experience/Programming1.jpg",
-                    "images/experience/DiscreteStruct.jpg",
-                    "images/experience/WebDev.jpg"
+                    "images/experience/fullstack.jpg"
                 ]
             },
             "education": {

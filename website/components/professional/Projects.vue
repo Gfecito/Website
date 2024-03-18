@@ -5,10 +5,11 @@
       :key="index"
       :image="data.images[index]"
       :title="title"
-      :paragraph="data.descriptions[index]"
       :link="data.links[index] || ''"
       :isImageOnLeft="index % 2 === 0"
-    ></Card>
+    >
+  <p class="project_description">{{ data.descriptions[index] }}</p>
+  </Card>
   </div>
 </template>
   
@@ -22,8 +23,8 @@ export default {
   },
   methods: {
     formatDescription(description) {
-      return description.map((paragraph) =>
-        paragraph.replace(/<l(.*?)\s/g, '<a href="$1" target="_blank" rel="noopener noreferrer" ') + '</a>'
+      return description.map((contents) =>
+        contents.replace(/<l(.*?)\s/g, '<a href="$1" target="_blank" rel="noopener noreferrer" ') + '</a>'
       ).join('');
     },
   },

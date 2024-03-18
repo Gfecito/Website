@@ -4,8 +4,9 @@
         :key="institution.title" 
         :image="institution.image"
         :title="institution.title" 
-        :paragraph="institution.details" 
-        :isImageOnLeft="index % 2 === 0" />
+        :isImageOnLeft="index % 2 === 0">
+        <p class="institution_details">{{ institution.details }}</p>
+    </Card>
         <h2 class="text-2xl font-bold">Classes</h2>
         <ul class="">
             <li v-for="classItem in classes" :key="classItem">{{ classItem }}</li>

@@ -7,9 +7,11 @@
           :key="index"
           :image="data.images[index]"
           :title="title"
-          :paragraph="data.descriptions[index].join(' ')"
           :isImageOnLeft="index % 2 === 0"
-        ></Card>
+        >
+        
+      <p class="interest_description">{{data.descriptions[index].join(' ')}}</p>
+      </Card>
       </div>
     </div>
   </template>

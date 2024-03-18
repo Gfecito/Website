@@ -5,7 +5,9 @@
     </div>
     <div class="p-4 w-1/2">
       <h3 class="text-xl font-semibold">{{ title }}</h3>
-      <p class="mt-2">{{ paragraph }}</p>
+      <div class="mt-2">
+        <slot></slot>
+      </div>
       <a v-if="link" :href="link" class="text-blue-500 mt-2 hover:underline" target="_blank" rel="noopener noreferrer">Visit Website</a>
     </div>
   </div>
@@ -22,7 +24,7 @@ export default {
       type: String,
       required: true,
     },
-    paragraph: {
+    contents: {
       type: String,
       required: true,
     },

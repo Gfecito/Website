@@ -6,9 +6,13 @@
           :key="index"
           :image="data.images[index]"
           :title="data.titles[index]"
-          :paragraph="description"
           :isImageOnLeft="index % 2 === 0"
-        />
+        >
+      <p>{{description.split("--")[0]}}</p>
+      <ul class="mt-4">
+        <li class="pt-4" v-for="(item, index) in description.split('--')" :key="index">{{ item }}</li>
+      </ul>
+      </Card>
       </div>
     </div>
   </template>
