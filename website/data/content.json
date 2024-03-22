@@ -290,7 +290,65 @@
                 ],
                 "trophee": "images/logos/trophy.png"
             }
-        }
+        },
+        "articles": [
+            {
+                "id": 1,
+                "title": "On Learning and Teaching",
+                "description": "Reflections on how to study, learn and teach effectively.",
+                "image": "images/vlog_thumbnails/teacher_in_class.jpeg",
+                "contents": "CONTENT CONTENT CONTENT",
+                "expanded": false
+            },
+            {
+                "id": 2,
+                "title": "On Work",
+                "description": "Reflections on the nature of work, and differentiating from employment.",
+                "image": "images/vlog_thumbnails/sisyphus.jpeg",
+                "contents": "To me, for an epoch, the word work has effectively meant employment. Over time, I've found that understanding increasing limited, and even impertinent.",
+                "expanded": false
+            },
+            {
+                "id": 3,
+                "title": "On The Limits of Communication: Only You Know What You Know",
+                "description": "Only you know what you know",
+                "image": "images/vlog_thumbnails/communication.png",
+                "contents": "Communicating is hard, and expensive. The tasks that are bottlenecked by communication are plentiful in our every day lives (such as upholding healthy relationships or ensuring the success of our projects), but they're even more abundant in the field of computing. I believe this is because communication is fundamentally informatical and computational.",
+                "expanded": false
+            },
+            {
+                "id": 4,
+                "title": "Aim to do, not to be.",
+                "description": "Reflections on the frame of mind that has given me peace and what I deem healthy, sustainable growth.",
+                "image": "images/vlog_thumbnails/compass.jpeg",
+                "contents": "CONTENT3 CONTENT3 CONTENT3",
+                "expanded": false
+            },
+            {
+                "id": 5,
+                "title": "On Emergent Behaviors",
+                "description": "Thinking about some of the ways simple rules generate our chaotic world.",
+                "image": "images/vlog_thumbnails/emergent_behavior.webp",
+                "contents": "CONTENT3 CONTENT3 CONTENT3",
+                "expanded": false
+            },
+            {
+                "id": 6,
+                "title": "On Rule Distillation",
+                "description": "Thinking about the ways we attempt to understand fundamental laws from chaos",
+                "image": "images/vlog_thumbnails/distillation.jpeg",
+                "contents": "CONTENT3 CONTENT3 CONTENT3",
+                "expanded": false
+            },
+            {
+                "id": 7,
+                "title": "Be Good And Great",
+                "description": "A reminder to aspire for growth, but to not grow crooked.",
+                "image": "images/vlog_thumbnails/good_and_great.jpeg",
+                "contents": "In one of Kafka's tales, he tells us of many sons, many sons archetypal for many men. Each remarkable in its own way, one tremendously charming, another greatly intelligent, another beautiful as to offend the olympians. Yet none of these have the sincere charm that I find in the 'unremarkable' one. Unremarkable, naive, not quite bright, and yet he is kind.",
+                "expanded": false
+            }
+        ]
     },
     "es": {
         "personal": {

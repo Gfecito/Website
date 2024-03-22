@@ -25,7 +25,7 @@ export default {
         <Personal :data="data.personal" v-if="activePage === 'Me'">
         </Personal>
         <Professional :data="data.professional" v-if="activePage === 'Work'"></Professional>
-        <Vlog v-if="activePage === 'Vlog'"></Vlog>
+        <Vlog :data="data.articles" v-if="activePage === 'Vlog'"></Vlog>
     </main>
     <Footer />
 </template>
