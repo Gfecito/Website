@@ -293,60 +293,110 @@
         },
         "articles": [
             {
-                "id": 1,
                 "title": "On Learning and Teaching",
                 "description": "Reflections on how to study, learn and teach effectively.",
                 "image": "images/vlog_thumbnails/teacher_in_class.jpeg",
-                "contents": "CONTENT CONTENT CONTENT",
-                "expanded": false
+                "contents": [
+                    "Practice",
+                    "The abstract and the concrete",
+                    "Memory",
+                    "Things making sense",
+                    "The Importance of Peers and discussions"
+                ]
             },
             {
-                "id": 2,
                 "title": "On Work",
                 "description": "Reflections on the nature of work, and differentiating from employment.",
                 "image": "images/vlog_thumbnails/sisyphus.jpeg",
-                "contents": "To me, for an epoch, the word work has effectively meant employment. Over time, I've found that understanding increasing limited, and even impertinent.",
-                "expanded": false
+                "contents": [
+                    "Work vs Employment",
+                    "To me, for an epoch, the word work has effectively meant employment.", 
+                    "Over time, I've found that understanding increasing limited, and even impertinent.",
+                    "Work and Humanity",
+                    "Work is older than people.",
+                    "Work, purpose, nietzche and dolstoyevsky.",
+                    "Closing thoughts."
+                ]
             },
             {
-                "id": 3,
                 "title": "On The Limits of Communication: Only You Know What You Know",
                 "description": "Only you know what you know",
                 "image": "images/vlog_thumbnails/communication.png",
-                "contents": "Communicating is hard, and expensive. The tasks that are bottlenecked by communication are plentiful in our every day lives (such as upholding healthy relationships or ensuring the success of our projects), but they're even more abundant in the field of computing. I believe this is because communication is fundamentally informatical and computational.",
-                "expanded": false
+                "contents": [
+                    "What people teach will never be the same as what people want to learn.",
+                    "Frustrated: you ask, they don't tell you what you need.",
+                    "Frustrated: they ask, you tell them but it feels like they just won't listen!",
+                    "Only You Know What You Know",
+                    "Communicating is hard, and expensive.", 
+                    "The tasks that are bottlenecked by communication are plentiful in our every day lives (such as upholding healthy relationships or ensuring the success of our projects), but they're even more abundant in the field of computing.", 
+                    "I believe this is because communication is fundamentally informatical and computational."
+                ]
             },
             {
-                "id": 4,
                 "title": "Aim to do, not to be.",
                 "description": "Reflections on the frame of mind that has given me peace and what I deem healthy, sustainable growth.",
                 "image": "images/vlog_thumbnails/compass.jpeg",
-                "contents": "CONTENT3 CONTENT3 CONTENT3",
-                "expanded": false
+                "contents": [
+                    "'What do you want to be when you grow up?'",
+                    "Easy to ask, but terrible in its implications.",
+                    "The greatest tragedy that one can partake in, is believing that one's identity is singular.",
+                    "Being is a north star",
+                    "Doing is the path",
+                    "You must work the soil."
+                ]
             },
             {
-                "id": 5,
                 "title": "On Emergent Behaviors",
                 "description": "Thinking about some of the ways simple rules generate our chaotic world.",
                 "image": "images/vlog_thumbnails/emergent_behavior.webp",
-                "contents": "CONTENT3 CONTENT3 CONTENT3",
-                "expanded": false
+                "contents": [
+                    "Rule 1: Don't talk about fight club.", 
+                    "Rule 2: No weapons.", 
+                    "Rule 3: Don't talk about fight club.",
+                    "Anarchy ensues."
+                ]
             },
             {
-                "id": 6,
                 "title": "On Rule Distillation",
                 "description": "Thinking about the ways we attempt to understand fundamental laws from chaos",
                 "image": "images/vlog_thumbnails/distillation.jpeg",
-                "contents": "CONTENT3 CONTENT3 CONTENT3",
-                "expanded": false
+                "contents": [
+                    "We have many documented methods for inferring the consequences of simple rules.",
+                    "But I find the inverse so much more remarkable"
+                ]
             },
             {
-                "id": 7,
                 "title": "Be Good And Great",
                 "description": "A reminder to aspire for growth, but to not grow crooked.",
                 "image": "images/vlog_thumbnails/good_and_great.jpeg",
-                "contents": "In one of Kafka's tales, he tells us of many sons, many sons archetypal for many men. Each remarkable in its own way, one tremendously charming, another greatly intelligent, another beautiful as to offend the olympians. Yet none of these have the sincere charm that I find in the 'unremarkable' one. Unremarkable, naive, not quite bright, and yet he is kind.",
-                "expanded": false
+                "contents": [
+                    "In one of Kafka's tales, he tells us of many sons, many sons archetypal for many men.",
+                    "Each remarkable in its own way, one tremendously charming, another greatly intelligent, another beautiful as to offend the olympians.",
+                    "Yet none of these have the sincere charm that I find in the 'unremarkable' one.",
+                    "Unremarkable, naive, not quite bright, and yet he is kind."
+                ]
+            },
+            {
+                "title": "On software",
+                "description": "My thoughts on software development.",
+                "image": "images/vlog_thumbnails/good_and_great.jpeg",
+                "contents": [
+                    "Human organizations.",
+                    "Homomorphisms and Conway's law.",
+                    "It Takes Time.",
+                    "Fundamentals and Change."
+                ]
+            },
+            {
+                "title": "On Art",
+                "description": "My thoughts on software development.",
+                "image": "images/vlog_thumbnails/good_and_great.jpeg",
+                "contents": [
+                    "Art as Product.",
+                    "Art as Outcome.",
+                    "Art as Process.",
+                    "Art as People."
+                ]
             }
         ]
     },
