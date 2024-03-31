@@ -323,13 +323,42 @@
                 "description": "Only you know what you know",
                 "image": "images/vlog_thumbnails/communication.png",
                 "contents": [
-                    "What people teach will never be the same as what people want to learn.",
-                    "Frustrated: you ask, they don't tell you what you need.",
-                    "Frustrated: they ask, you tell them but it feels like they just won't listen!",
-                    "Only You Know What You Know",
-                    "Communicating is hard, and expensive.", 
-                    "The tasks that are bottlenecked by communication are plentiful in our every day lives (such as upholding healthy relationships or ensuring the success of our projects), but they're even more abundant in the field of computing.", 
-                    "I believe this is because communication is fundamentally informatical and computational."
+                    "**Introduction**",
+                    "Talk. Code. Read. Write.                     Draw. Sing. Move. Listen.                    The joy of being heard, the connection in eye contact. Communication is the foundation of any social species.                     But at its core, it's only transmitting information.                    Without communication there’s no understanding. No connection. Slow to non-existent progress.",
+                    "We must communicate; however we often find ourselves struggling with the natural limitations to do so. Why?",
+                    "**What people teach will never be the same as what people want to learn.**",
+                    "We’ve all been there. You’re sitting in a classroom, wondering about some detail of what the teacher has explained. You ask a question, and it feels like they’re answering an entirely different one, perhaps you’re so fortunate as to learn something new, but your confusion remains.", 
+                    "At times, we’ve been on the flip side as well. A junior asks you a question on a topic you’ve already explained several times, you answer, and they nod ceremoniously, yet you both know that whatever the motive for their question, it pervades your teachings.                    Despite the teacher's best efforts, the gap between what is taught and what is understood persists.", 
+                    "Frustrating, but why does that happen? Why does it continue to do so across cultures and vocations?",
+                    "**Context**",
+                    "Context. Symbols mean naught without context.                    Everything we know, we know within a set of constraints, assumptions and adjacent information.",
+                    "This set is usually subtextual: it isn’t explicitly signaled anywhere in particular, nor are we even necessarily aware of its existence.                    Yet there is no thought in your mind which would be sensible without context; without the definitions of the words you use to enunciate it, the implicit assumptions you make or the things that you assume everyone must know.",
+                    "The discrete nature of this contextual information is especially problematic for experts.                    When an expert communicates, they often presume that what they’re saying is obvious or common sense. To them it is, because their contextual knowledge is rich in that field, and so many of their observations are simple consequences of what they know.",
+                    "We fail -all too frequently- to acknowledge that this context is precisely our expertise, and presuming that this information is widely shared effectively blocks our ability to understand each other, to work together, to hear one another, and to connect sincerely.",
+                    "Context gets in the way of many other communication based tasks: conflict resolution is harder, when you don’t understand where the other side is coming from, culture is harder to appreciate with just a superficial (context-bare) view, collaboration is hampered by fundamental misunderstandings in the work that must be done or its costs.",
+                    "On the other end, providing too much context on communicating is often wasteful: it takes time to share, takes time to consume, and most often does not even include the information that the other person actually wants. Even when we attempt to better communicate, we’re permanently impeded from reaching perfection.",
+                    "Context makes us knowledgeable, yet it seems to impede so much in communicating with each other. We must ponder: is it the context? Or is it us?",
+                    "I argue that it's not you (context), it's me.",
+                    "**Only I know what I know:**",
+                    "People are complicated. We know many, many things.                    However we don’t store our knowledge in shared memory. There is no factual hivemind.",
+                    "You know what you know, and I know what I know.",
+                    "But if I ask you “What do you know?”, expecting a list of all the information in your brain you’d find that most ridiculous.                    Even assuming that you could make such a list, you’d fail to communicate it properly (see title of article). But you can’t make such a list.",
+                    "Why?",
+                    "“What do you know?” falls, I think, into the same branch of inquiry as questions such as “Who are you?” (which I’ve explored in another article: “You Don’t Really Exist”)                    For most of us, a sufficient limitation to entirely answer these questions is the vagueness of what the question means. What is “knowing” really? What is “me”?",
+                    "Do I know something if I know where to find it? Do I know something if it has been taught to me by someone else? How can we be sure this other person knew it properly? What does it mean for them to know?",
+                    "The question of what we know is by nature recursive ad nauseam. There is always the next step of “But how do we know that?” until we reach axiomatic assumptions. Axioms aren’t knowable, they’re simply assumed. So we can assume, and then we can infer from assumptions.",
+                    "**We can never know**",
+                    "So… we can’t know things. Voila merci, thank you for your read, let us venture into the streets in cynical dread of our condemnation to eternal ignorance.",
+                    "This is an unpragmatic interpretation.",
+                    "I think that there is an alternative interpretation that I find not only infinitely more useful, and more interesting, but also sincerely quite freeing.",
+                    "Teaching, and indeed any communication, has never been about knowable things. It’s been -and I deem it will forever be- about persuading and convincing each other to exploit useful information, useful methods, useful tools, and useful practices to live better lives. To ask better questions, to solve more important problems.",
+                    "Thinking of communication as the transfer of the truth is very humane arrogance. We can’t know the truth, not in any real way. But we can know the truth in many useful ways.",
+                    "Children are excellently transparent with this. For any truth you hold undeniable, they will seamlessly challenge it, with no malice but simple curiosity: because nothing you know is truly undeniable.",
+                    "But what does all of this tell us about communicating with each other?                    If there is no real fundamental knowledge, but rather just useful snippets, what are we even doing?",
+                    "**Conclusion: we do our best. But not the best.**",
+                    "We know nothing, and yet we still… talk. We talk and we write and we sing and we try.                    We communicate our know hows, our warnings, our tales, our stories and advice.                    We communicate to help each other; to help ourselves.                    We do our best.",
+                    "Yet, let us be permanently conscious: we will never communicate the best way.                    We can’t, so let us be humble. Let us converse, let us keep trying.                    To be imperfect gives us power in iteration, in retrying, in back and forths.",
+                    "Let’s keep helping each other, but next time a student raises their hand, remember: they can’t ask the perfect question, and you can’t tell them exactly what they want.                    But it's better if you try."
                 ]
             },
             {
@@ -357,15 +386,6 @@
                 ]
             },
             {
-                "title": "On Rule Distillation",
-                "description": "Thinking about the ways we attempt to understand fundamental laws from chaos",
-                "image": "images/vlog_thumbnails/distillation.jpeg",
-                "contents": [
-                    "We have many documented methods for inferring the consequences of simple rules.",
-                    "But I find the inverse so much more remarkable"
-                ]
-            },
-            {
                 "title": "Be Good And Great",
                 "description": "A reminder to aspire for growth, but to not grow crooked.",
                 "image": "images/vlog_thumbnails/good_and_great.jpeg",
@@ -374,28 +394,6 @@
                     "Each remarkable in its own way, one tremendously charming, another greatly intelligent, another beautiful as to offend the olympians.",
                     "Yet none of these have the sincere charm that I find in the 'unremarkable' one.",
                     "Unremarkable, naive, not quite bright, and yet he is kind."
-                ]
-            },
-            {
-                "title": "On software",
-                "description": "My thoughts on software development.",
-                "image": "images/vlog_thumbnails/good_and_great.jpeg",
-                "contents": [
-                    "Human organizations.",
-                    "Homomorphisms and Conway's law.",
-                    "It Takes Time.",
-                    "Fundamentals and Change."
-                ]
-            },
-            {
-                "title": "On Art",
-                "description": "My thoughts on software development.",
-                "image": "images/vlog_thumbnails/good_and_great.jpeg",
-                "contents": [
-                    "Art as Product.",
-                    "Art as Outcome.",
-                    "Art as Process.",
-                    "Art as People."
                 ]
             }
         ]
