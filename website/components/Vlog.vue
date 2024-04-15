@@ -6,13 +6,23 @@
       <div class="ml-10 mr-10" v-if="selectedArticle">
         <button @click="toggleAllExpand">Pressing this should untoggle The Expand</button>
         <!-- This should be an array instead, and make a paragraph on each element, and an image for images -->
-        <div v-for="section in selectedArticle.contents">
-          <p class="m-10 text-justify">{{ section }}</p>
-        </div>
+        <div v-for="(section, index) in selectedArticle.contents" :key="index">
+        <!-- Check if section is an image or paragraph -->
+        <template v-if="section.image">
+          <img :src="section.image" alt="Article" class="w-full h-auto object-cover rounded-md mb-4">
+        </template>
+        <template v-else-if="section.title">
+          <h1 class="m-10 text-justify">{{ section.title }}</h1>
+        </template>
+        <template v-else>
+          <div class="paragraph-container">
+            <p class="m-10 text-justify" v-html="section.paragraph.join('<br />')"></p>
+          </div>
+        </template>
+      </div>
       </div>
   
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-        <!-- Dummy Article Card -->
         <div v-for="(article, index) in articles" :key="index">
           <div class="bg-white shadow-md rounded-md p-4">
             <div v-if="!article.expanded" @click="selectArticle(article)" class="cursor-pointer">
@@ -67,6 +77,14 @@
   </script>
   
   <style>
-  /* Add custom styles if needed */
+  h1{
+    font-size: 2em;
+  }
+
+  br {
+    display: block; /* makes it have a width */
+    content: ""; /* clears default height */
+    margin-top: 20px; /* change this to whatever height you want it */
+  }
   </style>
   
