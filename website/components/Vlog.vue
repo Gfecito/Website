@@ -9,7 +9,7 @@
         <div v-for="(section, index) in selectedArticle.contents" :key="index">
         <!-- Check if section is an image or paragraph -->
         <template v-if="section.image">
-          <img :src="section.image" alt="Article" class="w-full h-auto object-cover rounded-md mb-4">
+          <img style="width: 50%; margin-left: 25%;" :src="section.image" alt="Article" class="w-full h-auto object-cover rounded-md mb-4">
         </template>
         <template v-else-if="section.title">
           <h1 class="m-10 text-justify">{{ section.title }}</h1>
