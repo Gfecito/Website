@@ -7,7 +7,8 @@
         items-center 
         justify-between 
         py-4 
-        px-6">
+        px-6 
+        z-50">
         <div class="flex items-center">
             <img src="" alt="darkmode" class="mr-4">
             <HamburgerMenu 
