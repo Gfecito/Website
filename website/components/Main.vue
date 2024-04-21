@@ -12,16 +12,8 @@ export default {
         let activePage = ref('Me');
         let backgroundOpacity = ref(0);
 
-        // Debounce function for scroll event
-        const debounce = (func, delay) => {
-            let timeoutId;
-            return (...args) => {
-                clearTimeout(timeoutId);
-                timeoutId = setTimeout(() => {
-                    func.apply(this, args);
-                }, delay);
-            };
-        };
+        // Easing function for smoother animation
+        const easeInOutQuad = (t) => t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t;
 
         // Update scrollPosition and backgroundOpacity on scroll using requestAnimationFrame
         const handleScroll = () => {
@@ -30,8 +22,8 @@ export default {
             const scrollPositionY = window.scrollY;
             const maxOpacityScroll = scrollHeight - windowHeight; // Bottom of the page
 
-            // Calculate opacity based on scroll position
-            backgroundOpacity.value = Math.min(scrollPositionY / maxOpacityScroll, 1);
+            // Calculate opacity based on scroll position using easing function
+            backgroundOpacity.value = easeInOutQuad(Math.min(scrollPositionY / maxOpacityScroll, 1));
 
             // Use requestAnimationFrame for smoother animation
             requestAnimationFrame(() => {
@@ -43,8 +35,7 @@ export default {
 
         // Add debounced scroll event listener on component mount
         onMounted(() => {
-            const debouncedScroll = handleScroll; // Adjust debounce delay as needed
-            window.addEventListener('scroll', debouncedScroll);
+            window.addEventListener('scroll', handleScroll);
         });
 
         return {
@@ -56,11 +47,12 @@ export default {
 </script>
 
 
+
 <template>
     <Header @header-height="handleHeaderHeight" @page-change="activePage = $event" @language-change="languageChange" />
     <main class="py-10">
         <div class="background-layer" :style="{ opacity: backgroundOpacity }"></div>
-        <div class="content">
+        <div class="content text-with-outline">
             <Personal :data="data.personal" v-if="activePage === 'Me'"></Personal>
             <Professional :data="data.professional" v-if="activePage === 'Work'"></Professional>
             <Vlog :data="data.articles" v-if="activePage === 'Vlog'"></Vlog>
@@ -81,8 +73,8 @@ main {
     position: fixed;
     top: 0;
     left: 0;
-    width: 120%;
-    height: 120%;
+    width: 100%;
+    height: 200%;
     background-image: url('images/fractals/mandelbrot_shells_white.jpeg');
     background-attachment: fixed;
     background-position: center;
@@ -97,4 +89,16 @@ main {
     position: relative; /* Ensure child elements are positioned correctly */
     z-index: 1; /* Place content above background layer */
 }
+
+.text-with-outline {
+  color: black; 
+  text-shadow: 
+    -1px -1px 0 #ffffffd5,  
+     1px -1px 0 #ffffffd5,
+    -1px  1px 0 #ffffffd5,
+     1px  1px 0 #ffffffd5, /* Create outline */
+     0px  0px 5px #ffffffd5; /* Light highlight */
+  font-weight: bold; /* Set text to bold */
+}
+
 </style>

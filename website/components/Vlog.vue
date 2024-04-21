@@ -65,6 +65,11 @@
         this.toggleAllExpand();
         this.selectedArticle = article;
         this.toggleExpand(article);
+        // Scroll to the top of the page
+        window.scrollTo({
+                top: 0,
+                behavior: 'smooth' // Optional: Smooth scrolling effect
+            });
       },
       toggleAllExpand() {
         this.articles.forEach(article => {

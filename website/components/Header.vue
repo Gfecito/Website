@@ -29,6 +29,11 @@
 export default {
     methods: {
         setActivePage(page) {
+            // Scroll to the top of the page
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth' // Optional: Smooth scrolling effect
+            });
             this.$emit("page-change", page);
         },
         languageChange(language) {
