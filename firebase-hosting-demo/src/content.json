@@ -143,7 +143,6 @@
     "projects": {
         "titles": [
             "AI for Climate",
-            "Sentiment Analysis",
             "Genomics",
             "AI 3D Computer-Vision",
             "ML Models",
@@ -163,12 +162,6 @@
                 "Currently, we have access to global climate models, but they are based on large-scale measurements. At smaller scales, data can be unreliable, leading to incorrect conclusions.",
                 "I have the opportunity to lead a team that aims to build on the state of the art to solve this problem like no one has before.",
                 "I made a website for it which you can access here: <lhttps://climate-model-downscaling.web.app/"
-            ],
-            [
-                "This is a research and development project under Mila - Quebec AI Institute's supervision",
-                "Sentiment analysis is a very important aspect in companies, especially in terms of customer experience. Indeed, sentiment analysis is a natural language processing application that aims to identify the different tones found in texts. Especially with the huge wave of popularity with social media, sentiment analysis is becoming even more important.",
-                "In this project, we explore machine learning and deep learning techniques in natural language processing (NLP) to identify sentiments in texts.",
-                "I made a website for it which you can access here: <lhttps://causality-text-based-inference.web.app/"
             ],
             [
                 "This is a research and development project for UdeM's Laboratory of Computational and Theoretical Biology",
@@ -225,7 +218,6 @@
         ],
         "images": [
             "Images/ProjectThumbnails/MLClimate.png",
-            "Images/ProjectThumbnails/NLP.jpeg",
             "Images/ProjectThumbnails/Genomics.jpeg",
             "Images/ProjectThumbnails/Disparity.png",
             "Images/ProjectThumbnails/ML.png",
