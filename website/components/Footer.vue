@@ -8,13 +8,12 @@
 </template>
 
 <style scoped>
-/* Add tailwind classes and custom styles if needed */
 .footer {
-    position: absolute;
-    width: 1440px;
-    height: 64px;
-    left: 0px;
-    top: 960px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999; /* Adjust the z-index as needed */
 }
 
 .icon-image {
