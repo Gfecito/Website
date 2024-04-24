@@ -130,18 +130,19 @@ export default {
   
 <style scoped>
 #movies {
-  height: 100vh;
-  width: 100vw;
+  height: inherit;
+  width: inherit;
   margin: 0rem;
   overflow: hidden;
 }
 
 .image-track {
   width: fit-content;
+  height: inherit;
   display: flex;
   flex-direction: column;
   gap: 4vmin;
-  position: absolute;
+  /* position: fixed; */
   top: 0;
   overflow: hidden;
 }

@@ -1,5 +1,5 @@
 <template>
-  <div id="library" class="border-purple-500 border-dashed border-8 py-4 px-20 mx-20">
+  <div id="library" class="border-purple-500 border-dashed border-8 py-4">
     <h2 class="text-2xl font-bold">Some Books I Like!</h2>
     <div class="book-shelves">
       <div v-for="(shelf, index) in shelves" :key="index" class="book-shelf">
@@ -7,16 +7,6 @@
           <div v-for="(book, bookIndex) in shelf" :key="bookIndex" class="book" :style="getBookStyle(book)"></div>
         </div>
         <div class="shelf"></div>
-      </div>
-    </div>
-  </div>
-  <div id="movies" class="border-red-500 border-dashed border-8 p-4" style="z-index: -1; overflow: hidden;">
-    <div style="grid-template-columns: 1fr 1fr;">
-      <div ref="image_track_1" id="image-track-1" class="image-track">
-        <img v-for="poster in posters" :src="poster" draggable="false" alt="movie poster">
-      </div>
-      <div ref="image_track_2" id="image-track-2" class="image-track">
-        <img v-for="poster in posters" :src="poster" draggable="false" alt="movie poster">
       </div>
     </div>
   </div>
@@ -207,50 +197,6 @@ export default {
 
   .book-shelf {
     grid-template-rows: 160fr 25fr;
-  }
-}
-
-
-#movies {
-  height: 100vh;
-  width: 100vw;
-  margin: 0rem;
-  overflow: hidden;
-}
-
-.image-track {
-  width: fit-content;
-  display: flex;
-  flex-direction: column;
-  gap: 4vmin;
-  position: relative; /* Using absolute breaks layout */
-  top: 0;
-  overflow: hidden;
-}
-
-.image-track>img {
-  width: min(95%, 200px);
-  margin: 0 auto;
-  height: 220px;
-  object-fit: cover;
-  object-position: 100% 50%;
-  filter: invert(0);
-  user-select: none; /*Prevents ugly 'text selection' blue effect on drag*/
-}
-
-#image-track-1 {
-  left: 0%;
-}
-
-#image-track-2 {
-  margin-left: 80%;
-}
-
-
-@media only screen and (min-width: 850px) {
-  .image-track>img {
-    width: min(95%, 300px);
-    height: 330px;
   }
 }
 </style>
