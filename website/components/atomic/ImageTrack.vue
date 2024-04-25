@@ -43,7 +43,22 @@
     },
     methods: {
       handleMouseDown(e) {
-        this.mouseDownAt = e.clientY;
+        const componentRect = this.$el.getBoundingClientRect();
+        const mouseX = e.clientX;
+        const mouseY = e.clientY;
+
+        console.log(`componentRect.left ${componentRect.left}`)
+        console.log(`componentRect.right ${componentRect.right}`)
+        console.log(`componentRect.top ${componentRect.top}`)
+        console.log(`componentRect.bottom ${componentRect.bottom}`)
+        if (
+          mouseX >= componentRect.left &&
+          mouseX <= componentRect.right &&
+          mouseY >= componentRect.top &&
+          mouseY <= componentRect.bottom
+        ) {
+          this.mouseDownAt = mouseY;
+        }
       },
       handleMouseUp() {
         this.mouseDownAt = 0;
@@ -62,7 +77,7 @@
         if (this.percentageSlid < -10) this.percentageSlid = -10;
         if (this.percentageSlid > 280) this.percentageSlid = 280;
   
-        const imageTrack = () => this.$el.querySelector(`#${this.id}`);
+        const imageTrack = this.$el;
   
         imageTrack.animate({
           transform: `translate(0%, ${-this.percentageSlid}%)`
