@@ -1,7 +1,7 @@
 <template>
   <div id="movies" class="border-red-500 border-dashed border-8 p-4" style="z-index: -1; overflow: hidden;">
     <div>
-      <ImageTrack :data="posters"/>
+      <ImageTrack :data="posters" :title="'movies'"/>
     </div>
   </div>
 </template>

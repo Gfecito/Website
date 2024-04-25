@@ -1,21 +1,28 @@
 <template>
-    <div id="image-track" class="image-track">
-        <img v-for="image in images" :src="image" draggable="false" alt="">
-    </div>
-  </template>
+  <div id="image-track" class="image-track">
+    <img v-for="image in images" :src="image" draggable="false" alt="">
+  </div>
+</template>
     
-  <script>
+<script>
   export default {
     props: {
       data: {
         type: Object,
         required: true,
       },
+      title: {
+        type: String,
+        require: true,
+      }
     },
     computed: {
       images(props) {
         return props.data;
       },
+      id(props){
+        return `${props.title}-image-track`
+      }
     },
     data() {
       return {
@@ -55,7 +62,7 @@
         if (this.percentageSlid < -10) this.percentageSlid = -10;
         if (this.percentageSlid > 280) this.percentageSlid = 280;
   
-        const imageTrack = this.$el.querySelector("#image-track");
+        const imageTrack = () => this.$el.querySelector(`#${this.id}`);
   
         imageTrack.animate({
           transform: `translate(0%, ${-this.percentageSlid}%)`
@@ -95,15 +102,14 @@
       }
     }
   };
-  </script>
+</script>
     
-  <style scoped>
+<style scoped>
   .image-track {
     width: 100%;
     display: flex;
     flex-direction: column;
     gap: 4vmin;
-    /* position: fixed; */
     top: 0;
     overflow: hidden;
   }
@@ -116,15 +122,4 @@
     filter: invert(0);
     user-select: none; /*Prevents ugly 'text selection' blue effect on drag*/
   }
-  
-  #image-track {
-    left: 0%;
-  }
-  
-  
-  @media only screen and (min-width: 850px) {
-    .image-track>img {
-      width: 100%;
-    }
-  }
-  </style>  
+</style>
