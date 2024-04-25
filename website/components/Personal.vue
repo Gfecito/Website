@@ -5,7 +5,7 @@
       <div style="display: grid; grid-template-columns: 1fr 5fr 1fr; width: 100%; height: 800px;">
         <PersonalMovies :data="moviesData"></PersonalMovies>
         <PersonalBooks :books="booksData" :movies="moviesData"/>
-        <PersonalMovies :data="moviesData"></PersonalMovies>
+        <PersonalAlbums :data="moviesData"></PersonalAlbums>
       </div>
     </div>
 </template>
