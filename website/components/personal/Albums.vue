@@ -16,7 +16,7 @@ export default {
   },
   computed: {
     posters(props) {
-      return props.data.posters;
+      return props.data.covers;
     },
   },
   data() {

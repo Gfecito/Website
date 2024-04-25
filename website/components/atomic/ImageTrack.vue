@@ -99,8 +99,7 @@
     
   <style scoped>
   .image-track {
-    width: fit-content;
-    height: inherit;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 4vmin;
@@ -112,7 +111,6 @@
   .image-track>img {
     width: 100%;
     margin: 0 auto;
-    height: 220px;
     object-fit: cover;
     object-position: 100% 50%;
     filter: invert(0);
@@ -126,8 +124,7 @@
   
   @media only screen and (min-width: 850px) {
     .image-track>img {
-      width: min(95%, 300px);
-      height: 330px;
+      width: 100%;
     }
   }
   </style>  

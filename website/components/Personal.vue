@@ -4,8 +4,8 @@
       <PersonalJourney :data="journeyData"></PersonalJourney>
       <div style="display: grid; grid-template-columns: 1fr 5fr 1fr; width: 100%; height: 800px;">
         <PersonalMovies :data="moviesData"></PersonalMovies>
-        <PersonalBooks :books="booksData" :movies="moviesData"/>
-        <PersonalAlbums :data="moviesData"></PersonalAlbums>
+        <PersonalBooks :books="booksData"/>
+        <PersonalAlbums :data="albumsData"></PersonalAlbums>
       </div>
     </div>
 </template>
@@ -23,12 +23,14 @@ export default {
       journeyData: null,
       booksData: null,
       moviesData: null,
+      albumsData: null,
     };
   },
   created() {
     this.journeyData = this.data.journey;
     this.booksData = this.data.books;
     this.moviesData = this.data.movies;
+    this.albumsData = this.data.albums;
   },
   setup() {
       let backgroundOpacity = ref(0);

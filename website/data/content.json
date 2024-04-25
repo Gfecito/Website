@@ -65,6 +65,18 @@
                     "images/movies/theShining.png",
                     "images/movies/trainspotting.png"
                 ]
+            },
+            "albums": {
+                "covers": [
+                    "images/albums/21-savage_i-am-i-was.png",
+                    "images/albums/black-keys_el-camino.jpeg",
+                    "images/albums/brockhampton_saturation.png",
+                    "images/albums/gorillaz_2001.png",
+                    "images/albums/kenny-beats_louie.jpeg",
+                    "images/albums/little-simz_no-thank-you.jpeg",
+                    "images/albums/mac-miller_faces.jpeg",
+                    "images/albumsthe-strokes_the-new-abnormal.png"
+                ]
             }
         },
         "professional": {
