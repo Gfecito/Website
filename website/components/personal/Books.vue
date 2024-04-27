@@ -1,6 +1,5 @@
 <template>
   <div id="library" class="border-purple-500 border-dashed border-8 py-4">
-    <h2 class="text-2xl font-bold">Some Books I Like!</h2>
     <div class="book-shelves">
       <div v-for="(shelf, index) in shelves" :key="index" class="book-shelf">
         <div class="book-row" :style="getBookRowStyle(shelf)">
@@ -13,7 +12,7 @@
 </template>
 
 <script>
-const BOOKS_PER_SHELF = 7
+const BOOKS_PER_SHELF = 4
 export default {
   props: {
     books: {
@@ -46,6 +45,7 @@ export default {
       return {
         gridTemplateColumns: `repeat(${shelf.length}, min(${parseInt(100/BOOKS_PER_SHELF)}%, ${parseInt(900/BOOKS_PER_SHELF)}px))`,
         gridTemplateRows: '0',
+        // gridGap: '15px',
         paddingLeft: `${padding}%`,
       };
     },
@@ -76,7 +76,7 @@ export default {
 
 .book {
   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
-  width: min(95%, 80px);
+  width: min(95%, 160px);
   background-size: cover;
   margin: 0 auto;
   height: 110px;
@@ -85,19 +85,19 @@ export default {
 .shelf {
   margin: 0 auto;
   height: 25px;
-  width: min(100%, 1200px);
+  width: 100%;
   background-color: #FFF;
   box-shadow: 10px 10px 6px rgb(180, 179, 179);
 }
 
 @media only screen and (min-width: 850px) {
   .book {
-    width: min(95%, 100px);
-    height: 160px;
+    height: 140px;
+    width: 110px;
   }
 
   .book-shelf {
-    grid-template-rows: 160fr 25fr;
+    grid-template-rows: 140px 25px;
   }
 }
 </style>

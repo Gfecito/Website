@@ -2,7 +2,7 @@
     <div class="background-layer" :style="{ opacity: backgroundOpacity }"></div>
     <div class="border-green-800 min-h-screen">
       <PersonalJourney :data="journeyData"></PersonalJourney>
-      <div style="display: grid; grid-template-columns: 1fr 5fr 1fr; width: 100%; height: 800px;">
+      <div style="display: grid; grid-template-columns: 1fr 5fr 1fr; grid-gap: 5%; width: 100%; height: 1100px;">
         <PersonalMovies :data="moviesData"></PersonalMovies>
         <PersonalBooks :books="booksData"/>
         <PersonalAlbums :data="albumsData"></PersonalAlbums>
