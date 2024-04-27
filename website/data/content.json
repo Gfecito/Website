@@ -60,7 +60,7 @@
                     "images/movies/moonlight.png",
                     "images/movies/roma.png",
                     "images/movies/pansLabyrinth.png",
-                    "images/movies/whiplash.png",
+                    "images/movies/whiplash.jpeg",
                     "images/movies/blackSwan.png",
                     "images/movies/1917.png",
                     "images/movies/joker.png",
@@ -79,7 +79,7 @@
                     "images/albums/kenny-beats_louie.jpeg",
                     "images/albums/little-simz_no-thank-you.jpeg",
                     "images/albums/mac-miller_faces.jpeg",
-                    "images/albumsthe-strokes_the-new-abnormal.png"
+                    "images/albums/the-strokes_the-new-abnormal.png"
                 ]
             }
         },
@@ -703,7 +703,11 @@
                 "images/books/fahrenheit451.jpg",
                 "images/books/hitchikersGuide.jpeg",
                 "images/books/understandingPower.jpeg",
-                "images/books/theMinistryForTheFuture.jpg"
+                "images/books/anna_karenina.jpeg",
+                "images/books/brothers_karamazov.jpeg",
+                "images/books/how_to_solve_it.jpg",
+                "images/books/lotr.jpeg",
+                "images/books/metamorphosis.jpeg"
             ],
             "movies": {
                 "posters": [
@@ -718,7 +722,7 @@
                     "images/movies/moonlight.png",
                     "images/movies/roma.png",
                     "images/movies/pansLabyrinth.png",
-                    "images/movies/whiplash.png",
+                    "images/movies/whiplash.jpeg",
                     "images/movies/blackSwan.png",
                     "images/movies/1917.png",
                     "images/movies/joker.png",
@@ -728,67 +732,18 @@
                     "images/movies/trainspotting.png"
                 ]
             },
-            "inspiration": {
-                "people": [
-                    {
-                        "name": "Einstein",
-                        "description": "Einstein me inspira por su creatividad impecable, su habilidad para comunicar conceptos científicos complejos con una hermosa claridad y su demostración de que la ciencia no conoce límites. Sus teorías y descubrimientos revolucionarios han transformado nuestra comprensión del universo.",
-                        "image": "images/inspiration/einstein.jpeg"
-                    },
-                    {
-                        "name": "Oppenheimer",
-                        "description": "La historia de Oppenheimer sirve como un recordatorio de que incluso las mentes más brillantes pueden verse envueltas en circunstancias trágicas. Sus contribuciones al desarrollo de la bomba atómica resaltan la importancia de la convicción compasiva y las responsabilidades éticas de los científicos.",
-                        "image": "images/inspiration/oppenheimer.jpeg"
-                    },
-                    {
-                        "name": "Geoffrey Hinton, Yann Lecun y Yoshua Bengio",
-                        "description": "Estos pioneros en el campo de la inteligencia artificial han realizado enormes contribuciones al campo. Lo que realmente me inspira de ellos es su compromiso de hacer que la IA sea accesible para el público y su dedicación para garantizar su uso ético en beneficio de la humanidad.",
-                        "image": "images/inspiration/aiPeople.jpeg"
-                    },
-                    {
-                        "name": "Marie y Pierre Curie",
-                        "description": "Los Curie ejemplifican la excelencia, el sacrificio y el poder de la colaboración. Su trabajo revolucionario en radioactividad no solo les valió premios Nobel, sino que también los consolidó como una de las parejas más destacadas en la historia de la ciencia.",
-                        "image": "images/inspiration/marieAndPierre.jpeg"
-                    },
-                    {
-                        "name": "Tolstoy, Dostoevsky y Nietzsche",
-                        "description": "Estos pensadores influyentes han brindado perspectivas invaluables sobre el trabajo y la condición humana. Sus escritos exploran las profundidades de la experiencia humana, ofreciendo ideas profundas sobre la complejidad de la mente, la búsqueda de sentido y la realización de una vida plena.",
-                        "image": "images/inspiration/thinkers.jpeg"
-                    },
-                    {
-                        "name": "Sor Juana Inés de la Cruz",
-                        "description": "La incansable búsqueda de la excelencia de Sor Juana en medio de la discriminación me inspira profundamente. Como una brillante poeta e intelectual durante la era colonial mexicana, desafió las normas sociales y abogó por la educación de las mujeres y la libertad intelectual.",
-                        "image": "images/inspiration/sorJuana.jpeg"
-                    },
-                    {
-                        "name": "Frida Kahlo",
-                        "description": "La resistencia y valentía de Kahlo al abrazar su ser único resuenan en mí. Su arte refleja su dolor físico y emocional, al tiempo que captura su espíritu indomable y su determinación para superar la adversidad.",
-                        "image": "images/inspiration/fridaKahlo.jpeg"
-                    },
-                    {
-                        "name": "Mandela, Gandhi y Martin Luther King",
-                        "description": "Mandela, Gandhi y Martin Luther King encarnan el poder de la resistencia pacífica y el coraje para desafiar sistemas injustos. Su compromiso inquebrantable con la justicia, la igualdad y los derechos humanos sirve como un recordatorio constante de la fuerza del espíritu humano y el impacto transformador que las personas pueden tener en la sociedad.",
-                        "image": "images/inspiration/mandelaGandhiKing.jpeg"
-                    },
-                    {
-                        "name": "Cuauhtémoc Cárdenas",
-                        "description": "Cárdenas me inspira con su incansable trabajo por un mejor México. Como político y activista social, ha luchado por la justicia social, la reforma democrática y los derechos de las comunidades marginadas, dejando un impacto duradero en su país.",
-                        "image": "images/inspiration/cardenas.jpeg"
-                    },
-                    {
-                        "name": "Hedy Lamarr",
-                        "description": "Hedy Lamarr es una actriz e inventora austriaca que me inspira con su combinación única de belleza, talento artístico e inteligencia científica. Conocida por su exitosa carrera cinematográfica en las décadas de 1930 y 1940, también desempeñó un papel crucial en el desarrollo de la tecnología de comunicación inalámbrica.",
-                        "image": "images/inspiration/hedyLamarr.jpeg"
-                    }
+            "albums": {
+                "covers": [
+                    "images/albums/21-savage_i-am-i-was.png",
+                    "images/albums/black-keys_el-camino.jpeg",
+                    "images/albums/brockhampton_saturation.png",
+                    "images/albums/gorillaz_2001.png",
+                    "images/albums/kenny-beats_louie.jpeg",
+                    "images/albums/little-simz_no-thank-you.jpeg",
+                    "images/albums/mac-miller_faces.jpeg",
+                    "images/albums/the-strokes_the-new-abnormal.png"
                 ]
-            },
-            "thanks": [
-                "Estoy muy feliz (¡no siempre! evitemos romantizar la felicidad).",
-                "Estoy feliz con la vida que llevo, el trabajo que hago y las personas que conozco.",
-                "No creo haber hecho algo en particular para merecer esto, pero estoy profundamente agradecido/a.",
-                "Con amabilidad, calidez y MUCHO trabajo duro, algunas personas muy especiales me han convertido... en mí, imperfecto pero feliz.",
-                "Gracias por eso."
-            ]
+            }
         },
         "professional": {
             "education": {
@@ -1098,7 +1053,11 @@
                 "images/books/fahrenheit451.jpg",
                 "images/books/hitchikersGuide.jpeg",
                 "images/books/understandingPower.jpeg",
-                "images/books/theMinistryForTheFuture.jpg"
+                "images/books/anna_karenina.jpeg",
+                "images/books/brothers_karamazov.jpeg",
+                "images/books/how_to_solve_it.jpg",
+                "images/books/lotr.jpeg",
+                "images/books/metamorphosis.jpeg"
             ],
             "movies": {
                 "posters": [
@@ -1113,7 +1072,7 @@
                     "images/movies/moonlight.png",
                     "images/movies/roma.png",
                     "images/movies/pansLabyrinth.png",
-                    "images/movies/whiplash.png",
+                    "images/movies/whiplash.jpeg",
                     "images/movies/blackSwan.png",
                     "images/movies/1917.png",
                     "images/movies/joker.png",
@@ -1123,67 +1082,18 @@
                     "images/movies/trainspotting.png"
                 ]
             },
-            "inspiration": {
-                "people": [
-                    {
-                        "name": "Einstein",
-                        "description": "Einstein m'inspire par sa créativité impeccable, sa capacité à communiquer des concepts scientifiques complexes avec une clarté magnifique, et sa démonstration que la science ne connaît pas de limites. Ses théories et découvertes révolutionnaires ont remodelé notre compréhension de l'univers.",
-                        "image": "images/inspiration/einstein.jpeg"
-                    },
-                    {
-                        "name": "Oppenheimer",
-                        "description": "L'histoire d'Oppenheimer sert de rappel que même les esprits les plus brillants peuvent être pris dans des circonstances tragiques. Ses contributions au développement de la bombe atomique soulignent l'importance de la conviction compatissante et des responsabilités éthiques des scientifiques.",
-                        "image": "images/inspiration/oppenheimer.jpeg"
-                    },
-                    {
-                        "name": "Geoffrey Hinton, Yann Lecun et Yoshua Bengio",
-                        "description": "Ces pionniers dans le domaine de l'intelligence artificielle ont apporté d'énormes contributions à ce domaine. Ce qui m'inspire vraiment chez eux, c'est leur engagement à rendre l'IA accessible au public et leur dévouement à assurer son utilisation éthique pour le bien de l'humanité.",
-                        "image": "images/inspiration/aiPeople.jpeg"
-                    },
-                    {
-                        "name": "Marie et Pierre Curie",
-                        "description": "Les Curie incarnent l'excellence, le sacrifice et la puissance de la collaboration. Leurs travaux révolutionnaires sur la radioactivité leur ont non seulement valu des prix Nobel, mais ont également solidifié leur statut de l'un des plus grands couples de pouvoir dans l'histoire de la science.",
-                        "image": "images/inspiration/marieAndPierre.jpeg"
-                    },
-                    {
-                        "name": "Tolstoï, Dostoïevski et Nietzsche",
-                        "description": "Ces penseurs influents ont offert des perspectives inestimables sur le travail et la condition humaine. Leurs écrits explorent les profondeurs de l'expérience humaine, offrant des insights profonds sur les complexités de l'esprit, la recherche de sens et la quête d'une vie épanouissante.",
-                        "image": "images/inspiration/thinkers.jpeg"
-                    },
-                    {
-                        "name": "Sor Juana Inés de la Cruz",
-                        "description": "La quête inlassable de l'excellence de Sor Juana face à la discrimination m'inspire profondément. En tant que brillante poétesse et intellectuelle pendant l'époque coloniale mexicaine, elle a défié les normes sociales et a milité en faveur de l'éducation des femmes et de la liberté intellectuelle.",
-                        "image": "images/inspiration/sorJuana.jpeg"
-                    },
-                    {
-                        "name": "Frida Kahlo",
-                        "description": "La résilience et le courage de Kahlo à embrasser sa propre singularité résonnent en moi. Son art reflète sa douleur physique et émotionnelle, tout en capturant son esprit inébranlable et sa détermination à surmonter l'adversité.",
-                        "image": "images/inspiration/fridaKahlo.jpeg"
-                    },
-                    {
-                        "name": "Mandela, Gandhi et Martin Luther King",
-                        "description": "Mandela, Gandhi et Martin Luther King incarnent le pouvoir de la résistance pacifique et le courage de défier des systèmes injustes. Leur engagement inébranlable envers la justice, l'égalité et les droits de l'homme nous rappelle constamment la force de l'esprit humain et l'impact transformateur que peuvent avoir les individus sur la société.",
-                        "image": "images/inspiration/mandelaGandhiKing.jpeg"
-                    },
-                    {
-                        "name": "Cuauhtémoc Cárdenas",
-                        "description": "Cárdenas m'inspire par son travail inlassable pour un meilleur Mexique. En tant que politicien et militant social, il a lutté pour la justice sociale, la réforme démocratique et les droits des communautés marginalisées, laissant ainsi une empreinte durable sur son pays.",
-                        "image": "images/inspiration/cardenas.jpeg"
-                    },
-                    {
-                        "name": "Hedy Lamarr",
-                        "description": "Hedy Lamarr est une actrice et inventrice autrichienne qui m'inspire par sa combinaison unique de beauté, de talent artistique et d'intelligence scientifique. Connue pour sa carrière cinématographique réussie dans les années 1930 et 1940, elle a également joué un rôle crucial dans le développement de la technologie de la communication sans fil.",
-                        "image": "images/inspiration/hedyLamarr.jpeg"
-                    }
+            "albums": {
+                "covers": [
+                    "images/albums/21-savage_i-am-i-was.png",
+                    "images/albums/black-keys_el-camino.jpeg",
+                    "images/albums/brockhampton_saturation.png",
+                    "images/albums/gorillaz_2001.png",
+                    "images/albums/kenny-beats_louie.jpeg",
+                    "images/albums/little-simz_no-thank-you.jpeg",
+                    "images/albums/mac-miller_faces.jpeg",
+                    "images/albums/the-strokes_the-new-abnormal.png"
                 ]
-            },
-            "thanks": [
-                "Je suis très heureux/se (pas toujours ! ne romantisons pas le bonheur).",
-                "Je suis heureux/se de la vie que je mène, du travail que je fais et des personnes que je connais.",
-                "Je ne pense pas avoir fait quelque chose de particulier pour mériter cela, mais je suis profondément reconnaissant/e.",
-                "Avec gentillesse, chaleur et BEAUCOUP de travail acharné, certaines personnes très spéciales ont fait de moi... moi, imparfait(e) mais heureux/se.",
-                "Merci pour cela."
-            ]
+            }
         },
         "professional": {
             "education": {

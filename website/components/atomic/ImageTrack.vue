@@ -47,10 +47,6 @@
         const mouseX = e.clientX;
         const mouseY = e.clientY;
 
-        console.log(`componentRect.left ${componentRect.left}`)
-        console.log(`componentRect.right ${componentRect.right}`)
-        console.log(`componentRect.top ${componentRect.top}`)
-        console.log(`componentRect.bottom ${componentRect.bottom}`)
         if (
           mouseX >= componentRect.left &&
           mouseX <= componentRect.right &&

@@ -12,7 +12,7 @@ export default {
         let activePage = ref('Me');
 
         return {
-            activePage
+            activePage,
         };
     }
 };
@@ -21,7 +21,7 @@ export default {
 
 
 <template>
-    <Header @header-height="handleHeaderHeight" @page-change="activePage = $event" @language-change="languageChange" />
+    <Header @header-height="handleHeaderHeight" @page-change="activePage = $event"/>
     <main class="py-10">
         <div class="content text-with-outline">
             <Personal :data="data.personal" v-if="activePage === 'Me'"></Personal>
