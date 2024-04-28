@@ -1,5 +1,5 @@
 <template>
-    <div class="relative">
+    <div class="relative mx-10">
         <div class="h-6 w-6 rounded-lg cursor-pointer hover:bg-gray-200 flex items-center justify-center"
             @click="toggleDropdown">
             <img src="images/world_icon.png" alt="">

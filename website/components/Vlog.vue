@@ -116,21 +116,6 @@
   </script>
   
   <style>
-  .background-layer {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 200%;
-    background-image: url('images/fractals/mandelbrot_shells_white.jpeg');
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: -1;
-    transition: opacity 0.3s ease, transform 0.3s ease; /* Add transform transition */
-}
-
   h1{
     font-size: 2em;
   }

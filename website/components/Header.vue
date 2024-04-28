@@ -10,7 +10,9 @@
         px-6 
         z-50">
         <div class="flex items-center">
-            <img src="" alt="darkmode" class="mr-4">
+            <button @click="toggleDarkMode()" class="h-6 w-6">
+                <img :src="theme_icon" alt="darkmode" class="mr-4">
+            </button>
             <HamburgerMenu 
             :languages="['French', 'English', 'Spanish']" 
             :use-button="false"
@@ -28,11 +30,15 @@
 <script>
 export default {
     methods: {
+        toggleDarkMode(){
+            let isDarkMode = !this.$parent.isDarkMode;
+
+            this.$emit("theme-change", isDarkMode);
+        },
         setActivePage(page) {
-            // Scroll to the top of the page
             window.scrollTo({
                 top: 0,
-                behavior: 'smooth' // Optional: Smooth scrolling effect
+                behavior: 'smooth'
             });
             this.$emit("page-change", page);
         },
@@ -59,6 +65,12 @@ export default {
         this.$nextTick(() => {
             this.$emit("header-height", this.$el.offsetHeight);
         });
+    },
+    computed: {
+      theme_icon() {
+        console.log(this.$parent.isDarkMode)
+        return this.$parent.isDarkMode ? "images/moon.png" : "images/sun.png";
+      }
     }
 };
 </script>
