@@ -85,6 +85,79 @@
         },
         "professional": {
             "work": {
+                "positions" : [
+                    {
+                        "place": "Figma, 2023 - Present",
+                        "title": "Software Engineer: Infrastructure",
+                        "description" : [
+                            {"paragraph": "Mainly learning A LOT. Working on maintaining our file and ML infrastructure through huge growth in scale, both in features and in traffic. The work is by nature very result focused, so the tools I use vary significantly. However I've done a lot of"},
+                            {
+                                "list": [
+                                    "Ruby",
+                                    "TypeScript", 
+                                    "Terraform", 
+                                    "and AWS work.", 
+                                    "I've had to learn to understand code regardless of language however."
+                                ]
+                            },
+                            {"paragraph": "Migrating from and deprecating a major service (All of our thumbnailing and our REST API's backend) AI Search Infrastructure"}
+                        ],
+                        "image": "images/experience/figma.png"
+                    },
+                    {
+                        "place": "Spectrum Studios, 2024 - Present",
+                        "title": "Cofounder, Tech Lead and Project Lead",
+                        "description" : [
+                            {"paragraph": "Making indie games with my friends from all around the world!"}
+                        ],
+                        "image": "images/experience/stealth_startup.jpeg"
+                    },
+                    {
+                        "place": "Looks, 2024 - Present",
+                        "title": "Cofounder and Tech Lead",
+                        "description" : [
+                            {"paragraph": "Building a social media platform and app with a couple of fellas at Imperial College London."}
+                        ],
+                        "image": "images/experience/stealth_startup.jpeg"
+                    },
+                    {
+                        "place": "University of Montreal, 2021 - 2023",
+                        "title": "Teaching and Research Assistant.",
+                        "description" : [
+                            {"paragraph": "From the moment I landed in Montreal, fall 2021, to the moment I left for NYC - end of summer 2023- I worked as a Teacher Assistant for 11 classes -across 6 courses- and amounting to ~1650 students (not accounting for overlap):"},
+                            {
+                                "list": [
+                                    "Programming 101 with Python with professor Marc Feeley and lecturer Olivier Melançon (for 3 terms)",
+                                    "Programming Language Concepts and Paradigms with professor Stefan Monnier (for 2 terms): worked mainly with Haskell, Elisp, Prolog, C, Rust and Java", 
+                                    "Discrete Structures in Computer Science with professor Miklós Csűrös (for 2 terms): teaching the discrete structures -and fundamentals- from mathematics that we most commonly use as computer scientists",
+                                    "Web development and design with Sébastien Roy (for 2 terms)", 
+                                    "Software Engineering with Dr Amal Ben Abdellah", 
+                                    "Advanced Java Concepts with lecturer Michel Reid"
+                                ]
+                            },
+                            {"paragraph": "Migrating from and deprecating a major service (All of our thumbnailing and our REST API's backend) AI Search Infrastructure"}
+                        ],
+                        "image": "images/experience/Paradigms.jpg"
+                    },
+                    {
+                        "place": "Ixiasoft",
+                        "title": "Full Stack Developer - intern, 2022",
+                        "description" : [
+                            {"paragraph": "During the summer of 2022: I Implemented experimental features, documented and debugged on Ixiasoft's DITA CCMS web application for technical documentation. Mainly worked with:"},
+                            {
+                                "list": [
+                                    "Java",
+                                    "TypeScript", 
+                                    "React and Redux", 
+                                    "Apache", 
+                                    "Maven", 
+                                    "CSS"
+                                ]
+                            }
+                        ],
+                        "image": "images/experience/fullstack.jpg"
+                    }
+                ],
                 "descriptions": [
                     "Figma since 2023: Mainly learning A LOT. Working on maintaining our file and ML infrastructure through huge growth in scale, both in features and in traffic. The work is by nature very result focused, so the tools I use vary significantly. However I've done a lot of --Ruby, --TypeScript, --Terraform --and AWS work. --I've had to learn to understand code regardless of language however. --Migrating from and deprecating a major service (All of our thumbnailing and our REST API's backend). --AI Search Infrastructure",
                     "From the moment I landed in Montreal, fall 2021, to the moment I left for NYC - end of summer 2023- I worked as a Teacher Assistant for 11 classes -across 6 courses- and amounting to ~1650 students (not accounting for overlap): --Programming 101 with Python with professor Marc Feeley and lecturer Olivier Melançon (for 3 terms) --Programming Language Concepts and Paradigms with professor Stefan Monnier (for 2 terms): worked mainly with Haskell, Elisp, Prolog, C, Rust and Java --Discrete Structures in Computer Science with professor Miklós Csűrös (for 2 terms): teaching the discrete structures -and fundamentals- from mathematics that we most commonly use as computer scientists --Web development and design with Sébastien Roy (for 2 terms) --Software Engineering with Dr Amal Ben Abdellah --Advanced Java Concepts with lecturer Michel Reid",
@@ -135,11 +208,11 @@
                     "LFM"
                 ],
                 "classes": [
-                    "Understanding the universe (Introductory Physics)",
+                    "Intro to Cosmology",
                     "Web design and development",
                     "Beginner programming with Python",
                     "Intermediate Programming with Java",
-                    "Programming language paradigms and concepts",
+                    "Programming Languages",
                     "Intro to digital systems",
                     "Computer architecture",
                     "Operating systems",
@@ -165,9 +238,7 @@
             },
             "projects": {
                 "titles": [
-                    "Small Game Studio",
                     "AI for Climate",
-                    "Sentiment Analysis",
                     "Genomics",
                     "AI 3D Computer-Vision",
                     "ML Models",
@@ -181,9 +252,7 @@
                     "This site!"
                 ],
                 "descriptions": [
-                    "I'm learning to make videogames with my friends; we're a small team and I'm the only technical person. Using Godot.",
                     "This is a research and development project under Mila - Quebec AI Institute's supervision. The climate is chaotic, but modeling it has advantages, from weather forecasting to event planning, agriculture, and the economy. Thusly, climate models at different scales would be a powerful tool for our societies. Currently, we have access to global climate models, but they are based on large-scale measurements. At smaller scales, data can be unreliable, leading to incorrect conclusions. I have the opportunity to lead a team that aims to build on the state of the art to solve this problem like no one has before. I made a website for it which you can access here:",
-                    "This is a research and development project under Mila - Quebec AI Institute's supervision. Sentiment analysis is a very important aspect in companies, especially in terms of customer experience. Indeed, sentiment analysis is a natural language processing application that aims to identify the different tones found in texts. Especially with the huge wave of popularity with social media, sentiment analysis is becoming even more important. In this project, we explore machine learning and deep learning techniques in natural language processing (NLP) to identify sentiments in texts. I made a website for it which you can access here:",
                     "This is a research and development project for UdeM's Laboratory of Computational and Theoretical Biology. Researched and implemented an API for genome assembly refinement, as well as a binning scheme data structure, using JAVA and the htsjdk library. The work is thoroughly documented and explained here:",
                     "This is a research and development project for UdeM's Laboratory of 3D Computer Vision. Implemented and compared several CNN architectures based on GC-Net by Kendal et al. Worked using Mathematica. The model is able to do binocular stereoscopy: it can determine depth based on two images, a bit like human eyes! I mainly experimented with variations in depth and with use of residual nets, and was interested by estimation quality as well as computational expense. You can access the code, analysis and trained models here:",
                     "Worked on various machine learning models for supervised learning tasks, such as regression and classification. Implemented with Python. From scratch: non-parametric models such as KNN and Parzen Windows (with Gaussian kernel); and parametric models such as a perceptron (logistic regressor) and a SVM (with and without kernel). With libraries: neural networks, CNNs, and SVMs. And tested them with several databases, like bank records, phone records or image datasets (like MNIST).",
@@ -197,16 +266,12 @@
                     "Originally made from scratch with HTML, CSS, JavaScript, jQuery as well as the Animate on Scroll library. Currently built with React, TypeScript, JSON, CSS... and a sprinkle of love!"
                 ],
                 "links": [
-                    "",
                     "https://climate-model-downscaling.web.app/",
-                    "https://causality-text-based-inference.web.app/",
                     "https://genome-assembly-scaffolding.web.app/",
                     "https://github.com/Gfecito/GC-Neat"
                 ],
                 "images": [
-                    "",
                     "images/projects/MLClimate.png",
-                    "images/projects/NLP.jpeg",
                     "images/projects/Genomics.jpeg",
                     "images/projects/Disparity.png",
                     "images/projects/ML.png",

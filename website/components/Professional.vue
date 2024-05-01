@@ -1,5 +1,5 @@
 <template>
-    <div class="min-h-screen">
+    <div class="min-h-screen px-6">
       <ProfessionalWork :data="workData"></ProfessionalWork>
       <ProfessionalEducation :data="educationData"></ProfessionalEducation>
       <ProfessionalPrices :data="awardData"></ProfessionalPrices>

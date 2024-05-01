@@ -1,9 +1,9 @@
 <template>
-  <div :class="[cardSideClass, 'max-w-2xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden flex']">
-    <div class="flex-shrink-0 w-1/2">
-      <img :src="image" :alt="title" class="object-cover h-full w-full">
+  <div :class="[cardSideClass, 'mx-auto bg-white bg-opacity-40 shadow-lg rounded-lg overflow-hidden flex h-80 mb-5']">
+    <div class="flex-shrink-0">
+      <img :src="image" :alt="title" :class="[imageSideClass, 'object-cover h-full']">
     </div>
-    <div class="p-4 w-1/2">
+    <div :class="[contentSideClass, 'p-4 mr-8 w-full']">
       <h3 class="text-xl font-semibold">{{ title }}</h3>
       <div class="mt-2">
         <slot></slot>
@@ -40,6 +40,12 @@ export default {
   computed: {
     cardSideClass() {
       return this.isImageOnLeft ? 'flex-row' : 'flex-row-reverse';
+    },
+    imageSideClass() {
+      return this.isImageOnLeft ? 'float-right' : 'float-left';
+    },
+    contentSideClass() {
+      return this.isImageOnLeft ? 'float-left' : 'float-right';
     },
   },
 };

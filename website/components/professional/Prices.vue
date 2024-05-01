@@ -1,8 +1,8 @@
 <template>
-    <div class="p-4">
+    <div class="p-8">
       <h2 class="text-2xl font-bold">Awards</h2>
       <div class=" mt-4">
-        <ul>
+        <ul style="display: grid; grid-template-columns: repeat(4, 1fr);">
           <li v-for="(title, index) in data.titles" :key="index">
             <div class="flex items-center">
               <img src="~/assets/trophy.png" alt="Trophy" class="w-6 h-6 mr-2">

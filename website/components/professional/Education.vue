@@ -1,5 +1,6 @@
 <template>
-    <div class="p-4">
+    <div class="p-8">
+      <h2 class="text-2xl font-bold">Education</h2>
         <Card v-for="(institution, index) in institutions" 
         :key="institution.title" 
         :image="institution.image"
@@ -8,7 +9,7 @@
         <p class="institution_details">{{ institution.details }}</p>
     </Card>
         <h2 class="text-2xl font-bold">Classes</h2>
-        <ul class="">
+        <ul style="display: grid; grid-template-columns: repeat(4, 1fr);">
             <li v-for="classItem in classes" :key="classItem">{{ classItem }}</li>
         </ul>
     </div>

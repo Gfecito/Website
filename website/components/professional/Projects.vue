@@ -1,5 +1,6 @@
 <template>
-  <div>
+  <div class="p-8">
+    <h2 class="text-2xl font-bold">Projects</h2>
     <Card
       v-for="(title, index) in data.titles"
       :key="index"
@@ -8,8 +9,8 @@
       :link="data.links[index] || ''"
       :isImageOnLeft="index % 2 === 0"
     >
-  <p class="project_description">{{ data.descriptions[index] }}</p>
-  </Card>
+      <p :class="textAlignment(index % 2 === 0)" name="project_description">{{ data.descriptions[index] }}</p>
+    </Card>
   </div>
 </template>
   
@@ -28,6 +29,11 @@ export default {
       ).join('');
     },
   },
+  computed: {
+    textAlignment() {
+      return (isPair) => (isPair ? 'text-right' : 'text-left');
+    },
+  }
 };
 </script>
   
