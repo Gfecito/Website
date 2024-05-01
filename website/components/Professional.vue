@@ -4,7 +4,6 @@
       <ProfessionalEducation :data="educationData"></ProfessionalEducation>
       <ProfessionalPrices :data="awardData"></ProfessionalPrices>
       <ProfessionalProjects :data="projectData"></ProfessionalProjects>
-      <ProfessionalInterests :data="interestData"></ProfessionalInterests>
     </div>
 </template>
 
