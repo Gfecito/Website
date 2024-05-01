@@ -1,5 +1,5 @@
 <template>
-    <div class="border-green-800 min-h-screen">
+    <div class="min-h-screen">
       <PersonalJourney :data="journeyData"></PersonalJourney>
       <div style="display: grid; grid-template-columns: 1fr 5fr 1fr; grid-gap: 5%; width: 100%; height: 1100px;">
         <PersonalMovies :data="moviesData"></PersonalMovies>

@@ -1,5 +1,5 @@
 <template>
-  <div id="movies" class="border-red-500 border-dashed border-8 p-4" style="z-index: -1; overflow: hidden;">
+  <div id="movies" class="p-4" style="z-index: -1; overflow: hidden;">
     <div>
       <ImageTrack :data="posters" :title="'movies'"/>
     </div>

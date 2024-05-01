@@ -77,7 +77,7 @@ export default {
 
 
 <template>
-    <Header @header-height="handleHeaderHeight" @theme-change="isDarkMode = $event" @page-change="activePage = $event"/>
+    <Header @theme-change="isDarkMode = $event" @page-change="activePage = $event"/>
     <main :class="theme">
         <div class="background-layer" :style="{ opacity: backgroundOpacity, backgroundImage: background }"></div>
         <Personal :data="data.personal" v-if="activePage === 'Me'"></Personal>
@@ -93,6 +93,7 @@ main {
     align-items: center;
     text-align: center;
     position: relative; /* Ensure proper positioning of child elements */
+    padding-top: 40px;
 }
 
 .light-mode {

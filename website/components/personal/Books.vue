@@ -1,5 +1,5 @@
 <template>
-  <div id="library" class="border-purple-500 border-dashed border-8 py-4">
+  <div id="library" class="py-4">
     <div class="book-shelves">
       <div v-for="(shelf, index) in shelves" :key="index" class="book-shelf">
         <div class="book-row" :style="getBookRowStyle(shelf)">

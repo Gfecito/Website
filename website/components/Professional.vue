@@ -1,5 +1,5 @@
 <template>
-    <div class="border-blue-800 min-h-screen">
+    <div class="min-h-screen">
       <ProfessionalWork :data="workData"></ProfessionalWork>
       <ProfessionalEducation :data="educationData"></ProfessionalEducation>
       <ProfessionalPrices :data="awardData"></ProfessionalPrices>

@@ -1,5 +1,5 @@
 <template>
-    <div class="border-blue-500 border-dashed border-8 p-4">
+    <div class="p-4">
         <Card v-for="(institution, index) in institutions" 
         :key="institution.title" 
         :image="institution.image"

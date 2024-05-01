@@ -1,5 +1,5 @@
 <template>
-    <div class="border-red-500 border-dashed border-8 p-4">
+    <div class="p-4">
       <h2 class="text-2xl font-bold">Professional Work</h2>
       <div class="mt-4">
         <Card v-for="(description, index) in data.descriptions"
