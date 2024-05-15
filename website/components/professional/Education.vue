@@ -2,16 +2,18 @@
     <div class="p-8">
       <h2 class="text-2xl font-bold">Education</h2>
         <Card v-for="(institution, index) in institutions" 
-        :key="institution.title" 
+        :key="institution.name" 
         :image="institution.image"
-        :title="institution.title" 
+        :title="institution.name" 
         :isImageOnLeft="index % 2 === 0">
         <p class="institution_details">{{ institution.details }}</p>
-    </Card>
-        <h2 class="text-2xl font-bold">Classes</h2>
-        <ul style="display: grid; grid-template-columns: repeat(4, 1fr);">
-            <li v-for="classItem in classes" :key="classItem">{{ classItem }}</li>
+        <h3>Some classes I liked:</h3>
+        <ul style="display: grid; grid-template-columns: repeat(3, 1fr);">
+            <li v-for="classItem in institution.classes" class="py-1" :key="classItem">{{ classItem }}</li>
         </ul>
+        <p class="py-2 institution_description">{{ institution.description }}</p>
+    </Card>
+        
     </div>
 </template>
   
@@ -25,18 +27,7 @@ export default {
     },
     computed: {
         institutions() {
-            return this.data.titles.map((title, index) => {
-                return {
-                    title,
-                    image: this.data.images[index],
-                    degree: this.data.degrees[index],
-                    descriptions: this.data.descriptions[index],
-                    details: this.data.details[index],
-                };
-            });
-        },
-        classes() {
-            return this.data.classes;
+            return this.data.schools
         },
     },
 };

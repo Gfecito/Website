@@ -175,65 +175,47 @@
                 ]
             },
             "education": {
-                "descriptions": [
-                    [
-                        "Current average of 3.75/4.3 (A-)",
-                        "Consulting director at 180DC UdeM",
-                        ""
-                    ],
-                    [
-                        "Mention très bien: TB (18.25/20)",
-                        "Founder and captain of the machine learning club",
-                        "Member of the programming club"
-                    ]
-                ],
-                "titles": [
-                    "Université de Montréal",
-                    "Lycée franco-mexicain"
-                ],
-                "images": [
-                    "images/institutions/UdeM.jpeg",
-                    "images/institutions/LFM.jpeg"
-                ],
-                "degrees": [
-                    "Bachelors of Science, Computer Science",
-                    "French Baccalaureat, Engineering Science"
-                ],
-                "details": [
-                    "Montreal | 2020-2023",
-                    "Mexico | 2017-2020"
-                ],
-                "abreviations": [
-                    "UdeM",
-                    "LFM"
-                ],
-                "classes": [
-                    "Intro to Cosmology",
-                    "Web design and development",
-                    "Beginner programming with Python",
-                    "Intermediate Programming with Java",
-                    "Programming Languages",
-                    "Intro to digital systems",
-                    "Computer architecture",
-                    "Operating systems",
-                    "Software engineering",
-                    "Software: analysis and design",
-                    "UI/UX",
-                    "Data structures",
-                    "Algorithms",
-                    "Intro to theoretical computer science",
-                    "Operational research methods",
-                    "Quantum Informatics",
-                    "Databases",
-                    "Theoretical foundations of data science",
-                    "Foundations of Machine Learning",
-                    "Projects in Machine Learning",
-                    "Probabilities and Statistics",
-                    "Multivariable calculus",
-                    "Philosophy of sciences",
-                    "Intro to genetics",
-                    "Honors project in genomic bioinformatics",
-                    "(Graduate course) 3D Computer vision"
+                "schools" : [
+                    {
+                        "description": "Honors Project in Genomic Assembly. Consulting director at 180DC UdeM.",
+                        "name": "Université de Montréal",
+                        "image": "images/institutions/UdeM.jpeg",
+                        "degree": "Bachelors of Science, Computer Science",
+                        "details": "Montreal | 2020-2023",
+                        "abreviation": "UdeM",
+                        "classes": [
+                            "Programming: Python",
+                            "Programming: Java",
+                            "Computer Architecture",
+                            "Operating Systems",
+                            "UI/UX",
+                            "Data Structures",
+                            "Algorithms",
+                            "Data Science",
+                            "Quantum Informatics",
+                            "Databases",
+                            "Machine Learning",
+                            "(Graduate course) 3D Computer vision"
+                        ]
+                    },
+                    {
+                        "description": 
+                            "Mention très bien: TB, candidate to the concours general in mathematics, physics and engineering. Founder and captain of the Machine Learning club, Member of the Programming Club"
+                        ,
+                        "name": "Lycée franco-mexicain",
+                        "image": "images/institutions/LFM.jpeg",
+                        "degree": "French Baccalaureat, Engineering Science",
+                        "details": "Mexico | 2017-2020",
+                        "abreviation": "LFM",
+                        "classes": [
+                            "Advanced Maths",
+                            "Engineering Sciences",
+                            "French",
+                            "English",
+                            "Spanish",
+                            "German"
+                        ]
+                    }
                 ]
             },
             "projects": {
