@@ -1,5 +1,5 @@
 <template>
-  <div :class="[cardSideClass, 'mx-auto bg-white bg-opacity-40 shadow-lg rounded-lg overflow-hidden flex h-80 mb-5']">
+  <div :class="[cardSideClass, 'mx-auto bg-white bg-opacity-40 shadow-lg rounded-lg overflow-hidden flex h-max mb-5']">
     <div class="flex-shrink-0">
       <img :src="image" :alt="title" :class="[imageSideClass, 'object-cover h-full']">
     </div>
@@ -52,6 +52,8 @@ export default {
 </script>
   
 <style scoped>
-/* Add Tailwind CSS classes for component-specific styling */
+img{
+  max-height: 20rem;
+}
 </style>
   
