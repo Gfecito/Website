@@ -4,16 +4,12 @@
     <h1 class="text-2xl font-bold mb-4">Latest Articles</h1>
 
     <!-- Show button and div only if at least one article is expanded -->
-    <div class="ml-10 mr-10" v-if="selectedArticle">
-      <button @click="toggleAllExpand">
-        Pressing this should untoggle The Expand
+    <div class="article ml-10 mr-10" v-if="selectedArticle">
+      <button class="bold text-gray-400" @click="toggleAllExpand">
+        Close article
       </button>
       <!-- This should be an array instead, and make a paragraph on each element, and an image for images -->
-      <div
-        class="article"
-        v-for="(section, index) in selectedArticle.contents"
-        :key="index"
-      >
+      <div v-for="(section, index) in selectedArticle.contents" :key="index">
         <!-- Switch case on section type -->
         <template v-if="section.image">
           <img
@@ -173,5 +169,6 @@ br {
 .article {
   max-width: 80%;
   margin: auto;
+  padding-bottom: 200px;
 }
 </style>

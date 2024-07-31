@@ -360,7 +360,7 @@
                 "description": "Reflections on how to study, learn and teach effectively.",
                 "image": "images/vlog_thumbnails/teacher_in_class.jpeg",
                 "contents": [
-                    {"title": "**On learning and teaching.**"},
+                    {"title": "On learning and teaching."},
                     {
                         "image": "images/vlog_images/mirror.png",
                         "caption": "Man looking at mirror",
@@ -371,7 +371,7 @@
                         "For an objectively more thorough perspective I’d strongly recommend G. Polya’s “How to Solve It”, which is a fantastic book on both teaching and learning the art of problem solving."
                     ]},
                     {"paragraph":["When I mention good teachers throughout the article, there’s an implicit recognition that bad teachers exist. Bad teachers -I believe- are good teachers to be; because teaching is in itself learnt."]},
-                    {"title": "**Effective practice:**"},
+                    {"title": "Effective practice:"},
                     {"paragraph":["Practice makes perfect. Well not quite, but practice does make better. I feel like the The Parable of the Pottery Class illustrates this in the most succinct form:"]},
                     {"quote":
                         "There was once a pottery teacher called Brian. One month, he decided to split his class into two groups. Group A had to make a pot every day for 30 days (so 30 pots in total). Group B had to work on a single pot for the whole 30 days. At the end of the month, Brian judged the quality of the pots. Without exception, every one of the top 10 pots came from Group A, the guys that made one pot per day. None came from the group that focused on perfecting their single pot."
@@ -430,7 +430,7 @@
                         "Good teachers will create a safe space to fail in their classes, and consistently provide strong feedback.",
                         "Good teachers will also fail students who failed to assimilate the material, with the intent of giving them more time to do so. A safe space is not an easy space, but it is safe: if a student is let go without proper preparation, they will eventually fail in a space where it isn't safe to do so."
                     ]},
-                    {"title": "**The abstract and the concrete.**"},
+                    {"title": "The abstract and the concrete."},
                     {
                         "image": "images/vlog_images/mirror.png",
                         "caption": "Man looking at mirror",
@@ -471,7 +471,7 @@
                     {"paragraph":[
                         "Make it interesting, but make sure to connect it coherently!!! Let’s avoid any further “what does this have to do with anything?” puzzled looks, and connect the shiny dots we illustrate."
                     ]},
-                    {"title": "**Pay. Attention.**"},
+                    {"title": "Pay. Attention."},
                     {
                         "image": "images/vlog_images/mirror.png",
                         "caption": "Man looking at mirror",
@@ -488,7 +488,7 @@
                         "If you’re doing something hard, nuanced, sensitive, or novel: please focus.",
                         "As a teacher: it’s easier for students to focus when the material is interesting and you make its usefulness obvious."
                     ]},
-                    {"title": "**Things making sense.**"},
+                    {"title": "Things making sense."},
                     {
                         "image": "images/vlog_images/mirror.png",
                         "caption": "Man looking at mirror",
@@ -505,7 +505,7 @@
                         "Incoherent material won’t be trusted, and will be forgotten with a lot more ease.",
                         "Incoherent material, even if useful, won't be used as often, because the students won’t know how to explain it."
                     ]},
-                    {"title": "**The Importance of Peers and discussions.**"},
+                    {"title": "The Importance of Peers and discussions."},
                     {
                         "image": "images/vlog_images/mirror.png",
                         "caption": "Man looking at mirror",
@@ -523,7 +523,7 @@
                         "Pay. Attention: on the flipside people will be disgruntled (scary!) if you don’t pay attention to them when they’re directly talking with you (I would know, I space out all the time, sorry).",
                         "Things making sense: incoherence will be interrupted, or even playfully ridiculed, giving a mentor the chance to do better. Taking offense (or meaning to offend) would be a terrible waste of feedback."
                     ]},
-                    {"title": "**In conclusion.**"},
+                    {"title": "In conclusion."},
                     {
                         "image": "images/vlog_images/mirror.png",
                         "caption": "Man looking at mirror",
@@ -542,13 +542,13 @@
                 "description": "Identity is but a useful abstraction; not reality.",
                 "image": "images/vlog_thumbnails/sisyphus.jpeg",
                 "contents": [
-                    {"title": "**Who are you?**"},
+                    {"title": "Who are you?"},
                     {"paragraph": [
                         "No, I asked not your name, not your occupation nor sunday afternoon pastimes. Who are you?", 
                         "When I was a kid, I remember a moment where my mother asked me that question. It eventually led me to panic; for every answer I gave, there was a “but is that who you are?”. Who am I?",
                         "And yet when you ask me who someone else is, that is a most natural question, with quite simple answers."
                     ]},
-                    {"title":"**Perception and Abstractions.**"},
+                    {"title":"Perception and Abstractions."},
                     {"paragraph": [
                         "The world is mighty complex. There is too much information for our brain to process entirely, so we must pick and choose. Our perception is directly tied to our cognition in such tangled ways that you’ll see mostly what you already expect (see the 'Invisible Gorilla' experiment).",
                         "How do we make sense of such chaos?"
@@ -575,7 +575,7 @@
                         "Abstractions are dangerous when speaking about conflict (think of the idea of the enemy), they’re dangerous when speaking of love, they’re dangerous when listening: if we listen for truth, rather than for abstraction, we’d be misled into an unfounded -yet very strong- sense of confidence.",
                         "This lack of granularity means that you’ll never really know who anyone else is. Not entirely. You at most can know them better than anyone else, but if we’re sincere we must recognize that we’ll never know who someone really is."
                     ]},
-                    {"title": "**The mirror, and why you can’t know yourself.**"},
+                    {"title": "The mirror, and why you can’t know yourself."},
                     {
                         "image": "images/vlog_images/mirror.png",
                         "caption": "Man looking at mirror",
@@ -589,9 +589,12 @@
                         "In the end, the quest to know oneself may be an exercise in futility, a Sisyphean struggle against the tide of impermanence and uncertainty. Perhaps, instead of seeking to define ourselves, we should embrace the enigma of our existence, embracing the fluidity and ambiguity of identity.",
                         "For in the absence of a fixed self, there lies the potential for boundless exploration and discovery, a journey of self-discovery that transcends the constraints of definition and limitation."
                     ]},
-                    {"title":"**Physicality, unity: you melt into the universe.**"},
-                    {"image":"images/vlog_images/cosmos.png"},
-                    {"paragraph":["https://www.ashvinharrison.com/product/abstract-universe-moon-illusion/"]},
+                    {"title":"Physicality, unity: you melt into the universe."},
+                    {
+                        "image": "images/vlog_images/cosmos.png",
+                        "caption": "Man looking at mirror",
+                        "link":"https://www.ashvinharrison.com/product/abstract-universe-moon-illusion/"
+                    },
                     {"paragraph":[
                         "We’ve shown that the thought of the self (phenomenal) is water, river, flow. A current that can’t be encapsulated by identity, but that rather flows and bends and chemically mutates through life.",
                         "However, the foregoing of the self should also be recognized in the material (noumenal) realm.",
@@ -616,13 +619,16 @@
                 "description": "Only you know what you know",
                 "image": "images/vlog_thumbnails/communication.png",
                 "contents": [
-                    {"title": "**Introduction**"},
+                    {"title": "Introduction"},
                     {"paragraph": [
                         "Talk. Code. Read. Write.",
                         "Draw. Sing. Move. Listen."
                     ]},
-                    {"image": "images/vlog_images/birds_singing.png"},
-                    {"paragraph":["https://pixabay.com/photos/singing-birds-sing-nature-song-3948645/"]},
+                    {
+                        "image": "images/vlog_images/birds_singing.png",
+                        "caption": "Man looking at mirror",
+                        "link":"https://pixabay.com/photos/singing-birds-sing-nature-song-3948645/"
+                    },
                     {"paragraph": [
                         "The joy of being heard, the connection in eye contact. Communication is the foundation of any social species. But at its core, it's only transmitting information.",
                         "Without communication there’s no understanding. No connection. Slow to non-existent progress. When I was a kid, I remember a moment where my mother asked me that question. It eventually led me to panic; for every answer I gave, there was a “but is that who you are?”. Who am I?",
@@ -631,14 +637,14 @@
                     {"paragraph": [
                         "We must communicate; however we often find ourselves struggling with the natural limitations to do so. Why?"
                     ]},
-                    {"title": "**What people teach will never be the same as what people want to learn.**"},
+                    {"title": "What people teach will never be the same as what people want to learn."},
                     {"paragraph": [
                         "We’ve all been there. You’re sitting in a classroom, wondering about some detail of what the teacher has explained. You ask a question, and it feels like they’re answering an entirely different one, perhaps you’re so fortunate as to learn something new, but your confusion remains.", 
                         "At times, we’ve been on the flip side as well. A junior asks you a question on a topic you’ve already explained several times, you answer, and they nod ceremoniously, yet you both know that whatever the motive for their question, it pervades your teachings.",
                         "Despite the teacher's best efforts, the gap between what is taught and what is understood persists.",
                         "Frustrating, but why does that happen? Why does it continue to do so across cultures and vocations?"
                     ]},
-                    {"title": "**Context**"},
+                    {"title": "Context"},
                     {"paragraph": [
                         "Context. Symbols mean naught without context.                    Everything we know, we know within a set of constraints, assumptions and adjacent information.",
                         "This set is usually subtextual: it isn’t explicitly signaled anywhere in particular, nor are we even necessarily aware of its existence.                    Yet there is no thought in your mind which would be sensible without context; without the definitions of the words you use to enunciate it, the implicit assumptions you make or the things that you assume everyone must know.",
@@ -649,7 +655,7 @@
                         "Context makes us knowledgeable, yet it seems to impede so much in communicating with each other. We must ponder: is it the context? Or is it us?",
                         "I argue that it's not you (context), it's me."
                     ]},
-                    {"title": "**Only I know what I know:**"},
+                    {"title": "Only I know what I know:"},
                     {"paragraph": [
                         "People are complicated. We know many, many things.",
                         "However we don’t store our knowledge in shared memory. There is no factual hivemind.",
@@ -661,14 +667,17 @@
                         "Do I know something if I know where to find it? Do I know something if it has been taught to me by someone else? How can we be sure this other person knew it properly? What does it mean for them to know?",
                         "The question of what we know is by nature recursive ad nauseam. There is always the next step of “But how do we know that?” until we reach axiomatic assumptions. Axioms aren’t knowable, they’re simply assumed. So we can assume, and then we can infer from assumptions."
                     ]},
-                    {"title": "**We can never know**"},
+                    {"title": "We can never know"},
                     {"paragraph": [
                         "So… we can’t know things. Voila merci, thank you for your read, let us venture into the streets in cynical dread of our condemnation to eternal ignorance.",
                         "This is an unpragmatic interpretation.",
                         "I think that there is an alternative interpretation that I find not only infinitely more useful, and more interesting, but also sincerely quite freeing."
                     ]},
-                    {"image": "images/vlog_images/hummingbird.png"},
-                    {"paragraph":["https://www.audubon.org/news/hummingbirds-shake-their-tail-feathers-generate-high-pitched-sounds"]},
+                    {
+                        "image": "images/vlog_images/hummingbird.png",
+                        "caption": "Man looking at mirror",
+                        "link":"https://www.audubon.org/news/hummingbirds-shake-their-tail-feathers-generate-high-pitched-sounds"
+                    },
                     {"paragraph": [
                         "Teaching, and indeed any communication, has never been about knowable things. It’s been -and I deem it will forever be- about persuading and convincing each other to exploit useful information, useful methods, useful tools, and useful practices to live better lives. To ask better questions, to solve more important problems.",
                         "Thinking of communication as the transfer of the truth is very humane arrogance. We can’t know the truth, not in any real way. But we can know the truth in many useful ways.",
@@ -678,7 +687,7 @@
                         "But what does all of this tell us about communicating with each other?",
                         "If there is no real fundamental knowledge, but rather just useful snippets, what are we even doing?"
                     ]},
-                    {"title": "**Conclusion: we do our best. But not the best.**"},
+                    {"title": "Conclusion: we do our best. But not the best."},
                     {"paragraph": [
                         "We know nothing, and yet we still… talk. We talk and we write and we sing and we try.",
                         "We communicate our know hows, our warnings, our tales, our stories and advice.",
@@ -694,8 +703,11 @@
                         "Let’s keep helping each other, but next time a student raises their hand, remember: they can’t ask the perfect question, and you can’t tell them exactly what they want.",
                         "But it's better if you try."
                     ]},
-                    {"image": "images/vlog_images/helping_hand.png"},
-                    {"paragraph":["https://www.pinterest.com/pin/634937247461784490/"]}
+                    {
+                        "image": "images/vlog_images/helping_hand.png",
+                        "caption": "Man looking at mirror",
+                        "link":"https://www.pinterest.com/pin/634937247461784490/"
+                    }
                 ]
             },
             {
