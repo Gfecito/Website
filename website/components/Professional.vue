@@ -1,10 +1,10 @@
 <template>
-    <div class="min-h-screen px-6">
-      <ProfessionalWork :data="workData"></ProfessionalWork>
-      <ProfessionalEducation :data="educationData"></ProfessionalEducation>
-      <ProfessionalPrices :data="awardData"></ProfessionalPrices>
-      <ProfessionalProjects :data="projectData"></ProfessionalProjects>
-    </div>
+  <div class="min-h-screen px-10">
+    <ProfessionalWork :data="workData"></ProfessionalWork>
+    <ProfessionalEducation :data="educationData"></ProfessionalEducation>
+    <ProfessionalPrices :data="awardData"></ProfessionalPrices>
+    <ProfessionalProjects :data="projectData"></ProfessionalProjects>
+  </div>
 </template>
 
 <script>
@@ -30,10 +30,8 @@ export default {
     this.awardData = this.data.awards;
     this.projectData = this.data.projects;
     this.interestData = this.data.interests;
-  }
+  },
 };
 </script>
-  
-<style scoped>
-</style>
-  
+
+<style scoped></style>
