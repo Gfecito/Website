@@ -9,7 +9,7 @@
         :title="position.title"
         :isImageOnLeft="index % 2 === 0"
       >
-        <section :class="textAlignment(index % 2 === 0)">
+        <section class="description" :class="textAlignment(index % 2 === 0)">
           <!-- Need to make this more sophisticated. Add lists and paragraph support as we do for vlogs -->
           <div
             class="pt-4"
@@ -43,7 +43,7 @@ export default {
   },
   computed: {
     textAlignment() {
-      return (isPair) => (isPair ? "text-right" : "text-left");
+      return (isPair) => (isPair ? "right" : "left");
     },
   },
 };
@@ -53,5 +53,18 @@ export default {
 .work {
   max-width: 80%;
   margin: auto;
+}
+
+.description {
+  max-width: 50em;
+  text-align: justify;
+}
+
+.right {
+  margin-left: 10em;
+}
+
+.left {
+  margin-right: 10em;
 }
 </style>

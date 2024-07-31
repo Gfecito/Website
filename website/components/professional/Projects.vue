@@ -6,12 +6,21 @@
       :key="index"
       :image="data.images[index]"
       :title="title"
-      :link="data.links[index] || ''"
       :isImageOnLeft="index % 2 === 0"
     >
-      <p :class="textAlignment(index % 2 === 0)" name="project_description">
-        {{ data.descriptions[index] }}
-      </p>
+      <div :class="textAlignment(index % 2 === 0)" name="project_description">
+        <p>
+          {{ data.descriptions[index] }}
+        </p>
+        <a
+          v-if="data.links[index]"
+          :href="data.links[index]"
+          class="text-blue-500 mt-2 hover:underline"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Visit Website</a
+        >
+      </div>
     </Card>
   </div>
 </template>
@@ -39,7 +48,7 @@ export default {
   },
   computed: {
     textAlignment() {
-      return (isPair) => (isPair ? "text-right" : "text-left");
+      return (isPair) => (isPair ? "right" : "left");
     },
   },
 };
@@ -49,5 +58,18 @@ export default {
 .projects {
   max-width: 80%;
   margin: auto;
+}
+
+div[name="project_description"] {
+  text-align: justify;
+  max-width: 50em;
+}
+
+.right {
+  margin-left: 10em;
+}
+
+.left {
+  margin-right: 10em;
 }
 </style>
