@@ -361,8 +361,11 @@
                 "image": "images/vlog_thumbnails/teacher_in_class.jpeg",
                 "contents": [
                     {"title": "**On learning and teaching.**"},
-                    {"image": "images/vlog_images/mirror.png"},
-                    {"paragraph":["https://www.mutualart.com/Artwork/Man-With-a-Mirror/0833A9BCDCD04E35"]},
+                    {
+                        "image": "images/vlog_images/mirror.png",
+                        "caption": "Man looking at mirror",
+                        "link":"https://www.mutualart.com/Artwork/Man-With-a-Mirror/0833A9BCDCD04E35"
+                    },
                     {"paragraph":[
                         "In this article I’ll be sharing what I’ve learned, both as a student and as a teacher over the years. The main focus will be finding effective approaches to learning as well as effective approaches to teaching.",
                         "For an objectively more thorough perspective I’d strongly recommend G. Polya’s “How to Solve It”, which is a fantastic book on both teaching and learning the art of problem solving."
@@ -370,11 +373,9 @@
                     {"paragraph":["When I mention good teachers throughout the article, there’s an implicit recognition that bad teachers exist. Bad teachers -I believe- are good teachers to be; because teaching is in itself learnt."]},
                     {"title": "**Effective practice:**"},
                     {"paragraph":["Practice makes perfect. Well not quite, but practice does make better. I feel like the The Parable of the Pottery Class illustrates this in the most succinct form:"]},
-                    {"paragraph":[
-                        "THIS SHOULD BE A QUOTE",
-                        "There was once a pottery teacher called Brian. One month, he decided to split his class into two groups. Group A had to make a pot every day for 30 days (so 30 pots in total). Group B had to work on a single pot for the whole 30 days.",
-                        "At the end of the month, Brian judged the quality of the pots. Without exception, every one of the top 10 pots came from Group A, the guys that made one pot per day. None came from the group that focused on perfecting their single pot."
-                    ]},
+                    {"quote":
+                        "There was once a pottery teacher called Brian. One month, he decided to split his class into two groups. Group A had to make a pot every day for 30 days (so 30 pots in total). Group B had to work on a single pot for the whole 30 days. At the end of the month, Brian judged the quality of the pots. Without exception, every one of the top 10 pots came from Group A, the guys that made one pot per day. None came from the group that focused on perfecting their single pot."
+                    },
                     {"paragraph":[
                         "Learners looking to perform better need to practice thoroughly. Deliberate Practice is usually the best approach, and is already well documented: practice, but do so with a plan. "
                     ]},
@@ -382,8 +383,9 @@
                         "In particular, to borrow from Polya, a good approach to Deliberate Practice is to do multiple attempts, iteratively, based on his 4 principles: understand the problem, make a plan, carry out the plan, look back on your work."
                     ]},
                     {"paragraph":[
-                        "In my experience, most students fail to do at least 1 of these. I believe this to be a failure of teachers not communicating (or perhaps not even understanding) that these very principles are the reasons why we educate in the structure we do:",
-                        "THIS SHOULD BE A LIST",
+                        "In my experience, most students fail to do at least 1 of these. I believe this to be a failure of teachers not communicating (or perhaps not even understanding) that these very principles are the reasons why we educate in the structure we do:"]
+                    },
+                    {"list":[
                         "Lecture/Demo: understand the problem.",
                         "Instructions: make a plan (the more vague the instructions, the more of this is handed off to the student).",
                         "Assignments: carry out the plan.",
@@ -402,20 +404,23 @@
                         "There are even some things that might seem impractice-able: like how to take a test or doing a backflip."
                     ]},
                     {"paragraph":[
-                        "Now here’s where we must be creative. If to learn effectively we must practice time and time again, then we must find a way to turn any learnable topic into a practice-able topic. I’ve observed that to make Deliberate Practice possible, we need two ingredients:",
-                        "THIS SHOULD BE A LIST",
+                        "Now here’s where we must be creative. If to learn effectively we must practice time and time again, then we must find a way to turn any learnable topic into a practice-able topic. I’ve observed that to make Deliberate Practice possible, we need two ingredients:"
+                    ]},
+                    {"list":[
                         "A safe space to fail.",
                         "Strong Feedback: strong feedback is fast, frequent and actionable."
                     ]},
                     {"paragraph":[
-                        "Games do this excellently, and you’ll find that players who play more typically are significantly better than those who play less. This is because games are made in a way that optimizes for effective practice: ",
-                        "THIS SHOULD BE A LIST",
+                        "Games do this excellently, and you’ll find that players who play more typically are significantly better than those who play less. This is because games are made in a way that optimizes for effective practice: "
+                    ]},
+                    {"list":[
                         "If you fail, you can play again and you’re fine (it is safe).",
                         "When you fail you immediately know, and you can try again (Strong Feedback)"
                     ]},
                     {"paragraph":[
-                        "Building a safe space for practice and creating a strong feedback pipeline are historically quite challenging (hence why excellent schools are seldom). I don’t know of any generalizable recipe, but here are some examples:",
-                        "THIS SHOULD BE A LIST",
+                        "Building a safe space for practice and creating a strong feedback pipeline are historically quite challenging (hence why excellent schools are seldom). I don’t know of any generalizable recipe, but here are some examples:"
+                    ]},
+                    {"list":[
                         "Building a safe space: for learning to take tests, one might take a sample of many many exams from the library or the internet and practice at home, replicating exam conditions (silence, time constraints, documentation constraints) and evaluating themselves (or doing so with a friend, usually to better results).",
                         "Building a safe space: to learn to do backflips one might set up cushioning and a physical environment where getting hurt is less likely. It’d be preferable to make serious injury near impossible by having an expert guide and look after you.",
                         "Strong feedback: a student might take practice tests they tried themselves, and already graded their teacher, asking for advice.",
@@ -426,8 +431,11 @@
                         "Good teachers will also fail students who failed to assimilate the material, with the intent of giving them more time to do so. A safe space is not an easy space, but it is safe: if a student is let go without proper preparation, they will eventually fail in a space where it isn't safe to do so."
                     ]},
                     {"title": "**The abstract and the concrete.**"},
-                    {"image": "images/vlog_images/mirror.png"},
-                    {"paragraph":["https://www.mutualart.com/Artwork/Man-With-a-Mirror/0833A9BCDCD04E35"]},
+                    {
+                        "image": "images/vlog_images/mirror.png",
+                        "caption": "Man looking at mirror",
+                        "link":"https://www.mutualart.com/Artwork/Man-With-a-Mirror/0833A9BCDCD04E35"
+                    },
                     {"paragraph":[
                         "Nice! Now we can learn new things. But how do we remember them?"
                     ]},
@@ -464,11 +472,15 @@
                         "Make it interesting, but make sure to connect it coherently!!! Let’s avoid any further “what does this have to do with anything?” puzzled looks, and connect the shiny dots we illustrate."
                     ]},
                     {"title": "**Pay. Attention.**"},
-                    {"image": "images/vlog_images/mirror.png"},
-                    {"paragraph":["https://www.mutualart.com/Artwork/Man-With-a-Mirror/0833A9BCDCD04E35"]},
+                    {
+                        "image": "images/vlog_images/mirror.png",
+                        "caption": "Man looking at mirror",
+                        "link":"https://www.mutualart.com/Artwork/Man-With-a-Mirror/0833A9BCDCD04E35"
+                    },
                     {"paragraph":[
-                        "Humans are amazing at multitasking, but we’re terrible at multi-thinking. My idea of why this happens is based on Daniel Kahneman’s work, and I’d explain my reasoning as follows:",
-                        "THIS SHOULD BE A LIST",
+                        "Humans are amazing at multitasking, but we’re terrible at multi-thinking. My idea of why this happens is based on Daniel Kahneman’s work, and I’d explain my reasoning as follows:"
+                    ]},
+                    {"list":[
                         "System 2 thinking is brilliant in parallelizing, because there are no profound considerations to be made, your intuition can make easy decisions quickly and in parallel.",
                         "System 1 thinking is expensive and deliberate. If you get distracted, you’re effectively disconnecting parts of your System 1 computer, and handicapping any chance you have of thinking, learning and remembering effectively."
                     ]},
@@ -477,8 +489,11 @@
                         "As a teacher: it’s easier for students to focus when the material is interesting and you make its usefulness obvious."
                     ]},
                     {"title": "**Things making sense.**"},
-                    {"image": "images/vlog_images/mirror.png"},
-                    {"paragraph":["https://www.mutualart.com/Artwork/Man-With-a-Mirror/0833A9BCDCD04E35"]},
+                    {
+                        "image": "images/vlog_images/mirror.png",
+                        "caption": "Man looking at mirror",
+                        "link":"https://www.mutualart.com/Artwork/Man-With-a-Mirror/0833A9BCDCD04E35"
+                    },
                     {"paragraph":[
                         "It’s fundamental that the material being learned is coherent end to end. The material should be self contained, or at least enlist all its dependencies so students can quickly identify and fill in the gaps. Kind of like good software!"
                     ]},
@@ -491,22 +506,29 @@
                         "Incoherent material, even if useful, won't be used as often, because the students won’t know how to explain it."
                     ]},
                     {"title": "**The Importance of Peers and discussions.**"},
-                    {"image": "images/vlog_images/mirror.png"},
-                    {"paragraph":["https://www.mutualart.com/Artwork/Man-With-a-Mirror/0833A9BCDCD04E35"]},
+                    {
+                        "image": "images/vlog_images/mirror.png",
+                        "caption": "Man looking at mirror",
+                        "link":"https://www.mutualart.com/Artwork/Man-With-a-Mirror/0833A9BCDCD04E35"
+                    },
                     {"paragraph":[
                         "Finally, nothing great is learned alone. Many replace live discussions by the reading and writing of papers, books, letters, or forum discussions, but every significant step towards learning (and symmetrically, towards teaching) is given through communicating with others."
                     ]},
                     {"paragraph":[
-                        "Talking with a mentor or a peer about a problem, or a topic, or indeed anything where insight is to be made, is one of the most effective and productive ways to learn. A healthy conversation forces us to employ all the mechanisms discussed in this article:",
-                        "THIS SHOULD BE A LIST",
+                        "Talking with a mentor or a peer about a problem, or a topic, or indeed anything where insight is to be made, is one of the most effective and productive ways to learn. A healthy conversation forces us to employ all the mechanisms discussed in this article:"
+                    ]},
+                    {"list":[
                         "Effective practice: a healthy discussion has a back and forward, where one can be wrong many times, corrected, and quickly re-engage in conversation.",
                         "The abstract and the concrete: your peers will stop listening to you if you’re too abstract.",
                         "Pay. Attention: on the flipside people will be disgruntled (scary!) if you don’t pay attention to them when they’re directly talking with you (I would know, I space out all the time, sorry).",
                         "Things making sense: incoherence will be interrupted, or even playfully ridiculed, giving a mentor the chance to do better. Taking offense (or meaning to offend) would be a terrible waste of feedback."
                     ]},
                     {"title": "**In conclusion.**"},
-                    {"image": "images/vlog_images/mirror.png"},
-                    {"paragraph":["https://www.mutualart.com/Artwork/Man-With-a-Mirror/0833A9BCDCD04E35"]},
+                    {
+                        "image": "images/vlog_images/mirror.png",
+                        "caption": "Man looking at mirror",
+                        "link":"https://www.mutualart.com/Artwork/Man-With-a-Mirror/0833A9BCDCD04E35"
+                    },
                     {"paragraph":[
                         "To wrap up, our exploration into learning and teaching has uncovered some key strategies. We must practice with purpose and get feedback to improve. We need a safe space for mistakes. Interesting and relatable lessons are easy to understand and remember. Collaborating with peers and mentors is a learning-superpower."
                     ]},
@@ -554,8 +576,11 @@
                         "This lack of granularity means that you’ll never really know who anyone else is. Not entirely. You at most can know them better than anyone else, but if we’re sincere we must recognize that we’ll never know who someone really is."
                     ]},
                     {"title": "**The mirror, and why you can’t know yourself.**"},
-                    {"image": "images/vlog_images/mirror.png"},
-                    {"paragraph":["https://www.mutualart.com/Artwork/Man-With-a-Mirror/0833A9BCDCD04E35"]},
+                    {
+                        "image": "images/vlog_images/mirror.png",
+                        "caption": "Man looking at mirror",
+                        "link":"https://www.mutualart.com/Artwork/Man-With-a-Mirror/0833A9BCDCD04E35"
+                    },
                     {"paragraph":[
                         "When you look in the mirror, what do you see? It is in answering “Myself” that we immediately, inadvertently condemn ourselves to abstraction. The image reflected back at us is merely a surface-level representation, a snapshot of physical appearance that barely scratches the surface of our true essence.",
                         "But beyond the physical reflection lies a labyrinth of complexities, contradictions, and ever-changing thoughts and emotions. Attempting to define oneself is akin to grasping at shadows; the more we seek to capture our identity, the more it seems to slip through our fingers.",
