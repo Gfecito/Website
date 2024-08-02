@@ -90,52 +90,44 @@
                         "place": "Figma, 2023 - Present",
                         "title": "Software Engineer: Infrastructure",
                         "description" : [
-                            {"paragraph": "Mainly learning A LOT. Working on maintaining our file and ML infrastructure through huge growth in scale, both in features and in traffic. The work is by nature very result focused, so the tools I use vary significantly. However I've done a lot of"},
+                            {"paragraph": "Working on maintaining and expanding our file and ML infrastructure through huge growth in scale, both in features and in traffic. I'm result focused, so the tools I use vary significantly. However I've done a lot of"},
                             {
                                 "list": [
                                     "Ruby",
-                                    "TypeScript", 
+                                    "Rust",
+                                    "TypeScript (and React)", 
                                     "Terraform", 
-                                    "and AWS work.", 
-                                    "I've had to learn to understand code regardless of language however."
+                                    "and miscelaneous AWS work."
                                 ]
                             },
-                            {"paragraph": "Migrating from and deprecating a major service (All of our thumbnailing and our REST API's backend) AI Search Infrastructure"}
+                            {"paragraph": "I've been notorious for learning fast and getting things done. My work includes:"},
+                            {
+                                "list": [
+                                    "Migrating our REST API's backend; this was half of a service migration that saved $18M a year.",
+                                    "Building essential infrastructure for AI Search features.", 
+                                    "Currently working on our Rust/Typescript multiplayer technology for working collaboratively"
+                                ]
+                            }
                         ],
                         "image": "images/experience/figma.png"
-                    },
-                    {
-                        "place": "Spectrum Studios, 2024 - Present",
-                        "title": "Cofounder, Tech Lead and Project Lead",
-                        "description" : [
-                            {"paragraph": "Making indie games with my friends from all around the world!"}
-                        ],
-                        "image": "images/experience/stealth_startup.jpeg"
-                    },
-                    {
-                        "place": "Looks, 2024 - Present",
-                        "title": "Cofounder and Tech Lead",
-                        "description" : [
-                            {"paragraph": "Building a social media platform and app with a couple of fellas at Imperial College London."}
-                        ],
-                        "image": "images/experience/stealth_startup.jpeg"
                     },
                     {
                         "place": "University of Montreal, 2021 - 2023",
                         "title": "Teaching and Research Assistant.",
                         "description" : [
-                            {"paragraph": "From the moment I landed in Montreal, fall 2021, to the moment I left for NYC - end of summer 2023- I worked as a Teacher Assistant for 11 classes -across 6 courses- and amounting to ~1650 students (not accounting for overlap):"},
+                            {"paragraph": "From the moment I landed in Montreal to the moment I left for NYC I worked as a Teacher Assistant for 2 years with around 1650 students (not accounting for overlap):"},
                             {
                                 "list": [
-                                    "Programming 101 with Python with professor Marc Feeley and lecturer Olivier Melançon (for 3 terms)",
-                                    "Programming Language Concepts and Paradigms with professor Stefan Monnier (for 2 terms): worked mainly with Haskell, Elisp, Prolog, C, Rust and Java", 
-                                    "Discrete Structures in Computer Science with professor Miklós Csűrös (for 2 terms): teaching the discrete structures -and fundamentals- from mathematics that we most commonly use as computer scientists",
-                                    "Web development and design with Sébastien Roy (for 2 terms)", 
-                                    "Software Engineering with Dr Amal Ben Abdellah", 
-                                    "Advanced Java Concepts with lecturer Michel Reid"
+                                    "Programming 101 with Python (for 3 terms)",
+                                    "Programming Language Concepts and Paradigms (for 2 terms)", 
+                                    "Discrete Structures in Computer Science (2 terms)",
+                                    "Web development and design (2 terms)", 
+                                    "Software Engineering", 
+                                    "Advanced Java Concepts"
                                 ]
                             },
-                            {"paragraph": "Migrating from and deprecating a major service (All of our thumbnailing and our REST API's backend) AI Search Infrastructure"}
+                            {"paragraph": "A BIG thank you -both for bearing with me through that experience, and for mentoring me through it- to: Marc Feeley, Olivier Melançon, Stefan Monnier, Miklós Csűrös, Sébastien Roy, Amal Ben Abdellah and Michel Reid"}
+
                         ],
                         "image": "images/experience/Paradigms.jpg"
                     },
@@ -157,21 +149,6 @@
                         ],
                         "image": "images/experience/fullstack.jpg"
                     }
-                ],
-                "descriptions": [
-                    "Figma since 2023: Mainly learning A LOT. Working on maintaining our file and ML infrastructure through huge growth in scale, both in features and in traffic. The work is by nature very result focused, so the tools I use vary significantly. However I've done a lot of --Ruby, --TypeScript, --Terraform --and AWS work. --I've had to learn to understand code regardless of language however. --Migrating from and deprecating a major service (All of our thumbnailing and our REST API's backend). --AI Search Infrastructure",
-                    "From the moment I landed in Montreal, fall 2021, to the moment I left for NYC - end of summer 2023- I worked as a Teacher Assistant for 11 classes -across 6 courses- and amounting to ~1650 students (not accounting for overlap): --Programming 101 with Python with professor Marc Feeley and lecturer Olivier Melançon (for 3 terms) --Programming Language Concepts and Paradigms with professor Stefan Monnier (for 2 terms): worked mainly with Haskell, Elisp, Prolog, C, Rust and Java --Discrete Structures in Computer Science with professor Miklós Csűrös (for 2 terms): teaching the discrete structures -and fundamentals- from mathematics that we most commonly use as computer scientists --Web development and design with Sébastien Roy (for 2 terms) --Software Engineering with Dr Amal Ben Abdellah --Advanced Java Concepts with lecturer Michel Reid",
-                    "During the summer of 2022: I Implemented experimental features, documented and debugged on Ixiasoft's DITA CCMS web application for technical documentation. Mainly worked with: --Java, --TypeScript, --React (by itself and with Redux), --and Apache. --Also handled -to a lesser extent- Maven and CSS."
-                ],
-                "titles": [
-                    "Software Engineer: Infrastructure",
-                    "Teaching Assistant.",
-                    "Full Stack Developer - intern"
-                ],
-                "images": [
-                    "images/experience/figma.png",
-                    "images/experience/Paradigms.jpg",
-                    "images/experience/fullstack.jpg"
                 ]
             },
             "education": {
@@ -220,6 +197,8 @@
             },
             "projects": {
                 "titles": [
+                    "Spectrum Studios, 2024 - Present",
+                    "Looks, 2024 - Present",
                     "AI for Climate",
                     "Genomics",
                     "AI 3D Computer-Vision",
@@ -234,6 +213,8 @@
                     "This site!"
                 ],
                 "descriptions": [
+                    "Making indie games with my friends from all around the world!",
+                    "Building a social media platform and app with a couple of fellas at Imperial College London.",
                     "This is a research and development project under Mila - Quebec AI Institute's supervision. The climate is chaotic, but modeling it has advantages, from weather forecasting to event planning, agriculture, and the economy. Thusly, climate models at different scales would be a powerful tool for our societies. Currently, we have access to global climate models, but they are based on large-scale measurements. At smaller scales, data can be unreliable, leading to incorrect conclusions. I have the opportunity to lead a team that aims to build on the state of the art to solve this problem like no one has before. I made a website for it which you can access here:",
                     "This is a research and development project for UdeM's Laboratory of Computational and Theoretical Biology. Researched and implemented an API for genome assembly refinement, as well as a binning scheme data structure, using JAVA and the htsjdk library. The work is thoroughly documented and explained here:",
                     "This is a research and development project for UdeM's Laboratory of 3D Computer Vision. Implemented and compared several CNN architectures based on GC-Net by Kendal et al. Worked using Mathematica. The model is able to do binocular stereoscopy: it can determine depth based on two images, a bit like human eyes! I mainly experimented with variations in depth and with use of residual nets, and was interested by estimation quality as well as computational expense. You can access the code, analysis and trained models here:",
@@ -253,6 +234,8 @@
                     "https://github.com/Gfecito/GC-Neat"
                 ],
                 "images": [
+                    "images/experience/stealth_startup.jpeg",
+                    "images/experience/stealth_startup.jpeg",
                     "images/projects/MLClimate.png",
                     "images/projects/Genomics.jpeg",
                     "images/projects/Disparity.png",

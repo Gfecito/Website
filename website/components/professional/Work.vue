@@ -50,6 +50,16 @@ export default {
 </script>
 
 <style scoped>
+.description {
+  font-weight: 400;
+}
+
+li {
+  font-weight: 500;
+  list-style-type: disc;
+  margin-left: 30px;
+}
+
 .work {
   max-width: 80%;
   margin: auto;
