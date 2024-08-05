@@ -90,16 +90,6 @@
                         "place": "Figma, 2023 - Present",
                         "title": "Software Engineer: Infrastructure",
                         "description" : [
-                            {"paragraph": "Working on maintaining and expanding our file and ML infrastructure through huge growth in scale, both in features and in traffic. I'm result focused, so the tools I use vary significantly. However I've done a lot of"},
-                            {
-                                "list": [
-                                    "Ruby",
-                                    "Rust",
-                                    "TypeScript (and React)", 
-                                    "Terraform", 
-                                    "and miscelaneous AWS work."
-                                ]
-                            },
                             {"paragraph": "I've been notorious for learning fast and getting things done. My work includes:"},
                             {
                                 "list": [
@@ -107,7 +97,8 @@
                                     "Building essential infrastructure for AI Search features.", 
                                     "Currently working on our Rust/Typescript multiplayer technology for working collaboratively"
                                 ]
-                            }
+                            },
+                            {"paragraph": "I'm result oriented, my tools vary, but I've mostly used: Ruby, Rust, TypeScript, React, Terraform and AWS, as well as some Kubernetes"}
                         ],
                         "image": "images/experience/figma.png"
                     },
@@ -154,16 +145,14 @@
             "education": {
                 "schools" : [
                     {
-                        "description": "Honors Project in Genomic Assembly. Consulting director at 180DC UdeM.",
+                        "description": "I did my honors project on genome assembly scaffolding with paired sequencing reads -which is a fancy way of saying: I arranged DNA snippets to build a genome, its hard because the snippets are messy, faulty, and could go anywhere... so how do you know where to put them? The snippets I studied were from an Agrobacterium, which is a bacteria that makes plants sick =(. I was also a consulting director at 180DC UdeM.",
                         "name": "Université de Montréal",
                         "image": "images/institutions/UdeM.jpeg",
                         "degree": "Bachelors of Science, Computer Science",
                         "details": "Montreal | 2020-2023",
                         "abreviation": "UdeM",
                         "classes": [
-                            "Programming: Python",
-                            "Programming: Java",
-                            "Computer Architecture",
+                            "Data Science",
                             "Operating Systems",
                             "UI/UX",
                             "Data Structures",
@@ -172,13 +161,14 @@
                             "Quantum Informatics",
                             "Databases",
                             "Machine Learning",
-                            "(Graduate course) 3D Computer vision"
+                            "3D Computer vision",
+                            "Linear Algebra",
+                            "Genetics"
                         ]
                     },
                     {
                         "description": 
-                            "Mention très bien: TB, candidate to the concours general in mathematics, physics and engineering. Founder and captain of the Machine Learning club, Member of the Programming Club"
-                        ,
+                            "I went on the Science track, specialized in maths and engineering, and finished with a mention très bien: TB -which was the highest honors available at the school-, I was a candidate to the concours general in mathematics, physics and engineering (only the best of each school are allowed to participate). I founded and  led the Machine Learning club, and I was in the Programming Club",
                         "name": "Lycée franco-mexicain",
                         "image": "images/institutions/LFM.jpeg",
                         "degree": "French Baccalaureat, Engineering Science",

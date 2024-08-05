@@ -13,7 +13,7 @@
       <ul style="display: grid; grid-template-columns: repeat(3, 1fr)">
         <li
           v-for="classItem in institution.classes"
-          class="py-1"
+          class="course py-1"
           :key="classItem"
         >
           {{ classItem }}
@@ -44,5 +44,27 @@ export default {
 .education {
   max-width: 80%;
   margin: auto;
+}
+
+.course {
+  font-weight: normal;
+  font-size: 0.8em;
+}
+
+.institution_details {
+}
+
+.institution_description {
+  font-weight: normal;
+  font-size: 0.6em;
+  text-align: justify;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+h3 {
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 0.6em;
 }
 </style>
