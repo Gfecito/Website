@@ -69,6 +69,10 @@ export default {
 
 div[name="project_description"] {
   text-align: justify;
+  font-size: 0.8em;
   max-width: 50em;
+}
+div[name="project_description"] p {
+  font-weight: normal;
 }
 </style>

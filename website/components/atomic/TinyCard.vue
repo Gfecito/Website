@@ -40,12 +40,16 @@ export default {
 </script>
 
 <style scoped>
-img {
-  max-width: 100%;
-}
-
 .img-container {
   width: 100%;
+  height: 200px; /* Set the fixed height */
+  overflow: hidden; /* Hide the overflow */
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Cover the entire container, cropping if necessary */
 }
 
 .card {
