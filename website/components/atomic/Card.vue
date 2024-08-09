@@ -1,62 +1,16 @@
 <template>
   <div
-    :class="[
-      cardSideClass,
-      'mx-auto bg-white bg-opacity-40 shadow-lg rounded-lg overflow-hidden flex h-max mb-5',
-    ]"
+    class="max-w-full mx-auto bg-white bg-opacity-40 shadow-lg rounded-lg overflow-hidden flex h-max mb-5"
   >
-    <div class="flex-shrink-0">
-      <img
-        :src="image"
-        :alt="title"
-        :class="[imageSideClass, 'object-cover h-full']"
-      />
-    </div>
-    <div :class="[contentSideClass, 'p-4 mr-8 w-full']">
-      <h3 class="text-xl font-semibold">{{ title }}</h3>
-      <div class="mt-2">
-        <slot></slot>
-      </div>
+    <slot name="first"></slot>
+    <div>
+      <slot name="second"></slot>
     </div>
   </div>
 </template>
 
 <script>
-export default {
-  props: {
-    image: {
-      type: String,
-      required: true,
-    },
-    title: {
-      type: String,
-      required: true,
-    },
-    contents: {
-      type: String,
-      required: true,
-    },
-    isImageOnLeft: {
-      type: Boolean,
-      default: false,
-    },
-  },
-  computed: {
-    cardSideClass() {
-      return this.isImageOnLeft ? "flex-row" : "flex-row-reverse";
-    },
-    imageSideClass() {
-      return this.isImageOnLeft ? "float-right" : "float-left";
-    },
-    contentSideClass() {
-      return this.isImageOnLeft ? "float-left" : "float-right";
-    },
-  },
-};
+export default {};
 </script>
 
-<style scoped>
-img {
-  max-height: 20rem;
-}
-</style>
+<style scoped></style>

@@ -5,29 +5,47 @@
       <Card
         v-for="(position, index) in data.positions"
         :key="index"
-        :image="position.image"
-        :title="position.title"
-        :isImageOnLeft="index % 2 === 0"
+        :class="cardSideClass(index)"
       >
-        <section class="description" :class="textAlignment(index % 2 === 0)">
-          <!-- Need to make this more sophisticated. Add lists and paragraph support as we do for vlogs -->
-          <div
-            class="pt-4"
-            v-for="(item, index) in position.description"
-            :key="index"
-          >
-            <template v-if="item.paragraph">
-              <p>{{ item.paragraph }}</p>
-            </template>
-            <template v-else-if="item.list">
-              <ul>
-                <li class="" v-for="(item, index) in item.list" :key="index">
-                  {{ item }}
-                </li>
-              </ul>
-            </template>
+        <template v-slot:first>
+          <div class="image_container flex-shrink-0">
+            <img
+              :src="position.image"
+              :alt="position.title"
+              :class="[imageSideClass(index), 'object-cover h-full']"
+            />
           </div>
-        </section>
+        </template>
+        <template v-slot:second>
+          <div class="p-4 mr-8 w-full">
+            <div :class="[contentSideClass(index), 'mt-2']">
+              <h3 class="text-xl font-semibold">{{ title }}</h3>
+              <section class="description" :class="textAlignment(index)">
+                <!-- Need to make this more sophisticated. Add lists and paragraph support as we do for vlogs -->
+                <div
+                  class="pt-4"
+                  v-for="(item, index) in position.description"
+                  :key="index"
+                >
+                  <template v-if="item.paragraph">
+                    <p>{{ item.paragraph }}</p>
+                  </template>
+                  <template v-else-if="item.list">
+                    <ul>
+                      <li
+                        class=""
+                        v-for="(item, index) in item.list"
+                        :key="index"
+                      >
+                        {{ item }}
+                      </li>
+                    </ul>
+                  </template>
+                </div>
+              </section>
+            </div>
+          </div>
+        </template>
       </Card>
     </div>
   </div>
@@ -41,9 +59,21 @@ export default {
       required: true,
     },
   },
-  computed: {
-    textAlignment() {
-      return (isPair) => (isPair ? "right" : "left");
+  methods: {
+    textAlignment(index) {
+      return this.isImageOnLeft(index) ? "right" : "left";
+    },
+    cardSideClass(index) {
+      return this.isImageOnLeft(index) ? "flex-row" : "flex-row-reverse";
+    },
+    imageSideClass(index) {
+      return this.isImageOnLeft(index) ? "float-right" : "float-left";
+    },
+    contentSideClass(index) {
+      return this.isImageOnLeft(index) ? "float-left" : "float-right";
+    },
+    isImageOnLeft(index) {
+      return index % 2 === 0;
     },
   },
 };
@@ -71,10 +101,15 @@ li {
 }
 
 .right {
-  margin-left: 10em;
+  margin-left: 5%;
 }
 
 .left {
-  margin-right: 10em;
+  margin-right: 5%;
+}
+
+.image_container {
+  width: 20%;
+  height: 100%;
 }
 </style>

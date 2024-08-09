@@ -93,7 +93,7 @@
                             {"paragraph": "I've been notorious for learning fast and getting things done. My work includes:"},
                             {
                                 "list": [
-                                    "Migrating our REST API's backend; this was half of a service migration that saved $18M a year.",
+                                    "Migrating our REST API's backend; this was one half of a service deprecation project that saved $18M a year.",
                                     "Building essential infrastructure for AI Search features.", 
                                     "Currently working on our Rust/Typescript multiplayer technology for working collaboratively"
                                 ]
