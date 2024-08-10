@@ -187,8 +187,8 @@
             },
             "projects": {
                 "titles": [
-                    "Spectrum Studios, 2024 - Present",
-                    "Looks, 2024 - Present",
+                    "Orball",
+                    "Looks",
                     "AI for Climate",
                     "Genomics",
                     "AI 3D Computer-Vision",
@@ -203,29 +203,31 @@
                     "This site!"
                 ],
                 "descriptions": [
-                    "Making indie games with my friends from all around the world!",
-                    "Building a social media platform and app with a couple of fellas at Imperial College London.",
-                    "This is a research and development project under Mila - Quebec AI Institute's supervision. The climate is chaotic, but modeling it has advantages, from weather forecasting to event planning, agriculture, and the economy. Thusly, climate models at different scales would be a powerful tool for our societies. Currently, we have access to global climate models, but they are based on large-scale measurements. At smaller scales, data can be unreliable, leading to incorrect conclusions. I have the opportunity to lead a team that aims to build on the state of the art to solve this problem like no one has before. I made a website for it which you can access here:",
+                    "Learned to make 2D games using Godot and gdscript. Didn't bother to finish it, but I did implement some procedural generation and per-chunk incremental loading (this prevents the typical case where you open a game and its very slow to boot up) that I'm happy with. You can play it, but honestly it aint a fun game!",
+                    "Built the prototype for a clothing-oriented social media platform and app using Swift (with SwiftUI and UIKit), Typescript, Firebase. I built the iOS prototype, an admin page, a waitlist/promo site, as well as setting up our DB, compute, permissions and a connection to Amazon via API.",
+                    "This project, under Mila - Quebec AI Institute, aims to improve climate modeling for weather forecasting, agriculture, and more. Current models struggle with unreliable small-scale data. As project manager and core contributor, I organized our team to enhance these models with state-of-the-art solutions, made a dedicated website and worked on our data pre-processing for the models.",
                     "This is a research and development project for UdeM's Laboratory of Computational and Theoretical Biology. Researched and implemented an API for genome assembly refinement, as well as a binning scheme data structure, using JAVA and the htsjdk library. The work is thoroughly documented and explained here:",
-                    "This is a research and development project for UdeM's Laboratory of 3D Computer Vision. Implemented and compared several CNN architectures based on GC-Net by Kendal et al. Worked using Mathematica. The model is able to do binocular stereoscopy: it can determine depth based on two images, a bit like human eyes! I mainly experimented with variations in depth and with use of residual nets, and was interested by estimation quality as well as computational expense. You can access the code, analysis and trained models here:",
-                    "Worked on various machine learning models for supervised learning tasks, such as regression and classification. Implemented with Python. From scratch: non-parametric models such as KNN and Parzen Windows (with Gaussian kernel); and parametric models such as a perceptron (logistic regressor) and a SVM (with and without kernel). With libraries: neural networks, CNNs, and SVMs. And tested them with several databases, like bank records, phone records or image datasets (like MNIST).",
+                    "This project for UdeM's Laboratory of 3D Computer Vision involved implementing CNN architectures based on GC-Net for binocular stereoscopy using Mathematica. I focused on depth variations, residual nets, estimation quality, and computational expense. Code and models are available online.",
+                    "I developed machine learning models for supervised tasks using Python, implementing KNN, Parzen Windows, perceptrons, and SVMs from scratch, and using libraries for neural networks and CNNs. I tested these models on regression and classification problems with datasets including bank records, phone records, and MNIST.",
                     "We implemented a 'File Allocation Table'-based storage management system using C for a 32-bit Linux system. In human talk: we built the file -and memory- management section of an operating system.",
                     "Planned then built a small database for a library. In the planning, we used formal methods for entity-relationship modelling, then relational modelling, relational algebra, request optimization and database normalization. For the implementation, we used SQL, Hibernate (Java) and Maven for compilation and delivery of the executable.",
                     "Partitioned and preprocessed a database, built and trained a convolutional neural network model, exported and then implemented it into a dynamic web platform. I built the latter using Flask (Python) and Jinja.",
-                    "A functioning app developed with Java that includes an interactive graphical interface and a data management system. We went through the rigorous planning expected from engineers: planning, interviews, prioritization, use case definitions, analysis (risks, non-functional requirements, materials, constraints), modeling (VPP), design, prototyping, automatic testing (JUnit), team management and scheduling, and last (but not least) documentation (Javadoc).",
+                    "I developed a Java app with an interactive graphical interface and a data management system. The process included engineering planning, interviews, prioritization, use case definitions, risk analysis, non-functional requirements, constraints, VPP modeling, design, prototyping, automatic testing with JUnit, team management, scheduling, and documentation with Javadoc.",
                     "School project for object-oriented programming with Java; it's a small window. Using JavaFX, we (2 people) made a fancy window with 2 counters: you can add and subtract, divide and multiply, undo and redo. Every action performed in the app was temporarily saved, and as such the actions log was always available for exporting as a .txt file.",
                     "A Pseudo-Lisp interpreter made with Haskell: Built the interpretation and evaluation section of a Haskell program that could read and execute files from a Lisp-inspired language. Dealt with functions, closure, environments, variables, recursion and recursive definitions, etc... the whole enchilada. Then built a Pseudo-Haskell interpreter, where I used Prolog for interpreting and executing, same features as before, but with added type inference.",
                     "Using object-oriented programming we made an environmental simulation program. It read XML files describing animals or plants and simulated them for a certain amount of epochs: the way they interacted, what they ate, their energy consumption, whether they died or reproduced, and so on.",
                     "Originally made from scratch with HTML, CSS, JavaScript, jQuery as well as the Animate on Scroll library. Currently built with React, TypeScript, JSON, CSS... and a sprinkle of love!"
                 ],
                 "links": [
+                    "https://gfecito.itch.io/orball?secret=GNoDj8sJ0n9m71KTTVJOJrjcjD8",
+                    "https://looks-waitlist.web.app/",
                     "https://climate-model-downscaling.web.app/",
                     "https://genome-assembly-scaffolding.web.app/",
                     "https://github.com/Gfecito/GC-Neat"
                 ],
                 "images": [
-                    "images/experience/stealth_startup.jpeg",
-                    "images/experience/stealth_startup.jpeg",
+                    "images/projects/Orball.jpg",
+                    "images/projects/looks.png",
                     "images/projects/MLClimate.png",
                     "images/projects/Genomics.jpeg",
                     "images/projects/Disparity.png",

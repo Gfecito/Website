@@ -1,6 +1,6 @@
 <template>
   <div class="projects">
-    <h2 class="text-2xl font-bold">Projects</h2>
+    <h2 class="text-2xl font-bold">Academic and Personal Projects</h2>
     <div class="cards">
       <TinyCard
         v-for="(title, index) in data.titles"
