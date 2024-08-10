@@ -1,5 +1,5 @@
 <template>
-  <div class="projects p-8">
+  <div class="projects">
     <h2 class="text-2xl font-bold">Projects</h2>
     <div class="cards">
       <TinyCard
@@ -58,7 +58,7 @@ export default {
 
 <style scoped>
 .projects {
-  max-width: 80%;
+  width: 100%;
   margin: auto;
 }
 
