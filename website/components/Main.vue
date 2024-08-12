@@ -1,5 +1,5 @@
 <script>
-import { ref, computed, onMounted } from "vue";
+import { ref, computed, onMounted, watch } from "vue";
 
 export default {
   props: {
@@ -17,10 +17,11 @@ export default {
     },
   },
   setup(props) {
-    let activePage = ref("Me");
-    let isDarkMode = ref(false);
-    let backgroundOpacity = ref(0);
-    let language = ref("English"); // Ref to keep track of the current language
+    const activePage = ref("Me");
+    const isDarkMode = ref(false);
+    const backgroundOpacity = ref(0);
+    const language = ref("English"); // Ref to keep track of the current language
+    const renderKey = ref(0); // This key will be used to force re-render
 
     // Easing function for smoother animation
     const easeInOutQuad = (t) => (t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t);
@@ -101,6 +102,7 @@ export default {
         case "Spanish":
         case "French":
           language.value = newLanguage;
+          renderKey.value++; // Increment the key to force a re-render
           break;
         default:
           console.log(
@@ -108,6 +110,11 @@ export default {
           );
       }
     };
+
+    // Watch for language changes and log them for debugging
+    watch(language, (newLang) => {
+      console.log(`Language changed to: ${newLang}`);
+    });
 
     return {
       activePage,
@@ -118,6 +125,7 @@ export default {
       backgroundColor,
       translatedData,
       languageChange,
+      renderKey,
     };
   },
 };
@@ -136,13 +144,19 @@ export default {
     ></div>
     <Personal
       :data="translatedData.personal"
+      :key="renderKey"
       v-if="activePage === 'Me'"
     ></Personal>
     <Professional
+      :key="renderKey"
       :data="englishData.professional"
       v-if="activePage === 'Work'"
     ></Professional>
-    <Vlog :data="englishData.articles" v-if="activePage === 'Vlog'"></Vlog>
+    <Vlog
+      :data="englishData.articles"
+      :key="renderKey"
+      v-if="activePage === 'Vlog'"
+    ></Vlog>
   </main>
   <Footer />
 </template>
