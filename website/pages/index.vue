@@ -1,25 +1,28 @@
 <script>
-import data from '~/data/content.json';
+import data from "~/data/content.json";
 
 export default {
-    setup() {
-        const content = data.en;
-        return {
-            content
-        };
-    }
+  setup() {
+    const content = data;
+    return {
+      content,
+    };
+  },
 };
 </script>
 
-
 <template>
-    <Main :data ="content"/>
+  <Main
+    :englishData="content.en"
+    :spanishData="content.es"
+    :frenchData="content.fr"
+  />
 </template>
 
 <style>
 main {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 </style>

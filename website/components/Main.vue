@@ -1,17 +1,26 @@
 <script>
-import { ref } from "vue";
+import { ref, computed, onMounted } from "vue";
 
 export default {
   props: {
-    data: {
+    englishData: {
+      type: Object,
+      required: true,
+    },
+    spanishData: {
+      type: Object,
+      required: true,
+    },
+    frenchData: {
       type: Object,
       required: true,
     },
   },
-  setup() {
+  setup(props) {
     let activePage = ref("Me");
     let isDarkMode = ref(false);
     let backgroundOpacity = ref(0);
+    let language = ref("English"); // Ref to keep track of the current language
 
     // Easing function for smoother animation
     const easeInOutQuad = (t) => (t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t);
@@ -43,29 +52,23 @@ export default {
       window.addEventListener("scroll", handleScroll);
     });
 
-    return {
-      activePage,
-      isDarkMode,
-      backgroundOpacity,
-    };
-  },
-  computed: {
-    theme() {
-      return this.isDarkMode ? "dark-mode" : "light-mode";
-    },
-    background() {
+    const theme = computed(() => {
+      return isDarkMode.value ? "dark-mode" : "light-mode";
+    });
+
+    const background = computed(() => {
       let image = "";
-      let suffix = this.isDarkMode ? "black.jpg" : "white.jpeg";
-      switch (this.activePage) {
-        case `Me`:
+      let suffix = isDarkMode.value ? "black.jpg" : "white.jpeg";
+      switch (activePage.value) {
+        case "Me":
           image = "images/fractals/julia_fractal";
           break;
 
-        case `Work`:
+        case "Work":
           image = "images/fractals/mandelbrot_spiral";
           break;
 
-        case `Vlog`:
+        case "Vlog":
           image = "images/fractals/mandelbrot_shells";
           break;
 
@@ -73,16 +76,56 @@ export default {
           break;
       }
       return `url('${image}_${suffix}')`;
-    },
-    backgroundColor() {
-      return this.isDarkMode ? "black" : "white";
-    },
+    });
+
+    const backgroundColor = computed(() => {
+      return isDarkMode.value ? "black" : "white";
+    });
+
+    const translatedData = computed(() => {
+      switch (language.value) {
+        case "Spanish":
+          return props.spanishData;
+        case "French":
+          return props.frenchData;
+        case "English":
+        default:
+          return props.englishData;
+      }
+    });
+
+    const languageChange = (newLanguage) => {
+      console.log(`On main: ${newLanguage}`);
+      switch (newLanguage) {
+        case "English":
+        case "Spanish":
+        case "French":
+          language.value = newLanguage;
+          break;
+        default:
+          console.log(
+            `Error; human language selected by user ${newLanguage} not recognized, couldn't abbreviate.`
+          );
+      }
+    };
+
+    return {
+      activePage,
+      isDarkMode,
+      backgroundOpacity,
+      theme,
+      background,
+      backgroundColor,
+      translatedData,
+      languageChange,
+    };
   },
 };
 </script>
 
 <template>
   <Header
+    @language-change="languageChange"
     @theme-change="isDarkMode = $event"
     @page-change="activePage = $event"
   />
@@ -91,12 +134,15 @@ export default {
       class="background-layer"
       :style="{ opacity: backgroundOpacity, backgroundImage: background }"
     ></div>
-    <Personal :data="data.personal" v-if="activePage === 'Me'"></Personal>
+    <Personal
+      :data="translatedData.personal"
+      v-if="activePage === 'Me'"
+    ></Personal>
     <Professional
-      :data="data.professional"
+      :data="englishData.professional"
       v-if="activePage === 'Work'"
     ></Professional>
-    <Vlog :data="data.articles" v-if="activePage === 'Vlog'"></Vlog>
+    <Vlog :data="englishData.articles" v-if="activePage === 'Vlog'"></Vlog>
   </main>
   <Footer />
 </template>
