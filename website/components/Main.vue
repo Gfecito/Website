@@ -51,6 +51,32 @@ export default {
     // Add debounced scroll event listener on component mount
     onMounted(() => {
       window.addEventListener("scroll", handleScroll);
+
+      // Check for URL parameter 'page'
+      const urlParams = new URLSearchParams(window.location.search);
+      const pageParam = urlParams.get("page");
+
+      // Use switch-case to set activePage based on the pageParam value
+      switch (pageParam) {
+        case "Work":
+          activePage.value = "Work";
+          break;
+        case "Vlog":
+          activePage.value = "Vlog";
+          break;
+        case "Me":
+        default:
+          activePage.value = "Me"; // Default to Personal page
+          break;
+      }
+    });
+
+    // Watch for changes in activePage and update URL
+    watch(activePage, (newPage) => {
+      const urlParams = new URLSearchParams(window.location.search);
+      urlParams.set("page", newPage);
+      const newUrl = `${window.location.pathname}?${urlParams.toString()}`;
+      window.history.pushState({}, "", newUrl);
     });
 
     const theme = computed(() => {
