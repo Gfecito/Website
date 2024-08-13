@@ -7,7 +7,7 @@
       <img src="public/images/world_icon.png" alt="" />
     </div>
     <div
-      class="absolute bg-gray-800 right-0 w-36 mt-2 py-2 rounded-lg shadow-lg"
+      class="dropdown absolute bg-gray-800 mt-2 rounded-b-lg shadow-lg"
       v-show="dropdownOpen"
     >
       <div>
@@ -16,7 +16,7 @@
             v-for="language in languages"
             :key="language"
             @click="languageChange(language)"
-            class="px-4 py-2 hover:bg-gray-400 cursor-pointer"
+            class="px-4 py-2 w-full hover:bg-gray-400 cursor-pointer"
           >
             {{ language.toUpperCase() }}
           </button>
@@ -66,5 +66,13 @@ export default {
 </script>
 
 <style scoped>
-/* Add tailwind classes and custom styles if needed */
+.dropdown {
+  right: -37.5px;
+  width: fit-content;
+}
+
+div > :nth-child(3) {
+  border-bottom-right-radius: 0.5rem; /* 8px */
+  border-bottom-left-radius: 0.5rem; /* 8px */
+}
 </style>
