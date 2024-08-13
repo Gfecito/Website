@@ -17,11 +17,12 @@ export default {
     },
   },
   setup(props) {
-    const activePage = ref("Me");
+    const activePage = ref(null); // Initialize as null to indicate loading
     const isDarkMode = ref(false);
     const backgroundOpacity = ref(0);
-    const language = ref("English"); // Ref to keep track of the current language
-    const renderKey = ref(0); // This key will be used to force re-render
+    const language = ref("english");
+    const renderKey = ref(0);
+    const isLoading = ref(true); // Track loading state
 
     // Easing function for smoother animation
     const easeInOutQuad = (t) => (t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t);
@@ -31,7 +32,7 @@ export default {
       const windowHeight = window.innerHeight;
       const scrollHeight = document.body.scrollHeight;
       const scrollPositionY = window.scrollY;
-      const maxOpacityScroll = scrollHeight - windowHeight; // Bottom of the page
+      const maxOpacityScroll = scrollHeight - windowHeight;
 
       // Calculate opacity based on scroll position using easing function
       backgroundOpacity.value = easeInOutQuad(
@@ -40,7 +41,7 @@ export default {
 
       // Use requestAnimationFrame for smoother animation
       requestAnimationFrame(() => {
-        const parallaxFactor = 0.05; // Adjust this value for desired parallax effect strength
+        const parallaxFactor = 0.05;
         const backgroundOffsetY = scrollPositionY * parallaxFactor;
         document.querySelector(
           ".background-layer"
@@ -48,35 +49,56 @@ export default {
       });
     };
 
-    // Add debounced scroll event listener on component mount
     onMounted(() => {
-      window.addEventListener("scroll", handleScroll);
-
-      // Check for URL parameter 'page'
+      // Initialize activePage based on URL parameter when component is mounted
       const urlParams = new URLSearchParams(window.location.search);
       const pageParam = urlParams.get("page");
+      const langParam = urlParams.get("lang");
 
-      // Use switch-case to set activePage based on the pageParam value
-      switch (pageParam) {
-        case "Work":
-          activePage.value = "Work";
+      switch (langParam) {
+        case "english":
+        case "spanish":
+        case "french":
+          language.value = langParam;
+          renderKey.value++;
           break;
-        case "Vlog":
-          activePage.value = "Vlog";
-          break;
-        case "Me":
         default:
-          activePage.value = "Me"; // Default to Personal page
+          console.log(
+            `Error; human language selected by user ${langParam} not recognized, couldn't abbreviate.`
+          );
+          language.value = "english";
+          renderKey.value++;
+      }
+      switch (pageParam) {
+        case "me":
+          activePage.value = "me";
+          break;
+        case "work":
+          activePage.value = "work";
+          break;
+        case "vlog":
+          activePage.value = "vlog";
+          break;
+        default:
+          activePage.value = "me"; // Default to Personal page
           break;
       }
+
+      // Set loading to false after determining the active page
+      isLoading.value = false;
+
+      // Add scroll event listener
+      window.addEventListener("scroll", handleScroll);
     });
 
     // Watch for changes in activePage and update URL
     watch(activePage, (newPage) => {
-      const urlParams = new URLSearchParams(window.location.search);
-      urlParams.set("page", newPage);
-      const newUrl = `${window.location.pathname}?${urlParams.toString()}`;
-      window.history.pushState({}, "", newUrl);
+      if (typeof window !== "undefined" && newPage) {
+        const urlParams = new URLSearchParams(window.location.search);
+        urlParams.set("page", newPage);
+        const newUrl = `${window.location.pathname}?${urlParams.toString()}`;
+        window.history.pushState({}, "", newUrl);
+      }
     });
 
     const theme = computed(() => {
@@ -87,18 +109,15 @@ export default {
       let image = "";
       let suffix = isDarkMode.value ? "black.jpg" : "white.jpeg";
       switch (activePage.value) {
-        case "Me":
+        case "me":
           image = "images/fractals/julia_fractal";
           break;
-
-        case "Work":
+        case "work":
           image = "images/fractals/mandelbrot_spiral";
           break;
-
-        case "Vlog":
+        case "vlog":
           image = "images/fractals/mandelbrot_shells";
           break;
-
         default:
           break;
       }
@@ -111,11 +130,11 @@ export default {
 
     const translatedData = computed(() => {
       switch (language.value) {
-        case "Spanish":
+        case "spanish":
           return props.spanishData;
-        case "French":
+        case "french":
           return props.frenchData;
-        case "English":
+        case "english":
         default:
           return props.englishData;
       }
@@ -124,11 +143,11 @@ export default {
     const languageChange = (newLanguage) => {
       console.log(`On main: ${newLanguage}`);
       switch (newLanguage) {
-        case "English":
-        case "Spanish":
-        case "French":
+        case "english":
+        case "spanish":
+        case "french":
           language.value = newLanguage;
-          renderKey.value++; // Increment the key to force a re-render
+          renderKey.value++;
           break;
         default:
           console.log(
@@ -137,9 +156,14 @@ export default {
       }
     };
 
-    // Watch for language changes and log them for debugging
     watch(language, (newLang) => {
       console.log(`Language changed to: ${newLang}`);
+      if (typeof window !== "undefined" && newLang) {
+        const urlParams = new URLSearchParams(window.location.search);
+        urlParams.set("lang", newLang);
+        const newUrl = `${window.location.pathname}?${urlParams.toString()}`;
+        window.history.pushState({}, "", newUrl);
+      }
     });
 
     return {
@@ -152,6 +176,7 @@ export default {
       translatedData,
       languageChange,
       renderKey,
+      isLoading,
     };
   },
 };
@@ -163,7 +188,11 @@ export default {
     @theme-change="isDarkMode = $event"
     @page-change="activePage = $event"
   />
-  <main :class="theme" :style="{ backgroundColor: backgroundColor }">
+  <main
+    v-if="!isLoading"
+    :class="theme"
+    :style="{ backgroundColor: backgroundColor }"
+  >
     <div
       class="background-layer"
       :style="{ opacity: backgroundOpacity, backgroundImage: background }"
@@ -171,19 +200,22 @@ export default {
     <Personal
       :data="translatedData.personal"
       :key="renderKey"
-      v-if="activePage === 'Me'"
+      v-if="activePage === 'me'"
     ></Personal>
     <Professional
       :key="renderKey"
       :data="englishData.professional"
-      v-if="activePage === 'Work'"
+      v-if="activePage === 'work'"
     ></Professional>
     <Vlog
       :data="englishData.articles"
       :key="renderKey"
-      v-if="activePage === 'Vlog'"
+      v-if="activePage === 'vlog'"
     ></Vlog>
   </main>
+  <div v-else class="loading-screen">
+    <p>Loading...</p>
+  </div>
   <Footer />
 </template>
 
@@ -194,6 +226,19 @@ main {
   text-align: center;
   position: relative; /* Ensure proper positioning of child elements */
   padding-top: 40px;
+}
+
+.loading-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white; /* Adjust to your preference */
+}
+
+.loading-screen p {
+  font-size: 24px;
+  color: black; /* Adjust text color to match theme */
 }
 
 .light-mode {

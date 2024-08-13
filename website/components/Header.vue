@@ -7,16 +7,16 @@
         <img :src="theme_icon" alt="darkmode" class="mr-4" />
       </button>
       <HamburgerMenu
-        :languages="['French', 'English', 'Spanish']"
+        :languages="['french', 'english', 'spanish']"
         :use-button="true"
         @language-change="languageChange"
         @header-height="handleHeaderHeight"
       />
     </div>
     <div class="flex items-center">
-      <button to="" class="mr-4" @click="setActivePage('Me')">Me</button>
-      <button to="" class="mr-4" @click="setActivePage('Work')">Work</button>
-      <button to="" class="mr-4" @click="setActivePage('Vlog')">Vlog</button>
+      <button to="" class="mr-4" @click="setActivePage('me')">Me</button>
+      <button to="" class="mr-4" @click="setActivePage('work')">Work</button>
+      <button to="" class="mr-4" @click="setActivePage('vlog')">Vlog</button>
     </div>
   </div>
 </template>
