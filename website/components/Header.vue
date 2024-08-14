@@ -3,7 +3,10 @@
     class="fixed top-0 w-full bg-gray-800 text-white flex items-center justify-between py-4 px-6 z-50"
   >
     <div class="flex items-center">
-      <button @click="toggleDarkMode()" class="h-6 w-6">
+      <button
+        @click="toggleDarkMode()"
+        class="h-6 w-6 rounded-lg hover:bg-pink-600"
+      >
         <img :src="theme_icon" alt="darkmode" class="mr-4" />
       </button>
       <HamburgerMenu
@@ -14,9 +17,27 @@
       />
     </div>
     <div class="flex items-center">
-      <button to="" class="mr-4" @click="setActivePage('me')">Me</button>
-      <button to="" class="mr-4" @click="setActivePage('work')">Work</button>
-      <button to="" class="mr-4" @click="setActivePage('vlog')">Vlog</button>
+      <button
+        to=""
+        class="mr-4 hover:text-pink-600"
+        @click="setActivePage('me')"
+      >
+        Me
+      </button>
+      <button
+        to=""
+        class="mr-4 hover:text-pink-600"
+        @click="setActivePage('work')"
+      >
+        Work
+      </button>
+      <button
+        to=""
+        class="mr-4 hover:text-pink-600"
+        @click="setActivePage('vlog')"
+      >
+        Vlog
+      </button>
     </div>
   </div>
 </template>
@@ -57,5 +78,7 @@ export default {
 </script>
 
 <style scoped>
-/* Add tailwind classes and custom styles if needed */
+button {
+  font-size: 1rem;
+}
 </style>

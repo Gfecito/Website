@@ -5,7 +5,7 @@
         <img
           src="~/assets/githubIcon.svg"
           alt="Icon 1"
-          class="icon-image mr-auto ml-auto"
+          class="icon-image mr-auto ml-auto rounded-lg hover:bg-white"
         />
       </a>
       <a
@@ -15,7 +15,7 @@
         <img
           src="~/assets/linkedinIcon.svg"
           alt="Icon 2"
-          class="icon-image mr-auto ml-auto"
+          class="icon-image mr-auto ml-auto rounded-lg hover:bg-white"
         />
       </a>
     </div>
@@ -36,7 +36,7 @@
 }
 
 .icon-image {
-  width: 18px;
-  height: 18px;
+  width: 1.5rem;
+  height: 1.5rem;
 }
 </style>

@@ -212,22 +212,14 @@ export default {
       :key="renderKey"
       v-if="activePage === 'vlog'"
     ></Vlog>
+    <Footer />
   </main>
   <div v-else class="loading-screen">
     <p>Loading...</p>
   </div>
-  <Footer />
 </template>
 
 <style>
-main {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  position: relative; /* Ensure proper positioning of child elements */
-  padding-top: 40px;
-}
-
 .loading-screen {
   display: flex;
   justify-content: center;
@@ -256,8 +248,12 @@ main {
     1px 1px 0 black, /* Create outline */ 0px 0px 5px black; /* Light highlight */
   font-weight: bold; /* Set text to bold */
 }
-
 main {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative; /* Ensure proper positioning of child elements */
+  padding-top: 40px;
   z-index: 0;
 }
 
@@ -267,10 +263,10 @@ main * {
 
 .background-layer {
   position: fixed;
-  top: 0;
+  top: -30%;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 200%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;

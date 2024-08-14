@@ -1,7 +1,7 @@
 <template>
   <div class="relative mx-10">
     <div
-      class="h-6 w-6 rounded-lg cursor-pointer hover:bg-gray-200 flex items-center justify-center"
+      class="h-6 w-6 cursor-pointer rounded-lg hover:bg-pink-600 flex items-center justify-center"
       @click="toggleDropdown"
     >
       <img src="public/images/world_icon.png" alt="" />
@@ -16,7 +16,7 @@
             v-for="language in languages"
             :key="language"
             @click="languageChange(language)"
-            class="px-4 py-2 w-full hover:bg-gray-400 cursor-pointer"
+            class="px-4 py-2 w-full hover:bg-pink-600 cursor-pointer"
           >
             {{ language.toUpperCase() }}
           </button>
