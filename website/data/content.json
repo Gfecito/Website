@@ -740,10 +740,73 @@
                 "description": "Thinking about some of the ways simple rules generate our chaotic world.",
                 "image": "images/vlog_thumbnails/emergent_behavior.webp",
                 "contents": [
-                    "Rule 1: Don't talk about fight club.", 
-                    "Rule 2: No weapons.", 
-                    "Rule 3: Don't talk about fight club.",
-                    "Anarchy ensues."
+                    {"paragraph":[
+                        "Rule 1: Don't talk about fight club.", 
+                        "Rule 2: No weapons.", 
+                        "Rule 3: Don't talk about fight club.",
+                        "Anarchy ensues."
+                    ]},
+                    {"title": "On Emergent Behaviors."},
+                    {
+                        "image": "images/vlog_images/emergence.jpg",
+                        "caption": "Cheese Balls, Napanoch, New York, 2012 - Part of the Emergent Behavior collection from Thomas Jackson",
+                        "link":"https://www.thomasjacksonphotography.com/emergent-behavior.html"
+                    },
+                    {"paragraph":[
+                        "An atom jiggles in space. It jiggles not alone but with friends. They’re more jiggly than usual and you burn up in a fever. They’re less jiggly and you freeze. Some jiggle here, others there."
+                    ]},
+                    {"paragraph":[
+                        "Some jiggle right in the gap where synapses happen, making up your cerebrospinal fluid—these jiggling atoms keep you alive. Others jiggle slightly to the side, arranged in a very convenient way, forming groups of atoms (a.k.a Jiggle Boy Bands) that we call molecules.",
+                        "The name comes from the number of atoms in a molecule, but I won’t take up a Mole's time to explain."
+                    ]},
+                    {"paragraph":[
+                        "These molecules hang out. They’re chilling, vibing even. They, like words in a sentence, just happen to arrange into a cell.",
+                        "The cells themselves are arranged in quite a smart way, and we call it a Neuron. If they break in a specifically evil way, we call it Cancer."
+                    ]},
+                    {"paragraph":[
+                        "We call this group jiggle temperature. With this alone, we already start to see significant complexity emerge: you can have cold neurons or hot neurons, cold cancer or hot cancer. You can have cells made of these molecules or those other molecules. You can have something here or something there."
+                    ]},
+                    {"paragraph":[
+                        "Already, with just a few simple things to keep in mind, there’s so much to discover."
+                    ]},
+                    {"paragraph":[
+                        "Such little things, with such simple rules at their essence."
+                    ]},
+                    {"paragraph":[
+                        "Yet when we stack layers upon layers of simplicity, we get life. We get everything. It might seem surprising, but the math makes it quite obvious.",
+                        "If you have n layers, with Xn rules each, then you naively have a total of X1 * X2 * ... * Xn rules in total.",
+                        "That’s a lot of rules that can define so many different combinations!"
+                    ]},
+                    {"paragraph":[
+                        "What is life? My suspicion is that the word in itself is simply a classifier. Our brain simplifying the world to our great benefit in living, but to our great detriment in understanding."
+                    ]},
+                    {"paragraph":[
+                        "I think life is no one thing. I think life is this permutation of wildly varied and rich rules.",
+                        "Life is the combination of all these little things that happen, and that sometimes permute into bigger things that our brain perceives and classifies. Life is when we go “oo that's alive”."
+                    ]},
+                    {"paragraph":[
+                        "There also exist scientific definitions of what life is, but science itself is when we go “oo that’s science”.",
+                        "Of course, it's less subjective than your taste in music, but it isn’t much more objective than a combination of all of our subjectivities. Opinions and ideas mixed with measurements, which ultimately we can only consume through our senses.",
+                        "Monkeys trying to do our best to disassociate with your sensorial organs to see some higher truth. It’s quite the struggle: even in the previous sentence we fall back to the senses, we try to see."
+                    ]},
+                    {"paragraph":[
+                        "What is intelligence? I think the answer is indeed quite similar: intelligence is I see something and think it think. Monkey see, monkey classify.",
+                        "But let’s go beyond the word, what is this idea of intelligence? (Such platonic idealism that we indulge in)"
+                    ]},
+                    {"paragraph":[
+                        "I think intelligence is also just a combination of rules. In us, it's the rules up to the layer of abstraction of the brain, or sometimes of the combination of brains in many brainees: people or otherwise."
+                    ]},
+                    {"paragraph":[
+                        "Well then, how come we would ever believe that only us get to be intelligent? Is that not some great -unfounded- arrogance? Some terribly humane hubris?",
+                        "And why would we ever think we can’t make intelligence? It's just combinatorics, not rocket science.",
+                        "Today we’re trying by combining rules of computing and statistics, because we’ve sensed it to work better than other things we’ve tried (yes, science seems to mostly be fucking around and finding out) but those are just some arbitrary sets of rules we use. If there’s a limit to those, we can use others."
+                    ]},
+                    {"paragraph":[
+                        "We come from jiggly guys, is it so hard to imagine other things coming from us?"
+                    ]},
+                    {"paragraph":[
+                        "It’s all just… emergent behaviors."
+                    ]}
                 ]
             },
             {
