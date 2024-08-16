@@ -8,9 +8,14 @@
       <button class="bold text-gray-400" @click="toggleAllExpand">
         Close article
       </button>
-      <!-- This should be an array instead, and make a paragraph on each element, and an image for images -->
+
+      <!-- New button to scroll to the bottom -->
+      <button class="scroll-to-bottom-button" @click="scrollToBottom">
+        Scroll to Bottom
+      </button>
+
+      <!-- Article content rendering -->
       <div v-for="(section, index) in selectedArticle.contents" :key="index">
-        <!-- Switch case on section type -->
         <template v-if="section.image">
           <img
             style="width: 50%; margin-left: 25%"
@@ -52,12 +57,13 @@
 
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
       <div v-for="(article, index) in articles" :key="index">
-        <div class="bg-white shadow-md rounded-md p-4">
-          <div
-            v-if="!article.expanded"
-            @click="selectArticle(article)"
-            class="cursor-pointer"
-          >
+        <div
+          :class="[
+            article.expanded ? 'selected' : '',
+            'bg-white shadow-md rounded-md p-4',
+          ]"
+        >
+          <div @click="selectArticle(article)" class="cursor-pointer">
             <img
               :src="article.image"
               alt="Article Image"
@@ -150,6 +156,13 @@ export default {
       });
       this.selectedArticle = null;
     },
+    scrollToBottom() {
+      // Scroll to the bottom of the page
+      window.scrollTo({
+        top: document.body.scrollHeight,
+        behavior: "smooth",
+      });
+    },
   },
 };
 </script>
@@ -170,5 +183,22 @@ br {
   max-width: 80%;
   margin: auto;
   padding-bottom: 200px;
+}
+
+.selected {
+  background-color: rgb(219 39 119);
+}
+
+/* Styling for the new scroll-to-bottom button */
+.scroll-to-bottom-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
 }
 </style>

@@ -337,9 +337,9 @@
                 "contents": [
                     {"title": "On learning and teaching."},
                     {
-                        "image": "images/vlog_images/mirror.png",
-                        "caption": "Man looking at mirror",
-                        "link":"https://www.mutualart.com/Artwork/Man-With-a-Mirror/0833A9BCDCD04E35"
+                        "image": "images/vlog_images/dead_poets_society.jpg",
+                        "caption": "Robin Williams as John Keating in Dead Poets Society",
+                        "link":"https://www.huffpost.com/entry/the-dead-poets-society-gu_b_749665"
                     },
                     {"paragraph":[
                         "In this article I’ll be sharing what I’ve learned, both as a student and as a teacher over the years. The main focus will be finding effective approaches to learning as well as effective approaches to teaching.",
@@ -407,9 +407,9 @@
                     ]},
                     {"title": "The abstract and the concrete."},
                     {
-                        "image": "images/vlog_images/mirror.png",
-                        "caption": "Man looking at mirror",
-                        "link":"https://www.mutualart.com/Artwork/Man-With-a-Mirror/0833A9BCDCD04E35"
+                        "image": "images/vlog_images/abstract_vs_concrete.png",
+                        "caption": "The Development of Concrete and Abstract Thinking Patterns by Iryna Horkovska",
+                        "link":"https://calmerry.com/blog/psychology/the-development-of-concrete-and-abstract-thinking-patterns/"
                     },
                     {"paragraph":[
                         "Nice! Now we can learn new things. But how do we remember them?"
@@ -448,9 +448,9 @@
                     ]},
                     {"title": "Pay. Attention."},
                     {
-                        "image": "images/vlog_images/mirror.png",
-                        "caption": "Man looking at mirror",
-                        "link":"https://www.mutualart.com/Artwork/Man-With-a-Mirror/0833A9BCDCD04E35"
+                        "image": "images/vlog_images/paying_attention.jpg",
+                        "caption": "Students paying attention in class",
+                        "link":"https://img.freepik.com/free-photo/students-paying-attention-class_23-2148844732.jpg?t=st=1723640378~exp=1723643978~hmac=a62cf2da6a222aab3bf4219ce1587923447f1278dd28d9aace30c31b00314cad&w=1480"
                     },
                     {"paragraph":[
                         "Humans are amazing at multitasking, but we’re terrible at multi-thinking. My idea of why this happens is based on Daniel Kahneman’s work, and I’d explain my reasoning as follows:"
@@ -465,9 +465,9 @@
                     ]},
                     {"title": "Things making sense."},
                     {
-                        "image": "images/vlog_images/mirror.png",
-                        "caption": "Man looking at mirror",
-                        "link":"https://www.mutualart.com/Artwork/Man-With-a-Mirror/0833A9BCDCD04E35"
+                        "image": "images/vlog_images/eureka.jpg",
+                        "caption": "Archimedes exclaiming Eureka, by Pietro Scalvini and Carlo Orsolini",
+                        "link":"https://en.wikipedia.org/wiki/Eureka_%28word%29"
                     },
                     {"paragraph":[
                         "It’s fundamental that the material being learned is coherent end to end. The material should be self contained, or at least enlist all its dependencies so students can quickly identify and fill in the gaps. Kind of like good software!"
@@ -482,9 +482,9 @@
                     ]},
                     {"title": "The Importance of Peers and discussions."},
                     {
-                        "image": "images/vlog_images/mirror.png",
-                        "caption": "Man looking at mirror",
-                        "link":"https://www.mutualart.com/Artwork/Man-With-a-Mirror/0833A9BCDCD04E35"
+                        "image": "images/vlog_images/peers.png",
+                        "caption": "4 Tips to Design an Engaging Discussion in Canvas, by Jillian Rubman - MIT",
+                        "link":"https://mitsloanedtech.mit.edu/2022/01/07/4-tips-to-design-an-engaging-discussion-in-canvas/"
                     },
                     {"paragraph":[
                         "Finally, nothing great is learned alone. Many replace live discussions by the reading and writing of papers, books, letters, or forum discussions, but every significant step towards learning (and symmetrically, towards teaching) is given through communicating with others."
@@ -500,9 +500,9 @@
                     ]},
                     {"title": "In conclusion."},
                     {
-                        "image": "images/vlog_images/mirror.png",
-                        "caption": "Man looking at mirror",
-                        "link":"https://www.mutualart.com/Artwork/Man-With-a-Mirror/0833A9BCDCD04E35"
+                        "image": "images/vlog_images/classroom_sunset.jpg",
+                        "caption": "Classroom Sunset | Lofi HipHop Mix |, by Yūgen",
+                        "link":"https://www.youtube.com/watch?v=-nHf84N0Iu4"
                     },
                     {"paragraph":[
                         "To wrap up, our exploration into learning and teaching has uncovered some key strategies. We must practice with purpose and get feedback to improve. We need a safe space for mistakes. Interesting and relatable lessons are easy to understand and remember. Collaborating with peers and mentors is a learning-superpower."
@@ -690,12 +690,49 @@
                 "description": "Reflections on the frame of mind that has given me peace and what I deem healthy, sustainable growth.",
                 "image": "images/vlog_thumbnails/compass.jpeg",
                 "contents": [
-                    "'What do you want to be when you grow up?'",
-                    "Easy to ask, but terrible in its implications.",
-                    "The greatest tragedy that one can partake in, is believing that one's identity is singular.",
-                    "Being is a north star",
-                    "Doing is the path",
-                    "You must work the soil."
+                    {"title": "Aim to do, not to be."},
+                    {
+                        "image": "images/vlog_images/self.webp",
+                        "caption": "Illustration by Zoe Liu in How Our Brain Preserves Our Sense of Self - Scientific American",
+                        "link":"https://www.scientificamerican.com/article/how-our-brain-preserves-our-sense-of-self/"
+                    },
+                    {"paragraph":[
+                        "What do you want to be when you grow up?",
+                        "Who are you?"
+                    ]},
+                    {"paragraph":[
+                        "Why do we bother answering these questions?",
+                        "What is it that we’re really trying to understand with them? ",
+                        "My thesis is that we seek a shortcut description of people: “Oh, this guy is A, this guy is B.”",
+                        "It makes it easier to talk about ourselves and others, reducing our identities to simple labels."
+                    ]},
+                    {"paragraph":[
+                        "But here’s the thing—asking who we want to be is a misstep, a misunderstanding.",
+                        "It’s like mistaking the photo for the person.",
+                        "Identity is a momentary snapshot, something fluid and ever-changing.",
+                        "Rather than fixating on capturing the perfect photo—as we’ve grown accustomed to doing—I’d argue that the more powerful framework is to dance the best we can."
+                    ]},
+                    {"title": "Build."},
+                    {
+                        "image": "images/vlog_images/beaver.jpg",
+                        "caption": "Beaver chilling in its dam",
+                        "link":"https://www.brainson.org/episode/2023/09/19/how-do-animals-build-their-homes"
+                    },
+                    {"paragraph":[
+                        "Prioritize. Make music over being a musician. Do sport over being an athlete. Build things over being an engineer. Discover and wonder over being a scientist. Focus on the act, the experience, the joy of doing."
+                    ]},
+                    {"paragraph":[
+                        "For instance, consider the difference between “being a musician” and “making music.”",
+                        "The first is a title, an abstraction of expectations.",
+                        "The second is a freedom, an experience, a good idea, a relaxed afternoon.",
+                        "When you prioritize making music, you allow yourself to explore, to fail, to grow—without the pressure of living up to the title of “musician.”"
+                    ]},
+                    {"paragraph":[
+                        "If perfect is the enemy of good, then expectation is the enemy of action. And action is the path to growth. In action and growth you build the constant self that you want to be. Build things, build your life and build yourself: there's no more important project than you, because without you there is nothing else to do."
+                    ]},
+                    {"paragraph":[
+                        "So, love and play. Do things. Aim to do, not to be. In doing so, you might find that the labels—if they matter at all—will follow naturally, shaped by the richness of your experiences."
+                    ]}
                 ]
             },
             {
