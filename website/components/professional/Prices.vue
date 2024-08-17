@@ -12,24 +12,19 @@
             "
           >
             <li
-              v-for="(title, index) in data.titles"
+              v-for="(award, index) in data"
               :key="index"
               class="flex flex-col items-center"
             >
               <div class="flex items-center">
-                <img
-                  src="~/assets/trophy.png"
-                  alt="Trophy"
-                  class="w-6 h-6 mr-2"
-                />
-                <div>{{ title }}</div>
+                <img :src="award.image" alt="Trophy" class="w-6 h-6 mr-2" />
+                <div>{{ award.title }}</div>
               </div>
               <div class="mt-1 text-sm text-gray-700">
-                <span class="font-semibold">Date: </span>{{ data.dates[index] }}
+                <span class="font-semibold">Date: </span>{{ award.date }}
               </div>
               <div class="mt-1 text-sm text-gray-500">
-                <span class="font-semibold"></span
-                >{{ data.descriptions[index] }}
+                <span class="font-semibold"></span>{{ award.description[0] }}
               </div>
             </li>
           </ul>

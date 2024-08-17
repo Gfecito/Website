@@ -3,19 +3,19 @@
     <h2 class="text-2xl font-bold">Academic and Personal Projects</h2>
     <div class="cards">
       <TinyCard
-        v-for="(title, index) in data.titles"
+        v-for="(project, index) in data"
         :key="index"
-        :image="data.images[index]"
-        :title="title"
+        :image="project.image"
+        :title="project.title"
         :isImageOnLeft="index % 2 === 0"
       >
         <div name="project_description">
           <p>
-            {{ data.descriptions[index] }}
+            {{ project.description[0] }}
           </p>
           <a
-            v-if="data.links[index]"
-            :href="data.links[index]"
+            v-if="project.link"
+            :href="project.link"
             class="text-blue-500 mt-2 hover:underline"
             target="_blank"
             rel="noopener noreferrer"

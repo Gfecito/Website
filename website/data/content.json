@@ -2,7 +2,7 @@
     "en": {
         "personal": {
             "journey": {
-                "one_liners": [
+                "description": [
                     "I'm /h Santiago, /h very /h Mexican, and I /h work as a /h Software /h Engineer.",
                     "I like /h reading, /h music, /h coding, /h making, /h teaching, /h learning, /h writing and /h biking. And /h parks. And /h museums. I've acquired quite the appetite for /h life.",
                     "I think /h actions speak the /h loudest, so feel free to /h peruse (ah I love /h contronyms) this site and see what I do, and what I write.",
@@ -135,12 +135,15 @@
             "education": {
                 "schools" : [
                     {
-                        "description": "I did my honors project on genome assembly scaffolding with paired sequencing reads -which is a fancy way of saying: I arranged DNA snippets to build a genome, its hard because the snippets are messy, faulty, and could go anywhere... so how do you know where to put them? The snippets I studied were from an Agrobacterium, which is a bacteria that makes plants sick =(. I was also a consulting director at 180DC UdeM.",
                         "name": "Université de Montréal",
                         "image": "images/institutions/UdeM.jpeg",
                         "degree": "Bachelors of Science, Computer Science",
                         "details": "Montreal | 2020-2023",
                         "abreviation": "UdeM",
+                        "description": 
+                        [
+                            "I did my honors project on genome assembly scaffolding with paired sequencing reads -which is a fancy way of saying: I arranged DNA snippets to build a genome, its hard because the snippets are messy, faulty, and could go anywhere... so how do you know where to put them? The snippets I studied were from an Agrobacterium, which is a bacteria that makes plants sick =(. I was also a consulting director at 180DC UdeM."
+                        ],
                         "classes": [
                             "Data Science",
                             "Operating Systems",
@@ -157,13 +160,14 @@
                         ]
                     },
                     {
-                        "description": 
-                            "I went on the Science track, specialized in maths and engineering, and finished with a mention très bien: TB -which was the highest honors available at the school-, I was a candidate to the concours general in mathematics, physics and engineering (only the best of each school are allowed to participate). I founded and  led the Machine Learning club, and I was in the Programming Club",
                         "name": "Lycée franco-mexicain",
                         "image": "images/institutions/LFM.jpeg",
                         "degree": "French Baccalaureat, Engineering Science",
                         "details": "Mexico | 2017-2020",
                         "abreviation": "LFM",
+                        "description": [
+                            "I went on the Science track, specialized in maths and engineering, and finished with a mention très bien: TB -which was the highest honors available at the school-, I was a candidate to the concours general in mathematics, physics and engineering (only the best of each school are allowed to participate). I founded and  led the Machine Learning club, and I was in the Programming Club"
+                        ],  
                         "classes": [
                             "Advanced Maths",
                             "Engineering Sciences",
@@ -175,88 +179,178 @@
                     }
                 ]
             },
-            "projects": {
-                "titles": [
-                    "Multithreaded web server",
-                    "Orball",
-                    "Looks",
-                    "AI for Climate",
-                    "Genomics",
-                    "AI 3D Computer-Vision",
-                    "ML Models",
-                    "File Management System",
-                    "Database",
-                    "Gesture Recognition Web-App",
-                    "Vaccination Management",
-                    "21st Century Abacus",
-                    "Interpreters",
-                    "Environnemental Simulation",
-                    "This site!"
-                ],
-                "descriptions": [
-                    "Built a Multithreaded web server using Rust! It's the final project in the Rust book, and I figured it'd be the best way to get acquainted with the language.",
-                    "Learned to make 2D games using Godot and gdscript. Didn't bother to finish it, but I did implement some procedural generation and per-chunk incremental loading (this prevents the typical case where you open a game and its very slow to boot up) that I'm happy with. You can play it, but honestly it aint a fun game!",
-                    "Built the prototype for a clothing-oriented social media platform and app using Swift (with SwiftUI and UIKit), Typescript, Firebase. I built the iOS prototype, an admin page, a waitlist/promo site, as well as setting up our DB, compute, permissions and a connection to Amazon via API.",
-                    "This project, under Mila - Quebec AI Institute, aims to improve climate modeling for weather forecasting, agriculture, and more. Current models struggle with unreliable small-scale data. As project manager and core contributor, I organized our team to enhance these models with state-of-the-art solutions, made a dedicated website and worked on our data pre-processing for the models.",
-                    "This is a research and development project for UdeM's Laboratory of Computational and Theoretical Biology. Researched and implemented an API for genome assembly refinement, as well as a binning scheme data structure, using JAVA and the htsjdk library. The work is thoroughly documented and explained here:",
-                    "This project for UdeM's Laboratory of 3D Computer Vision involved implementing CNN architectures based on GC-Net for binocular stereoscopy using Mathematica. I focused on depth variations, residual nets, estimation quality, and computational expense. Code and models are available online.",
-                    "I developed machine learning models for supervised tasks using Python, implementing KNN, Parzen Windows, perceptrons, and SVMs from scratch, and using libraries for neural networks and CNNs. I tested these models on regression and classification problems with datasets including bank records, phone records, and MNIST.",
-                    "We implemented a 'File Allocation Table'-based storage management system using C for a 32-bit Linux system. In human talk: we built the file -and memory- management section of an operating system.",
-                    "Planned then built a small database for a library. In the planning, we used formal methods for entity-relationship modelling, then relational modelling, relational algebra, request optimization and database normalization. For the implementation, we used SQL, Hibernate (Java) and Maven for compilation and delivery of the executable.",
-                    "Partitioned and preprocessed a database, built and trained a convolutional neural network model, exported and then implemented it into a dynamic web platform. I built the latter using Flask (Python) and Jinja.",
-                    "I developed a Java app with an interactive graphical interface and a data management system. The process included engineering planning, interviews, prioritization, use case definitions, risk analysis, non-functional requirements, constraints, VPP modeling, design, prototyping, automatic testing with JUnit, team management, scheduling, and documentation with Javadoc.",
-                    "School project for object-oriented programming with Java; it's a small window. Using JavaFX, we (2 people) made a fancy window with 2 counters: you can add and subtract, divide and multiply, undo and redo. Every action performed in the app was temporarily saved, and as such the actions log was always available for exporting as a .txt file.",
-                    "A Pseudo-Lisp interpreter made with Haskell: Built the interpretation and evaluation section of a Haskell program that could read and execute files from a Lisp-inspired language. Dealt with functions, closure, environments, variables, recursion and recursive definitions, etc... the whole enchilada. Then built a Pseudo-Haskell interpreter, where I used Prolog for interpreting and executing, same features as before, but with added type inference.",
-                    "Using object-oriented programming we made an environmental simulation program. It read XML files describing animals or plants and simulated them for a certain amount of epochs: the way they interacted, what they ate, their energy consumption, whether they died or reproduced, and so on.",
-                    "Originally made from scratch with HTML, CSS, JavaScript, jQuery as well as the Animate on Scroll library. Currently built with React, TypeScript, JSON, CSS... and a sprinkle of love!"
-                ],
-                "links": [
-                    "",
-                    "https://gfecito.itch.io/orball?secret=GNoDj8sJ0n9m71KTTVJOJrjcjD8",
-                    "https://looks-waitlist.web.app/",
-                    "https://climate-model-downscaling.web.app/",
-                    "https://genome-assembly-scaffolding.web.app/",
-                    "https://github.com/Gfecito/GC-Neat"
-                ],
-                "images": [
-                    "images/projects/rust.jpg",
-                    "images/projects/Orball.jpg",
-                    "images/projects/looks.png",
-                    "images/projects/MLClimate.png",
-                    "images/projects/Genomics.jpeg",
-                    "images/projects/Disparity.png",
-                    "images/projects/ML.png",
-                    "images/projects/FAT32.jpeg",
-                    "images/projects/Database.jpeg",
-                    "images/projects/GestureRecognition.gif",
-                    "images/projects/Vaccination.png",
-                    "images/projects/CounterThumbnail.png",
-                    "images/projects/Interpreter.png",
-                    "images/projects/WildLionSimulator3D.jpeg",
-                    "images/projects/ThisSite.jpeg"
-                ]
-            },
-            "awards": {
-                "titles": [
-                    "ICPC NE-NA",
-                    "DIRO's excellence scholarship",
-                    "Exemption Scholarship for international students",
-                    "French regional math olympiads | Best team, Top 3 individual"
-                ],
-                "dates": [
-                    "February 2023",
-                    "December 2021",
-                    "August 2020",
-                    "2019"
-                ],
-                "descriptions": [
-                    "The 2nd best team in DIRO's history in this prestigious programming competition",
-                    "Excellence scholarship awarded to the top bachelor students in the DIRO (Department of Computer Science and Operations Research)",
-                    "Biggest merit-based scholarship for international students at the Université de Montréal",
-                    "My region spanned from Mexico to Panama, and included all french teaching institutions there."
-                ],
-                "trophee": "images/logos/trophy.png"
-            }
+            "projects": [
+                {
+                    "title": "Multithreaded web server",
+                    "description": [
+                        "Built a Multithreaded web server using Rust! It's the final project in the Rust book, and I figured it'd be the best way to get acquainted with the language."
+                    ],
+                    "link": "",
+                    "image": "images/projects/rust.jpg"
+                },
+                {
+                    "title": "Orball",
+                    "description": [
+                        "Learned to make 2D games using Godot and gdscript. Didn't bother to finish it, but I did implement some procedural generation and per-chunk incremental loading (this prevents the typical case where you open a game and its very slow to boot up) that I'm happy with. You can play it, but honestly it aint a fun game!",
+                        ""
+                    ],
+                    "link": "https://gfecito.itch.io/orball?secret=GNoDj8sJ0n9m71KTTVJOJrjcjD8",
+                    "image": "images/projects/Orball.jpg"
+                },
+                {
+                    "title": "Looks",
+                    "description": [
+                        "Built the prototype for a clothing-oriented social media platform and app using Swift (with SwiftUI and UIKit), Typescript, Firebase. I built the iOS prototype, an admin page, a waitlist/promo site, as well as setting up our DB, compute, permissions and a connection to Amazon via API.",
+                        ""
+                    ],
+                    "link": "https://looks-waitlist.web.app/",
+                    "image": "images/projects/looks.png"
+                },
+                {
+                    "title": "AI for Climate",
+                    "description": [
+                        "This project, under Mila - Quebec AI Institute, aims to improve climate modeling for weather forecasting, agriculture, and more. Current models struggle with unreliable small-scale data. As project manager and core contributor, I organized our team to enhance these models with state-of-the-art solutions, made a dedicated website and worked on our data pre-processing for the models.",
+                        ""
+                    ],
+                    "link": "https://climate-model-downscaling.web.app/",
+                    "image": "images/projects/MLClimate.png"
+                },
+                {
+                    "title": "Genomics",
+                    "description": [
+                        "This is a research and development project for UdeM's Laboratory of Computational and Theoretical Biology. Researched and implemented an API for genome assembly refinement, as well as a binning scheme data structure, using JAVA and the htsjdk library. The work is thoroughly documented and explained here:",
+                        ""
+                    ],
+                    "link": "https://genome-assembly-scaffolding.web.app/",
+                    "image": "images/projects/Genomics.jpeg"
+                },
+                {
+                    "title": "AI 3D Computer-Vision",
+                    "description": [
+                        "This project for UdeM's Laboratory of 3D Computer Vision involved implementing CNN architectures based on GC-Net for binocular stereoscopy using Mathematica. I focused on depth variations, residual nets, estimation quality, and computational expense. Code and models are available online.",
+                        ""
+                    ],
+                    "link": "https://github.com/Gfecito/GC-Neat",
+                    "image": "images/projects/Disparity.png"
+                },
+                {
+                    "title": "ML Models",
+                    "description": [
+                        "I developed machine learning models for supervised tasks using Python, implementing KNN, Parzen Windows, perceptrons, and SVMs from scratch, and using libraries for neural networks and CNNs. I tested these models on regression and classification problems with datasets including bank records, phone records, and MNIST.",
+                        ""
+                    ],
+                    "link": "",
+                    "image": "images/projects/ML.png"
+                },
+                {
+                    "title": "File Management System",
+                    "description": [
+                        "We implemented a 'File Allocation Table'-based storage management system using C for a 32-bit Linux system. In human talk: we built the file -and memory- management section of an operating system.",
+                        ""
+                    ],
+                    "link": "",
+                    "image": "images/projects/FAT32.jpeg"
+                },
+                {
+                    "title": "Database",
+                    "description": [
+                        "Planned then built a small database for a library. In the planning, we used formal methods for entity-relationship modelling, then relational modelling, relational algebra, request optimization and database normalization. For the implementation, we used SQL, Hibernate (Java) and Maven for compilation and delivery of the executable.",
+                        ""
+                    ],
+                    "link": "",
+                    "image": "images/projects/Database.jpeg"
+                },
+                {
+                    "title": "Gesture Recognition Web-App",
+                    "description": [
+                        "Partitioned and preprocessed a database, built and trained a convolutional neural network model, exported and then implemented it into a dynamic web platform. I built the latter using Flask (Python) and Jinja.",
+                        ""
+                    ],
+                    "link": "",
+                    "image": "images/projects/GestureRecognition.gif"
+                },
+                {
+                    "title": "Vaccination Management",
+                    "description": [
+                        "I developed a Java app with an interactive graphical interface and a data management system. The process included engineering planning, interviews, prioritization, use case definitions, risk analysis, non-functional requirements, constraints, VPP modeling, design, prototyping, automatic testing with JUnit, team management, scheduling, and documentation with Javadoc.",
+                        ""
+                    ],
+                    "link": "",
+                    "image": "images/projects/Vaccination.png"
+                },
+                {
+                    "title": "21st Century Abacus",
+                    "description": [
+                        "School project for object-oriented programming with Java; it's a small window. Using JavaFX, we (2 people) made a fancy window with 2 counters: you can add and subtract, divide and multiply, undo and redo. Every action performed in the app was temporarily saved, and as such the actions log was always available for exporting as a .txt file.",
+                        ""
+                    ],
+                    "link": "",
+                    "image": "images/projects/CounterThumbnail.png"
+                },
+                {
+                    "title": "Interpreters",
+                    "description": [
+                        "A Pseudo-Lisp interpreter made with Haskell: Built the interpretation and evaluation section of a Haskell program that could read and execute files from a Lisp-inspired language. Dealt with functions, closure, environments, variables, recursion and recursive definitions, etc... the whole enchilada. Then built a Pseudo-Haskell interpreter, where I used Prolog for interpreting and executing, same features as before, but with added type inference.",
+                        ""
+                    ],
+                    "link": "",
+                    "image": "images/projects/Interpreter.png"
+                },
+                {
+                    "title": "Environnemental Simulation",
+                    "description": [
+                        "Using object-oriented programming we made an environmental simulation program. It read XML files describing animals or plants and simulated them for a certain amount of epochs: the way they interacted, what they ate, their energy consumption, whether they died or reproduced, and so on.",
+                        ""
+                    ],
+                    "link": "",
+                    "image": "images/projects/WildLionSimulator3D.jpeg"
+                },
+                {
+                    "title": "This site!",
+                    "description": [
+                        "Originally made from scratch with HTML, CSS, JavaScript, jQuery as well as the Animate on Scroll library. Currently built with React, TypeScript, JSON, CSS... and a sprinkle of love!"
+                    ],
+                    "link": "",
+                    "image": "images/projects/ThisSite.jpeg"
+                }
+            ],
+            "awards": [
+                {
+                    "title":"ICPC NE-NA",
+                    "date":"February 2023",
+                    "description":[
+                        "The 2nd best team in DIRO's history in this prestigious programming competition",
+                        ""
+                    ],
+                    "image":"images/trophy.png"
+                },
+                {
+                    "title":"DIRO's excellence scholarship",
+                    "date":"December 2021",
+                    "description":[
+                        "Excellence scholarship awarded to the top bachelor students in the DIRO (Department of Computer Science and Operations Research)",
+                        ""
+                    ],
+                    "image":"images/trophy.png"
+                },
+                {
+                    "title":"Exemption Scholarship for international students",
+                    "date":"August 2020",
+                    "description":[
+                        "Biggest merit-based scholarship for international students at the Université de Montréal",
+                        ""
+                    ],
+                    "image":"images/trophy.png"
+                },
+                {
+                    "title":"French regional math olympiads | Best team, Top 3 individual",
+                    "date":"2019",
+                    "description":[
+                        "My region spanned from Mexico to Panama, and included all french teaching institutions there."
+                    ],
+                    "image":"images/trophy.png"
+                }
+            ]
         },
         "articles": [
             {
@@ -816,7 +910,7 @@
     "es": {
         "personal": {
             "journey": {
-                "one_liners": [
+                "description": [
                     "¡Hola! Mi nombre es Santiago y nací y crecí en México.",
                     "",
                     "Actualmente estoy",
@@ -1166,7 +1260,7 @@
     "fr": {
         "personal": {
             "journey": {
-                "one_liners": [
+                "description": [
                     "Salut ! Je m'appelle Santiago et je suis né et j'ai grandi au Mexique",
                     "",
                     "Je suis actuellement",

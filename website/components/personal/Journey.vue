@@ -19,7 +19,7 @@ export default {
   },
   computed: {
     parsedOneLiners() {
-      return this.data.one_liners.map((one_liner) => {
+      return this.data.description.map((one_liner) => {
         return one_liner.replace(/\/h\s*(\w+)/g, (match, word) => {
           const letters = word
             .split("")
