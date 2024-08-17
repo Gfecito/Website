@@ -1,6 +1,6 @@
 <template>
   <div class="py-10 px-20 mx-20">
-    <h2 class="text-2xl font-bold">Welcome! 👋</h2>
+    <h2 class="text-2xl font-bold">{{ this.data.title }}</h2>
     <div class="journey space-y-4">
       <p v-for="(one_liner, index) in parsedOneLiners" :key="index">
         <span v-html="one_liner"></span>
@@ -20,7 +20,7 @@ export default {
   computed: {
     parsedOneLiners() {
       return this.data.description.map((one_liner) => {
-        return one_liner.replace(/\/h\s*(\w+)/g, (match, word) => {
+        return one_liner.replace(/\/h\s*([\S]+)/g, (match, word) => {
           const letters = word
             .split("")
             .map((letter) => `<span class="letter">${letter}</span>`)
@@ -47,16 +47,17 @@ export default {
 .highlight {
   font-size: 1.1em;
   font-weight: bold;
-  white-space: nowrap; /* Prevent line breaks within the word */
+  white-space: nowrap;
 }
+
 .letter {
   display: inline-block;
-  transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
+  transition: transform 2s ease-in-out, 0.1s ease-in-out;
   transform-origin: center;
 }
 
 .letter:hover {
-  transform: scale(1.4); /* Scale up slightly on hover */
-  color: #999; /* Slightly lighten the color */
+  transform: scale(1.6);
+  color: #999;
 }
 </style>

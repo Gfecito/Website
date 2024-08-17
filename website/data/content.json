@@ -2,6 +2,7 @@
     "en": {
         "personal": {
             "journey": {
+                "title": "Welcome! 👋",
                 "description": [
                     "I'm /h Santiago, /h very /h Mexican, and I /h work as a /h Software /h Engineer.",
                     "I like /h reading, /h music, /h coding, /h making, /h teaching, /h learning, /h writing and /h biking. And /h parks. And /h museums. I've acquired quite the appetite for /h life.",
@@ -910,21 +911,13 @@
     "es": {
         "personal": {
             "journey": {
+                "title": "Hola! 👋",
                 "description": [
-                    "¡Hola! Mi nombre es Santiago y nací y crecí en México.",
-                    "",
-                    "Actualmente estoy",
-                    "Me encanta",
-                    "Realmente disfruto enseñar",
-                    "Últimamente"
-                ],
-                "paragraphs": [
-                    "mi madre nos dio a mi hermana y a mí el privilegio de asistir a escuelas sofisticadas y aprender inglés. Luego tuve la oportunidad de aprender francés en otro lugar, aún más sofisticado, y obtener varias becas para estudiar lo que más amo en la hermosa tierra del arce, Canadá.",
-                    "Estoy tratando de convertirme en alguien confiable y competente, para poder devolverle a las personas que me han impulsado hacia adelante.",
-                    "un estudiante de último año y tutor en la Universidad de Montreal, en el Departamento de Ciencias de la Computación e Investigación Operativa (DIRO). Ha sido un poco extraño comenzar mi carrera durante la pandemia, pero los desafíos únicos que surgieron me han enseñado cosas que no esperaba.",
-                    "tocar la guitarra; leer, especialmente sobre acción social y temas relacionados con el campo que más amo (no se lo digas a nadie, pero está relacionado con la informática); tengo una extraña obsesión con el agua, sus deportes, especialmente aquellos en los que soy terrible. Como remar con el equipo de UdeM, es bastante divertido gritar sincrónicamente con un grupo de extraños carismáticos mientras intentas desesperadamente no volcarte.",
-                    "y comunicar la ciencia; he conocido todo tipo de personas a lo largo de mi vida y nuestros diferentes gustos, talentos, experiencias, antecedentes, discapacidades y desafíos me han enseñado más de lo que podría compensar. Eso podría ser la razón por la que terminé enseñando a más de 1500 estudiantes, lo cual, sinceramente, todavía se siente surrealista. Siento que al enseñar, devuelvo un poco de esa deuda y también aprendo mucho, mucho, mucho.",
-                    "Me he obsesionado un poco con el aprendizaje estadístico, la inteligencia artificial y la visión. ¡Recuerdo cuando era niño y en la escuela nos enseñaron que las computadoras nunca podrían ver! ¡Nunca podrían aprender! Resulta que (como a menudo sucede con lo imposible), ¡solo necesitábamos ser creativos!"
+                    "Soy /h Santiago, /h tremendamente /h mexicano, y /h soy /h un /h Ingeniero /h de /h Software.",
+                    "Disfruto /h leer, /h programar, /h hacer /h musica, /h crear, /h enseñar, /h aprender, /h escribir y /h andar /h en /h bici. Y /h los /h parques. Y /h museos. La /h vida es un gusto que tengo bien adquirido.",
+                    "Opino /h que las acciones hablan /h mas /h que /h mil /h palabras, así que si gustas te invito a /h explorar este sitio y ve lo que /h hago, lo que he /h hecho, lo que /h escribo y lo que /h pienso.",
+                    "Y si eso es demasiada molestia: si solo pudiesen usar 1 palabra, mis amigos me describirian como /h inusual, si les agraciamos con 2 le sumarían /h contradictorio, y si les regalamos 3 espero que admitirian que soy /h tremendisimamente /h gracioso.",
+                    "Dicen que eres lo que comes, asi que he aqui un poco de mi dieta:"
                 ]
             },
             "books": [
@@ -1260,21 +1253,13 @@
     "fr": {
         "personal": {
             "journey": {
+                "title": "Salut! 👋",
                 "description": [
-                    "Salut ! Je m'appelle Santiago et je suis né et j'ai grandi au Mexique",
-                    "",
-                    "Je suis actuellement",
-                    "J'adore",
-                    "J'aime vraiment enseigner",
-                    "Dernièrement"
-                ],
-                "paragraphs": [
-                    "ma mère nous a offert, à ma sœur et à moi, le privilège de fréquenter des écoles prestigieuses et d'apprendre l'anglais. J'ai ensuite eu l'occasion d'apprendre le français dans un autre endroit - encore plus prestigieux - et d'obtenir plusieurs bourses pour étudier ce que j'aime le plus dans le charmant pays de l'érable, le Canada.",
-                    "J'essaie de devenir fiable et compétent, afin de pouvoir rendre la pareille à ceux qui m'ont poussé vers l'avant.",
-                    "un étudiant en dernière année et tuteur à l'Université de Montréal, au Département d'informatique et de recherche opérationnelle (DIRO). Il a été un peu étrange de commencer ma carrière pendant la pandémie, mais les défis uniques qui en ont découlé m'ont appris des choses auxquelles je ne m'attendais pas.",
-                    "jouer de la guitare ; lire - en particulier sur l'action sociale et les sujets liés au domaine que j'aime le plus (ne le dites à personne, mais c'est lié à l'informatique) ; j'ai une étrange obsession pour l'eau, ses sports, en particulier ceux dans lesquels je suis nul. Comme l'aviron avec l'équipe de l'UdeM, c'est assez amusant de crier synchroniquement avec un groupe d'étrangers charismatiques tout en essayant désespérément de ne pas chavirer.",
-                    "et communiquer la science ; j'ai rencontré toutes sortes de personnes tout au long de ma vie et nos goûts, talents, expériences, origines, handicaps et défis différents m'ont appris plus que je ne pourrais jamais rembourser. C'est peut-être pourquoi j'ai fini par enseigner à plus de 1500 étudiants - ce qui, honnêtement, semble toujours surréaliste. J'ai l'impression qu'en enseignant, je rembourse un peu de cette dette et j'apprends aussi énormément.",
-                    "Je suis devenu un peu obsédé par l'apprentissage statistique, l'intelligence artificielle et la vision. Je me souviens quand j'étais enfant, on nous a appris à l'école que les ordinateurs ne pourraient jamais voir ! Ils ne pourraient jamais apprendre ! Il s'avère (comme c'est souvent le cas avec l'impossible) que nous devions simplement faire preuve de créativité !"
+                    "J'suis /h Santiago, /h incontestablement /h mexicain, et je /h travail en tant qu'un /h Ingénieur /h de /h Logiciel.",
+                    "J'aime /h lire, /h programmer, /h faire /h musique, /h créer, /h enseigner, /h aprendre, /h écrire et /h faire /h du /h vélo. Et /h les /h parcs. Et /h les /h musées. J'ai un véritable appétit pour la /h vie.",
+                    "Je pense que nos /h actions /h nos /h representent, ainsi donc je vous invite à explorer ce site et découvrir ce que je fais, ce que j'ai fait, ce que j'écris et ce que je pense.",
+                    "Si vous n'avez pas temps pour cela: mes amis -ayant 1 seule mot- me decriraient comme /h inhabituel, ayant 2 ils pourraient ajouter /h contradictoire, et ayant 3 j'espere qu'ils pourraient admettre que je suis /h remarcablement /h drôle.",
+                    "On dit souvent que nous sommes ce que nous mangions, donc voici un peu de ma diète:"
                 ]
             },
             "books": [
