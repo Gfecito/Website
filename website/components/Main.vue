@@ -238,7 +238,6 @@ export default {
   color: black;
   text-shadow: -1px -1px 0 #ffffffd5, 1px -1px 0 #ffffffd5, -1px 1px 0 #ffffffd5,
     1px 1px 0 #ffffffd5, /* Create outline */ 0px 0px 5px #ffffffd5; /* Light highlight */
-  font-weight: bold; /* Set text to bold */
 }
 
 .dark-mode {
@@ -246,7 +245,6 @@ export default {
   color: #ffffffd5;
   text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
     1px 1px 0 black, /* Create outline */ 0px 0px 5px black; /* Light highlight */
-  font-weight: bold; /* Set text to bold */
 }
 main {
   justify-content: center;

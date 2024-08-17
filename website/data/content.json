@@ -3,22 +3,12 @@
         "personal": {
             "journey": {
                 "one_liners": [
-                    "Hi! My name is Santiago and I was born and raised in Mexico",
-                    "",
-                    "After concluding my Bachelors",
-                    "I'm currently working at Figma",
-                    "I love",
-                    "I really like teaching",
-                    "Lately"
-                ],
-                "paragraphs": [
-                    "my mother got my sister and I the privilege of going to fancy schools and learning english. I then got the chance of going on to learn french at another - even fancier - place, and getting several scholarships to study what I love most in the lovely maple land of Canada.",
-                    "I'm on a journey to be reliable and competent, to be able to give back to the people that have pushed me forward and -very ambitiously- be worthy of dealing with our biggest challenges.",
-                    "at the University of Montreal, I came to the USA to work, and to learn how massive, complex, distributed systems work. I wanted to see my textbooks come to life.",
-                    "as an Infrastructure engineer. I'm profoundly grateful to be where I am, and I'm thankful for my excelent peers, and for what I sincerely think is leadership with a clear vision and good direction.",
-                    "playing the guitar; reading - especially about social action and topics adjacent to the field I love most (don't tell anyone, but it's computer related); I have some weird obsession with water, its sports, particularily those I'm terrible at. Like rowing with the UdeM's team, it's pretty fun to scream synchronously with a bunch of charismatic strangers while desperately trying not to tip over.",
-                    "and communicating science; I've met all kinds of people throughout my life and our different tastes, talents, experience, backgrounds, handicaps and challenges have taught me more than I could ever repay. That might be why I ended up teaching over 1500 students during my undergrad - which, honestly, still feels surreal. I feel like by teaching, I pay back just a bit of that debt and I also learn so, so, so much.",
-                    "I've been getting a little obsessed with AI, computing and computational biology. If you had told my child self what we can do with computers now, he would've never believed you. I hope I can make it even harder to believe."
+                    "I'm /h Santiago, /h very /h Mexican, and I /h work as a /h Software /h Engineer.",
+                    "I like /h reading, /h music, /h coding, /h making, /h teaching, /h learning, /h writing and /h biking. And /h parks. And /h museums. I've acquired quite the appetite for /h life.",
+                    "I think /h actions speak the /h loudest, so feel free to /h peruse (ah I love /h contronyms) this site and see what I do, and what I write.",
+                    "If that's too much time: if my friends had to /h describe /h me with 1 word they'd probably say /h unconventional. With 2 words? They might add /h contradictory. And with 3 I'm hopeful they'd admit I'm /h funny.",
+                    "They say you are what you eat, so here's a bit of my diet:",
+                    "(or should I say... a /h bite of my diet? Ha.ha.)"
                 ]
             },
             "books": [
