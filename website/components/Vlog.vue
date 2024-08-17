@@ -1,7 +1,7 @@
 <template>
   <div class="background-layer" :style="{ opacity: backgroundOpacity }"></div>
   <div class="container mx-auto py-8">
-    <h1 class="text-2xl font-bold mb-4">Latest Articles</h1>
+    <h1 class="text-2xl font-bold mb-4">Things I think. Things I write.</h1>
 
     <!-- Show button and div only if at least one article is expanded -->
     <div class="article ml-10 mr-10" v-if="selectedArticle">
