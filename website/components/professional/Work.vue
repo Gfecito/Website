@@ -1,6 +1,6 @@
 <template>
   <div class="work p-8">
-    <h2 class="text-2xl font-bold">Employment</h2>
+    <h2 class="text-2xl font-bold">{{ data.title }}</h2>
     <div class="mt-4">
       <Card
         v-for="(position, index) in data.positions"

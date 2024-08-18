@@ -1,6 +1,6 @@
 <template>
   <div class="p-8 text-center">
-    <h2 class="text-2xl font-bold">Awards</h2>
+    <h2 class="text-2xl font-bold">{{ data.title }}</h2>
     <Card>
       <template v-slot:first>
         <div class="mt-4">
@@ -12,7 +12,7 @@
             "
           >
             <li
-              v-for="(award, index) in data"
+              v-for="(award, index) in data.awards"
               :key="index"
               class="flex flex-col items-center"
             >
@@ -21,7 +21,8 @@
                 <div>{{ award.title }}</div>
               </div>
               <div class="mt-1 text-sm text-gray-700">
-                <span class="font-semibold">Date: </span>{{ award.date }}
+                <span class="font-semibold">{{ data.dateLabel }}</span
+                >{{ award.date }}
               </div>
               <div class="mt-1 text-sm text-gray-500">
                 <span class="font-semibold"></span>{{ award.description[0] }}

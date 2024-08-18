@@ -1,9 +1,9 @@
 <template>
   <div class="projects">
-    <h2 class="text-2xl font-bold">Academic and Personal Projects</h2>
+    <h2 class="text-2xl font-bold">{{ data.title }}</h2>
     <div class="cards">
       <TinyCard
-        v-for="(project, index) in data"
+        v-for="(project, index) in data.projects"
         :key="index"
         :image="project.image"
         :title="project.title"
@@ -19,7 +19,7 @@
             class="text-blue-500 mt-2 hover:underline"
             target="_blank"
             rel="noopener noreferrer"
-            >Visit Website</a
+            >{{ project.websiteLabel }}</a
           >
         </div>
       </TinyCard>

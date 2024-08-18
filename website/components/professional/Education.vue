@@ -1,6 +1,6 @@
 <template>
   <div class="education p-8">
-    <h2 class="text-2xl font-bold">Education</h2>
+    <h2 class="text-2xl font-bold">{{ data.title }}</h2>
     <Card
       v-for="(institution, index) in institutions"
       class="vertical_card"
@@ -24,7 +24,7 @@
       <template v-slot:second>
         <div class="p-4 mr-8 w-full">
           <div class="institution_body">
-            <h3>Some classes I liked:</h3>
+            <h3>{{ data.classHeader }}</h3>
             <ul style="display: grid; grid-template-columns: repeat(3, 1fr)">
               <li
                 v-for="classItem in institution.classes"
