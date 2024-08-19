@@ -1,5 +1,5 @@
 <template>
-  <div class="relative mx-10">
+  <div class="relative mx-10" ref="dropdownWrapper">
     <div
       class="h-6 w-6 cursor-pointer rounded-lg hover:bg-pink-600 flex items-center justify-center"
       @click="toggleDropdown"
@@ -61,6 +61,17 @@ export default {
       console.log(`On hamburguer: ${language}`);
       this.$emit("language-change", language);
     },
+    handleClickOutside(event) {
+      if (!this.$refs.dropdownWrapper.contains(event.target)) {
+        this.dropdownOpen = false;
+      }
+    },
+  },
+  mounted() {
+    document.addEventListener("click", this.handleClickOutside);
+  },
+  beforeDestroy() {
+    document.removeEventListener("click", this.handleClickOutside);
   },
 };
 </script>
