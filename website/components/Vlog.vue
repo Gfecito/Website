@@ -1,17 +1,17 @@
 <template>
   <div class="background-layer" :style="{ opacity: backgroundOpacity }"></div>
   <div class="container mx-auto py-8">
-    <h1 class="text-2xl font-bold mb-4">Things I think. Things I write.</h1>
+    <h1 class="text-2xl font-bold mb-4">{{ data.title }}</h1>
 
     <!-- Show button and div only if at least one article is expanded -->
     <div class="article ml-10 mr-10" v-if="selectedArticle">
       <button class="bold text-gray-400" @click="toggleAllExpand">
-        Close article
+        {{ data.closeArticleLabel }}
       </button>
 
       <!-- New button to scroll to the bottom -->
       <button class="scroll-to-bottom-button" @click="scrollToBottom">
-        Scroll to Bottom
+        {{ data.scrollLabel }}
       </button>
 
       <!-- Article content rendering -->
@@ -94,7 +94,7 @@ export default {
   },
   created() {
     // Set the "expanded" field to false and remove the "id" field from each article
-    this.articles = this.data.map((article) => ({
+    this.articles = this.data.articles.map((article) => ({
       ...article,
       expanded: false,
     }));

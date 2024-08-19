@@ -1,5 +1,6 @@
 {
     "en": {
+        "languages":["french", "english", "spanish"],
         "personal": {
             "journey": {
                 "title": "Welcome! 👋",
@@ -379,562 +380,570 @@
                 ]
             }
         },
-        "articles": [
-            {
-                "title": "On Learning and Teaching",
-                "description": "Reflections on how to study, learn and teach effectively.",
-                "image": "images/vlog_thumbnails/teacher_in_class.jpeg",
-                "contents": [
-                    {"title": "On learning and teaching."},
+        "articles": 
+        {
+            "title":"Things I think. Things I write.",
+            "closeArticleLabel":"Close article",
+            "scrollLabel":"Scroll to Bottom",
+            "articles":
+                [
                     {
-                        "image": "images/vlog_images/dead_poets_society.jpg",
-                        "caption": "Robin Williams as John Keating in Dead Poets Society",
-                        "link":"https://www.huffpost.com/entry/the-dead-poets-society-gu_b_749665"
+                        "title": "On Learning and Teaching",
+                        "description": "Reflections on how to study, learn and teach effectively.",
+                        "image": "images/vlog_thumbnails/teacher_in_class.jpeg",
+                        "contents": [
+                            {"title": "On learning and teaching."},
+                            {
+                                "image": "images/vlog_images/dead_poets_society.jpg",
+                                "caption": "Robin Williams as John Keating in Dead Poets Society",
+                                "link":"https://www.huffpost.com/entry/the-dead-poets-society-gu_b_749665"
+                            },
+                            {"paragraph":[
+                                "In this article I’ll be sharing what I’ve learned, both as a student and as a teacher over the years. The main focus will be finding effective approaches to learning as well as effective approaches to teaching.",
+                                "For an objectively more thorough perspective I’d strongly recommend G. Polya’s “How to Solve It”, which is a fantastic book on both teaching and learning the art of problem solving."
+                            ]},
+                            {"paragraph":["When I mention good teachers throughout the article, there’s an implicit recognition that bad teachers exist. Bad teachers -I believe- are good teachers to be; because teaching is in itself learnt."]},
+                            {"title": "Effective practice:"},
+                            {"paragraph":["Practice makes perfect. Well not quite, but practice does make better. I feel like the The Parable of the Pottery Class illustrates this in the most succinct form:"]},
+                            {"quote":
+                                "There was once a pottery teacher called Brian. One month, he decided to split his class into two groups. Group A had to make a pot every day for 30 days (so 30 pots in total). Group B had to work on a single pot for the whole 30 days. At the end of the month, Brian judged the quality of the pots. Without exception, every one of the top 10 pots came from Group A, the guys that made one pot per day. None came from the group that focused on perfecting their single pot."
+                            },
+                            {"paragraph":[
+                                "Learners looking to perform better need to practice thoroughly. Deliberate Practice is usually the best approach, and is already well documented: practice, but do so with a plan. "
+                            ]},
+                            {"paragraph":[
+                                "In particular, to borrow from Polya, a good approach to Deliberate Practice is to do multiple attempts, iteratively, based on his 4 principles: understand the problem, make a plan, carry out the plan, look back on your work."
+                            ]},
+                            {"paragraph":[
+                                "In my experience, most students fail to do at least 1 of these. I believe this to be a failure of teachers not communicating (or perhaps not even understanding) that these very principles are the reasons why we educate in the structure we do:"]
+                            },
+                            {"list":[
+                                "Lecture/Demo: understand the problem.",
+                                "Instructions: make a plan (the more vague the instructions, the more of this is handed off to the student).",
+                                "Assignments: carry out the plan.",
+                                "Grades, tests, feedback: look back on your work."
+                            ]},
+                            {"paragraph":[
+                                "Being a student unfamiliar with these principles, school feels silly and often arbitrary in its ways.",
+                                "As a teacher, not knowing these principles one might be misguided into a dynamic which quite often can be quite fruitless for both students and teacher.",
+                                "Think of the classic movies during middle school, or long tangents during lectures: entertaining, but time would be better spent doing that with friends than an old stranger.",
+                                "We seek a teacher to teach: you wouldn’t want your doctor delaying surgery to talk about his divorce."
+                            ]},
+                            {"paragraph":[
+                                "Naturally, you might’ve remarked that not everything is equally easy to practice!",
+                                "You might think of learning English, where you're severely disadvantaged: your classmates’ parents speak it, and they can practice easily at home, but you can't! ",
+                                "Or math, when their sibling is an accountant who can guide them through the 4 principles.",
+                                "There are even some things that might seem impractice-able: like how to take a test or doing a backflip."
+                            ]},
+                            {"paragraph":[
+                                "Now here’s where we must be creative. If to learn effectively we must practice time and time again, then we must find a way to turn any learnable topic into a practice-able topic. I’ve observed that to make Deliberate Practice possible, we need two ingredients:"
+                            ]},
+                            {"list":[
+                                "A safe space to fail.",
+                                "Strong Feedback: strong feedback is fast, frequent and actionable."
+                            ]},
+                            {"paragraph":[
+                                "Games do this excellently, and you’ll find that players who play more typically are significantly better than those who play less. This is because games are made in a way that optimizes for effective practice: "
+                            ]},
+                            {"list":[
+                                "If you fail, you can play again and you’re fine (it is safe).",
+                                "When you fail you immediately know, and you can try again (Strong Feedback)"
+                            ]},
+                            {"paragraph":[
+                                "Building a safe space for practice and creating a strong feedback pipeline are historically quite challenging (hence why excellent schools are seldom). I don’t know of any generalizable recipe, but here are some examples:"
+                            ]},
+                            {"list":[
+                                "Building a safe space: for learning to take tests, one might take a sample of many many exams from the library or the internet and practice at home, replicating exam conditions (silence, time constraints, documentation constraints) and evaluating themselves (or doing so with a friend, usually to better results).",
+                                "Building a safe space: to learn to do backflips one might set up cushioning and a physical environment where getting hurt is less likely. It’d be preferable to make serious injury near impossible by having an expert guide and look after you.",
+                                "Strong feedback: a student might take practice tests they tried themselves, and already graded their teacher, asking for advice.",
+                                "Strong feedback: nowadays, although one must be very skeptical and careful with this tool, a student may iterate with a GPT language model to get feedback on their work/ideas. This works surprisingly well, which I’d attribute to the internet being full of forums with likely similar questions, and weighted answers that work as feedback."
+                            ]},
+                            {"paragraph":[
+                                "Good teachers will create a safe space to fail in their classes, and consistently provide strong feedback.",
+                                "Good teachers will also fail students who failed to assimilate the material, with the intent of giving them more time to do so. A safe space is not an easy space, but it is safe: if a student is let go without proper preparation, they will eventually fail in a space where it isn't safe to do so."
+                            ]},
+                            {"title": "The abstract and the concrete."},
+                            {
+                                "image": "images/vlog_images/abstract_vs_concrete.png",
+                                "caption": "The Development of Concrete and Abstract Thinking Patterns by Iryna Horkovska",
+                                "link":"https://calmerry.com/blog/psychology/the-development-of-concrete-and-abstract-thinking-patterns/"
+                            },
+                            {"paragraph":[
+                                "Nice! Now we can learn new things. But how do we remember them?"
+                            ]},
+                            {"paragraph":[
+                                "The following is quite a simplification of the workings of the brain, yet sufficient for our intent of learning better:",
+                                "The brain works through associations: the stronger the association, the more powerful the connection. In learning, the strength of these connections seems proportional to the number of times the association is made and how interesting we find it.",
+                                "A memory which is strongly bound to an event will be recalled when the event takes place!",
+                                "(Think of the breeze caressing the grass coming to mind with the sound of the wind, or pure -distilled- ire upon seeing a League of Legends lobby with that one guy you played with a year ago)."
+                            ]},
+                            {"paragraph":[
+                                "Cool. Let 's exploit that."
+                            ]},
+                            {"paragraph":[
+                                "Make it interesting: Injecting elements of interest ensures that the information stands out in your mind. This could involve using vivid imagery, storytelling, or real-world analogies that capture your attention."
+                            ]},
+                            {"paragraph":[
+                                "Make it related/coherent: The association should make sense and be easy to recall. It's like creating a mental roadmap—each step logically leads to the next, aiding in retrieval if you forget initially."
+                            ]},
+                            {"paragraph":[
+                                "Good teachers leverage these principles by incorporating props and real-life examples into their lessons. "
+                            ]},
+                            {"paragraph":[
+                                "By linking abstract concepts to tangible objects or familiar scenarios, they help students forge meaningful connections that enhance learning and retention.",
+                                "For instance, they might use props like colorful diagrams or memorable anecdotes to make complex ideas more accessible and memorable.",
+                                "Like Michael buying 100 pineapples or Antonia needing to cut the cable that is in an odd numbered position, in between two red cables, disarming a bomb!"
+                            ]},
+                            {"paragraph":[
+                                "Making it interesting also has the beautiful benefit of giving place to a potentially more lively classroom: students are more fun to be around… when they’re engaged!"
+                            ]},
+                            {"paragraph":[
+                                "A common trap is to over-index on making it interesting, and forgetting to make it related: this is easy to fall into because teachers already have the associations in their minds, but its essential for a teacher to remember that these associations don’t yet exist in the minds of their students: which is precisely why we’re teaching them!"
+                            ]},
+                            {"paragraph":[
+                                "Make it interesting, but make sure to connect it coherently!!! Let’s avoid any further “what does this have to do with anything?” puzzled looks, and connect the shiny dots we illustrate."
+                            ]},
+                            {"title": "Pay. Attention."},
+                            {
+                                "image": "images/vlog_images/paying_attention.jpg",
+                                "caption": "Students paying attention in class",
+                                "link":"https://img.freepik.com/free-photo/students-paying-attention-class_23-2148844732.jpg?t=st=1723640378~exp=1723643978~hmac=a62cf2da6a222aab3bf4219ce1587923447f1278dd28d9aace30c31b00314cad&w=1480"
+                            },
+                            {"paragraph":[
+                                "Humans are amazing at multitasking, but we’re terrible at multi-thinking. My idea of why this happens is based on Daniel Kahneman’s work, and I’d explain my reasoning as follows:"
+                            ]},
+                            {"list":[
+                                "System 2 thinking is brilliant in parallelizing, because there are no profound considerations to be made, your intuition can make easy decisions quickly and in parallel.",
+                                "System 1 thinking is expensive and deliberate. If you get distracted, you’re effectively disconnecting parts of your System 1 computer, and handicapping any chance you have of thinking, learning and remembering effectively."
+                            ]},
+                            {"paragraph":[
+                                "If you’re doing something hard, nuanced, sensitive, or novel: please focus.",
+                                "As a teacher: it’s easier for students to focus when the material is interesting and you make its usefulness obvious."
+                            ]},
+                            {"title": "Things making sense."},
+                            {
+                                "image": "images/vlog_images/eureka.jpg",
+                                "caption": "Archimedes exclaiming Eureka, by Pietro Scalvini and Carlo Orsolini",
+                                "link":"https://en.wikipedia.org/wiki/Eureka_%28word%29"
+                            },
+                            {"paragraph":[
+                                "It’s fundamental that the material being learned is coherent end to end. The material should be self contained, or at least enlist all its dependencies so students can quickly identify and fill in the gaps. Kind of like good software!"
+                            ]},
+                            {"paragraph":[
+                                "The student learning something full of gaps will need to fill them in themselves. If there are incoherences they must also resolve them. Failing to do this will lead a student to fail to understand the problem, which is the first principle in getting anything done.",
+                                "A teacher should always aim to have complete, sensible material and ideally their students would have no need to intervene."
+                            ]},
+                            {"paragraph":[
+                                "Incoherent material won’t be trusted, and will be forgotten with a lot more ease.",
+                                "Incoherent material, even if useful, won't be used as often, because the students won’t know how to explain it."
+                            ]},
+                            {"title": "The Importance of Peers and discussions."},
+                            {
+                                "image": "images/vlog_images/peers.png",
+                                "caption": "4 Tips to Design an Engaging Discussion in Canvas, by Jillian Rubman - MIT",
+                                "link":"https://mitsloanedtech.mit.edu/2022/01/07/4-tips-to-design-an-engaging-discussion-in-canvas/"
+                            },
+                            {"paragraph":[
+                                "Finally, nothing great is learned alone. Many replace live discussions by the reading and writing of papers, books, letters, or forum discussions, but every significant step towards learning (and symmetrically, towards teaching) is given through communicating with others."
+                            ]},
+                            {"paragraph":[
+                                "Talking with a mentor or a peer about a problem, or a topic, or indeed anything where insight is to be made, is one of the most effective and productive ways to learn. A healthy conversation forces us to employ all the mechanisms discussed in this article:"
+                            ]},
+                            {"list":[
+                                "Effective practice: a healthy discussion has a back and forward, where one can be wrong many times, corrected, and quickly re-engage in conversation.",
+                                "The abstract and the concrete: your peers will stop listening to you if you’re too abstract.",
+                                "Pay. Attention: on the flipside people will be disgruntled (scary!) if you don’t pay attention to them when they’re directly talking with you (I would know, I space out all the time, sorry).",
+                                "Things making sense: incoherence will be interrupted, or even playfully ridiculed, giving a mentor the chance to do better. Taking offense (or meaning to offend) would be a terrible waste of feedback."
+                            ]},
+                            {"title": "In conclusion."},
+                            {
+                                "image": "images/vlog_images/classroom_sunset.jpg",
+                                "caption": "Classroom Sunset | Lofi HipHop Mix |, by Yūgen",
+                                "link":"https://www.youtube.com/watch?v=-nHf84N0Iu4"
+                            },
+                            {"paragraph":[
+                                "To wrap up, our exploration into learning and teaching has uncovered some key strategies. We must practice with purpose and get feedback to improve. We need a safe space for mistakes. Interesting and relatable lessons are easy to understand and remember. Collaborating with peers and mentors is a learning-superpower."
+                            ]},
+                            {"paragraph":[
+                                "And remember: there are many things you still can’t teach, but there’s nothing out there you can’t learn! =)"
+                            ]}
+                        ]
                     },
-                    {"paragraph":[
-                        "In this article I’ll be sharing what I’ve learned, both as a student and as a teacher over the years. The main focus will be finding effective approaches to learning as well as effective approaches to teaching.",
-                        "For an objectively more thorough perspective I’d strongly recommend G. Polya’s “How to Solve It”, which is a fantastic book on both teaching and learning the art of problem solving."
-                    ]},
-                    {"paragraph":["When I mention good teachers throughout the article, there’s an implicit recognition that bad teachers exist. Bad teachers -I believe- are good teachers to be; because teaching is in itself learnt."]},
-                    {"title": "Effective practice:"},
-                    {"paragraph":["Practice makes perfect. Well not quite, but practice does make better. I feel like the The Parable of the Pottery Class illustrates this in the most succinct form:"]},
-                    {"quote":
-                        "There was once a pottery teacher called Brian. One month, he decided to split his class into two groups. Group A had to make a pot every day for 30 days (so 30 pots in total). Group B had to work on a single pot for the whole 30 days. At the end of the month, Brian judged the quality of the pots. Without exception, every one of the top 10 pots came from Group A, the guys that made one pot per day. None came from the group that focused on perfecting their single pot."
-                    },
-                    {"paragraph":[
-                        "Learners looking to perform better need to practice thoroughly. Deliberate Practice is usually the best approach, and is already well documented: practice, but do so with a plan. "
-                    ]},
-                    {"paragraph":[
-                        "In particular, to borrow from Polya, a good approach to Deliberate Practice is to do multiple attempts, iteratively, based on his 4 principles: understand the problem, make a plan, carry out the plan, look back on your work."
-                    ]},
-                    {"paragraph":[
-                        "In my experience, most students fail to do at least 1 of these. I believe this to be a failure of teachers not communicating (or perhaps not even understanding) that these very principles are the reasons why we educate in the structure we do:"]
-                    },
-                    {"list":[
-                        "Lecture/Demo: understand the problem.",
-                        "Instructions: make a plan (the more vague the instructions, the more of this is handed off to the student).",
-                        "Assignments: carry out the plan.",
-                        "Grades, tests, feedback: look back on your work."
-                    ]},
-                    {"paragraph":[
-                        "Being a student unfamiliar with these principles, school feels silly and often arbitrary in its ways.",
-                        "As a teacher, not knowing these principles one might be misguided into a dynamic which quite often can be quite fruitless for both students and teacher.",
-                        "Think of the classic movies during middle school, or long tangents during lectures: entertaining, but time would be better spent doing that with friends than an old stranger.",
-                        "We seek a teacher to teach: you wouldn’t want your doctor delaying surgery to talk about his divorce."
-                    ]},
-                    {"paragraph":[
-                        "Naturally, you might’ve remarked that not everything is equally easy to practice!",
-                        "You might think of learning English, where you're severely disadvantaged: your classmates’ parents speak it, and they can practice easily at home, but you can't! ",
-                        "Or math, when their sibling is an accountant who can guide them through the 4 principles.",
-                        "There are even some things that might seem impractice-able: like how to take a test or doing a backflip."
-                    ]},
-                    {"paragraph":[
-                        "Now here’s where we must be creative. If to learn effectively we must practice time and time again, then we must find a way to turn any learnable topic into a practice-able topic. I’ve observed that to make Deliberate Practice possible, we need two ingredients:"
-                    ]},
-                    {"list":[
-                        "A safe space to fail.",
-                        "Strong Feedback: strong feedback is fast, frequent and actionable."
-                    ]},
-                    {"paragraph":[
-                        "Games do this excellently, and you’ll find that players who play more typically are significantly better than those who play less. This is because games are made in a way that optimizes for effective practice: "
-                    ]},
-                    {"list":[
-                        "If you fail, you can play again and you’re fine (it is safe).",
-                        "When you fail you immediately know, and you can try again (Strong Feedback)"
-                    ]},
-                    {"paragraph":[
-                        "Building a safe space for practice and creating a strong feedback pipeline are historically quite challenging (hence why excellent schools are seldom). I don’t know of any generalizable recipe, but here are some examples:"
-                    ]},
-                    {"list":[
-                        "Building a safe space: for learning to take tests, one might take a sample of many many exams from the library or the internet and practice at home, replicating exam conditions (silence, time constraints, documentation constraints) and evaluating themselves (or doing so with a friend, usually to better results).",
-                        "Building a safe space: to learn to do backflips one might set up cushioning and a physical environment where getting hurt is less likely. It’d be preferable to make serious injury near impossible by having an expert guide and look after you.",
-                        "Strong feedback: a student might take practice tests they tried themselves, and already graded their teacher, asking for advice.",
-                        "Strong feedback: nowadays, although one must be very skeptical and careful with this tool, a student may iterate with a GPT language model to get feedback on their work/ideas. This works surprisingly well, which I’d attribute to the internet being full of forums with likely similar questions, and weighted answers that work as feedback."
-                    ]},
-                    {"paragraph":[
-                        "Good teachers will create a safe space to fail in their classes, and consistently provide strong feedback.",
-                        "Good teachers will also fail students who failed to assimilate the material, with the intent of giving them more time to do so. A safe space is not an easy space, but it is safe: if a student is let go without proper preparation, they will eventually fail in a space where it isn't safe to do so."
-                    ]},
-                    {"title": "The abstract and the concrete."},
                     {
-                        "image": "images/vlog_images/abstract_vs_concrete.png",
-                        "caption": "The Development of Concrete and Abstract Thinking Patterns by Iryna Horkovska",
-                        "link":"https://calmerry.com/blog/psychology/the-development-of-concrete-and-abstract-thinking-patterns/"
+                        "title": "You Don’t Really Exist",
+                        "description": "Identity is but a useful abstraction; not reality.",
+                        "image": "images/vlog_thumbnails/sisyphus.jpeg",
+                        "contents": [
+                            {"title": "Who are you?"},
+                            {"paragraph": [
+                                "No, I asked not your name, not your occupation nor sunday afternoon pastimes. Who are you?", 
+                                "When I was a kid, I remember a moment where my mother asked me that question. It eventually led me to panic; for every answer I gave, there was a “but is that who you are?”. Who am I?",
+                                "And yet when you ask me who someone else is, that is a most natural question, with quite simple answers."
+                            ]},
+                            {"title":"Perception and Abstractions."},
+                            {"paragraph": [
+                                "The world is mighty complex. There is too much information for our brain to process entirely, so we must pick and choose. Our perception is directly tied to our cognition in such tangled ways that you’ll see mostly what you already expect (see the 'Invisible Gorilla' experiment).",
+                                "How do we make sense of such chaos?"
+                            ]},
+                            {"paragraph": [
+                                "Abstractions. Patterns and abstractions."
+                            ]},
+                            {"paragraph": [
+                                "When we observe the world, different people see different things. If there is such a thing as a unique noumenal world, there is a phenomenal world unique to each of us (the optimist would say that the world is yours… hehe).",
+                                "These different perceived (phenomenal) worlds come from the different ways we think, and at times differences in our senses (your eyes are not necessarily identical from mine!).",
+                                "The perception we have is unique to us. And so are our interpretations of what we see.",
+                                "Our understanding of the world is a mixture: knowledge and stimuli. You perceive, you sense, and you make sense of the information with what you “know” of the world.                    Your reasoning is framed within the constraints of all your previous reasonings, of all that you’ve seen. Every tune, every painting, every smile and every mistake; they all change the way you think.",
+                                "However your knowledge is finite: we know nothing to an infinite granularity, but only down to a certain level of detail. Rare is the person both aware of the tiniest physics going on inside their nails, and the mind games that rule diplomacy.",
+                                "In understanding, we must limit detail. We must abstract."
+                            ]},
+                            {"paragraph": [
+                                "Abstractions. Patterns and abstractions.",
+                                "The realm of abstractions is too vast, and need not all be explored to show that you don’t exist.",
+                                "While we abstract in many ways (and quite fascinatingly), let us focus on the abstractions you do every day during your commute: People.",
+                                "When we perceive Someone Else, we must make sense of the things we sense: the look of their face, their eyes, the sound of their voice or the warmth of their hands. We wrap all of this information into a single agglomeration: a person.",
+                                "We may accumulate details that we associate with that person: what makes them laugh, their gait, the way they look at the starry sky or yell in traffic. Whether they feel to you as friend or as foe (which, in themselves, are abstractions)                    As we increase detail, we feel we know them more.",
+                                "When asked who they are, you’ll reply with some subset of these details.                    This is useful. If you had to absorb every bit (pun intended) of information from someone before being able to speak about them, social interactions would be impossibly expensive in time, memory and usage of your brain.",
+                                "Yet abstractions are useful precisely for the same reason they’re dangerous. They lack detail. They lack nuance.",
+                                "Abstractions are dangerous when speaking about conflict (think of the idea of the enemy), they’re dangerous when speaking of love, they’re dangerous when listening: if we listen for truth, rather than for abstraction, we’d be misled into an unfounded -yet very strong- sense of confidence.",
+                                "This lack of granularity means that you’ll never really know who anyone else is. Not entirely. You at most can know them better than anyone else, but if we’re sincere we must recognize that we’ll never know who someone really is."
+                            ]},
+                            {"title": "The mirror, and why you can’t know yourself."},
+                            {
+                                "image": "images/vlog_images/mirror.png",
+                                "caption": "Man looking at mirror",
+                                "link":"https://www.mutualart.com/Artwork/Man-With-a-Mirror/0833A9BCDCD04E35"
+                            },
+                            {"paragraph":[
+                                "When you look in the mirror, what do you see? It is in answering “Myself” that we immediately, inadvertently condemn ourselves to abstraction. The image reflected back at us is merely a surface-level representation, a snapshot of physical appearance that barely scratches the surface of our true essence.",
+                                "But beyond the physical reflection lies a labyrinth of complexities, contradictions, and ever-changing thoughts and emotions. Attempting to define oneself is akin to grasping at shadows; the more we seek to capture our identity, the more it seems to slip through our fingers.",
+                                "One might argue that introspection offers a path to self-discovery, a journey inward to uncover the truths that lie buried within our psyche. But even introspection has its limitations, for our perceptions of ourselves are colored by biases, insecurities, and external influences.",
+                                "And what of the role of memory in shaping our sense of self? Memories are not immutable records of the past but malleable narratives that evolve over time, shaped by selective recall and reinterpretation. Our recollections of past events are filtered through the lens of present consciousness, colored by emotions and perceptions that may distort or embellish the truth.",
+                                "In the end, the quest to know oneself may be an exercise in futility, a Sisyphean struggle against the tide of impermanence and uncertainty. Perhaps, instead of seeking to define ourselves, we should embrace the enigma of our existence, embracing the fluidity and ambiguity of identity.",
+                                "For in the absence of a fixed self, there lies the potential for boundless exploration and discovery, a journey of self-discovery that transcends the constraints of definition and limitation."
+                            ]},
+                            {"title":"Physicality, unity: you melt into the universe."},
+                            {
+                                "image": "images/vlog_images/cosmos.png",
+                                "caption": "Man looking at mirror",
+                                "link":"https://www.ashvinharrison.com/product/abstract-universe-moon-illusion/"
+                            },
+                            {"paragraph":[
+                                "We’ve shown that the thought of the self (phenomenal) is water, river, flow. A current that can’t be encapsulated by identity, but that rather flows and bends and chemically mutates through life.",
+                                "However, the foregoing of the self should also be recognized in the material (noumenal) realm.",
+                                "It seems an easier question to answer where your body is, where you physically are and of which dimensions. Indeed we have proper ways to measure such things (although I’d invite the reader to ponder what a measurement even is). However: with which detail?",
+                                "The body is not a static entity but a dynamic ecosystem teeming with life. Consider the trillions of microorganisms that call your body home, from the bacteria in your gut to the fungi on your skin. We are not solitary beings but -mostly- symbiotic organisms, intricately connected to the web of life that surrounds us.",
+                                "And yet, even within the confines of our own flesh, the boundaries of the self blur and dissolve. The distinction between self and other becomes increasingly nebulous as we delve deeper into the complexities of human biology. What is you and what is foreign? Are you your immune system? The bacteria on your skin? Your microbiota? Your blood? The water in it?",
+                                "Old cells are continually replaced by new ones in a process of regeneration and renewal. With each passing moment, we shed fragments of ourselves into the world, leaving traces of our existence in the air we breathe, the food we eat, and the earth beneath our feet.                    Are we not but an eternal Theseus ship, whose planks are water and to the ocean return?",
+                                "Even more atomically, our bodies are not separate from the cosmos but materially joint with it. We are stardust. We are made from universe and held together by it every breath, every step, every laugh and every tear.",
+                                "When you look at your fingertips thinking “this is where my fingers end”, consider that even there, there are atoms of you further out, and atoms non-you further in. The bounds of the body are as the idea of the body itself, blurry, practical, yet purely conceptual.",
+                                "When we look up at the night sky, we are not merely observers but participants in a dance of forever, in space and time. We see ourselves, past and future.",
+                                "So when we ask the question, 'Who are you?' Let us not seek answers in the confines of identity or the boundaries of the body.                     Instead, let us embrace the boundless expanse of being, recognizing that we are not separate from the universe but integral parts of its ever-unfolding story.",
+                                "When we ask “Who are you?” Let’s reply usefully, socially, with the information the asker needs, yet recognize that the true answer will forever melt between our fingers.",
+                                "The real answer is simple. The real answer is freeing, liberating. The real answer is harmonious."
+                            ]},
+                            {"paragraph":[
+                                "You do not exist."
+                            ]}
+                        ]
                     },
-                    {"paragraph":[
-                        "Nice! Now we can learn new things. But how do we remember them?"
-                    ]},
-                    {"paragraph":[
-                        "The following is quite a simplification of the workings of the brain, yet sufficient for our intent of learning better:",
-                        "The brain works through associations: the stronger the association, the more powerful the connection. In learning, the strength of these connections seems proportional to the number of times the association is made and how interesting we find it.",
-                        "A memory which is strongly bound to an event will be recalled when the event takes place!",
-                        "(Think of the breeze caressing the grass coming to mind with the sound of the wind, or pure -distilled- ire upon seeing a League of Legends lobby with that one guy you played with a year ago)."
-                    ]},
-                    {"paragraph":[
-                        "Cool. Let 's exploit that."
-                    ]},
-                    {"paragraph":[
-                        "Make it interesting: Injecting elements of interest ensures that the information stands out in your mind. This could involve using vivid imagery, storytelling, or real-world analogies that capture your attention."
-                    ]},
-                    {"paragraph":[
-                        "Make it related/coherent: The association should make sense and be easy to recall. It's like creating a mental roadmap—each step logically leads to the next, aiding in retrieval if you forget initially."
-                    ]},
-                    {"paragraph":[
-                        "Good teachers leverage these principles by incorporating props and real-life examples into their lessons. "
-                    ]},
-                    {"paragraph":[
-                        "By linking abstract concepts to tangible objects or familiar scenarios, they help students forge meaningful connections that enhance learning and retention.",
-                        "For instance, they might use props like colorful diagrams or memorable anecdotes to make complex ideas more accessible and memorable.",
-                        "Like Michael buying 100 pineapples or Antonia needing to cut the cable that is in an odd numbered position, in between two red cables, disarming a bomb!"
-                    ]},
-                    {"paragraph":[
-                        "Making it interesting also has the beautiful benefit of giving place to a potentially more lively classroom: students are more fun to be around… when they’re engaged!"
-                    ]},
-                    {"paragraph":[
-                        "A common trap is to over-index on making it interesting, and forgetting to make it related: this is easy to fall into because teachers already have the associations in their minds, but its essential for a teacher to remember that these associations don’t yet exist in the minds of their students: which is precisely why we’re teaching them!"
-                    ]},
-                    {"paragraph":[
-                        "Make it interesting, but make sure to connect it coherently!!! Let’s avoid any further “what does this have to do with anything?” puzzled looks, and connect the shiny dots we illustrate."
-                    ]},
-                    {"title": "Pay. Attention."},
                     {
-                        "image": "images/vlog_images/paying_attention.jpg",
-                        "caption": "Students paying attention in class",
-                        "link":"https://img.freepik.com/free-photo/students-paying-attention-class_23-2148844732.jpg?t=st=1723640378~exp=1723643978~hmac=a62cf2da6a222aab3bf4219ce1587923447f1278dd28d9aace30c31b00314cad&w=1480"
+                        "title": "On The Limits of Communication: Only You Know What You Know",
+                        "description": "Only you know what you know",
+                        "image": "images/vlog_thumbnails/communication.png",
+                        "contents": [
+                            {"title": "Introduction"},
+                            {"paragraph": [
+                                "Talk. Code. Read. Write.",
+                                "Draw. Sing. Move. Listen."
+                            ]},
+                            {
+                                "image": "images/vlog_images/birds_singing.png",
+                                "caption": "Man looking at mirror",
+                                "link":"https://pixabay.com/photos/singing-birds-sing-nature-song-3948645/"
+                            },
+                            {"paragraph": [
+                                "The joy of being heard, the connection in eye contact. Communication is the foundation of any social species. But at its core, it's only transmitting information.",
+                                "Without communication there’s no understanding. No connection. Slow to non-existent progress. When I was a kid, I remember a moment where my mother asked me that question. It eventually led me to panic; for every answer I gave, there was a “but is that who you are?”. Who am I?",
+                                "And yet when you ask me who someone else is, that is a most natural question, with quite simple answers."
+                            ]},
+                            {"paragraph": [
+                                "We must communicate; however we often find ourselves struggling with the natural limitations to do so. Why?"
+                            ]},
+                            {"title": "What people teach will never be the same as what people want to learn."},
+                            {"paragraph": [
+                                "We’ve all been there. You’re sitting in a classroom, wondering about some detail of what the teacher has explained. You ask a question, and it feels like they’re answering an entirely different one, perhaps you’re so fortunate as to learn something new, but your confusion remains.", 
+                                "At times, we’ve been on the flip side as well. A junior asks you a question on a topic you’ve already explained several times, you answer, and they nod ceremoniously, yet you both know that whatever the motive for their question, it pervades your teachings.",
+                                "Despite the teacher's best efforts, the gap between what is taught and what is understood persists.",
+                                "Frustrating, but why does that happen? Why does it continue to do so across cultures and vocations?"
+                            ]},
+                            {"title": "Context"},
+                            {"paragraph": [
+                                "Context. Symbols mean naught without context.                    Everything we know, we know within a set of constraints, assumptions and adjacent information.",
+                                "This set is usually subtextual: it isn’t explicitly signaled anywhere in particular, nor are we even necessarily aware of its existence.                    Yet there is no thought in your mind which would be sensible without context; without the definitions of the words you use to enunciate it, the implicit assumptions you make or the things that you assume everyone must know.",
+                                "The discrete nature of this contextual information is especially problematic for experts.                    When an expert communicates, they often presume that what they’re saying is obvious or common sense. To them it is, because their contextual knowledge is rich in that field, and so many of their observations are simple consequences of what they know.",
+                                "We fail -all too frequently- to acknowledge that this context is precisely our expertise, and presuming that this information is widely shared effectively blocks our ability to understand each other, to work together, to hear one another, and to connect sincerely.",
+                                "Context gets in the way of many other communication based tasks: conflict resolution is harder, when you don’t understand where the other side is coming from, culture is harder to appreciate with just a superficial (context-bare) view, collaboration is hampered by fundamental misunderstandings in the work that must be done or its costs.",
+                                "On the other end, providing too much context on communicating is often wasteful: it takes time to share, takes time to consume, and most often does not even include the information that the other person actually wants. Even when we attempt to better communicate, we’re permanently impeded from reaching perfection.",
+                                "Context makes us knowledgeable, yet it seems to impede so much in communicating with each other. We must ponder: is it the context? Or is it us?",
+                                "I argue that it's not you (context), it's me."
+                            ]},
+                            {"title": "Only I know what I know:"},
+                            {"paragraph": [
+                                "People are complicated. We know many, many things.",
+                                "However we don’t store our knowledge in shared memory. There is no factual hivemind.",
+                                "You know what you know, and I know what I know.",
+                                "But if I ask you “What do you know?”, expecting a list of all the information in your brain you’d find that most ridiculous.                    Even assuming that you could make such a list, you’d fail to communicate it properly (see title of article). But you can’t make such a list.",
+                                "Why?",
+                                "“What do you know?” falls, I think, into the same branch of inquiry as questions such as “Who are you?” (which I’ve explored in another article: “You Don’t Really Exist”)",
+                                "For most of us, a sufficient limitation to entirely answer these questions is the vagueness of what the question means. What is “knowing” really? What is “me”?",
+                                "Do I know something if I know where to find it? Do I know something if it has been taught to me by someone else? How can we be sure this other person knew it properly? What does it mean for them to know?",
+                                "The question of what we know is by nature recursive ad nauseam. There is always the next step of “But how do we know that?” until we reach axiomatic assumptions. Axioms aren’t knowable, they’re simply assumed. So we can assume, and then we can infer from assumptions."
+                            ]},
+                            {"title": "We can never know"},
+                            {"paragraph": [
+                                "So… we can’t know things. Voila merci, thank you for your read, let us venture into the streets in cynical dread of our condemnation to eternal ignorance.",
+                                "This is an unpragmatic interpretation.",
+                                "I think that there is an alternative interpretation that I find not only infinitely more useful, and more interesting, but also sincerely quite freeing."
+                            ]},
+                            {
+                                "image": "images/vlog_images/hummingbird.png",
+                                "caption": "Man looking at mirror",
+                                "link":"https://www.audubon.org/news/hummingbirds-shake-their-tail-feathers-generate-high-pitched-sounds"
+                            },
+                            {"paragraph": [
+                                "Teaching, and indeed any communication, has never been about knowable things. It’s been -and I deem it will forever be- about persuading and convincing each other to exploit useful information, useful methods, useful tools, and useful practices to live better lives. To ask better questions, to solve more important problems.",
+                                "Thinking of communication as the transfer of the truth is very humane arrogance. We can’t know the truth, not in any real way. But we can know the truth in many useful ways.",
+                                "Children are excellently transparent with this. For any truth you hold undeniable, they will seamlessly challenge it, with no malice but simple curiosity: because nothing you know is truly undeniable."
+                            ]},
+                            {"paragraph": [
+                                "But what does all of this tell us about communicating with each other?",
+                                "If there is no real fundamental knowledge, but rather just useful snippets, what are we even doing?"
+                            ]},
+                            {"title": "Conclusion: we do our best. But not the best."},
+                            {"paragraph": [
+                                "We know nothing, and yet we still… talk. We talk and we write and we sing and we try.",
+                                "We communicate our know hows, our warnings, our tales, our stories and advice.",
+                                "We communicate to help each other; to help ourselves.",
+                                "We do our best."
+                            ]},
+                            {"paragraph": [
+                                "Yet, let us be permanently conscious: we will never communicate the best way.",
+                                "We can’t, so let us be humble. Let us converse, let us keep trying.",
+                                "To be imperfect gives us power in iteration, in retrying, in back and forths."
+                            ]},
+                            {"paragraph": [
+                                "Let’s keep helping each other, but next time a student raises their hand, remember: they can’t ask the perfect question, and you can’t tell them exactly what they want.",
+                                "But it's better if you try."
+                            ]},
+                            {
+                                "image": "images/vlog_images/helping_hand.png",
+                                "caption": "Man looking at mirror",
+                                "link":"https://www.pinterest.com/pin/634937247461784490/"
+                            }
+                        ]
                     },
-                    {"paragraph":[
-                        "Humans are amazing at multitasking, but we’re terrible at multi-thinking. My idea of why this happens is based on Daniel Kahneman’s work, and I’d explain my reasoning as follows:"
-                    ]},
-                    {"list":[
-                        "System 2 thinking is brilliant in parallelizing, because there are no profound considerations to be made, your intuition can make easy decisions quickly and in parallel.",
-                        "System 1 thinking is expensive and deliberate. If you get distracted, you’re effectively disconnecting parts of your System 1 computer, and handicapping any chance you have of thinking, learning and remembering effectively."
-                    ]},
-                    {"paragraph":[
-                        "If you’re doing something hard, nuanced, sensitive, or novel: please focus.",
-                        "As a teacher: it’s easier for students to focus when the material is interesting and you make its usefulness obvious."
-                    ]},
-                    {"title": "Things making sense."},
                     {
-                        "image": "images/vlog_images/eureka.jpg",
-                        "caption": "Archimedes exclaiming Eureka, by Pietro Scalvini and Carlo Orsolini",
-                        "link":"https://en.wikipedia.org/wiki/Eureka_%28word%29"
+                        "title": "Aim to do, not to be.",
+                        "description": "Reflections on the frame of mind that has given me peace and what I deem healthy, sustainable growth.",
+                        "image": "images/vlog_thumbnails/compass.jpeg",
+                        "contents": [
+                            {"title": "Aim to do, not to be."},
+                            {
+                                "image": "images/vlog_images/self.webp",
+                                "caption": "Illustration by Zoe Liu in How Our Brain Preserves Our Sense of Self - Scientific American",
+                                "link":"https://www.scientificamerican.com/article/how-our-brain-preserves-our-sense-of-self/"
+                            },
+                            {"paragraph":[
+                                "What do you want to be when you grow up?",
+                                "Who are you?"
+                            ]},
+                            {"paragraph":[
+                                "Why do we bother answering these questions?",
+                                "What is it that we’re really trying to understand with them? ",
+                                "My thesis is that we seek a shortcut description of people: “Oh, this guy is A, this guy is B.”",
+                                "It makes it easier to talk about ourselves and others, reducing our identities to simple labels."
+                            ]},
+                            {"paragraph":[
+                                "But here’s the thing—asking who we want to be is a misstep, a misunderstanding.",
+                                "It’s like mistaking the photo for the person.",
+                                "Identity is a momentary snapshot, something fluid and ever-changing.",
+                                "Rather than fixating on capturing the perfect photo—as we’ve grown accustomed to doing—I’d argue that the more powerful framework is to dance the best we can."
+                            ]},
+                            {"title": "Build."},
+                            {
+                                "image": "images/vlog_images/beaver.jpg",
+                                "caption": "Beaver chilling in its dam",
+                                "link":"https://www.brainson.org/episode/2023/09/19/how-do-animals-build-their-homes"
+                            },
+                            {"paragraph":[
+                                "Prioritize. Make music over being a musician. Do sport over being an athlete. Build things over being an engineer. Discover and wonder over being a scientist. Focus on the act, the experience, the joy of doing."
+                            ]},
+                            {"paragraph":[
+                                "For instance, consider the difference between “being a musician” and “making music.”",
+                                "The first is a title, an abstraction of expectations.",
+                                "The second is a freedom, an experience, a good idea, a relaxed afternoon.",
+                                "When you prioritize making music, you allow yourself to explore, to fail, to grow—without the pressure of living up to the title of “musician.”"
+                            ]},
+                            {"paragraph":[
+                                "If perfect is the enemy of good, then expectation is the enemy of action. And action is the path to growth. In action and growth you build the constant self that you want to be. Build things, build your life and build yourself: there's no more important project than you, because without you there is nothing else to do."
+                            ]},
+                            {"paragraph":[
+                                "So, love and play. Do things. Aim to do, not to be. In doing so, you might find that the labels—if they matter at all—will follow naturally, shaped by the richness of your experiences."
+                            ]}
+                        ]
                     },
-                    {"paragraph":[
-                        "It’s fundamental that the material being learned is coherent end to end. The material should be self contained, or at least enlist all its dependencies so students can quickly identify and fill in the gaps. Kind of like good software!"
-                    ]},
-                    {"paragraph":[
-                        "The student learning something full of gaps will need to fill them in themselves. If there are incoherences they must also resolve them. Failing to do this will lead a student to fail to understand the problem, which is the first principle in getting anything done.",
-                        "A teacher should always aim to have complete, sensible material and ideally their students would have no need to intervene."
-                    ]},
-                    {"paragraph":[
-                        "Incoherent material won’t be trusted, and will be forgotten with a lot more ease.",
-                        "Incoherent material, even if useful, won't be used as often, because the students won’t know how to explain it."
-                    ]},
-                    {"title": "The Importance of Peers and discussions."},
                     {
-                        "image": "images/vlog_images/peers.png",
-                        "caption": "4 Tips to Design an Engaging Discussion in Canvas, by Jillian Rubman - MIT",
-                        "link":"https://mitsloanedtech.mit.edu/2022/01/07/4-tips-to-design-an-engaging-discussion-in-canvas/"
+                        "title": "On Emergent Behaviors",
+                        "description": "Thinking about some of the ways simple rules generate our chaotic world.",
+                        "image": "images/vlog_thumbnails/emergent_behavior.webp",
+                        "contents": [
+                            {"paragraph":[
+                                "Rule 1: Don't talk about fight club.", 
+                                "Rule 2: No weapons.", 
+                                "Rule 3: Don't talk about fight club.",
+                                "Anarchy ensues."
+                            ]},
+                            {"title": "On Emergent Behaviors."},
+                            {
+                                "image": "images/vlog_images/emergence.jpg",
+                                "caption": "Cheese Balls, Napanoch, New York, 2012 - Part of the Emergent Behavior collection from Thomas Jackson",
+                                "link":"https://www.thomasjacksonphotography.com/emergent-behavior.html"
+                            },
+                            {"paragraph":[
+                                "An atom jiggles in space. It jiggles not alone but with friends. They’re more jiggly than usual and you burn up in a fever. They’re less jiggly and you freeze. Some jiggle here, others there."
+                            ]},
+                            {"paragraph":[
+                                "Some jiggle right in the gap where synapses happen, making up your cerebrospinal fluid—these jiggling atoms keep you alive. Others jiggle slightly to the side, arranged in a very convenient way, forming groups of atoms (a.k.a Jiggle Boy Bands) that we call molecules.",
+                                "The name comes from the number of atoms in a molecule, but I won’t take up a Mole's time to explain."
+                            ]},
+                            {"paragraph":[
+                                "These molecules hang out. They’re chilling, vibing even. They, like words in a sentence, just happen to arrange into a cell.",
+                                "The cells themselves are arranged in quite a smart way, and we call it a Neuron. If they break in a specifically evil way, we call it Cancer."
+                            ]},
+                            {"paragraph":[
+                                "We call this group jiggle temperature. With this alone, we already start to see significant complexity emerge: you can have cold neurons or hot neurons, cold cancer or hot cancer. You can have cells made of these molecules or those other molecules. You can have something here or something there."
+                            ]},
+                            {"paragraph":[
+                                "Already, with just a few simple things to keep in mind, there’s so much to discover."
+                            ]},
+                            {"paragraph":[
+                                "Such little things, with such simple rules at their essence."
+                            ]},
+                            {"paragraph":[
+                                "Yet when we stack layers upon layers of simplicity, we get life. We get everything. It might seem surprising, but the math makes it quite obvious.",
+                                "If you have n layers, with Xn rules each, then you naively have a total of X1 * X2 * ... * Xn rules in total.",
+                                "That’s a lot of rules that can define so many different combinations!"
+                            ]},
+                            {"paragraph":[
+                                "What is life? My suspicion is that the word in itself is simply a classifier. Our brain simplifying the world to our great benefit in living, but to our great detriment in understanding."
+                            ]},
+                            {"paragraph":[
+                                "I think life is no one thing. I think life is this permutation of wildly varied and rich rules.",
+                                "Life is the combination of all these little things that happen, and that sometimes permute into bigger things that our brain perceives and classifies. Life is when we go “oo that's alive”."
+                            ]},
+                            {"paragraph":[
+                                "There also exist scientific definitions of what life is, but science itself is when we go “oo that’s science”.",
+                                "Of course, it's less subjective than your taste in music, but it isn’t much more objective than a combination of all of our subjectivities. Opinions and ideas mixed with measurements, which ultimately we can only consume through our senses.",
+                                "Monkeys trying to do our best to disassociate with your sensorial organs to see some higher truth. It’s quite the struggle: even in the previous sentence we fall back to the senses, we try to see."
+                            ]},
+                            {"paragraph":[
+                                "What is intelligence? I think the answer is indeed quite similar: intelligence is I see something and think it think. Monkey see, monkey classify.",
+                                "But let’s go beyond the word, what is this idea of intelligence? (Such platonic idealism that we indulge in)"
+                            ]},
+                            {"paragraph":[
+                                "I think intelligence is also just a combination of rules. In us, it's the rules up to the layer of abstraction of the brain, or sometimes of the combination of brains in many brainees: people or otherwise."
+                            ]},
+                            {"paragraph":[
+                                "Well then, how come we would ever believe that only us get to be intelligent? Is that not some great -unfounded- arrogance? Some terribly humane hubris?",
+                                "And why would we ever think we can’t make intelligence? It's just combinatorics, not rocket science.",
+                                "Today we’re trying by combining rules of computing and statistics, because we’ve sensed it to work better than other things we’ve tried (yes, science seems to mostly be fucking around and finding out) but those are just some arbitrary sets of rules we use. If there’s a limit to those, we can use others."
+                            ]},
+                            {"paragraph":[
+                                "We come from jiggly guys, is it so hard to imagine other things coming from us?"
+                            ]},
+                            {"paragraph":[
+                                "It’s all just… emergent behaviors."
+                            ]}
+                        ]
                     },
-                    {"paragraph":[
-                        "Finally, nothing great is learned alone. Many replace live discussions by the reading and writing of papers, books, letters, or forum discussions, but every significant step towards learning (and symmetrically, towards teaching) is given through communicating with others."
-                    ]},
-                    {"paragraph":[
-                        "Talking with a mentor or a peer about a problem, or a topic, or indeed anything where insight is to be made, is one of the most effective and productive ways to learn. A healthy conversation forces us to employ all the mechanisms discussed in this article:"
-                    ]},
-                    {"list":[
-                        "Effective practice: a healthy discussion has a back and forward, where one can be wrong many times, corrected, and quickly re-engage in conversation.",
-                        "The abstract and the concrete: your peers will stop listening to you if you’re too abstract.",
-                        "Pay. Attention: on the flipside people will be disgruntled (scary!) if you don’t pay attention to them when they’re directly talking with you (I would know, I space out all the time, sorry).",
-                        "Things making sense: incoherence will be interrupted, or even playfully ridiculed, giving a mentor the chance to do better. Taking offense (or meaning to offend) would be a terrible waste of feedback."
-                    ]},
-                    {"title": "In conclusion."},
                     {
-                        "image": "images/vlog_images/classroom_sunset.jpg",
-                        "caption": "Classroom Sunset | Lofi HipHop Mix |, by Yūgen",
-                        "link":"https://www.youtube.com/watch?v=-nHf84N0Iu4"
-                    },
-                    {"paragraph":[
-                        "To wrap up, our exploration into learning and teaching has uncovered some key strategies. We must practice with purpose and get feedback to improve. We need a safe space for mistakes. Interesting and relatable lessons are easy to understand and remember. Collaborating with peers and mentors is a learning-superpower."
-                    ]},
-                    {"paragraph":[
-                        "And remember: there are many things you still can’t teach, but there’s nothing out there you can’t learn! =)"
-                    ]}
-                ]
-            },
-            {
-                "title": "You Don’t Really Exist",
-                "description": "Identity is but a useful abstraction; not reality.",
-                "image": "images/vlog_thumbnails/sisyphus.jpeg",
-                "contents": [
-                    {"title": "Who are you?"},
-                    {"paragraph": [
-                        "No, I asked not your name, not your occupation nor sunday afternoon pastimes. Who are you?", 
-                        "When I was a kid, I remember a moment where my mother asked me that question. It eventually led me to panic; for every answer I gave, there was a “but is that who you are?”. Who am I?",
-                        "And yet when you ask me who someone else is, that is a most natural question, with quite simple answers."
-                    ]},
-                    {"title":"Perception and Abstractions."},
-                    {"paragraph": [
-                        "The world is mighty complex. There is too much information for our brain to process entirely, so we must pick and choose. Our perception is directly tied to our cognition in such tangled ways that you’ll see mostly what you already expect (see the 'Invisible Gorilla' experiment).",
-                        "How do we make sense of such chaos?"
-                    ]},
-                    {"paragraph": [
-                        "Abstractions. Patterns and abstractions."
-                    ]},
-                    {"paragraph": [
-                        "When we observe the world, different people see different things. If there is such a thing as a unique noumenal world, there is a phenomenal world unique to each of us (the optimist would say that the world is yours… hehe).",
-                        "These different perceived (phenomenal) worlds come from the different ways we think, and at times differences in our senses (your eyes are not necessarily identical from mine!).",
-                        "The perception we have is unique to us. And so are our interpretations of what we see.",
-                        "Our understanding of the world is a mixture: knowledge and stimuli. You perceive, you sense, and you make sense of the information with what you “know” of the world.                    Your reasoning is framed within the constraints of all your previous reasonings, of all that you’ve seen. Every tune, every painting, every smile and every mistake; they all change the way you think.",
-                        "However your knowledge is finite: we know nothing to an infinite granularity, but only down to a certain level of detail. Rare is the person both aware of the tiniest physics going on inside their nails, and the mind games that rule diplomacy.",
-                        "In understanding, we must limit detail. We must abstract."
-                    ]},
-                    {"paragraph": [
-                        "Abstractions. Patterns and abstractions.",
-                        "The realm of abstractions is too vast, and need not all be explored to show that you don’t exist.",
-                        "While we abstract in many ways (and quite fascinatingly), let us focus on the abstractions you do every day during your commute: People.",
-                        "When we perceive Someone Else, we must make sense of the things we sense: the look of their face, their eyes, the sound of their voice or the warmth of their hands. We wrap all of this information into a single agglomeration: a person.",
-                        "We may accumulate details that we associate with that person: what makes them laugh, their gait, the way they look at the starry sky or yell in traffic. Whether they feel to you as friend or as foe (which, in themselves, are abstractions)                    As we increase detail, we feel we know them more.",
-                        "When asked who they are, you’ll reply with some subset of these details.                    This is useful. If you had to absorb every bit (pun intended) of information from someone before being able to speak about them, social interactions would be impossibly expensive in time, memory and usage of your brain.",
-                        "Yet abstractions are useful precisely for the same reason they’re dangerous. They lack detail. They lack nuance.",
-                        "Abstractions are dangerous when speaking about conflict (think of the idea of the enemy), they’re dangerous when speaking of love, they’re dangerous when listening: if we listen for truth, rather than for abstraction, we’d be misled into an unfounded -yet very strong- sense of confidence.",
-                        "This lack of granularity means that you’ll never really know who anyone else is. Not entirely. You at most can know them better than anyone else, but if we’re sincere we must recognize that we’ll never know who someone really is."
-                    ]},
-                    {"title": "The mirror, and why you can’t know yourself."},
-                    {
-                        "image": "images/vlog_images/mirror.png",
-                        "caption": "Man looking at mirror",
-                        "link":"https://www.mutualart.com/Artwork/Man-With-a-Mirror/0833A9BCDCD04E35"
-                    },
-                    {"paragraph":[
-                        "When you look in the mirror, what do you see? It is in answering “Myself” that we immediately, inadvertently condemn ourselves to abstraction. The image reflected back at us is merely a surface-level representation, a snapshot of physical appearance that barely scratches the surface of our true essence.",
-                        "But beyond the physical reflection lies a labyrinth of complexities, contradictions, and ever-changing thoughts and emotions. Attempting to define oneself is akin to grasping at shadows; the more we seek to capture our identity, the more it seems to slip through our fingers.",
-                        "One might argue that introspection offers a path to self-discovery, a journey inward to uncover the truths that lie buried within our psyche. But even introspection has its limitations, for our perceptions of ourselves are colored by biases, insecurities, and external influences.",
-                        "And what of the role of memory in shaping our sense of self? Memories are not immutable records of the past but malleable narratives that evolve over time, shaped by selective recall and reinterpretation. Our recollections of past events are filtered through the lens of present consciousness, colored by emotions and perceptions that may distort or embellish the truth.",
-                        "In the end, the quest to know oneself may be an exercise in futility, a Sisyphean struggle against the tide of impermanence and uncertainty. Perhaps, instead of seeking to define ourselves, we should embrace the enigma of our existence, embracing the fluidity and ambiguity of identity.",
-                        "For in the absence of a fixed self, there lies the potential for boundless exploration and discovery, a journey of self-discovery that transcends the constraints of definition and limitation."
-                    ]},
-                    {"title":"Physicality, unity: you melt into the universe."},
-                    {
-                        "image": "images/vlog_images/cosmos.png",
-                        "caption": "Man looking at mirror",
-                        "link":"https://www.ashvinharrison.com/product/abstract-universe-moon-illusion/"
-                    },
-                    {"paragraph":[
-                        "We’ve shown that the thought of the self (phenomenal) is water, river, flow. A current that can’t be encapsulated by identity, but that rather flows and bends and chemically mutates through life.",
-                        "However, the foregoing of the self should also be recognized in the material (noumenal) realm.",
-                        "It seems an easier question to answer where your body is, where you physically are and of which dimensions. Indeed we have proper ways to measure such things (although I’d invite the reader to ponder what a measurement even is). However: with which detail?",
-                        "The body is not a static entity but a dynamic ecosystem teeming with life. Consider the trillions of microorganisms that call your body home, from the bacteria in your gut to the fungi on your skin. We are not solitary beings but -mostly- symbiotic organisms, intricately connected to the web of life that surrounds us.",
-                        "And yet, even within the confines of our own flesh, the boundaries of the self blur and dissolve. The distinction between self and other becomes increasingly nebulous as we delve deeper into the complexities of human biology. What is you and what is foreign? Are you your immune system? The bacteria on your skin? Your microbiota? Your blood? The water in it?",
-                        "Old cells are continually replaced by new ones in a process of regeneration and renewal. With each passing moment, we shed fragments of ourselves into the world, leaving traces of our existence in the air we breathe, the food we eat, and the earth beneath our feet.                    Are we not but an eternal Theseus ship, whose planks are water and to the ocean return?",
-                        "Even more atomically, our bodies are not separate from the cosmos but materially joint with it. We are stardust. We are made from universe and held together by it every breath, every step, every laugh and every tear.",
-                        "When you look at your fingertips thinking “this is where my fingers end”, consider that even there, there are atoms of you further out, and atoms non-you further in. The bounds of the body are as the idea of the body itself, blurry, practical, yet purely conceptual.",
-                        "When we look up at the night sky, we are not merely observers but participants in a dance of forever, in space and time. We see ourselves, past and future.",
-                        "So when we ask the question, 'Who are you?' Let us not seek answers in the confines of identity or the boundaries of the body.                     Instead, let us embrace the boundless expanse of being, recognizing that we are not separate from the universe but integral parts of its ever-unfolding story.",
-                        "When we ask “Who are you?” Let’s reply usefully, socially, with the information the asker needs, yet recognize that the true answer will forever melt between our fingers.",
-                        "The real answer is simple. The real answer is freeing, liberating. The real answer is harmonious."
-                    ]},
-                    {"paragraph":[
-                        "You do not exist."
-                    ]}
-                ]
-            },
-            {
-                "title": "On The Limits of Communication: Only You Know What You Know",
-                "description": "Only you know what you know",
-                "image": "images/vlog_thumbnails/communication.png",
-                "contents": [
-                    {"title": "Introduction"},
-                    {"paragraph": [
-                        "Talk. Code. Read. Write.",
-                        "Draw. Sing. Move. Listen."
-                    ]},
-                    {
-                        "image": "images/vlog_images/birds_singing.png",
-                        "caption": "Man looking at mirror",
-                        "link":"https://pixabay.com/photos/singing-birds-sing-nature-song-3948645/"
-                    },
-                    {"paragraph": [
-                        "The joy of being heard, the connection in eye contact. Communication is the foundation of any social species. But at its core, it's only transmitting information.",
-                        "Without communication there’s no understanding. No connection. Slow to non-existent progress. When I was a kid, I remember a moment where my mother asked me that question. It eventually led me to panic; for every answer I gave, there was a “but is that who you are?”. Who am I?",
-                        "And yet when you ask me who someone else is, that is a most natural question, with quite simple answers."
-                    ]},
-                    {"paragraph": [
-                        "We must communicate; however we often find ourselves struggling with the natural limitations to do so. Why?"
-                    ]},
-                    {"title": "What people teach will never be the same as what people want to learn."},
-                    {"paragraph": [
-                        "We’ve all been there. You’re sitting in a classroom, wondering about some detail of what the teacher has explained. You ask a question, and it feels like they’re answering an entirely different one, perhaps you’re so fortunate as to learn something new, but your confusion remains.", 
-                        "At times, we’ve been on the flip side as well. A junior asks you a question on a topic you’ve already explained several times, you answer, and they nod ceremoniously, yet you both know that whatever the motive for their question, it pervades your teachings.",
-                        "Despite the teacher's best efforts, the gap between what is taught and what is understood persists.",
-                        "Frustrating, but why does that happen? Why does it continue to do so across cultures and vocations?"
-                    ]},
-                    {"title": "Context"},
-                    {"paragraph": [
-                        "Context. Symbols mean naught without context.                    Everything we know, we know within a set of constraints, assumptions and adjacent information.",
-                        "This set is usually subtextual: it isn’t explicitly signaled anywhere in particular, nor are we even necessarily aware of its existence.                    Yet there is no thought in your mind which would be sensible without context; without the definitions of the words you use to enunciate it, the implicit assumptions you make or the things that you assume everyone must know.",
-                        "The discrete nature of this contextual information is especially problematic for experts.                    When an expert communicates, they often presume that what they’re saying is obvious or common sense. To them it is, because their contextual knowledge is rich in that field, and so many of their observations are simple consequences of what they know.",
-                        "We fail -all too frequently- to acknowledge that this context is precisely our expertise, and presuming that this information is widely shared effectively blocks our ability to understand each other, to work together, to hear one another, and to connect sincerely.",
-                        "Context gets in the way of many other communication based tasks: conflict resolution is harder, when you don’t understand where the other side is coming from, culture is harder to appreciate with just a superficial (context-bare) view, collaboration is hampered by fundamental misunderstandings in the work that must be done or its costs.",
-                        "On the other end, providing too much context on communicating is often wasteful: it takes time to share, takes time to consume, and most often does not even include the information that the other person actually wants. Even when we attempt to better communicate, we’re permanently impeded from reaching perfection.",
-                        "Context makes us knowledgeable, yet it seems to impede so much in communicating with each other. We must ponder: is it the context? Or is it us?",
-                        "I argue that it's not you (context), it's me."
-                    ]},
-                    {"title": "Only I know what I know:"},
-                    {"paragraph": [
-                        "People are complicated. We know many, many things.",
-                        "However we don’t store our knowledge in shared memory. There is no factual hivemind.",
-                        "You know what you know, and I know what I know.",
-                        "But if I ask you “What do you know?”, expecting a list of all the information in your brain you’d find that most ridiculous.                    Even assuming that you could make such a list, you’d fail to communicate it properly (see title of article). But you can’t make such a list.",
-                        "Why?",
-                        "“What do you know?” falls, I think, into the same branch of inquiry as questions such as “Who are you?” (which I’ve explored in another article: “You Don’t Really Exist”)",
-                        "For most of us, a sufficient limitation to entirely answer these questions is the vagueness of what the question means. What is “knowing” really? What is “me”?",
-                        "Do I know something if I know where to find it? Do I know something if it has been taught to me by someone else? How can we be sure this other person knew it properly? What does it mean for them to know?",
-                        "The question of what we know is by nature recursive ad nauseam. There is always the next step of “But how do we know that?” until we reach axiomatic assumptions. Axioms aren’t knowable, they’re simply assumed. So we can assume, and then we can infer from assumptions."
-                    ]},
-                    {"title": "We can never know"},
-                    {"paragraph": [
-                        "So… we can’t know things. Voila merci, thank you for your read, let us venture into the streets in cynical dread of our condemnation to eternal ignorance.",
-                        "This is an unpragmatic interpretation.",
-                        "I think that there is an alternative interpretation that I find not only infinitely more useful, and more interesting, but also sincerely quite freeing."
-                    ]},
-                    {
-                        "image": "images/vlog_images/hummingbird.png",
-                        "caption": "Man looking at mirror",
-                        "link":"https://www.audubon.org/news/hummingbirds-shake-their-tail-feathers-generate-high-pitched-sounds"
-                    },
-                    {"paragraph": [
-                        "Teaching, and indeed any communication, has never been about knowable things. It’s been -and I deem it will forever be- about persuading and convincing each other to exploit useful information, useful methods, useful tools, and useful practices to live better lives. To ask better questions, to solve more important problems.",
-                        "Thinking of communication as the transfer of the truth is very humane arrogance. We can’t know the truth, not in any real way. But we can know the truth in many useful ways.",
-                        "Children are excellently transparent with this. For any truth you hold undeniable, they will seamlessly challenge it, with no malice but simple curiosity: because nothing you know is truly undeniable."
-                    ]},
-                    {"paragraph": [
-                        "But what does all of this tell us about communicating with each other?",
-                        "If there is no real fundamental knowledge, but rather just useful snippets, what are we even doing?"
-                    ]},
-                    {"title": "Conclusion: we do our best. But not the best."},
-                    {"paragraph": [
-                        "We know nothing, and yet we still… talk. We talk and we write and we sing and we try.",
-                        "We communicate our know hows, our warnings, our tales, our stories and advice.",
-                        "We communicate to help each other; to help ourselves.",
-                        "We do our best."
-                    ]},
-                    {"paragraph": [
-                        "Yet, let us be permanently conscious: we will never communicate the best way.",
-                        "We can’t, so let us be humble. Let us converse, let us keep trying.",
-                        "To be imperfect gives us power in iteration, in retrying, in back and forths."
-                    ]},
-                    {"paragraph": [
-                        "Let’s keep helping each other, but next time a student raises their hand, remember: they can’t ask the perfect question, and you can’t tell them exactly what they want.",
-                        "But it's better if you try."
-                    ]},
-                    {
-                        "image": "images/vlog_images/helping_hand.png",
-                        "caption": "Man looking at mirror",
-                        "link":"https://www.pinterest.com/pin/634937247461784490/"
+                        "title": "Be Good And Great",
+                        "description": "A reminder to aspire for growth, but to not grow crooked.",
+                        "image": "images/vlog_thumbnails/good_and_great.jpeg",
+                        "contents": [
+                            {"paragraph":[
+                                "In one of Kafka's tales, he tells us of many sons, many sons archetypal for many men.",
+                                "Each remarkable in its own way, one tremendously charming, another greatly intelligent, another beautiful as to offend the olympians.",
+                                "Yet none of these have the sincere charm that I find in the 'unremarkable' one.",
+                                "Unremarkable, naive, not quite bright, and yet he is kind.",
+                                "It is he, who leads the best life."
+                            ]},
+                            {"title": "Be Good And Great."},
+                            {
+                                "image": "images/vlog_images/trees.jpg",
+                                "caption": "Dragon's Blood Tree, The Millennial Tree of Socotra Island",
+                                "link":"https://mybestplace.com/en/article/dragons-blood-tree-the-millennial-tree-of-socotra-island"
+                            },
+                            {"paragraph":[
+                                "I want more."
+                            ]},
+                            {"paragraph":[
+                                "Don’t we all?"
+                            ]},
+                            {"paragraph":[
+                                "There’s always more.",
+                                "Desire is a barrel with holes, which we fill and fill and fill, only to watch it leak and leak and leak.",
+                                "Growth is paradoxically both desirable and poisonous. It's a drive, a fuel that pushes us forward, a change, a betterment.",
+                                "Yet, like many trees, it's all too easy to grow crooked."
+                            ]},
+                            {"paragraph":[
+                                "To grow, we must first be very sure of the direction we’re growing in. Without a clear direction, we risk not growing at all but simply wandering aimlessly."
+                            ]},
+                            {"paragraph":[
+                                "On the other hand, the temptation not to grow, not to change, can be just as dangerous.",
+                                "Staticity has a certain charm, but it’s a comfort steeped in toxicity.",
+                                "We all must be continuously in motion, at the very least to match the tides of the earth and the life around us.",
+                                "When life stops moving, we call it a corpse. To live is to move. And to move is to change.",
+                                "If we’re going to change, then let’s do it purposefully: let’s grow."
+                            ]},
+                            {"paragraph":[
+                                "However, we often fall into the trap of assuming we are good simply because we do no harm. This perception is misguided: being harmless is not the same as choosing to do no harm."
+                            ]},
+                            {"paragraph":[
+                                "Is it good to do what people tell you to do? To follow what others declare as good?",
+                                "History has shown us many times that this isn’t true, and the lessons are carved in blood.",
+                                "Is one truly good if they lack the strength to go against societal expectations? Or is that just compliance?"
+                            ]},
+                            {"paragraph":[
+                                "The only real way to grow is to do both: to acquire strength and to direct it properly.",
+                                "True growth requires cultivating oneself in three dimensions: competence, the power to do things (distinct from what we often call power, which I would term corruption), and the spirit—the heart and soul."
+                            ]},
+                            {"paragraph":[
+                                "Only by developing in these areas can we find the right direction and grow firmly along it.",
+                                "Only then can we truly be good and use our greatness to propel us forward on the right path."
+                            ]},
+                            {"paragraph":[
+                                "To ensure your growth is purposeful, regularly assess your direction. Ask yourself:"
+                            ]},
+                            {"list":[
+                                "Am I growing in the right way?",
+                                "Am I cultivating the right strengths?",
+                                "Am I challenging societal expectations when they conflict with my principles?"
+                            ]},
+                            {"paragraph":[
+                                "Reflect on these questions and adjust your course as needed. True growth is intentional and guided by a well-developed sense of direction and integrity."
+                            ]},
+                            {"paragraph":[
+                                "I won’t give you specifics. You already know what you should be doing.",
+                                "Do better. Be great."
+                            ]}
+                        ]
                     }
                 ]
-            },
-            {
-                "title": "Aim to do, not to be.",
-                "description": "Reflections on the frame of mind that has given me peace and what I deem healthy, sustainable growth.",
-                "image": "images/vlog_thumbnails/compass.jpeg",
-                "contents": [
-                    {"title": "Aim to do, not to be."},
-                    {
-                        "image": "images/vlog_images/self.webp",
-                        "caption": "Illustration by Zoe Liu in How Our Brain Preserves Our Sense of Self - Scientific American",
-                        "link":"https://www.scientificamerican.com/article/how-our-brain-preserves-our-sense-of-self/"
-                    },
-                    {"paragraph":[
-                        "What do you want to be when you grow up?",
-                        "Who are you?"
-                    ]},
-                    {"paragraph":[
-                        "Why do we bother answering these questions?",
-                        "What is it that we’re really trying to understand with them? ",
-                        "My thesis is that we seek a shortcut description of people: “Oh, this guy is A, this guy is B.”",
-                        "It makes it easier to talk about ourselves and others, reducing our identities to simple labels."
-                    ]},
-                    {"paragraph":[
-                        "But here’s the thing—asking who we want to be is a misstep, a misunderstanding.",
-                        "It’s like mistaking the photo for the person.",
-                        "Identity is a momentary snapshot, something fluid and ever-changing.",
-                        "Rather than fixating on capturing the perfect photo—as we’ve grown accustomed to doing—I’d argue that the more powerful framework is to dance the best we can."
-                    ]},
-                    {"title": "Build."},
-                    {
-                        "image": "images/vlog_images/beaver.jpg",
-                        "caption": "Beaver chilling in its dam",
-                        "link":"https://www.brainson.org/episode/2023/09/19/how-do-animals-build-their-homes"
-                    },
-                    {"paragraph":[
-                        "Prioritize. Make music over being a musician. Do sport over being an athlete. Build things over being an engineer. Discover and wonder over being a scientist. Focus on the act, the experience, the joy of doing."
-                    ]},
-                    {"paragraph":[
-                        "For instance, consider the difference between “being a musician” and “making music.”",
-                        "The first is a title, an abstraction of expectations.",
-                        "The second is a freedom, an experience, a good idea, a relaxed afternoon.",
-                        "When you prioritize making music, you allow yourself to explore, to fail, to grow—without the pressure of living up to the title of “musician.”"
-                    ]},
-                    {"paragraph":[
-                        "If perfect is the enemy of good, then expectation is the enemy of action. And action is the path to growth. In action and growth you build the constant self that you want to be. Build things, build your life and build yourself: there's no more important project than you, because without you there is nothing else to do."
-                    ]},
-                    {"paragraph":[
-                        "So, love and play. Do things. Aim to do, not to be. In doing so, you might find that the labels—if they matter at all—will follow naturally, shaped by the richness of your experiences."
-                    ]}
-                ]
-            },
-            {
-                "title": "On Emergent Behaviors",
-                "description": "Thinking about some of the ways simple rules generate our chaotic world.",
-                "image": "images/vlog_thumbnails/emergent_behavior.webp",
-                "contents": [
-                    {"paragraph":[
-                        "Rule 1: Don't talk about fight club.", 
-                        "Rule 2: No weapons.", 
-                        "Rule 3: Don't talk about fight club.",
-                        "Anarchy ensues."
-                    ]},
-                    {"title": "On Emergent Behaviors."},
-                    {
-                        "image": "images/vlog_images/emergence.jpg",
-                        "caption": "Cheese Balls, Napanoch, New York, 2012 - Part of the Emergent Behavior collection from Thomas Jackson",
-                        "link":"https://www.thomasjacksonphotography.com/emergent-behavior.html"
-                    },
-                    {"paragraph":[
-                        "An atom jiggles in space. It jiggles not alone but with friends. They’re more jiggly than usual and you burn up in a fever. They’re less jiggly and you freeze. Some jiggle here, others there."
-                    ]},
-                    {"paragraph":[
-                        "Some jiggle right in the gap where synapses happen, making up your cerebrospinal fluid—these jiggling atoms keep you alive. Others jiggle slightly to the side, arranged in a very convenient way, forming groups of atoms (a.k.a Jiggle Boy Bands) that we call molecules.",
-                        "The name comes from the number of atoms in a molecule, but I won’t take up a Mole's time to explain."
-                    ]},
-                    {"paragraph":[
-                        "These molecules hang out. They’re chilling, vibing even. They, like words in a sentence, just happen to arrange into a cell.",
-                        "The cells themselves are arranged in quite a smart way, and we call it a Neuron. If they break in a specifically evil way, we call it Cancer."
-                    ]},
-                    {"paragraph":[
-                        "We call this group jiggle temperature. With this alone, we already start to see significant complexity emerge: you can have cold neurons or hot neurons, cold cancer or hot cancer. You can have cells made of these molecules or those other molecules. You can have something here or something there."
-                    ]},
-                    {"paragraph":[
-                        "Already, with just a few simple things to keep in mind, there’s so much to discover."
-                    ]},
-                    {"paragraph":[
-                        "Such little things, with such simple rules at their essence."
-                    ]},
-                    {"paragraph":[
-                        "Yet when we stack layers upon layers of simplicity, we get life. We get everything. It might seem surprising, but the math makes it quite obvious.",
-                        "If you have n layers, with Xn rules each, then you naively have a total of X1 * X2 * ... * Xn rules in total.",
-                        "That’s a lot of rules that can define so many different combinations!"
-                    ]},
-                    {"paragraph":[
-                        "What is life? My suspicion is that the word in itself is simply a classifier. Our brain simplifying the world to our great benefit in living, but to our great detriment in understanding."
-                    ]},
-                    {"paragraph":[
-                        "I think life is no one thing. I think life is this permutation of wildly varied and rich rules.",
-                        "Life is the combination of all these little things that happen, and that sometimes permute into bigger things that our brain perceives and classifies. Life is when we go “oo that's alive”."
-                    ]},
-                    {"paragraph":[
-                        "There also exist scientific definitions of what life is, but science itself is when we go “oo that’s science”.",
-                        "Of course, it's less subjective than your taste in music, but it isn’t much more objective than a combination of all of our subjectivities. Opinions and ideas mixed with measurements, which ultimately we can only consume through our senses.",
-                        "Monkeys trying to do our best to disassociate with your sensorial organs to see some higher truth. It’s quite the struggle: even in the previous sentence we fall back to the senses, we try to see."
-                    ]},
-                    {"paragraph":[
-                        "What is intelligence? I think the answer is indeed quite similar: intelligence is I see something and think it think. Monkey see, monkey classify.",
-                        "But let’s go beyond the word, what is this idea of intelligence? (Such platonic idealism that we indulge in)"
-                    ]},
-                    {"paragraph":[
-                        "I think intelligence is also just a combination of rules. In us, it's the rules up to the layer of abstraction of the brain, or sometimes of the combination of brains in many brainees: people or otherwise."
-                    ]},
-                    {"paragraph":[
-                        "Well then, how come we would ever believe that only us get to be intelligent? Is that not some great -unfounded- arrogance? Some terribly humane hubris?",
-                        "And why would we ever think we can’t make intelligence? It's just combinatorics, not rocket science.",
-                        "Today we’re trying by combining rules of computing and statistics, because we’ve sensed it to work better than other things we’ve tried (yes, science seems to mostly be fucking around and finding out) but those are just some arbitrary sets of rules we use. If there’s a limit to those, we can use others."
-                    ]},
-                    {"paragraph":[
-                        "We come from jiggly guys, is it so hard to imagine other things coming from us?"
-                    ]},
-                    {"paragraph":[
-                        "It’s all just… emergent behaviors."
-                    ]}
-                ]
-            },
-            {
-                "title": "Be Good And Great",
-                "description": "A reminder to aspire for growth, but to not grow crooked.",
-                "image": "images/vlog_thumbnails/good_and_great.jpeg",
-                "contents": [
-                    {"paragraph":[
-                        "In one of Kafka's tales, he tells us of many sons, many sons archetypal for many men.",
-                        "Each remarkable in its own way, one tremendously charming, another greatly intelligent, another beautiful as to offend the olympians.",
-                        "Yet none of these have the sincere charm that I find in the 'unremarkable' one.",
-                        "Unremarkable, naive, not quite bright, and yet he is kind.",
-                        "It is he, who leads the best life."
-                    ]},
-                    {"title": "Be Good And Great."},
-                    {
-                        "image": "images/vlog_images/trees.jpg",
-                        "caption": "Dragon's Blood Tree, The Millennial Tree of Socotra Island",
-                        "link":"https://mybestplace.com/en/article/dragons-blood-tree-the-millennial-tree-of-socotra-island"
-                    },
-                    {"paragraph":[
-                        "I want more."
-                    ]},
-                    {"paragraph":[
-                        "Don’t we all?"
-                    ]},
-                    {"paragraph":[
-                        "There’s always more.",
-                        "Desire is a barrel with holes, which we fill and fill and fill, only to watch it leak and leak and leak.",
-                        "Growth is paradoxically both desirable and poisonous. It's a drive, a fuel that pushes us forward, a change, a betterment.",
-                        "Yet, like many trees, it's all too easy to grow crooked."
-                    ]},
-                    {"paragraph":[
-                        "To grow, we must first be very sure of the direction we’re growing in. Without a clear direction, we risk not growing at all but simply wandering aimlessly."
-                    ]},
-                    {"paragraph":[
-                        "On the other hand, the temptation not to grow, not to change, can be just as dangerous.",
-                        "Staticity has a certain charm, but it’s a comfort steeped in toxicity.",
-                        "We all must be continuously in motion, at the very least to match the tides of the earth and the life around us.",
-                        "When life stops moving, we call it a corpse. To live is to move. And to move is to change.",
-                        "If we’re going to change, then let’s do it purposefully: let’s grow."
-                    ]},
-                    {"paragraph":[
-                        "However, we often fall into the trap of assuming we are good simply because we do no harm. This perception is misguided: being harmless is not the same as choosing to do no harm."
-                    ]},
-                    {"paragraph":[
-                        "Is it good to do what people tell you to do? To follow what others declare as good?",
-                        "History has shown us many times that this isn’t true, and the lessons are carved in blood.",
-                        "Is one truly good if they lack the strength to go against societal expectations? Or is that just compliance?"
-                    ]},
-                    {"paragraph":[
-                        "The only real way to grow is to do both: to acquire strength and to direct it properly.",
-                        "True growth requires cultivating oneself in three dimensions: competence, the power to do things (distinct from what we often call power, which I would term corruption), and the spirit—the heart and soul."
-                    ]},
-                    {"paragraph":[
-                        "Only by developing in these areas can we find the right direction and grow firmly along it.",
-                        "Only then can we truly be good and use our greatness to propel us forward on the right path."
-                    ]},
-                    {"paragraph":[
-                        "To ensure your growth is purposeful, regularly assess your direction. Ask yourself:"
-                    ]},
-                    {"list":[
-                        "Am I growing in the right way?",
-                        "Am I cultivating the right strengths?",
-                        "Am I challenging societal expectations when they conflict with my principles?"
-                    ]},
-                    {"paragraph":[
-                        "Reflect on these questions and adjust your course as needed. True growth is intentional and guided by a well-developed sense of direction and integrity."
-                    ]},
-                    {"paragraph":[
-                        "I won’t give you specifics. You already know what you should be doing.",
-                        "Do better. Be great."
-                    ]}
-                ]
-            }
-        ]
+        }
     },
     "es": {
+        "languages":["frances", "ingles", "español"],
         "personal": {
             "journey": {
                 "title": "Hola! 👋",
@@ -1277,6 +1286,7 @@
         }
     },
     "fr": {
+        "languages":["français", "anglais", "espagnol"],
         "personal": {
             "journey": {
                 "title": "Salut! 👋",

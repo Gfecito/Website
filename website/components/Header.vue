@@ -10,7 +10,7 @@
         <img :src="theme_icon" alt="darkmode" class="mr-4" />
       </button>
       <HamburgerMenu
-        :languages="['french', 'english', 'spanish']"
+        :languages="data"
         :use-button="true"
         @language-change="languageChange"
         @header-height="handleHeaderHeight"
@@ -44,6 +44,12 @@
 
 <script>
 export default {
+  props: {
+    data: {
+      type: Array,
+      required: true,
+    },
+  },
   methods: {
     toggleDarkMode() {
       let isDarkMode = !this.$parent.isDarkMode;
