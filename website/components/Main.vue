@@ -57,14 +57,20 @@ export default {
 
       switch (langParam) {
         case "english":
+        case "ingles":
+        case "anglais":
         case "spanish":
+        case "español":
+        case "espagnol":
         case "french":
+        case "frances":
+        case "français":
           language.value = langParam;
           renderKey.value++;
           break;
         default:
           console.log(
-            `Error; human language selected by user ${langParam} not recognized, couldn't abbreviate.`
+            `Error; human language selected by user ${langParam} not recognized, couldn't select.`
           );
           language.value = "english";
           renderKey.value++;
@@ -131,10 +137,16 @@ export default {
     const translatedData = computed(() => {
       switch (language.value) {
         case "spanish":
+        case "español":
+        case "espagnol":
           return props.spanishData;
         case "french":
+        case "frances":
+        case "français":
           return props.frenchData;
         case "english":
+        case "ingles":
+        case "anglais":
         default:
           return props.englishData;
       }
@@ -144,8 +156,14 @@ export default {
       console.log(`On main: ${newLanguage}`);
       switch (newLanguage) {
         case "english":
+        case "ingles":
+        case "anglais":
         case "spanish":
+        case "español":
+        case "espagnol":
         case "french":
+        case "frances":
+        case "français":
           language.value = newLanguage;
           renderKey.value++;
           break;
@@ -205,11 +223,11 @@ export default {
     ></Personal>
     <Professional
       :key="renderKey"
-      :data="englishData.professional"
+      :data="translatedData.professional"
       v-if="activePage === 'work'"
     ></Professional>
     <Vlog
-      :data="englishData.articles"
+      :data="translatedData.articles"
       :key="renderKey"
       v-if="activePage === 'vlog'"
     ></Vlog>
