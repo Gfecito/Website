@@ -36,7 +36,7 @@ export default {
 
       // Calculate opacity based on scroll position using easing function
       backgroundOpacity.value = easeInOutQuad(
-        Math.min(scrollPositionY / maxOpacityScroll, 1)
+        Math.min(scrollPositionY / maxOpacityScroll, 1) * 0.5
       );
 
       // Use requestAnimationFrame for smoother animation
