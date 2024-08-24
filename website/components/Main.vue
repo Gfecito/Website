@@ -265,6 +265,20 @@ export default {
   text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
     1px 1px 0 black, /* Create outline */ 0px 0px 5px black; /* Light highlight */
 }
+
+.dark-mode .gray {
+  position: relative; /* Ensure child elements are positioned correctly */
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white,
+    1px 1px 0 white, /* Create outline */ 0px 0px 5px rgba(186, 186, 186, 0.706); /* Light highlight */
+}
+
+.dark-mode .title {
+  position: relative; /* Ensure child elements are positioned correctly */
+  color: black;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white,
+    1px 1px 0 white, /* Create outline */ 0px 0px 5px rgba(186, 186, 186, 0.706); /* Light highlight */
+}
+
 main {
   justify-content: center;
   align-items: center;
@@ -290,5 +304,9 @@ main * {
   background-size: cover;
   z-index: -1;
   transition: opacity 0.3s ease, transform 0.3s ease; /* Add transform transition */
+}
+
+.gray {
+  color: gray;
 }
 </style>

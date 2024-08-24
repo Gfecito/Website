@@ -8,18 +8,20 @@
         :class="cardSideClass(index)"
       >
         <template v-slot:first>
-          <div class="image_container flex-shrink-0">
-            <img
-              :src="position.image"
-              :alt="position.title"
-              :class="[imageSideClass(index), 'object-cover h-full']"
-            />
+          <div class="image_overlap flex-shrink-0">
+            <div class="image_container">
+              <img
+                :src="position.image"
+                :alt="position.title"
+                :class="[imageSideClass(index), 'opacity-70']"
+              />
+            </div>
           </div>
         </template>
         <template v-slot:second>
           <div class="p-4 mr-8 w-full">
-            <div :class="[contentSideClass(index), 'mt-2']">
-              <h3 class="text-xl font-semibold">{{ title }}</h3>
+            <div :class="[contentSideClass(index), 'mb-6']">
+              <h3 class="text-xl font-semibold">{{ position.title }}</h3>
               <section class="description" :class="textAlignment(index)">
                 <!-- Need to make this more sophisticated. Add lists and paragraph support as we do for vlogs -->
                 <div
@@ -67,13 +69,15 @@ export default {
       return this.isImageOnLeft(index) ? "flex-row" : "flex-row-reverse";
     },
     imageSideClass(index) {
-      return this.isImageOnLeft(index) ? "float-right" : "float-left";
+      return this.isImageOnLeft(index)
+        ? "float-right margin-right"
+        : "float-left margin-left";
     },
     contentSideClass(index) {
       return this.isImageOnLeft(index) ? "float-left" : "float-right";
     },
     isImageOnLeft(index) {
-      return index % 2 === 0;
+      return index % 2 === 1;
     },
   },
 };
@@ -109,7 +113,21 @@ li {
 }
 
 .image_container {
-  width: 20%;
-  height: 100%;
+  width: 130%;
+}
+
+.image_overlap {
+  max-width: 33%;
+  height: 90%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.margin-left {
+  margin-left: -25%;
+}
+
+.margin-right {
+  margin-right: -5%;
 }
 </style>

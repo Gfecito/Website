@@ -110,10 +110,11 @@
                                     "Advanced Java Concepts"
                                 ]
                             },
-                            {"paragraph": "A BIG thank you -both for bearing with me through that experience, and for mentoring me through it- to: Marc Feeley, Olivier Melançon, Stefan Monnier, Miklós Csűrös, Sébastien Roy, Amal Ben Abdellah and Michel Reid"}
+                            {"paragraph": "A BIG thank you -both for bearing with me through that experience, and for mentoring me through it- to: Marc Feeley, Olivier Melançon, Stefan Monnier, Miklós Csűrös, Sébastien Roy, Amal Ben Abdellah and Michel Reid"},
+                            {"paragraph": "Additionally, I worked as a Research Assistant in collaboration with the department of Psicology, Computer Science and the Digital Education team to build a mental health app for students."}
 
                         ],
-                        "image": "images/experience/Paradigms.jpg"
+                        "image": "images/experience/Paradigms.png"
                     },
                     {
                         "place": "Ixiasoft",
@@ -131,7 +132,7 @@
                                 ]
                             }
                         ],
-                        "image": "images/experience/fullstack.jpg"
+                        "image": "images/experience/fullstack.png"
                     }
                 ]
             },

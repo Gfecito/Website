@@ -66,11 +66,11 @@
           <div @click="selectArticle(article)" class="cursor-pointer">
             <img
               :src="article.image"
-              alt="Article Image"
+              alt="Article"
               class="w-full h-40 object-cover rounded-md mb-4"
             />
-            <h2 class="text-lg font-semibold mb-2">{{ article.title }}</h2>
-            <p class="text-gray-600 mb-4">{{ article.description }}</p>
+            <h2 class="text-lg title mb-2">{{ article.title }}</h2>
+            <p class="gray mb-4">{{ article.description }}</p>
           </div>
         </div>
       </div>
