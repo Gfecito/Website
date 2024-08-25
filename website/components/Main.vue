@@ -259,11 +259,61 @@ export default {
     1px 1px 0 #ffffffd5, /* Create outline */ 0px 0px 5px #ffffffd5; /* Light highlight */
 }
 
+.light-mode .glass-card {
+  /* color: white;
+  text-shadow: -1px -1px 0 #000000d5, 1px -1px 0 #000000d5, -1px 1px 0 #000000d5,
+    1px 1px 0 #000000d5, 0px 0px 5px #000000d5; */
+  background: linear-gradient(
+    to bottom,
+    rgb(0, 0, 0, 0.2),
+    /* maximum opacity at the top */ rgba(0, 0, 0, 0.01)
+      /* more transparency at the bottom */
+  );
+  backdrop-filter: blur(10px); /* Creates a glassy effect */
+  position: relative; /* Required for positioning pseudo-elements */
+  border-top: 1px solid rgba(0, 0, 0, 0.7);
+  border-radius: 15px; /* Rounded corners only on top */
+}
+
+.light-mode .glass-card::before,
+.light-mode .glass-card::after {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.02)
+  );
+}
+
 .dark-mode {
   position: relative; /* Ensure child elements are positioned correctly */
   color: #ffffffd5;
   text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
     1px 1px 0 black, /* Create outline */ 0px 0px 5px black; /* Light highlight */
+}
+
+.dark-mode .glass-card {
+  /* color: white;
+  text-shadow: -1px -1px 0 #000000d5, 1px -1px 0 #000000d5, -1px 1px 0 #000000d5,
+    1px 1px 0 #000000d5, 0px 0px 5px #000000d5; */
+  background: linear-gradient(
+    to bottom,
+    rgb(255, 255, 255, 0.2),
+    /* maximum opacity at the top */ rgba(255, 255, 255, 0.01)
+      /* more transparency at the bottom */
+  );
+  backdrop-filter: blur(10px); /* Creates a glassy effect */
+  position: relative; /* Required for positioning pseudo-elements */
+  border-top: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 15px; /* Rounded corners only on top */
+}
+
+.dark-mode .glass-card::before,
+.dark-mode .glass-card::after {
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.02)
+  );
 }
 
 .dark-mode .gray {

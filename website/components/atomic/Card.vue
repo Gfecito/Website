@@ -15,16 +15,6 @@ export default {};
 
 <style scoped>
 .glass-card {
-  background: linear-gradient(
-    to bottom,
-    rgba(255, 255, 255, 1),
-    /* maximum opacity at the top */ rgba(255, 255, 255, 0.01)
-      /* more transparency at the bottom */
-  );
-  backdrop-filter: blur(10px); /* Creates a glassy effect */
-  position: relative; /* Required for positioning pseudo-elements */
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 15px; /* Rounded corners only on top */
 }
 
 .glass-card::before,
@@ -34,11 +24,6 @@ export default {};
   top: 0;
   bottom: 0;
   width: 1px; /* Width of the side borders */
-  background: linear-gradient(
-    to bottom,
-    rgba(255, 255, 255, 1),
-    rgba(255, 255, 255, 0.02)
-  );
 }
 
 .glass-card::before {
