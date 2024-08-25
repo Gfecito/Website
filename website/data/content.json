@@ -147,9 +147,12 @@
                         "details": "Montreal | 2020-2023",
                         "abreviation": "UdeM",
                         "description": 
-                        [
-                            "I did my honors project on genome assembly scaffolding with paired sequencing reads -which is a fancy way of saying: I arranged DNA snippets to build a genome, its hard because the snippets are messy, faulty, and could go anywhere... so how do you know where to put them? The snippets I studied were from an Agrobacterium, which is a bacteria that makes plants sick =(. I was also a consulting director at 180DC UdeM."
-                        ],
+                            [
+                                "I did my honors project on genome assembly scaffolding with paired sequencing reads -which is a fancy way of saying: I arranged DNA snippets to build a genome", 
+                                "It's hard because the snippets are messy, faulty, and could go anywhere... so how do you know where to put them?",
+                                "The snippets I studied were from an Agrobacterium, which is a bacteria that makes plants sick =(.",
+                                "I was also participant in the ML and competitive programming clubs, and consulting director at 180DC UdeM."
+                            ],
                         "classes": [
                             "Data Science",
                             "Operating Systems",
@@ -171,9 +174,12 @@
                         "degree": "French Baccalaureat, Engineering Science",
                         "details": "Mexico | 2017-2020",
                         "abreviation": "LFM",
-                        "description": [
-                            "I went on the Science track, specialized in maths and engineering, and finished with a mention très bien: TB -which was the highest honors available at the school-, I was a candidate to the concours general in mathematics, physics and engineering (only the best of each school are allowed to participate). I founded and  led the Machine Learning club, and I was in the Programming Club"
-                        ],  
+                        "description": 
+                            [
+                                "I went on the Science track, specialized in maths and engineering, and finished with a mention très bien: TB -which was the highest honors available at the school.",
+                                "I was a candidate to the concours general in mathematics, physics and engineering (only the best of each school are allowed to participate).",
+                                "I founded and led the Machine Learning club, and I was in the Programming Club"
+                            ],  
                         "classes": [
                             "Advanced Maths",
                             "Engineering Sciences",

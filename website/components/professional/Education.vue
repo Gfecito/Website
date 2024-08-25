@@ -34,8 +34,12 @@
                 {{ classItem }}
               </li>
             </ul>
-            <p class="py-2 institution_description">
-              {{ institution.description }}
+            <p
+              class="py-2 institution_description"
+              v-for="(desc, index) in institution.description"
+              :key="index"
+            >
+              {{ desc }}
             </p>
           </div>
         </div>
