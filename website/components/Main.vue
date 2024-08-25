@@ -82,8 +82,8 @@ export default {
         case "work":
           activePage.value = "work";
           break;
-        case "vlog":
-          activePage.value = "vlog";
+        case "blog":
+          activePage.value = "blog";
           break;
         default:
           activePage.value = "me"; // Default to Personal page
@@ -121,7 +121,7 @@ export default {
         case "work":
           image = "images/fractals/mandelbrot_spiral";
           break;
-        case "vlog":
+        case "blog":
           image = "images/fractals/mandelbrot_shells";
           break;
         default:
@@ -229,7 +229,7 @@ export default {
     <Vlog
       :data="translatedData.articles"
       :key="renderKey"
-      v-if="activePage === 'vlog'"
+      v-if="activePage === 'blog'"
     ></Vlog>
     <Footer />
   </main>

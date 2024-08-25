@@ -34,7 +34,7 @@
       <button
         to=""
         class="mr-4 hover:text-pink-600"
-        @click="setActivePage('vlog')"
+        @click="setActivePage('blog')"
       >
         Vlog
       </button>
