@@ -63,7 +63,7 @@
             'bg-white shadow-md rounded-md p-4',
           ]"
         >
-          <div @click="selectArticle(article)" class="cursor-pointer">
+          <div @click="selectArticle(article, index)" class="cursor-pointer">
             <img
               :src="article.image"
               alt="Article"
@@ -98,6 +98,19 @@ export default {
       ...article,
       expanded: false,
     }));
+
+    // Check if there's an article param in the URL
+    if (typeof window !== "undefined") {
+      const urlParams = new URLSearchParams(window.location.search);
+      const articleIndex = urlParams.get("article");
+      if (
+        articleIndex !== null &&
+        articleIndex >= 0 &&
+        articleIndex < this.articles.length
+      ) {
+        this.selectArticle(this.articles[articleIndex], articleIndex);
+      }
+    }
   },
   setup() {
     let backgroundOpacity = ref(0);
@@ -140,10 +153,19 @@ export default {
     toggleExpand(article) {
       article.expanded = !article.expanded;
     },
-    selectArticle(article) {
+    selectArticle(article, index) {
       this.toggleAllExpand();
       this.selectedArticle = article;
       this.toggleExpand(article);
+
+      // Update the URL with the article index
+      if (typeof window !== "undefined") {
+        const urlParams = new URLSearchParams(window.location.search);
+        urlParams.set("article", index);
+        const newUrl = `${window.location.pathname}?${urlParams.toString()}`;
+        window.history.pushState({}, "", newUrl);
+      }
+
       // Scroll to the top of the page
       window.scrollTo({
         top: 0,
@@ -155,6 +177,14 @@ export default {
         article.expanded = false;
       });
       this.selectedArticle = null;
+
+      // Clear the article param from the URL when all are collapsed
+      if (typeof window !== "undefined") {
+        const urlParams = new URLSearchParams(window.location.search);
+        urlParams.delete("article");
+        const newUrl = `${window.location.pathname}?${urlParams.toString()}`;
+        window.history.pushState({}, "", newUrl);
+      }
     },
     scrollToBottom() {
       // Scroll to the bottom of the page
