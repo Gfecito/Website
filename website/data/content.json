@@ -361,8 +361,7 @@
                         "title":"ICPC NE-NA",
                         "date":"February 2023",
                         "description":[
-                            "The 2nd best team in DIRO's history in this prestigious programming competition",
-                            ""
+                            "The 2nd best team in DIRO's history in this prestigious programming competition"
                         ],
                         "image":"images/trophy.png"
                     },
@@ -370,8 +369,7 @@
                         "title":"DIRO's excellence scholarship",
                         "date":"December 2021",
                         "description":[
-                            "Excellence scholarship awarded to the top bachelor students in the DIRO (Department of Computer Science and Operations Research)",
-                            ""
+                            "Excellence scholarship awarded to the top bachelor students in the DIRO (Department of Computer Science and Operations Research)"
                         ],
                         "image":"images/trophy.png"
                     },
@@ -379,16 +377,16 @@
                         "title":"Exemption Scholarship for international students",
                         "date":"August 2020",
                         "description":[
-                            "Biggest merit-based scholarship for international students at the Université de Montréal",
-                            ""
+                            "Biggest merit-based scholarship for international students at the Université de Montréal"
                         ],
                         "image":"images/trophy.png"
                     },
                     {
-                        "title":"French regional math olympiads | Best team, Top 3 individual",
+                        "title":"French regional math olympiads",
                         "date":"2019",
                         "description":[
-                            "My region spanned from Mexico to Panama, and included all french teaching institutions there."
+                            "My region spanned from Mexico to Panama, and included all french teaching institutions there.",
+                            "For that region, we were the best team, and I was top 3 in the individual section. The only one from my team in the top spots."
                         ],
                         "image":"images/trophy.png"
                     }
@@ -1066,10 +1064,10 @@
                                     "Conceptos avanzados de Java"
                                 ]
                             },
-                            {"paragraph": "Un GRAN agradecimiento - tanto por soportar esa experiencia conmigo como por guiarme a través de ella - a: Marc Feeley, Olivier Melançon, Stefan Monnier, Miklós Csűrös, Sébastien Roy, Amal Ben Abdellah y Michel Reid."}
-
+                            {"paragraph": "Un GRAN agradecimiento - tanto por soportar esa experiencia conmigo como por guiarme a través de ella - a: Marc Feeley, Olivier Melançon, Stefan Monnier, Miklós Csűrös, Sébastien Roy, Amal Ben Abdellah y Michel Reid."},
+                            {"paragraph": "Tambien trabaje como asistente de investigacion en colaboracion con el departamento de Psicologia, de Informatica y el equipo de Educacion Digital para desarrollar una aplicacion para la salud mental de los estudiantes."}
                         ],
-                        "image": "images/experience/Paradigms.jpg"
+                        "image": "images/experience/Paradigms.png"
                     },
                     {
                         "place": "Ixiasoft",
@@ -1087,254 +1085,266 @@
                                 ]
                             }
                         ],
-                        "image": "images/experience/fullstack.jpg"
+                        "image": "images/experience/fullstack.png"
                     }
                 ]
             },
 
             "education": {
-                "title":"Places where I've studied.",
-                "classHeader":"Some of my favorite classes:",
-                "schools" : [
-                    {
-                        "name": "Université de Montréal",
-                        "image": "images/institutions/UdeM.jpeg",
-                        "degree": "Bachelors of Science, Computer Science",
-                        "details": "Montreal | 2020-2023",
-                        "abreviation": "UdeM",
-                        "description": 
-                        [
-                            "I did my honors project on genome assembly scaffolding with paired sequencing reads -which is a fancy way of saying: I arranged DNA snippets to build a genome, its hard because the snippets are messy, faulty, and could go anywhere... so how do you know where to put them? The snippets I studied were from an Agrobacterium, which is a bacteria that makes plants sick =(. I was also a consulting director at 180DC UdeM."
-                        ],
-                        "classes": [
-                            "Data Science",
-                            "Operating Systems",
-                            "UI/UX",
-                            "Data Structures",
-                            "Algorithms",
-                            "Data Science",
-                            "Quantum Informatics",
-                            "Databases",
-                            "Machine Learning",
-                            "3D Computer vision",
-                            "Linear Algebra",
-                            "Genetics"
-                        ]
-                    },
-                    {
-                        "name": "Lycée franco-mexicain",
-                        "image": "images/institutions/LFM.jpeg",
-                        "degree": "French Baccalaureat, Engineering Science",
-                        "details": "Mexico | 2017-2020",
-                        "abreviation": "LFM",
-                        "description": [
-                            "I went on the Science track, specialized in maths and engineering, and finished with a mention très bien: TB -which was the highest honors available at the school-, I was a candidate to the concours general in mathematics, physics and engineering (only the best of each school are allowed to participate). I founded and  led the Machine Learning club, and I was in the Programming Club"
-                        ],  
-                        "classes": [
-                            "Advanced Maths",
-                            "Engineering Sciences",
-                            "French",
-                            "English",
-                            "Spanish",
-                            "German"
-                        ]
-                    }
-                ]
+                "title":"Donde estudié",
+                "classHeader":"Algunas de mis clases favoritas:",
+                    "schools": [
+                        {
+                            "name": "Université de Montréal",
+                            "image": "images/institutions/UdeM.jpeg",
+                            "degree": "Licenciatura en Ciencias, Informática",
+                            "details": "Montreal | 2020-2023",
+                            "abreviation": "UdeM",
+                            "description": [
+                                "Hice mi proyecto de honores sobre el ensamblaje de genomas con lecturas de secuenciación emparejadas, que es una manera elegante de decir: organicé fragmentos de ADN para construir un genoma.",
+                                "Es difícil porque los fragmentos son desordenados, defectuosos y podrían ir a cualquier parte... entonces, ¿cómo saber dónde colocarlos?",
+                                "Los fragmentos que estudié eran de un Agrobacterium, que es una bacteria que enferma a las plantas =(",
+                                "También fui participante en los clubes de ML y programación competitiva, y director de consultoría en 180DC UdeM."
+                            ],
+                            "classes": [
+                                "Ciencia de Datos",
+                                "Sistemas Operativos",
+                                "UI/UX",
+                                "Estructuras de Datos",
+                                "Algoritmos",
+                                "Ciencia de Datos",
+                                "Informática Cuántica",
+                                "Bases de Datos",
+                                "Aprendizaje Automático",
+                                "Visión por Computadora 3D",
+                                "Álgebra Lineal",
+                                "Genética"
+                            ]
+                        },
+                        {
+                            "name": "Lycée franco-mexicain",
+                            "image": "images/institutions/LFM.jpeg",
+                            "degree": "Bachillerato Francés, Ciencias de la Ingeniería",
+                            "details": "México | 2017-2020",
+                            "abreviation": "LFM",
+                            "description": [
+                                "Seguí la rama de Ciencias, me especialicé en matemáticas e ingeniería, y terminé con una mención très bien: TB -que era el más alto honor disponible en la escuela.",
+                                "Fui candidato al concours général en matemáticas, física e ingeniería (solo los mejores de cada escuela pueden participar).",
+                                "Fundé y dirigí el club de Aprendizaje Automático, y estuve en el Club de Programación."
+                            ],
+                            "classes": [
+                                "Matemáticas Avanzadas",
+                                "Ciencias de la Ingeniería",
+                                "Francés",
+                                "Inglés",
+                                "Español",
+                                "Alemán"
+                            ]
+                        }
+                    ]
+                
             },
             "projects": 
             {
-                "title":"Academic and Personal Projects",
+                "title": "Proyectos Académicos y Personales",
                 "projects": [
                     {
-                        "title": "Multithreaded web server",
+                        "title": "Servidor web multihilo",
                         "description": [
-                            "Built a Multithreaded web server using Rust! It's the final project in the Rust book, and I figured it'd be the best way to get acquainted with the language."
+                            "¡Construí un servidor web multihilo usando Rust!",
+                            "Es el proyecto final en el libro de Rust, y pensé que sería la mejor manera de familiarizarme con el lenguaje."
                         ],
                         "link": "",
-                        "websiteLabel":"Visit Website",
+                        "websiteLabel": "Visitar sitio web",
                         "image": "images/projects/rust.jpg"
                     },
                     {
                         "title": "Orball",
                         "description": [
-                            "Learned to make 2D games using Godot and gdscript. Didn't bother to finish it, but I did implement some procedural generation and per-chunk incremental loading (this prevents the typical case where you open a game and its very slow to boot up) that I'm happy with. You can play it, but honestly it aint a fun game!",
-                            ""
+                            "Aprendí a hacer juegos en 2D usando Godot y gdscript.",
+                            "No me molesté en terminarlo, pero implementé algo de generación procedimental y carga incremental por fragmentos (esto evita el caso típico en el que abres un juego y es muy lento al arrancar) con lo que estoy satisfecho.",
+                            "¡Puedes jugarlo, pero sinceramente no es un juego divertido!"
                         ],
                         "link": "https://gfecito.itch.io/orball?secret=GNoDj8sJ0n9m71KTTVJOJrjcjD8",
-                        "websiteLabel":"Play it now (move with WASD; eat by holding down E)",
+                        "websiteLabel": "Jugar ahora (moverse con WASD; comer manteniendo presionada la E)",
                         "image": "images/projects/Orball.jpg"
                     },
                     {
                         "title": "Looks",
                         "description": [
-                            "Built the prototype for a clothing-oriented social media platform and app using Swift (with SwiftUI and UIKit), Typescript, Firebase. I built the iOS prototype, an admin page, a waitlist/promo site, as well as setting up our DB, compute, permissions and a connection to Amazon via API.",
-                            ""
+                            "Construí el prototipo de una plataforma y aplicación de redes sociales orientada a la moda usando Swift (con SwiftUI y UIKit), Typescript, Firebase.",
+                            "Construí el prototipo para iOS, una página de administración, un sitio de lista de espera/promoción, así como la configuración de nuestra base de datos, computación, permisos y una conexión a Amazon a través de la API."
                         ],
                         "link": "https://looks-waitlist.web.app/",
-                        "websiteLabel":"Visit Website",
+                        "websiteLabel": "Visitar sitio web",
                         "image": "images/projects/looks.png"
                     },
                     {
-                        "title": "AI for Climate",
+                        "title": "AI para el clima",
                         "description": [
-                            "This project, under Mila - Quebec AI Institute, aims to improve climate modeling for weather forecasting, agriculture, and more. Current models struggle with unreliable small-scale data. As project manager and core contributor, I organized our team to enhance these models with state-of-the-art solutions, made a dedicated website and worked on our data pre-processing for the models.",
-                            ""
+                            "Este proyecto, bajo Mila - Quebec AI Institute, tiene como objetivo mejorar la modelización climática para la previsión meteorológica, la agricultura y más.",
+                            "Los modelos actuales luchan con datos a pequeña escala poco confiables.",
+                            "Como gerente de proyecto y colaborador principal, organicé a nuestro equipo para mejorar estos modelos con la investigación más reciente, hice un sitio web dedicado y trabajé en nuestro preprocesamiento de datos para los modelos."
                         ],
                         "link": "https://climate-model-downscaling.web.app/",
-                        "websiteLabel":"Visit Website",
+                        "websiteLabel": "Visitar sitio web",
                         "image": "images/projects/MLClimate.png"
                     },
                     {
-                        "title": "Genomics",
+                        "title": "Genómica",
                         "description": [
-                            "This is a research and development project for UdeM's Laboratory of Computational and Theoretical Biology. Researched and implemented an API for genome assembly refinement, as well as a binning scheme data structure, using JAVA and the htsjdk library. The work is thoroughly documented and explained here:",
-                            ""
+                            "Este es un proyecto de investigación y desarrollo para el Laboratorio de Biología Computacional y Teórica de la UdeM.",
+                            "Investigué e implementé una API para la refinación del ensamblaje del genoma, así como una estructura de datos de esquema de binning, usando JAVA y la biblioteca htsjdk.",
+                            "El trabajo está completamente documentado y explicado aquí:"
                         ],
                         "link": "https://genome-assembly-scaffolding.web.app/",
-                        "websiteLabel":"Visit Website",
+                        "websiteLabel": "Visitar sitio web",
                         "image": "images/projects/Genomics.jpeg"
                     },
                     {
                         "title": "AI 3D Computer-Vision",
                         "description": [
-                            "This project for UdeM's Laboratory of 3D Computer Vision involved implementing CNN architectures based on GC-Net for binocular stereoscopy using Mathematica. I focused on depth variations, residual nets, estimation quality, and computational expense. Code and models are available online.",
-                            ""
+                            "Este proyecto para el Laboratorio de Visión Computacional 3D de la UdeM implicó la implementación de arquitecturas CNN basadas en GC-Net para estereoscopía binocular usando Mathematica.",
+                            "Me enfoqué en variaciones de profundidad, redes residuales, calidad de estimación y costo computacional. El código y los modelos están disponibles en línea."
                         ],
                         "link": "https://github.com/Gfecito/GC-Neat",
-                        "websiteLabel":"Visit Website",
+                        "websiteLabel": "Visitar sitio web",
                         "image": "images/projects/Disparity.png"
                     },
                     {
-                        "title": "ML Models",
+                        "title": "Modelos de ML",
                         "description": [
-                            "I developed machine learning models for supervised tasks using Python, implementing KNN, Parzen Windows, perceptrons, and SVMs from scratch, and using libraries for neural networks and CNNs. I tested these models on regression and classification problems with datasets including bank records, phone records, and MNIST.",
-                            ""
+                            "Desarrollé modelos de aprendizaje automático para tareas supervisadas usando Python, implementando KNN, Parzen Windows, perceptrones y SVM desde cero, y usando bibliotecas para redes neuronales y CNNs.",
+                            "Probé estos modelos en problemas de regresión y clasificación con conjuntos de datos que incluyen registros bancarios, registros telefónicos y MNIST."
                         ],
                         "link": "",
-                        "websiteLabel":"Visit Website",
+                        "websiteLabel": "Visitar sitio web",
                         "image": "images/projects/ML.png"
                     },
                     {
-                        "title": "File Management System",
+                        "title": "Sistema de gestión de archivos",
                         "description": [
-                            "We implemented a 'File Allocation Table'-based storage management system using C for a 32-bit Linux system. In human talk: we built the file -and memory- management section of an operating system.",
-                            ""
+                            "Implementamos un sistema de gestión de almacenamiento basado en 'File Allocation Table' usando C para un sistema Linux de 32 bits.",
+                            "En palabras simples: construimos la sección de gestión de archivos -y memoria- de un sistema operativo."
                         ],
                         "link": "",
-                        "websiteLabel":"Visit Website",
+                        "websiteLabel": "Visitar sitio web",
                         "image": "images/projects/FAT32.jpeg"
                     },
                     {
-                        "title": "Database",
+                        "title": "Base de datos",
                         "description": [
-                            "Planned then built a small database for a library. In the planning, we used formal methods for entity-relationship modelling, then relational modelling, relational algebra, request optimization and database normalization. For the implementation, we used SQL, Hibernate (Java) and Maven for compilation and delivery of the executable.",
-                            ""
+                            "Planifiqué y luego construí una pequeña base de datos para una biblioteca.",
+                            "En la planificación, utilizamos métodos formales para el modelado de relaciones entre entidades, luego modelado relacional, álgebra relacional, optimización de consultas y normalización de bases de datos.",
+                            "Para la implementación, usamos SQL, Hibernate (Java) y Maven para la compilación y entrega del ejecutable."
                         ],
                         "link": "",
-                        "websiteLabel":"Visit Website",
+                        "websiteLabel": "Visitar sitio web",
                         "image": "images/projects/Database.jpeg"
                     },
                     {
-                        "title": "Gesture Recognition Web-App",
+                        "title": "Web-App de reconocimiento de gestos",
                         "description": [
-                            "Partitioned and preprocessed a database, built and trained a convolutional neural network model, exported and then implemented it into a dynamic web platform. I built the latter using Flask (Python) and Jinja.",
-                            ""
+                            "Usando Jupyter y Pandas, dividí y preprocesé una base de datos, construí y entrené un modelo de red neuronal convolucional, lo exporté y luego lo implementé en una plataforma web dinámica.",
+                            "Construí esta última usando Flask (Python) y Jinja."
                         ],
                         "link": "",
-                        "websiteLabel":"Visit Website",
+                        "websiteLabel": "Visitar sitio web",
                         "image": "images/projects/GestureRecognition.gif"
                     },
                     {
-                        "title": "Vaccination Management",
+                        "title": "Gestión de vacunación",
                         "description": [
-                            "I developed a Java app with an interactive graphical interface and a data management system. The process included engineering planning, interviews, prioritization, use case definitions, risk analysis, non-functional requirements, constraints, VPP modeling, design, prototyping, automatic testing with JUnit, team management, scheduling, and documentation with Javadoc.",
-                            ""
+                            "Desarrollé una aplicación Java con una interfaz gráfica interactiva y un sistema de gestión de base de datos CSV.",
+                            "El proceso incluyó planificación de ingeniería, entrevistas, priorización, definición de casos de uso, análisis de riesgos, requisitos no funcionales, restricciones, modelado VPP, diseño, prototipos, pruebas automáticas con JUnit, gestión de equipos, planificación y documentación con Javadoc."
                         ],
                         "link": "",
-                        "websiteLabel":"Visit Website",
+                        "websiteLabel": "Visitar sitio web",
                         "image": "images/projects/Vaccination.png"
                     },
                     {
-                        "title": "21st Century Abacus",
+                        "title": "Ábaco del siglo XXI",
                         "description": [
-                            "School project for object-oriented programming with Java; it's a small window. Using JavaFX, we (2 people) made a fancy window with 2 counters: you can add and subtract, divide and multiply, undo and redo. Every action performed in the app was temporarily saved, and as such the actions log was always available for exporting as a .txt file.",
-                            ""
+                            "Proyecto escolar de programación orientada a objetos con Java; es una pequeña ventana.",
+                            "Usando JavaFX, hicimos una ventana elegante con 2 contadores: puedes sumar y restar, dividir y multiplicar, deshacer y rehacer.",
+                            "Cada acción realizada en la aplicación se guardaba temporalmente, y por lo tanto, el registro de acciones siempre estaba disponible para exportarse como un archivo .txt."
                         ],
                         "link": "",
-                        "websiteLabel":"Visit Website",
+                        "websiteLabel": "Visitar sitio web",
                         "image": "images/projects/CounterThumbnail.png"
                     },
                     {
-                        "title": "Interpreters",
+                        "title": "Intérpretes",
                         "description": [
-                            "A Pseudo-Lisp interpreter made with Haskell: Built the interpretation and evaluation section of a Haskell program that could read and execute files from a Lisp-inspired language. Dealt with functions, closure, environments, variables, recursion and recursive definitions, etc... the whole enchilada. Then built a Pseudo-Haskell interpreter, where I used Prolog for interpreting and executing, same features as before, but with added type inference.",
-                            ""
+                            "Un intérprete de Pseudo-Lisp hecho con Haskell: Construí la sección de interpretación y evaluación de un programa en Haskell que podía leer y ejecutar archivos de un lenguaje inspirado en Lisp.",
+                            "Manejé funciones, cierre, entornos, variables, recursión y definiciones recursivas, etc... todo el paquete.",
+                            "Luego construí un intérprete de Pseudo-Haskell, donde usé Prolog para interpretar y ejecutar, con las mismas características que antes, pero con inferencia de tipos añadida."
                         ],
                         "link": "",
-                        "websiteLabel":"Visit Website",
+                        "websiteLabel": "Visitar sitio web",
                         "image": "images/projects/Interpreter.png"
                     },
                     {
-                        "title": "Environnemental Simulation",
+                        "title": "Simulación Ambiental",
                         "description": [
-                            "Using object-oriented programming we made an environmental simulation program. It read XML files describing animals or plants and simulated them for a certain amount of epochs: the way they interacted, what they ate, their energy consumption, whether they died or reproduced, and so on.",
-                            ""
+                            "Usando programación orientada a objetos hicimos un programa de simulación ambiental.",
+                            "Leía archivos XML que describían animales o plantas y los simulaba durante una cierta cantidad de épocas: la forma en que interactuaban, lo que comían, su consumo de energía, si morían o se reproducían, y así sucesivamente."
                         ],
                         "link": "",
-                        "websiteLabel":"Visit Website",
+                        "websiteLabel": "Visitar sitio web",
                         "image": "images/projects/WildLionSimulator3D.jpeg"
                     },
                     {
-                        "title": "This site!",
+                        "title": "¡Este sitio!",
                         "description": [
-                            "Originally made from scratch with HTML, CSS, JavaScript, jQuery as well as the Animate on Scroll library. Currently built with React, TypeScript, JSON, CSS... and a sprinkle of love!"
+                            "Originalmente hecho desde cero con HTML, CSS, JavaScript, jQuery y la biblioteca Animate on Scroll.",
+                            "Actualmente construido con React, TypeScript, JSON, CSS... ¡y un toque de amor!"
                         ],
                         "link": "",
-                        "websiteLabel":"Visit Website",
+                        "websiteLabel": "Visitar sitio web",
                         "image": "images/projects/ThisSite.jpeg"
                     }
                 ]
-            },
+            },            
             "awards": {
-                "title":"Awards",
-                "dateLabel":"Date: ",
-                "awards": [
-                    {
-                        "title":"ICPC NE-NA",
-                        "date":"February 2023",
-                        "description":[
-                            "The 2nd best team in DIRO's history in this prestigious programming competition",
-                            ""
-                        ],
-                        "image":"images/trophy.png"
-                    },
-                    {
-                        "title":"DIRO's excellence scholarship",
-                        "date":"December 2021",
-                        "description":[
-                            "Excellence scholarship awarded to the top bachelor students in the DIRO (Department of Computer Science and Operations Research)",
-                            ""
-                        ],
-                        "image":"images/trophy.png"
-                    },
-                    {
-                        "title":"Exemption Scholarship for international students",
-                        "date":"August 2020",
-                        "description":[
-                            "Biggest merit-based scholarship for international students at the Université de Montréal",
-                            ""
-                        ],
-                        "image":"images/trophy.png"
-                    },
-                    {
-                        "title":"French regional math olympiads | Best team, Top 3 individual",
-                        "date":"2019",
-                        "description":[
-                            "My region spanned from Mexico to Panama, and included all french teaching institutions there."
-                        ],
-                        "image":"images/trophy.png"
-                    }
-                ]
+                "title":"Premios",
+                "dateLabel":"Fecha: ",
+                    "awards": [
+                        {
+                            "title": "ICPC NE-NA",
+                            "date": "Febrero 2023",
+                            "description": [
+                                "El 2do mejor equipo en la historia del DIRO en esta prestigiosa competencia de programación"
+                            ],
+                            "image": "images/trophy.png"
+                        },
+                        {
+                            "title": "Beca de excelencia del DIRO",
+                            "date": "Diciembre 2021",
+                            "description": [
+                                "Beca de excelencia otorgada a los mejores estudiantes de licenciatura en el DIRO (Departamento de Informática y de Investigación Operativa)"
+                            ],
+                            "image": "images/trophy.png"
+                        },
+                        {
+                            "title": "Beca de exención para estudiantes internacionales",
+                            "date": "Agosto 2020",
+                            "description": [
+                                "La beca por mérito más grande para estudiantes internacionales en la Université de Montréal"
+                            ],
+                            "image": "images/trophy.png"
+                        },
+                        {
+                            "title": "Olimpiadas Regionales de Matemáticas Francesas",
+                            "date": "2019",
+                            "description": [
+                                "Mi región abarcaba desde México hasta Panamá e incluía todas las instituciones de enseñanza francesa allí.",
+                                "Para esa región, fuimos el mejor equipo, y yo estuve en el top 3 en la sección individual. El único de mi equipo en los primeros lugares."
+                            ],
+                            "image": "images/trophy.png"
+                        }
+                    ]
+                
             }
         },
         "articles": {
@@ -1971,10 +1981,11 @@
                                     "Concepts avancés de Java"
                                 ]
                             },
-                            {"paragraph": "Un GRAND merci - à la fois pour avoir supporté cette expérience avec moi, et pour m'avoir encadré tout au long - à : Marc Feeley, Olivier Melançon, Stefan Monnier, Miklós Csűrös, Sébastien Roy, Amal Ben Abdellah et Michel Reid."}
+                            {"paragraph": "Un GRAND merci - à la fois pour avoir supporté cette expérience avec moi, et pour m'avoir encadré tout au long - à : Marc Feeley, Olivier Melançon, Stefan Monnier, Miklós Csűrös, Sébastien Roy, Amal Ben Abdellah et Michel Reid."},
+                            {"paragraph": "J'ai aussi colaboré avec le departament de Psicologie, d'Informatique et l'equipe d'Education Digitalisée pour developper une application pour la resilience etudiante."}
 
                         ],
-                        "image": "images/experience/Paradigms.jpg"
+                        "image": "images/experience/Paradigms.png"
                     },
                     {
                         "place": "Ixiasoft",
@@ -1992,254 +2003,264 @@
                                 ]
                             }
                         ],
-                        "image": "images/experience/fullstack.jpg"
+                        "image": "images/experience/fullstack.png"
                     }
                 ]
             },
 
             "education": {
-                "title":"Places where I've studied.",
-                "classHeader":"Some of my favorite classes:",
-                "schools" : [
-                    {
-                        "name": "Université de Montréal",
-                        "image": "images/institutions/UdeM.jpeg",
-                        "degree": "Bachelors of Science, Computer Science",
-                        "details": "Montreal | 2020-2023",
-                        "abreviation": "UdeM",
-                        "description": 
-                        [
-                            "I did my honors project on genome assembly scaffolding with paired sequencing reads -which is a fancy way of saying: I arranged DNA snippets to build a genome, its hard because the snippets are messy, faulty, and could go anywhere... so how do you know where to put them? The snippets I studied were from an Agrobacterium, which is a bacteria that makes plants sick =(. I was also a consulting director at 180DC UdeM."
-                        ],
-                        "classes": [
-                            "Data Science",
-                            "Operating Systems",
-                            "UI/UX",
-                            "Data Structures",
-                            "Algorithms",
-                            "Data Science",
-                            "Quantum Informatics",
-                            "Databases",
-                            "Machine Learning",
-                            "3D Computer vision",
-                            "Linear Algebra",
-                            "Genetics"
-                        ]
-                    },
-                    {
-                        "name": "Lycée franco-mexicain",
-                        "image": "images/institutions/LFM.jpeg",
-                        "degree": "French Baccalaureat, Engineering Science",
-                        "details": "Mexico | 2017-2020",
-                        "abreviation": "LFM",
-                        "description": [
-                            "I went on the Science track, specialized in maths and engineering, and finished with a mention très bien: TB -which was the highest honors available at the school-, I was a candidate to the concours general in mathematics, physics and engineering (only the best of each school are allowed to participate). I founded and  led the Machine Learning club, and I was in the Programming Club"
-                        ],  
-                        "classes": [
-                            "Advanced Maths",
-                            "Engineering Sciences",
-                            "French",
-                            "English",
-                            "Spanish",
-                            "German"
-                        ]
-                    }
-                ]
+                "title":"Où j'ai fait mes études.",
+                "classHeader":"Quelques des mes cours preferés:",
+                "schools": [
+                        {
+                            "name": "Université de Montréal",
+                            "image": "images/institutions/UdeM.jpeg",
+                            "degree": "Licence en Sciences, Informatique",
+                            "details": "Montréal | 2020-2023",
+                            "abreviation": "UdeM",
+                            "description": [
+                                "J'ai réalisé mon projet d'honneur sur l'assemblage de génomes avec des lectures de séquençage appariées, ce qui est une façon élégante de dire : j'ai organisé des fragments d'ADN pour construire un génome.",
+                                "C'est difficile parce que les fragments sont désordonnés, défectueux et pourraient aller n'importe où... alors, comment savoir où les placer?",
+                                "Les fragments que j'ai étudiés provenaient d'un Agrobacterium, qui est une bactérie qui rend les plantes malades =(",
+                                "J'étais aussi participant aux clubs de ML et de programmation compétitive, et directeur de conseil chez 180DC UdeM."
+                            ],
+                            "classes": [
+                                "Science des Données",
+                                "Systèmes d'Exploitation",
+                                "UI/UX",
+                                "Structures de Données",
+                                "Algorithmes",
+                                "Science des Données",
+                                "Informatique Quantique",
+                                "Bases de Données",
+                                "Apprentissage Automatique",
+                                "Vision par Ordinateur 3D",
+                                "Algèbre Linéaire",
+                                "Génétique"
+                            ]
+                        },
+                        {
+                            "name": "Lycée franco-mexicain",
+                            "image": "images/institutions/LFM.jpeg",
+                            "degree": "Baccalauréat Français, Sciences de l'Ingénieur",
+                            "details": "Mexique | 2017-2020",
+                            "abreviation": "LFM",
+                            "description": [
+                                "J'ai suivi la filière Scientifique, je me suis spécialisé en mathématiques et en ingénierie, et j'ai terminé avec une mention très bien: TB -qui était la plus haute distinction disponible à l'école.",
+                                "J'étais candidat au concours général en mathématiques, physique et ingénierie (seuls les meilleurs de chaque école peuvent participer).",
+                                "J'ai fondé et dirigé le club d'Apprentissage Automatique, et j'étais dans le Club de Programmation."
+                            ],
+                            "classes": [
+                                "Mathématiques Avancées",
+                                "Sciences de l'Ingénieur",
+                                "Français",
+                                "Anglais",
+                                "Espagnol",
+                                "Allemand"
+                            ]
+                        }
+                    ]
             },
             "projects": 
             {
-                "title":"Academic and Personal Projects",
+                "title": "Projets Académiques et Personnels",
                 "projects": [
                     {
-                        "title": "Multithreaded web server",
+                        "title": "Serveur Web Multithread",
                         "description": [
-                            "Built a Multithreaded web server using Rust! It's the final project in the Rust book, and I figured it'd be the best way to get acquainted with the language."
+                            "J'ai construit un serveur web multithread en utilisant Rust !",
+                            "C'est le projet final du livre Rust, et je pensais que ce serait le meilleur moyen de me familiariser avec le langage."
                         ],
                         "link": "",
-                        "websiteLabel":"Visit Website",
+                        "websiteLabel": "Visiter le site",
                         "image": "images/projects/rust.jpg"
                     },
                     {
                         "title": "Orball",
                         "description": [
-                            "Learned to make 2D games using Godot and gdscript. Didn't bother to finish it, but I did implement some procedural generation and per-chunk incremental loading (this prevents the typical case where you open a game and its very slow to boot up) that I'm happy with. You can play it, but honestly it aint a fun game!",
-                            ""
+                            "J'ai appris à créer des jeux en 2D en utilisant Godot et gdscript.",
+                            "Je n'ai pas pris la peine de le terminer, mais j'ai implémenté une génération procédurale et un chargement incrémentiel par morceau (cela évite le cas typique où vous ouvrez un jeu et il est très lent à démarrer) dont je suis satisfait.",
+                            "Vous pouvez y jouer, mais honnêtement, ce n'est pas un jeu amusant !"
                         ],
                         "link": "https://gfecito.itch.io/orball?secret=GNoDj8sJ0n9m71KTTVJOJrjcjD8",
-                        "websiteLabel":"Play it now (move with WASD; eat by holding down E)",
+                        "websiteLabel": "Jouez maintenant (déplacez-vous avec WASD; mangez en maintenant la touche E enfoncée)",
                         "image": "images/projects/Orball.jpg"
                     },
                     {
                         "title": "Looks",
                         "description": [
-                            "Built the prototype for a clothing-oriented social media platform and app using Swift (with SwiftUI and UIKit), Typescript, Firebase. I built the iOS prototype, an admin page, a waitlist/promo site, as well as setting up our DB, compute, permissions and a connection to Amazon via API.",
-                            ""
+                            "J'ai construit le prototype d'une plateforme et application de réseaux sociaux orientée sur la mode en utilisant Swift (avec SwiftUI et UIKit), Typescript, Firebase.",
+                            "J'ai construit le prototype pour iOS, une page d'administration, un site de liste d'attente/promo, ainsi que la configuration de notre base de données, de la puissance de calcul, des autorisations et une connexion à Amazon via API."
                         ],
                         "link": "https://looks-waitlist.web.app/",
-                        "websiteLabel":"Visit Website",
+                        "websiteLabel": "Visiter le site",
                         "image": "images/projects/looks.png"
                     },
                     {
-                        "title": "AI for Climate",
+                        "title": "IA pour le climat",
                         "description": [
-                            "This project, under Mila - Quebec AI Institute, aims to improve climate modeling for weather forecasting, agriculture, and more. Current models struggle with unreliable small-scale data. As project manager and core contributor, I organized our team to enhance these models with state-of-the-art solutions, made a dedicated website and worked on our data pre-processing for the models.",
-                            ""
+                            "Ce projet, sous la direction de Mila - Quebec AI Institute, vise à améliorer la modélisation climatique pour la prévision météorologique, l'agriculture et bien plus encore.",
+                            "Les modèles actuels peinent avec des données à petite échelle peu fiables.",
+                            "En tant que chef de projet et contributeur principal, j'ai organisé notre équipe pour améliorer ces modèles avec les dernières recherches, j'ai créé un site web dédié et travaillé sur notre prétraitement des données pour les modèles."
                         ],
                         "link": "https://climate-model-downscaling.web.app/",
-                        "websiteLabel":"Visit Website",
+                        "websiteLabel": "Visiter le site",
                         "image": "images/projects/MLClimate.png"
                     },
                     {
-                        "title": "Genomics",
+                        "title": "Génomique",
                         "description": [
-                            "This is a research and development project for UdeM's Laboratory of Computational and Theoretical Biology. Researched and implemented an API for genome assembly refinement, as well as a binning scheme data structure, using JAVA and the htsjdk library. The work is thoroughly documented and explained here:",
-                            ""
+                            "Il s'agit d'un projet de recherche et développement pour le Laboratoire de Biologie Computationnelle et Théorique de l'UdeM.",
+                            "J'ai recherché et mis en œuvre une API pour le raffinement de l'assemblage du génome, ainsi qu'une structure de données de schéma de binning, en utilisant JAVA et la bibliothèque htsjdk.",
+                            "Le travail est entièrement documenté et expliqué ici :"
                         ],
                         "link": "https://genome-assembly-scaffolding.web.app/",
-                        "websiteLabel":"Visit Website",
+                        "websiteLabel": "Visiter le site",
                         "image": "images/projects/Genomics.jpeg"
                     },
                     {
-                        "title": "AI 3D Computer-Vision",
+                        "title": "IA pour la Vision par Ordinateur 3D",
                         "description": [
-                            "This project for UdeM's Laboratory of 3D Computer Vision involved implementing CNN architectures based on GC-Net for binocular stereoscopy using Mathematica. I focused on depth variations, residual nets, estimation quality, and computational expense. Code and models are available online.",
-                            ""
+                            "Ce projet pour le Laboratoire de Vision par Ordinateur 3D de l'UdeM a impliqué la mise en œuvre d'architectures CNN basées sur GC-Net pour la stéréoscopie binoculaire en utilisant Mathematica.",
+                            "Je me suis concentré sur les variations de profondeur, les réseaux résiduels, la qualité d'estimation et le coût computationnel. Le code et les modèles sont disponibles en ligne."
                         ],
                         "link": "https://github.com/Gfecito/GC-Neat",
-                        "websiteLabel":"Visit Website",
+                        "websiteLabel": "Visiter le site",
                         "image": "images/projects/Disparity.png"
                     },
                     {
-                        "title": "ML Models",
+                        "title": "Modèles d'IA",
                         "description": [
-                            "I developed machine learning models for supervised tasks using Python, implementing KNN, Parzen Windows, perceptrons, and SVMs from scratch, and using libraries for neural networks and CNNs. I tested these models on regression and classification problems with datasets including bank records, phone records, and MNIST.",
-                            ""
+                            "J'ai développé des modèles d'apprentissage automatique pour des tâches supervisées en utilisant Python, en implémentant KNN, Parzen Windows, perceptrons et SVM à partir de zéro, et en utilisant des bibliothèques pour les réseaux neuronaux et les CNN.",
+                            "J'ai testé ces modèles sur des problèmes de régression et de classification avec des ensembles de données incluant des relevés bancaires, des relevés téléphoniques et MNIST."
                         ],
                         "link": "",
-                        "websiteLabel":"Visit Website",
+                        "websiteLabel": "Visiter le site",
                         "image": "images/projects/ML.png"
                     },
                     {
-                        "title": "File Management System",
+                        "title": "Système de gestion de fichiers",
                         "description": [
-                            "We implemented a 'File Allocation Table'-based storage management system using C for a 32-bit Linux system. In human talk: we built the file -and memory- management section of an operating system.",
-                            ""
+                            "Nous avons mis en œuvre un système de gestion du stockage basé sur la 'File Allocation Table' en utilisant C pour un système Linux 32 bits.",
+                            "En termes simples : nous avons construit la section de gestion des fichiers -et de la mémoire- d'un système d'exploitation."
                         ],
                         "link": "",
-                        "websiteLabel":"Visit Website",
+                        "websiteLabel": "Visiter le site",
                         "image": "images/projects/FAT32.jpeg"
                     },
                     {
-                        "title": "Database",
+                        "title": "Base de données",
                         "description": [
-                            "Planned then built a small database for a library. In the planning, we used formal methods for entity-relationship modelling, then relational modelling, relational algebra, request optimization and database normalization. For the implementation, we used SQL, Hibernate (Java) and Maven for compilation and delivery of the executable.",
-                            ""
+                            "J'ai planifié puis construit une petite base de données pour une bibliothèque.",
+                            "Lors de la planification, nous avons utilisé des méthodes formelles pour la modélisation des relations entre entités, puis la modélisation relationnelle, l'algèbre relationnelle, l'optimisation des requêtes et la normalisation des bases de données.",
+                            "Pour la mise en œuvre, nous avons utilisé SQL, Hibernate (Java) et Maven pour la compilation et la livraison de l'exécutable."
                         ],
                         "link": "",
-                        "websiteLabel":"Visit Website",
+                        "websiteLabel": "Visiter le site",
                         "image": "images/projects/Database.jpeg"
                     },
                     {
-                        "title": "Gesture Recognition Web-App",
+                        "title": "Application Web de Reconnaissance de Gestes",
                         "description": [
-                            "Partitioned and preprocessed a database, built and trained a convolutional neural network model, exported and then implemented it into a dynamic web platform. I built the latter using Flask (Python) and Jinja.",
-                            ""
+                            "En utilisant Jupyter et Pandas, j'ai partitionné et prétraité une base de données, construit et entraîné un modèle de réseau neuronal convolutif, exporté puis mis en œuvre sur une plateforme web dynamique.",
+                            "J'ai construit cette dernière en utilisant Flask (Python) et Jinja."
                         ],
                         "link": "",
-                        "websiteLabel":"Visit Website",
+                        "websiteLabel": "Visiter le site",
                         "image": "images/projects/GestureRecognition.gif"
                     },
                     {
-                        "title": "Vaccination Management",
+                        "title": "Gestion de la Vaccination",
                         "description": [
-                            "I developed a Java app with an interactive graphical interface and a data management system. The process included engineering planning, interviews, prioritization, use case definitions, risk analysis, non-functional requirements, constraints, VPP modeling, design, prototyping, automatic testing with JUnit, team management, scheduling, and documentation with Javadoc.",
-                            ""
+                            "J'ai développé une application Java avec une interface graphique interactive et un système de gestion de base de données CSV.",
+                            "Le processus comprenait la planification de l'ingénierie, des interviews, la priorisation, la définition des cas d'utilisation, l'analyse des risques, les exigences non fonctionnelles, les contraintes, le modelage VPP, la conception, le prototypage, les tests automatiques avec JUnit, la gestion de l'équipe, la planification et la documentation avec Javadoc."
                         ],
                         "link": "",
-                        "websiteLabel":"Visit Website",
+                        "websiteLabel": "Visiter le site",
                         "image": "images/projects/Vaccination.png"
                     },
                     {
-                        "title": "21st Century Abacus",
+                        "title": "Abacus du XXIe siècle",
                         "description": [
-                            "School project for object-oriented programming with Java; it's a small window. Using JavaFX, we (2 people) made a fancy window with 2 counters: you can add and subtract, divide and multiply, undo and redo. Every action performed in the app was temporarily saved, and as such the actions log was always available for exporting as a .txt file.",
-                            ""
+                            "Projet scolaire de programmation orientée objet avec Java; c'est une petite fenêtre.",
+                            "En utilisant JavaFX, nous avons fait une fenêtre élégante avec 2 compteurs : vous pouvez ajouter et soustraire, diviser et multiplier, annuler et refaire.",
+                            "Chaque action effectuée dans l'application était temporairement sauvegardée, et donc le journal des actions était toujours disponible pour être exporté sous forme de fichier .txt."
                         ],
                         "link": "",
-                        "websiteLabel":"Visit Website",
+                        "websiteLabel": "Visiter le site",
                         "image": "images/projects/CounterThumbnail.png"
                     },
                     {
-                        "title": "Interpreters",
+                        "title": "Interprètes",
                         "description": [
-                            "A Pseudo-Lisp interpreter made with Haskell: Built the interpretation and evaluation section of a Haskell program that could read and execute files from a Lisp-inspired language. Dealt with functions, closure, environments, variables, recursion and recursive definitions, etc... the whole enchilada. Then built a Pseudo-Haskell interpreter, where I used Prolog for interpreting and executing, same features as before, but with added type inference.",
-                            ""
+                            "Un interprète Pseudo-Lisp réalisé avec Haskell : j'ai construit la section d'interprétation et d'évaluation d'un programme en Haskell qui pouvait lire et exécuter des fichiers d'un langage inspiré du Lisp.",
+                            "J'ai traité des fonctions, des fermetures, des environnements, des variables, de la récursion et des définitions récursives, etc... tout le package.",
+                            "J'ai ensuite construit un interprète Pseudo-Haskell, où j'ai utilisé Prolog pour interpréter et exécuter, avec les mêmes caractéristiques qu'avant, mais avec l'inférence de types ajoutée."
                         ],
                         "link": "",
-                        "websiteLabel":"Visit Website",
+                        "websiteLabel": "Visiter le site",
                         "image": "images/projects/Interpreter.png"
                     },
                     {
-                        "title": "Environnemental Simulation",
+                        "title": "Simulation Environnementale",
                         "description": [
-                            "Using object-oriented programming we made an environmental simulation program. It read XML files describing animals or plants and simulated them for a certain amount of epochs: the way they interacted, what they ate, their energy consumption, whether they died or reproduced, and so on.",
-                            ""
+                            "En utilisant la programmation orientée objet, nous avons créé un programme de simulation environnementale.",
+                            "Il lisait des fichiers XML décrivant des animaux ou des plantes et les simulait pendant un certain nombre d'époques : la façon dont ils interagissaient, ce qu'ils mangeaient, leur consommation d'énergie, s'ils mouraient ou se reproduisaient, et ainsi de suite."
                         ],
                         "link": "",
-                        "websiteLabel":"Visit Website",
+                        "websiteLabel": "Visiter le site",
                         "image": "images/projects/WildLionSimulator3D.jpeg"
                     },
                     {
-                        "title": "This site!",
+                        "title": "Ce site !",
                         "description": [
-                            "Originally made from scratch with HTML, CSS, JavaScript, jQuery as well as the Animate on Scroll library. Currently built with React, TypeScript, JSON, CSS... and a sprinkle of love!"
+                            "Initialement créé à partir de zéro avec HTML, CSS, JavaScript, jQuery ainsi que la bibliothèque Animate on Scroll.",
+                            "Actuellement construit avec React, TypeScript, JSON, CSS... et une pincée d'amour !"
                         ],
                         "link": "",
-                        "websiteLabel":"Visit Website",
+                        "websiteLabel": "Visiter le site",
                         "image": "images/projects/ThisSite.jpeg"
                     }
                 ]
-            },
+            },            
             "awards": {
                 "title":"Awards",
                 "dateLabel":"Date: ",
                 "awards": [
-                    {
-                        "title":"ICPC NE-NA",
-                        "date":"February 2023",
-                        "description":[
-                            "The 2nd best team in DIRO's history in this prestigious programming competition",
-                            ""
-                        ],
-                        "image":"images/trophy.png"
-                    },
-                    {
-                        "title":"DIRO's excellence scholarship",
-                        "date":"December 2021",
-                        "description":[
-                            "Excellence scholarship awarded to the top bachelor students in the DIRO (Department of Computer Science and Operations Research)",
-                            ""
-                        ],
-                        "image":"images/trophy.png"
-                    },
-                    {
-                        "title":"Exemption Scholarship for international students",
-                        "date":"August 2020",
-                        "description":[
-                            "Biggest merit-based scholarship for international students at the Université de Montréal",
-                            ""
-                        ],
-                        "image":"images/trophy.png"
-                    },
-                    {
-                        "title":"French regional math olympiads | Best team, Top 3 individual",
-                        "date":"2019",
-                        "description":[
-                            "My region spanned from Mexico to Panama, and included all french teaching institutions there."
-                        ],
-                        "image":"images/trophy.png"
-                    }
-                ]
+                        {
+                            "title": "ICPC NE-NA",
+                            "date": "Février 2023",
+                            "description": [
+                                "La 2ème meilleure équipe de l'histoire du DIRO dans cette prestigieuse compétition de programmation"
+                            ],
+                            "image": "images/trophy.png"
+                        },
+                        {
+                            "title": "Bourse d'excellence du DIRO",
+                            "date": "Décembre 2021",
+                            "description": [
+                                "Bourse d'excellence décernée aux meilleurs étudiants de licence du DIRO (Département d'informatique et de recherche opérationnelle)"
+                            ],
+                            "image": "images/trophy.png"
+                        },
+                        {
+                            "title": "Bourse d'exonération pour les étudiants internationaux",
+                            "date": "Août 2020",
+                            "description": [
+                                "La plus grande bourse de mérite pour les étudiants internationaux à l'Université de Montréal"
+                            ],
+                            "image": "images/trophy.png"
+                        },
+                        {
+                            "title": "Olympiades Régionales de Mathématiques Françaises",
+                            "date": "2019",
+                            "description": [
+                                "Ma région s'étendait du Mexique au Panama et incluait toutes les institutions d'enseignement français là-bas.",
+                                "Pour cette région, nous étions la meilleure équipe, et j'étais dans le top 3 de la section individuelle. Le seul de mon équipe à figurer parmi les premiers."
+                            ],
+                            "image": "images/trophy.png"
+                        }
+                    ]
             }
         },
         "articles": {

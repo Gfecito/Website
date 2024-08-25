@@ -25,7 +25,9 @@
                 >{{ award.date }}
               </div>
               <div class="mt-1 text-sm gray">
-                <span class="font-semibold"></span>{{ award.description[0] }}
+                <p v-for="sentence in award.description">
+                  {{ sentence }}
+                </p>
               </div>
             </li>
           </ul>
