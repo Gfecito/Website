@@ -216,6 +216,8 @@ export default {
       class="background-layer"
       :style="{ opacity: backgroundOpacity, backgroundImage: background }"
     ></div>
+    <!-- Neon light layer -->
+    <div class="neon-light-layer"></div>
     <Personal
       :data="translatedData.personal"
       :key="renderKey"
@@ -336,6 +338,7 @@ main {
   position: relative; /* Ensure proper positioning of child elements */
   padding-top: 40px;
   z-index: 0;
+  overflow: hidden;
 }
 
 main * {
@@ -358,5 +361,61 @@ main * {
 
 .gray {
   color: gray;
+}
+.neon-light-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0; /* Behind the content */
+  pointer-events: none; /* Ensure it doesn’t block interaction */
+  display: flex;
+  justify-content: space-between;
+}
+
+.dark-mode .neon-light-layer::before,
+.dark-mode .neon-light-layer::after {
+  background: linear-gradient(
+    to right,
+    rgba(12, 71, 153, 0.6) 0%,
+    rgba(12, 71, 153, 0.2) 1%,
+    rgba(12, 71, 153, 0.05) 15%,
+    transparent 60%
+  );
+}
+
+.light-mode .neon-light-layer::before,
+.light-mode .neon-light-layer::after {
+  background: linear-gradient(
+    to right,
+    rgba(12, 71, 153, 0.6) 0%,
+    rgba(12, 71, 153, 0.2) 1%,
+    rgba(12, 71, 153, 0.02) 15%,
+    transparent 60%
+  );
+}
+
+.neon-light-layer::before,
+.neon-light-layer::after {
+  content: "";
+  width: 50%;
+  height: 100%; /* Extend beyond the viewport */
+  pointer-events: none;
+  animation: pulse 5s infinite;
+}
+
+.neon-light-layer::after {
+  transform: scaleX(-1); /* Mirror the gradient for the right side */
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 1;
+  }
 }
 </style>
