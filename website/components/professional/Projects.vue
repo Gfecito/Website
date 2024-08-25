@@ -10,8 +10,8 @@
         :isImageOnLeft="index % 2 === 0"
       >
         <div name="project_description">
-          <p>
-            {{ project.description[0] }}
+          <p v-for="paragraph in project.description">
+            {{ paragraph }}
           </p>
           <a
             v-if="project.link"
