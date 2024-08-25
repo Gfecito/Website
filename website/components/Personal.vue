@@ -75,15 +75,19 @@ export default {
         "images/paintings/toledo_lady_caracol.jpeg",
       ],
       photoSources: [
+        "images/photos/guardian_rhino.webp",
         "images/photos/mosse_congo.jpg",
+        "images/photos/guardian_monkeys.webp",
         "images/photos/mosse_refugees.webp",
-        "images/photos/henri_children_seville.webp",
-        "images/photos/business_tiananmen.webp",
-        "images/photos/business_standing.webp",
+        "images/photos/guardian_lizard.webp",
         "images/photos/business_power.webp",
+        "images/photos/henri_children_seville.webp",
+        "images/photos/guardian_monkey.webp",
         "images/photos/business_flowers.webp",
+        "images/photos/guardian_elephant.webp",
         "images/photos/atlantic_protester_takes_knee.avif",
         "images/photos/atlantic_hug.avif",
+        "images/photos/business_tiananmen.webp",
       ],
     };
   },
@@ -94,7 +98,7 @@ export default {
     this.albumsData = this.data.albums;
   },
   mounted() {
-    this.setScrollAnimation(this.$refs.photosContainer, "photos", 80);
+    this.setScrollAnimation(this.$refs.photosContainer, "photos", 100);
     this.setScrollAnimation(this.$refs.paintingsContainer, "paintings", 35);
   },
   methods: {
@@ -129,10 +133,14 @@ export default {
       const keyframes = `
       @keyframes scroll-left-${type} {
         from {
-          transform: translateX(0);
+          transform: translateX(${
+            type === "photos" ? "0" : `-${totalWidth / 2.0}px`
+          });
         }
         to {
-          transform: translateX(-${totalWidth / 2.0}px);
+          transform: translateX(${
+            type === "photos" ? `-${totalWidth / 2.0}px` : "0"
+          });
         }
       }
     `;
