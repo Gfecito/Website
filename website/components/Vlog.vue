@@ -60,7 +60,7 @@
         <div
           :class="[
             article.expanded ? 'selected' : '',
-            'bg-white shadow-md rounded-md p-4',
+            'article-thumbnail shadow-md rounded-md p-4',
           ]"
         >
           <div @click="selectArticle(article, index)" class="cursor-pointer">
@@ -213,6 +213,10 @@ br {
   max-width: 80%;
   margin: auto;
   padding-bottom: 200px;
+}
+
+.article-thumbnail {
+  border-width: 1px;
 }
 
 .selected {

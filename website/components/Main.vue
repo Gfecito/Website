@@ -319,9 +319,18 @@ export default {
 }
 
 .dark-mode .gray {
-  position: relative; /* Ensure child elements are positioned correctly */
-  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white,
-    1px 1px 0 white, /* Create outline */ 0px 0px 5px rgba(186, 186, 186, 0.706); /* Light highlight */
+  color: rgb(212, 230, 255);
+  text-shadow: none;
+}
+
+.light-mode .article-thumbnail {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-color: rgba(130, 130, 130, 0.2);
+}
+
+.dark-mode .article-thumbnail {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-color: rgba(154, 154, 154, 0.2);
 }
 
 .dark-mode .title {
@@ -362,6 +371,7 @@ main * {
 .gray {
   color: gray;
 }
+
 .neon-light-layer {
   position: absolute;
   top: 0;

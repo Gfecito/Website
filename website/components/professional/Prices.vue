@@ -20,11 +20,11 @@
                 <img :src="award.image" alt="Trophy" class="w-6 h-6 mr-2" />
                 <div>{{ award.title }}</div>
               </div>
-              <div class="mt-1 text-sm text-gray-700">
+              <div class="mt-1 text-sm gray">
                 <span class="font-semibold">{{ data.dateLabel }}</span
                 >{{ award.date }}
               </div>
-              <div class="mt-1 text-sm text-gray-500">
+              <div class="mt-1 text-sm gray">
                 <span class="font-semibold"></span>{{ award.description[0] }}
               </div>
             </li>
