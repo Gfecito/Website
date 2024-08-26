@@ -5,7 +5,7 @@
 
     <!-- Show button and div only if at least one article is expanded -->
     <div class="article ml-10 mr-10" v-if="selectedArticle">
-      <button class="bold text-gray-400" @click="toggleAllExpand">
+      <button class="close-button bold text-gray-400" @click="toggleAllExpand">
         {{ data.closeArticleLabel }}
       </button>
 
@@ -30,26 +30,23 @@
           </figcaption>
         </template>
         <template v-else-if="section.title">
-          <h1 class="m-10 text-justify">{{ section.title }}</h1>
+          <h1 class="spaced">{{ section.title }}</h1>
         </template>
         <template v-else-if="section.quote">
           <blockquote
-            class="m-10 text-justify border-l-4 border-gray-500 pl-4 italic text-gray-700"
+            class="spaced border-l-4 border-gray-500 pl-4 italic text-gray-700"
           >
             {{ section.quote }}
           </blockquote>
         </template>
         <template v-else-if="section.list && section.list.length">
-          <ul class="m-10 text-justify list-disc list-inside">
+          <ul class="spaced list-disc list-inside">
             <li v-for="item in section.list" :key="item">{{ item }}</li>
           </ul>
         </template>
         <template v-else>
           <div class="paragraph-container">
-            <p
-              class="m-10 text-justify"
-              v-html="section.paragraph.join('<br />')"
-            ></p>
+            <p class="spaced" v-html="section.paragraph.join('<br />')"></p>
           </div>
         </template>
       </div>
@@ -69,7 +66,7 @@
               alt="Article"
               class="w-full h-40 object-cover rounded-md mb-4"
             />
-            <h2 class="text-lg title mb-2">{{ article.title }}</h2>
+            <h2 class="title-thumbnail mb-2">{{ article.title }}</h2>
             <p class="gray mb-4">{{ article.description }}</p>
           </div>
         </div>
@@ -203,6 +200,12 @@ h1 {
   text-align: left;
 }
 
+.title-thumbnail {
+  padding-bottom: 10px;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 br {
   display: block; /* makes it have a width */
   content: ""; /* clears default height */
@@ -213,6 +216,12 @@ br {
   max-width: 80%;
   margin: auto;
   padding-bottom: 200px;
+  text-align: justify;
+}
+
+.close-button {
+  display: block;
+  margin: auto;
 }
 
 .article-thumbnail {
@@ -221,6 +230,10 @@ br {
 
 .selected {
   background-color: rgb(219 39 119);
+}
+
+.spaced {
+  margin: 2.5rem;
 }
 
 /* Styling for the new scroll-to-bottom button */
@@ -234,5 +247,40 @@ br {
   border-radius: 5px;
   cursor: pointer;
   text-align: center;
+}
+
+/* Responsive Styles */
+@media (max-width: 640px) {
+  .title {
+    font-size: 1.5em;
+  }
+
+  .article {
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-bottom: 100px;
+    text-align: left;
+  }
+
+  .scroll-to-bottom-button {
+    padding: 0.5rem 1rem;
+  }
+
+  .thumbnail-image {
+    height: 120px;
+  }
+
+  .thumbnail-title {
+    font-size: 1rem;
+  }
+
+  .thumbnail-description {
+    font-size: 0.875rem;
+  }
+
+  .spaced {
+    margin: 0.5rem;
+  }
 }
 </style>
