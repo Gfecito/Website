@@ -2,10 +2,10 @@
   "name": "nuxt-app",
   "private": true,
   "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
+    "build": "nuxt build --fail-on-error",
+    "dev": "nuxt dev --fail-on-error",
+    "generate": "nuxt generate --fail-on-error",
+    "preview": "nuxt preview --fail-on-error",
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {

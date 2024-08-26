@@ -3,20 +3,8 @@
     <PersonalJourney :data="journeyData"></PersonalJourney>
     <div class="scroll-container" ref="photosContainer">
       <div class="scroll-content photos">
-        <div
-          class="image-wrapper"
-          v-for="(src, index) in photoSources"
-          :key="index"
-        >
-          <img :src="src" alt="" />
-        </div>
-        <div
-          class="image-wrapper"
-          v-for="(src, index) in photoSources"
-          :key="index"
-        >
-          <img :src="src" alt="" />
-        </div>
+        <img :src="src" alt="" v-for="src in photoSources" />
+        <img :src="src" alt="" v-for="src in photoSources" />
       </div>
     </div>
     <div
@@ -34,20 +22,8 @@
     </div>
     <div class="scroll-container" ref="paintingsContainer">
       <div class="scroll-content paintings">
-        <div
-          class="image-wrapper"
-          v-for="(src, index) in paintingSources"
-          :key="index"
-        >
-          <img :src="src" alt="" />
-        </div>
-        <div
-          class="image-wrapper"
-          v-for="(src, index) in paintingSources"
-          :key="index"
-        >
-          <img :src="src" alt="" />
-        </div>
+        <img :src="src" alt="" v-for="src in paintingSources" />
+        <img :src="src" alt="" v-for="src in paintingSources" />
       </div>
     </div>
   </div>
@@ -155,6 +131,10 @@ export default {
 </script>
 
 <style scoped>
+* {
+  box-sizing: border-box;
+}
+
 .scroll-container {
   height: 300px;
   width: fit-content;
@@ -165,10 +145,6 @@ export default {
   height: 100%;
   display: flex;
   flex-direction: row;
-}
-
-.image-wrapper {
-  flex-shrink: 0;
 }
 
 .paintings {
