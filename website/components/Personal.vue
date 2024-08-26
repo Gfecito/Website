@@ -7,15 +7,7 @@
         <img :src="src" alt="" v-for="src in photoSources" />
       </div>
     </div>
-    <div
-      style="
-        display: grid;
-        grid-template-columns: 1fr 5fr 1fr;
-        grid-gap: 5%;
-        width: 100%;
-        height: 1100px;
-      "
-    >
+    <div class="books-container">
       <PersonalMovies :data="moviesData"></PersonalMovies>
       <PersonalBooks :books="booksData" />
       <PersonalAlbums :data="albumsData"></PersonalAlbums>
@@ -177,5 +169,91 @@ export default {
 .photos img {
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.books-container {
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  grid-gap: 5%;
+  width: 100%;
+  height: 900px;
+}
+
+/* General mobile styling */
+@media only screen and (max-width: 768px) {
+  .books-container {
+    grid-template-columns: 1fr;
+    height: 800px;
+  }
+
+  .scroll-container {
+    height: 150px; /* Reduce height for mobile */
+  }
+
+  .paintings img,
+  .photos img {
+    max-height: 100px; /* Reduce image height */
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .paintings {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  .photos {
+    padding-bottom: 10px;
+  }
+
+  /* Hide movies and albums on mobile */
+  #movies,
+  #albums {
+    display: none;
+  }
+
+  /* Adjust grid layout for the PersonalJourney component */
+  .min-h-screen {
+    padding: 10px; /* Adjust padding */
+  }
+}
+
+/* For slightly larger mobile devices or tablets */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .books-container {
+    grid-template-columns: 1fr;
+    height: 850px;
+  }
+
+  .scroll-container {
+    height: 200px; /* Moderate height reduction */
+  }
+
+  .paintings img,
+  .photos img {
+    max-height: 150px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .paintings {
+    padding-top: 30px;
+    padding-bottom: 15px;
+  }
+
+  .photos {
+    padding-bottom: 15px;
+  }
+
+  /* Still hide movies and albums */
+  #movies,
+  #albums {
+    display: none;
+  }
+
+  /* Adjust grid layout for the PersonalJourney component */
+  .min-h-screen {
+    padding: 20px; /* Moderate padding adjustment */
+  }
 }
 </style>

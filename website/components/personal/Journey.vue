@@ -1,7 +1,7 @@
 <template>
-  <div class="py-10 px-20 mx-20">
-    <h2 class="text-2xl font-bold">{{ this.data.title }}</h2>
-    <div class="journey space-y-4">
+  <div class="container">
+    <h2 class="title">{{ this.data.title }}</h2>
+    <div class="journey">
       <p v-for="(one_liner, index) in parsedOneLiners" :key="index">
         <span v-html="one_liner"></span>
       </p>
@@ -34,14 +34,27 @@ export default {
 </script>
 
 <style>
+/* Replacing Tailwind with equivalent CSS */
+.container {
+  padding: 40px 80px; /* Equivalent to py-10 px-20 */
+  margin: 40px auto; /* Equivalent to mx-20 */
+}
+
+.title {
+  font-size: 1.5rem; /* Equivalent to text-2xl */
+  font-weight: bold; /* Equivalent to font-bold */
+  padding-bottom: 50px;
+}
+
 .journey {
   max-width: 80%;
   text-align: justify;
   margin: auto;
+  margin-top: 20px; /* Adding space-y-4 equivalent */
 }
 
-.text-2xl {
-  padding-bottom: 50px;
+.journey p {
+  margin-bottom: 1rem;
 }
 
 .highlight {
@@ -59,5 +72,24 @@ export default {
 .letter:hover {
   transform: scale(1.6);
   color: #999;
+}
+
+/* Mobile Styling */
+@media only screen and (max-width: 768px) {
+  .container {
+    padding: 20px 40px; /* Smaller padding for mobile */
+    margin: 20px auto; /* Smaller margin for mobile */
+  }
+
+  .title {
+    font-size: 1.25rem; /* Slightly smaller font size for mobile */
+    padding-bottom: 30px;
+  }
+
+  .journey {
+    max-width: 90%; /* Slightly wider on mobile for better fit */
+    margin-top: 15px;
+    text-align: left;
+  }
 }
 </style>
