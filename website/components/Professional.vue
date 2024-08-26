@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen px-10">
+  <div class="content-container">
     <ProfessionalWork :data="workData"></ProfessionalWork>
     <ProfessionalEducation :data="educationData"></ProfessionalEducation>
     <ProfessionalPrices :data="awardData"></ProfessionalPrices>
@@ -34,4 +34,16 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.content-container {
+  min-height: 100vh;
+  padding: 0 2.5rem; /* Equivalent to Tailwind's `px-10` */
+}
+
+/* Mobile styles */
+@media (max-width: 600px) {
+  .content-container {
+    padding: 0 1rem; /* Reduced padding for mobile */
+  }
+}
+</style>
