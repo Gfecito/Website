@@ -1,6 +1,6 @@
 <template>
-  <div class="education p-8">
-    <h2 class="text-2xl font-bold">{{ data.title }}</h2>
+  <div class="education">
+    <h2 class="section-title">{{ data.title }}</h2>
     <Card
       v-for="(institution, index) in institutions"
       class="vertical_card"
@@ -8,11 +8,11 @@
     >
       <template v-slot:first>
         <div :class="[cardSideClass(index), 'top_grid']">
-          <div class="image_container flex-shrink-0">
+          <div class="image_container">
             <img
               :src="institution.image"
               :alt="institution.name"
-              class="object-cover w-full"
+              class="object-cover"
             />
           </div>
           <div class="institution_header">
@@ -22,20 +22,20 @@
         </div>
       </template>
       <template v-slot:second>
-        <div class="p-4 mr-8 w-full">
+        <div class="content">
           <div class="institution_body">
             <h3>{{ data.classHeader }}</h3>
-            <ul style="display: grid; grid-template-columns: repeat(3, 1fr)">
+            <ul class="class-list">
               <li
                 v-for="classItem in institution.classes"
-                class="course py-1"
+                class="course"
                 :key="classItem"
               >
                 {{ classItem }}
               </li>
             </ul>
             <p
-              class="py-2 institution_description"
+              class="institution_description"
               v-for="(desc, index) in institution.description"
               :key="index"
             >
@@ -73,30 +73,43 @@ export default {
 </script>
 
 <style scoped>
-.vertical_card {
-  display: flex;
-  flex-direction: column;
-}
-
 .education {
   max-width: 80%;
   margin: auto;
+  padding: 2rem; /* Custom padding equivalent to Tailwind's `p-8` */
 }
 
-.course {
-  font-weight: normal;
-  font-size: 1em;
+.section-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
-.institution_details {
+.vertical_card {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
 }
 
-.institution_description {
-  font-weight: normal;
-  font-size: 0.8em;
-  text-align: justify;
-  padding-left: 2em;
-  padding-right: 2em;
+.content {
+  padding: 1rem;
+  margin-right: 2rem;
+  width: 100%;
+}
+
+.top_grid {
+  display: flex;
+  gap: 20px;
+}
+
+.image_container {
+  width: 50%;
+  max-height: 100%;
+}
+
+.institution_header {
+  margin: auto;
 }
 
 h1 {
@@ -109,20 +122,45 @@ h3 {
   font-size: 1.2em;
 }
 
-.image_container {
-  width: 50%;
-  max-height: 100%;
+.course {
+  font-weight: normal;
+  font-size: 1em;
 }
 
-.top_grid {
-  display: flex;
-  gap: 20px;
+.class-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
-.institution_header {
-  margin: auto;
+.institution_description {
+  font-weight: normal;
+  font-size: 0.8em;
+  text-align: justify;
+  padding: 0 2rem;
 }
 
-.institution_body {
+/* Mobile Styles */
+@media (max-width: 600px) {
+  .education {
+    max-width: 90%;
+    padding: 0.5rem; /* Smaller padding for mobile */
+  }
+
+  .top_grid {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .image_container {
+    width: 100%;
+  }
+
+  .class-list {
+    grid-template-columns: 1fr;
+  }
+
+  .institution_description {
+    padding: 0 1rem; /* Reduce padding on mobile */
+  }
 }
 </style>
