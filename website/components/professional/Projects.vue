@@ -1,6 +1,6 @@
 <template>
   <div class="projects">
-    <h2 class="text-2xl font-bold">{{ data.title }}</h2>
+    <h2 class="section-title">{{ data.title }}</h2>
     <div class="cards">
       <TinyCard
         v-for="(project, index) in data.projects"
@@ -10,13 +10,11 @@
         :isImageOnLeft="index % 2 === 0"
       >
         <div name="project_description">
-          <p v-for="paragraph in project.description">
-            {{ paragraph }}
-          </p>
+          <p v-for="paragraph in project.description">{{ paragraph }}</p>
           <a
             v-if="project.link"
             :href="project.link"
-            class="text-blue-500 mt-2 hover:underline"
+            class="project-link"
             target="_blank"
             rel="noopener noreferrer"
             >{{ project.websiteLabel }}</a
@@ -65,6 +63,7 @@ export default {
 .cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
 }
 
 div[name="project_description"] {
@@ -72,7 +71,25 @@ div[name="project_description"] {
   font-size: 0.8em;
   max-width: 50em;
 }
+
 div[name="project_description"] p {
   font-weight: normal;
+}
+
+.project-link {
+  color: #3b82f6;
+  margin-top: 0.5rem;
+  text-decoration: underline;
+}
+
+/* Mobile Styles */
+@media (max-width: 600px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  div[name="project_description"] {
+    text-align: left;
+  }
 }
 </style>
