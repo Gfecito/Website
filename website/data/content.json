@@ -385,7 +385,6 @@
                         "title":"French regional math olympiads",
                         "date":"2019",
                         "description":[
-                            "My region spanned from Mexico to Panama, and included all french teaching institutions there.",
                             "For that region, we were the best team, and I was top 3 in the individual section. The only one from my team in the top spots."
                         ],
                         "image":"images/trophy.png"
@@ -683,7 +682,7 @@
                             {"title": "What people teach will never be the same as what people want to learn."},
                             {"paragraph": [
                                 "We’ve all been there. You’re sitting in a classroom, wondering about some detail of what the teacher has explained. You ask a question, and it feels like they’re answering an entirely different one, perhaps you’re so fortunate as to learn something new, but your confusion remains.", 
-                                "At times, we’ve been on the flip side as well. A junior asks you a question on a topic you’ve already explained several times, you answer, and they nod ceremoniously, yet you both know that whatever the motive for their question, it pervades your teachings.",
+                                "At times, we’ve been on the flip side as well. A junior asks you a question on a topic you’ve already explained several times, you answer, and they nod ceremoniously, yet you both know that whatever the motive for their question, their confusion is unaffected your teachings.",
                                 "Despite the teacher's best efforts, the gap between what is taught and what is understood persists.",
                                 "Frustrating, but why does that happen? Why does it continue to do so across cultures and vocations?"
                             ]},
@@ -1339,7 +1338,6 @@
                             "title": "Olimpiadas Regionales de Matemáticas",
                             "date": "2019",
                             "description": [
-                                "Participaron todas las instituciones de enseñanza francesa desde México hasta Panamá.",
                                 "Fuimos el mejor equipo, y estuve en el top 3 en la sección individual. Fui el único de mi equipo en los primeros lugares."
                             ],
                             "image": "images/trophy.png"
@@ -1993,15 +1991,15 @@
                         "place": "Figma, 2023 - Présent",
                         "title": "Ingénieur Logiciel : Infrastructure",
                         "description" : [
-                            {"paragraph": "J'ai acquis une réputation pour ma rapidité d'apprentissage et ma capacité à accomplir les tâches. Mon travail inclut:"},
+                            {"paragraph": "J'ai acquis une réputation pour ma rapidité d'apprentissage et mon efficacité. Mon travail jusqu'au moment inclut:"},
                             {
                                 "list": [
-                                    "Migration du backend de notre API REST ; cela faisait partie d'un projet de dépréciation de service qui a permis d'économiser 18 millions de dollars par an.",
-                                    "Construction d'une infrastructure essentielle pour les fonctionnalités de recherche par IA.", 
-                                    "Actuellement, je travaille sur notre technologie multijoueur en Rust/Typescript pour la collaboration en temps réel."
+                                    "Migration du backend de notre API REST; cela était une moitié d'un projet pour simplifier nos systémes qui a permis d'économiser 18 millions des dollars par an.",
+                                    "Construction de l'infrastructure essentielle pour les fonctionnalités de Search par IA.", 
+                                    "Actuellement, je travaille sur notre technologie Multiplayer en Rust/Typescript pour la collaboration en temps réel."
                                 ]
                             },
-                            {"paragraph": "Je suis orienté vers les résultats, mes outils varient, mais j'ai principalement utilisé : Ruby, Rust, TypeScript, React, Terraform et AWS, ainsi qu'un peu de Kubernetes."}
+                            {"paragraph": "Je suis quelqu'un plus orienté vers résultats que vers outils mais du moment j'ai principalement utilisé : Ruby, Rust, TypeScript, React, Terraform et AWS, ainsi qu'un peu de Kubernetes."}
                         ],
                         "image": "images/experience/figma.png"
                     },
@@ -2009,18 +2007,18 @@
                         "place": "Université de Montréal, 2021 - 2023",
                         "title": "Assistant d'Enseignement et de Recherche.",
                         "description" : [
-                            {"paragraph": "Dès mon arrivée à Montréal jusqu'à mon départ pour NYC, j'ai travaillé comme assistant d'enseignement pendant 2 ans, avec environ 1750 étudiants (sans compter les recoupements) :"},
+                            {"paragraph": "Dès mon arrivée à Montréal jusqu'à mon départ pour NYC, j'ai travaillé comme assistant d'enseignement pendant 2 ans, avec environ 1750 étudiants (sans prendre en compte les étudiants ayant pris plusieurs cours avec moi) :"},
                             {
                                 "list": [
-                                    "Programmation 101 avec Python (pour 3 sessions)",
-                                    "Concepts et paradigmes des langages de programmation (pour 2 sessions)", 
-                                    "Structures discrètes en informatique (2 sessions)",
-                                    "Développement et conception web (2 sessions)", 
+                                    "Programmation 101 avec Python (pendant 3 sessions)",
+                                    "Concepts et paradigmes des langages de programmation (pendant 2 sessions)", 
+                                    "Structures discrètes en informatique (pendant 2 sessions)",
+                                    "Développement et conception web (pendant 2 sessions)", 
                                     "Génie logiciel", 
                                     "Concepts avancés de Java"
                                 ]
                             },
-                            {"paragraph": "Un GRAND merci - à la fois pour avoir supporté cette expérience avec moi, et pour m'avoir encadré tout au long - à : Marc Feeley, Olivier Melançon, Stefan Monnier, Miklós Csűrös, Sébastien Roy, Amal Ben Abdellah et Michel Reid."},
+                            {"paragraph": "Je suis profondement appreciative des enseignants qui m'ont guidé pendant cette période, et je n'aurais pas pû réussir sans eux. Un grand merci à Marc Feeley, Olivier Melançon, Stefan Monnier, Miklós Csűrös, Sébastien Roy, Amal Ben Abdellah et Michel Reid."},
                             {"paragraph": "J'ai aussi colaboré avec le departament de Psicologie, d'Informatique et l'equipe d'Education Digitalisée pour developper une application pour la resilience etudiante."}
 
                         ],
@@ -2058,10 +2056,10 @@
                             "details": "Montréal | 2020-2023",
                             "abreviation": "UdeM",
                             "description": [
-                                "J'ai réalisé mon projet d'honneur sur l'assemblage de génomes avec des lectures de séquençage appariées, ce qui est une façon élégante de dire : j'ai organisé des fragments d'ADN pour construire un génome.",
-                                "C'est difficile parce que les fragments sont désordonnés, défectueux et pourraient aller n'importe où... alors, comment savoir où les placer?",
+                                "J'ai réalisé mon projet d'honneur sur l'assemblage de génomes avec des lectures de séquençage appariées, ceci dit : j'ai organisé des fragments d'ADN pour construire un génome.",
+                                "C'est difficile parce que les fragments sont désordonnés, défectueux, répetés, pourraient aller n'importe où et il n'y a pas un manuel... alors, comment savoir où les placer?",
                                 "Les fragments que j'ai étudiés provenaient d'un Agrobacterium, qui est une bactérie qui rend les plantes malades =(",
-                                "J'étais aussi participant aux clubs de ML et de programmation compétitive, et directeur de conseil chez 180DC UdeM."
+                                "J'étais aussi participant aux clubs de ML et de programmation compétitive, et directeur conseil chez 180DC UdeM."
                             ],
                             "classes": [
                                 "Science des Données",
@@ -2085,8 +2083,8 @@
                             "details": "Mexique | 2017-2020",
                             "abreviation": "LFM",
                             "description": [
-                                "J'ai suivi la filière Scientifique, je me suis spécialisé en mathématiques et en ingénierie, et j'ai terminé avec une mention très bien: TB -qui était la plus haute distinction disponible à l'école.",
-                                "J'étais candidat au concours général en mathématiques, physique et ingénierie (seuls les meilleurs de chaque école peuvent participer).",
+                                "J'ai suivi la filière Scientifique ou je me suis spécialisé en mathématiques et en ingénierie, et j'ai terminé avec une mention très bien: TB -qui était la plus haute distinction disponible à l'école.",
+                                "J'étais candidat au concours général en mathématiques, physique et ingénierie.",
                                 "J'ai fondé et dirigé le club d'Apprentissage Automatique, et j'étais dans le Club de Programmation."
                             ],
                             "classes": [
@@ -2129,10 +2127,10 @@
                         "title": "Looks",
                         "description": [
                             "J'ai construit le prototype d'une plateforme et application de réseaux sociaux orientée sur la mode en utilisant Swift (avec SwiftUI et UIKit), Typescript, Firebase.",
-                            "J'ai construit le prototype pour iOS, une page d'administration, un site de liste d'attente/promo, ainsi que la configuration de notre base de données, de la puissance de calcul, des autorisations et une connexion à Amazon via API."
+                            "J'ai construit le prototype pour iOS, une page d'administration, un site de liste d'attente/promo, ainsi que l'infrastructure pour nos bases de données, compute, un système de sign in/sign up et une connexion à Amazon via API."
                         ],
                         "link": "https://looks-waitlist.web.app/",
-                        "websiteLabel": "Visiter le site",
+                        "websiteLabel": "Voici le site de liste d'attente",
                         "image": "images/projects/looks.png"
                     },
                     {
@@ -2140,7 +2138,7 @@
                         "description": [
                             "Ce projet, sous la direction de Mila - Quebec AI Institute, vise à améliorer la modélisation climatique pour la prévision météorologique, l'agriculture et bien plus encore.",
                             "Les modèles actuels peinent avec des données à petite échelle peu fiables.",
-                            "En tant que chef de projet et contributeur principal, j'ai organisé notre équipe pour améliorer ces modèles avec les dernières recherches, j'ai créé un site web dédié et travaillé sur notre prétraitement des données pour les modèles."
+                            "J'ai organisé notre équipe pour améliorer ces modèles avec les dernières recherches, j'ai créé un site web dédié et travaillé sur notre prétraitement des données pour les modèles."
                         ],
                         "link": "https://climate-model-downscaling.web.app/",
                         "websiteLabel": "Visiter le site",
@@ -2150,7 +2148,7 @@
                         "title": "Génomique",
                         "description": [
                             "Il s'agit d'un projet de recherche et développement pour le Laboratoire de Biologie Computationnelle et Théorique de l'UdeM.",
-                            "J'ai recherché et mis en œuvre une API pour le raffinement de l'assemblage du génome, ainsi qu'une structure de données de schéma de binning, en utilisant JAVA et la bibliothèque htsjdk.",
+                            "En bref, j'ai recherché et mis en œuvre une API pour le raffinement de l'assemblage du génome, ainsi qu'une structure de données de schéma de binning, en utilisant JAVA et la bibliothèque htsjdk.",
                             "Le travail est entièrement documenté et expliqué ici :"
                         ],
                         "link": "https://genome-assembly-scaffolding.web.app/",
@@ -2201,7 +2199,7 @@
                     {
                         "title": "Application Web de Reconnaissance de Gestes",
                         "description": [
-                            "En utilisant Jupyter et Pandas, j'ai partitionné et prétraité une base de données, construit et entraîné un modèle de réseau neuronal convolutif, exporté puis mis en œuvre sur une plateforme web dynamique.",
+                            "En utilisant Jupyter et Pandas, j'ai partitionné et prétraité une base de données, construit et entraîné un modèle de réseau neuronal convolutif, que j'ai finalement exporté puis mis en œuvre sur une plateforme web dynamique.",
                             "J'ai construit cette dernière en utilisant Flask (Python) et Jinja."
                         ],
                         "link": "",
@@ -2270,7 +2268,7 @@
                             "title": "ICPC NE-NA",
                             "date": "Février 2023",
                             "description": [
-                                "La 2ème meilleure équipe de l'histoire du DIRO dans cette prestigieuse compétition de programmation"
+                                "La 2ème meilleure équipe de l'histoire du DIRO (Département d'informatique et de recherche opérationnelle) au moment de participer"
                             ],
                             "image": "images/trophy.png"
                         },
@@ -2278,7 +2276,7 @@
                             "title": "Bourse d'excellence du DIRO",
                             "date": "Décembre 2021",
                             "description": [
-                                "Bourse d'excellence décernée aux meilleurs étudiants de licence du DIRO (Département d'informatique et de recherche opérationnelle)"
+                                "Bourse d'excellence décernée à quelques étudiants de licence du DIRO"
                             ],
                             "image": "images/trophy.png"
                         },
@@ -2294,8 +2292,7 @@
                             "title": "Olympiades Régionales de Mathématiques Françaises",
                             "date": "2019",
                             "description": [
-                                "Ma région s'étendait du Mexique au Panama et incluait toutes les institutions d'enseignement français là-bas.",
-                                "Pour cette région, nous étions la meilleure équipe, et j'étais dans le top 3 de la section individuelle. Le seul de mon équipe à figurer parmi les premiers."
+                                "Nous étions la meilleure équipe, et j'étais dans le top 3 de la section individuelle! J'étais le seul de mon équipe à figurer parmi les premiers."
                             ],
                             "image": "images/trophy.png"
                         }
@@ -2320,111 +2317,250 @@
                                 "link":"https://www.huffpost.com/entry/the-dead-poets-society-gu_b_749665"
                             },
                             {"paragraph":[
-                                "Dans cet article, je partagerai ce que j'ai appris en tant qu'élève et en tant qu'enseignant au fil des ans. L'accent sera mis sur la recherche de méthodes efficaces pour apprendre, ainsi que sur les méthodes efficaces pour enseigner.",
+                                "Dans cet article, je partagerai ce que j'ai appris en tant qu'élève et en tant qu'enseignant au fil des ans. Mon but ici est partager des méthodes efficaces pour apprendre, ainsi que des méthodes efficaces pour enseigner.",
                                 "Pour une perspective plus complète, je recommande vivement le livre de G. Polya, 'How to Solve It', qui est un excellent ouvrage sur l'art d'enseigner et d'apprendre à résoudre des problèmes."
                             ]},
-                            {"paragraph":["Quand je parle de bons enseignants tout au long de l'article, il y a une reconnaissance implicite qu'il existe de mauvais enseignants. Les mauvais enseignants, je pense, sont des bons enseignants en puissance; car l'enseignement est quelque chose que l'on apprend."]},
+                            {"paragraph":["Quand je parle de bons enseignants tout au long de l'article, il y a une reconnaissance implicite qu'il existe de mauvais enseignants. L'existance de ces dérniers me paraît indéniable. Mais je pense que les mauvais enseignants sont des bons enseignants en puissance; car l'enseignement est en soi quelque chose que l'on apprend."]},
                             {"title": "Pratique efficace:"},
-                            {"paragraph":["La pratique rend parfait. Eh bien, pas tout à fait, mais la pratique s'améliore. Je pense que la parabole de la classe de poterie l'illustre le plus succinctement :"]},
+                            {"paragraph":["La pratique rend parfait. Eh bien, pas tout à fait, mais ça aide. Je pense que la parabole de la classe de poterie l'illustre le plus succinctement :"]},
                             {"quote":
                                 "Il était une fois un professeur de poterie nommé Brian. Un mois, il décida de diviser sa classe en deux groupes. Le groupe A devait faire un pot par jour pendant 30 jours (donc 30 pots au total). Le groupe B devait travailler sur un seul pot pendant les 30 jours entiers. À la fin du mois, Brian jugea la qualité des pots. Sans exception, les 10 meilleurs pots provenaient du groupe A, ceux qui faisaient un pot par jour. Aucun ne provenait du groupe qui s'était concentré sur l'amélioration d'un seul pot."
                             },
                             {"paragraph":[
-                                "Les étudiants qui cherchent à s'améliorer doivent pratiquer de manière approfondie. La pratique délibérée est généralement la meilleure approche et elle est déjà bien documentée : pratiquez, mais faites-le avec un plan."
+                                "Les étudiants qui cherchent à s'améliorer doivent pratiquer abondamment. La pratique délibérée est généralement la meilleure approche et elle est déjà bien documentée : pratiquez, mais faites-le avec un plan."
                             ]},
-                            {"paragraph":[
-                                "En particulier, en empruntant à Polya, une bonne approche de la pratique délibérée consiste à faire plusieurs tentatives, de manière itérative, en se basant sur ses 4 principes : comprendre le problème, faire un plan, exécuter le plan, revoir votre travail."
-                            ]},
-                            {"paragraph":[
-                                "D'après mon expérience, la plupart des étudiants échouent sur au moins un de ces principes. Je crois que c'est un échec des enseignants qui ne communiquent pas (ou peut-être ne comprennent pas) que ces mêmes principes sont les raisons pour lesquelles nous éduquons de la manière dont nous le faisons :"
-                            ]},
-                            {"list":[
-                                "Cours/Démonstration : comprendre le problème.",
-                                "Instructions : faire un plan (plus les instructions sont vagues, plus cela est délégué à l'étudiant).",
-                                "Devoirs : exécuter le plan.",
-                                "Notes, examens, retours : revoir votre travail."
-                            ]},
-                            {"paragraph":[
-                                "En tant qu'étudiant qui n'est pas familier avec ces principes, l'école semble stupide et souvent arbitraire dans ses méthodes.",
-                                "En tant qu'enseignant, ne pas connaître ces principes pourrait conduire à une dynamique qui, souvent, peut être assez infructueuse tant pour les étudiants que pour l'enseignant.",
-                                "Pensez aux films classiques sur le lycée, ou aux longs détours pendant les cours : divertissant, mais le temps serait mieux utilisé à le faire avec des amis qu'avec un vieil inconnu.",
-                                "Nous recherchons un enseignant pour nous enseigner : vous ne voudriez pas que votre médecin retarde une chirurgie pour parler de son divorce."
-                            ]},
-                            {"paragraph":[
-                                "Naturellement, vous avez peut-être remarqué que tout n'est pas aussi facile à pratiquer.",
-                                "Vous pourriez penser à l'apprentissage de l'anglais, où vous êtes gravement désavantagé : les parents de vos camarades le parlent, et ils peuvent facilement pratiquer à la maison, mais vous ne le pouvez pas !",
-                                "Ou aux mathématiques, lorsque votre frère est comptable et peut vous guider à travers les 4 principes.",
-                                "Il y a même des choses qui pourraient sembler impossibles à pratiquer : comme passer un examen ou faire un salto arrière."
-                            ]},
-                            {"paragraph":[
-                                "C'est là que nous devons être créatifs. Si pour apprendre efficacement, nous devons pratiquer encore et encore, alors nous devons trouver un moyen de transformer n'importe quel sujet en un sujet que l'on peut pratiquer. J'ai observé que pour rendre la pratique délibérée possible, nous avons besoin de deux ingrédients :"
-                            ]},
-                            {"list":[
-                                "Un espace sûr pour échouer.",
-                                "Un retour d'information solide : un retour d'information solide est rapide, fréquent et exploitable."
-                            ]},
-                            {"paragraph":[
-                                "Les jeux font cela de manière excellente, et vous remarquerez que les joueurs qui jouent le plus sont généralement bien meilleurs que ceux qui jouent moins. Cela est dû au fait que les jeux sont conçus de manière à optimiser la pratique efficace :"
-                            ]},
-                            {"list":[
-                                "Si vous échouez, vous pouvez rejouer et tout ira bien (c'est sûr).",
-                                "Quand vous échouez, vous le savez immédiatement et vous pouvez réessayer (Retour d'information solide)."
-                            ]},
-                            {"paragraph":[
-                                "Construire un espace sûr pour la pratique et créer une ligne de retour d'information solide a historiquement été assez difficile (et coûteux) en dehors des jeux vidéo, et a été la cause de nombreuses disparités dans l'éducation."
-                            ]},
-                            {"title": "Espace de sécurité et retour d'information solide:"},
-                            {"paragraph":[
-                                "Avec l'avènement d'Internet, il est devenu beaucoup plus facile de pratiquer des sujets qui sont moins sûrs (comme les relations humaines).",
-                                "À présent, vous pouvez obtenir un retour d'information rapide sur vos compétences en matière de conversation en rejoignant un forum en ligne, et vous pouvez même pratiquer un examen de code sur les éditeurs en ligne sans jamais déranger un camarade de classe."
-                            ]},
-                            {"paragraph":[
-                                "Cependant, nous ne devrions pas nous fier uniquement à Internet. Un autre domaine où les enseignants peuvent vraiment briller est en créant une classe où les étudiants se sentent en sécurité pour échouer, mais aussi en créant une structure qui leur fournit un retour d'information de qualité."
-                            ]},
-                            {"paragraph":[
-                                "Nous ne devrions pas non plus perdre de vue le fait que l'échec doit être constructif. Faire un effort est une chose, mais nous devons aider les étudiants à comprendre comment améliorer ces efforts à chaque itération."
-                            ]},
-                            {"paragraph":[
-                                "C'est là que nous devons renforcer les associations avec les choses que nous avons déjà apprises, et renforcer les connexions. Plus vous pouvez faire de connexions, plus les informations resteront ancrées dans votre cerveau."
-                            ]},
-                            {"paragraph":[
-                                "C'est un point fondamental de l'apprentissage efficace. Plus vous construisez une structure de connaissances autour de ce que vous apprenez, plus il sera facile de s'en souvenir et de l'appliquer."
-                            ]},
-                            {"paragraph":[
-                                "Cela m'amène à une distinction que nous faisons entre l'enseignement d'idées abstraites et concrètes. Pour illustrer cela, je pense à un étudiant en programmation qui doit apprendre ce qui suit :"
-                            ]},
-                            {"list":[
-                                "Choses concrètes : La syntaxe d'un langage de programmation, des outils spécifiques, des IDE, etc.",
-                                "Choses abstraites : Des motifs de conception, des principes d'architecture logicielle, etc."
-                            ]},
-                            {"paragraph":[
-                                "D'après mon expérience, les choses concrètes sont celles que vous ne pouvez pas vous enseigner. Les choses abstraites, en revanche, sont celles que vous pouvez souvent apprendre par vous-même avec facilité."
-                            ]},
-                            {"paragraph":[
-                                "Par exemple, on pourrait apprendre la syntaxe en lisant un livre ou en suivant des tutoriels en ligne. Vous ne le comprendrez peut-être pas immédiatement, mais avec de la pratique, vous y parviendrez."
-                            ]},
-                            {"paragraph":[
-                                "Cependant, comprendre les motifs de conception nécessite une approche différente. Cela implique d'identifier des motifs dans ce que vous avez appris concrètement, puis de les relier à des idées abstraites."
-                            ]},
-                            {"paragraph":[
-                                "Par conséquent, mon opinion est qu'il est du devoir d'un enseignant de montrer comment les idées abstraites émergent des choses concrètes, fournissant une structure aux étudiants pour qu'ils puissent établir ces connexions par eux-mêmes.",
-                                "Bien sûr, il existe une autre façon de voir les choses :",
-                                "Quand j'étais enfant, mon professeur d'art disait que je pouvais apprendre n'importe quoi si je le décomposais en formes simples et concrètes. Commencez par dessiner des cercles, des lignes droites et des courbes, et bientôt vous pourrez dessiner un chat.",
-                                "Pensez aux enfants qui commencent par dessiner des bonshommes. Ils apprennent quelque chose de concret. À mesure qu'ils deviennent plus habiles, leurs dessins deviennent plus abstraits et complexes."
-                            ]},
-                            {"title": "Réflexions finales."},
-                            {"paragraph":[
-                                "Je pourrais continuer à parler de cela. Mais en résumé, un enseignement efficace est à la fois un art et une science. Cela nécessite à la fois une approche structurée et la flexibilité pour s'adapter aux besoins des étudiants."
-                            ]},
-                            {"paragraph":[
-                                "L'apprentissage est un voyage, et l'enseignement est la direction dans ce voyage. Avec une pratique efficace, un espace sûr, des retours d'information solides, et un équilibre entre l'abstrait et le concret, nous pouvons faire de ce voyage quelque chose de productif et gratifiant."
-                            ]},
-                            {"paragraph":[
-                                "Enfin, je voudrais conclure par une citation inspirante :"
-                            ]},
-                            {"quote":
-                                "Enseigner, c'est apprendre deux fois. — Joseph Joubert"
-                            }
+                            {
+                                "paragraph": [
+                                    "En particulier, pour emprunter à Polya, une bonne approche de la Pratique Délibérée est de faire plusieurs tentatives, de manière itérative, en se basant sur ses 4 principes : comprendre le problème, établir un plan, exécuter le plan, revenir sur votre travail."
+                                ]
+                            },
+                            {
+                                "paragraph": [
+                                    "D'après mon expérience, la plupart des étudiants ne réussissent pas à respecter au moins l'un de ces principes. Je crois que cela est dû à un manque de communication (ou peut-être même de compréhension) de la part des enseignants, qui ne transmettent pas que ces principes mêmes sont les raisons pour lesquelles nous éduquons selon cette structure:"
+                                ]
+                            },
+                            {
+                                "list": [
+                                    "Cours/Démonstration : comprendre le problème.",
+                                    "Instructions : établir un plan (plus les instructions sont vagues, plus l'étudiant doit s'en charger).",
+                                    "Devoirs : exécuter le plan.",
+                                    "Notes, tests, retours : revenir sur votre travail."
+                                ]
+                            },
+                            {
+                                "paragraph": [
+                                    "En tant qu'étudiant: n'être pas familier avec ces principes peut nous faire croîre que l'école est absurde et souvent arbitraire dans ses méthodes.",
+                                    "En tant qu'enseignant, ne pas connaître ces principes peut vous entraîner dans une dynamique qui, souvent, peut être infructueuse pour tous.",
+                                    "Pensez aux films classiques vus au lycée, ou aux longues digressions pendant les cours : souvent divertissants, mais infréquement rélevants.",
+                                    "Nous cherchons un enseignant pour enseigner : vous ne voudriez pas que votre médecin retarde une opération pour parler de son divorce."
+                                ]
+                            },
+                            {
+                                "paragraph": [
+                                    "Naturellement, vous avez peut-être remarqué que tout n'est pas aussi facile à pratiquer!",
+                                    "Vous pourriez penser à un cas hypothétique: l'apprentissage de l'anglais, où vous êtes gravement désavantagé : les parents de vos camarades le parlent, et ils peuvent facilement s'exercer chez eux, mais pas les votres, donc vous ne pouvez pas!",
+                                    "Ou aux mathématiques, quand leur frère ou sœur est comptable et peut les guider à travers les 4 principes de Polya.",
+                                    "Il y a même des choses qui semblent impossibles à pratiquer : comme passer un test ou faire un salto arrière."
+                                ]
+                            },
+                            {
+                                "paragraph": [
+                                    "C'est là que nous devons être créatifs. Si pour apprendre efficacement nous devons pratiquer encore et encore, alors nous devons trouver un moyen de transformer tout sujet apprenable en sujet pratiquable. J'ai observé que pour rendre la Pratique Délibérée possible, nous avons besoin de deux ingrédients :"
+                                ]
+                            },
+                            {
+                                "list": [
+                                    "Un espace sûr pour échouer.",
+                                    "Des rétroactions efficaces : les rétroactions efficaces sont rapides, fréquents et exploitables."
+                                ]
+                            },
+                            {
+                                "paragraph": [
+                                    "Les jeux font cela de manière excellente, et vous constaterez que les joueurs qui jouent plus sont généralement bien meilleurs que ceux qui jouent moins. C'est parce que les jeux sont conçus d'une façon optimale pour la pratique efficace :"
+                                ]
+                            },
+                            {
+                                "list": [
+                                    "Si vous échouez, vous pouvez rejouer et tout va bien (c'est sûr).",
+                                    "Quand vous échouez, vous le savez immédiatement et vous pouvez réessayer (rétroactions efficaces)."
+                                ]
+                            },
+                            {
+                                "paragraph": [
+                                    "Construire un espace sûr pour pratiquer et créer un pipeline de rétroactions efficaces est historiquement assez difficile (et ainsi les écoles excellentes sont rares). Je ne connais pas de recette généralisable, mais voici quelques exemples :"
+                                ]
+                            },
+                            {
+                                "list": [
+                                    "Construire un espace sûr : pour apprendre à passer des examens, on pourrait prendre un échantillon de nombreux examens provenant de la bibliothèque ou d'internet et s'exercer chez soi, en reproduisant les conditions d'examen (silence, contraintes de temps, contraintes de documentation) et en s'auto-évaluant (ou en le faisant avec un ami, généralement avec de meilleurs résultats).",
+                                    "Construire un espace sûr : pour apprendre à faire des saltos arrière, on pourrait installer des coussins et un environnement physique où se blesser est moins probable. Il serait préférable de rendre les blessures graves quasi impossibles en ayant un expert pour vous guider et vous surveiller.",
+                                    "Rétroactions efficaces : un étudiant pourrait prendre des examens pratiques qu'il a lui-même tenté et parler avec son enseignant pour de la rétroaction.",
+                                    "Rétroactions efficaces : de nos jours, bien qu'il faille être très sceptique et prudent avec cet outil, un étudiant peut itérer avec un modèle linguistique GPT pour obtenir des retours sur son travail/idées. Cela fonctionne étonnamment bien, ce que j'attribuerais au fait qu'internet est plein de forums avec probablement des questions similaires."
+                                ]
+                            },
+                            {
+                                "paragraph": [
+                                    "Les bons enseignants créeront un espace sûr pour échouer dans leurs classes et fourniront constamment des rétroactions efficaces.",
+                                    "Les bons enseignants échoueront également les étudiants qui n'ont pas assimilé la matière, dans le but de leur donner plus de temps pour le faire. Un espace sûr n'est pas un espace facile, mais il est sûr : si un étudiant est laissé partir sans une préparation adéquate, il échouera éventuellement dans un espace où il n'est pas sûr d'échouer."
+                                ]
+                            },
+                            {
+                                "title": "L'abstrait et le concret."
+                            },
+                            {
+                                "image": "images/vlog_images/abstract_vs_concrete.png",
+                                "caption": "Le Développement des schémas de pensée Concrète et Abstraite par Iryna Horkovska",
+                                "link": "https://calmerry.com/blog/psychology/the-development-of-concrete-and-abstract-thinking-patterns/"
+                            },
+                            {
+                                "paragraph": [
+                                    "Super ! Maintenant, nous pouvons apprendre de nouvelles choses. Mais comment les retenir?"
+                                ]
+                            },
+                            {
+                                "paragraph": [
+                                    "Ce qui suit est une simplification du fonctionnement du cerveau, mais suffisant pour notre objectif d'apprendre mieux :",
+                                    "Le cerveau fonctionne par associations : plus l'association est forte, plus la connexion est puissante. En apprentissage, la force de ces connexions semble proportionnelle au nombre de fois que l'association est faite et à quel point nous la trouvons intéressante.",
+                                    "Un souvenir fortement lié à un événement sera rappelé lorsque cet événement se produira !",
+                                    "(Pensez à la brise caressant l'herbe qui vous revient en tête avec le bruit du vent, ou à la pure -distillée- colère en voyant un lobby de League of Legends avec ce gars avec qui vous avez joué il y a un an)."
+                                ]
+                            },
+                            {
+                                "paragraph": [
+                                    "Cool. Exploitons cela."
+                                ]
+                            },
+                            {
+                                "paragraph": [
+                                    "Faites-le intéressant : Injecter des éléments d'intérêt garantit que l'information se démarque dans votre esprit. Cela pourrait impliquer l'utilisation d'images vives, de récits ou d'analogies du monde réel qui captent votre attention."
+                                ]
+                            },
+                            {
+                                "paragraph": [
+                                    "Faites-le lié/cohérent : L'association doit avoir du sens et être facile à rappeler. C'est comme créer une feuille de route mentale - chaque étape mène logiquement à la suivante, aidant à la récupération si vous oubliez initialement."
+                                ]
+                            },
+                            {
+                                "paragraph": [
+                                    "Les bons enseignants exploitent ces principes en intégrant des accessoires et des exemples réels dans leurs cours."
+                                ]
+                            },
+                            {
+                                "paragraph": [
+                                    "En reliant des concepts abstraits à des objets tangibles ou des scénarios familiers, ils aident les étudiants à établir des connexions significatives qui améliorent l'apprentissage et la rétention.",
+                                    "Par exemple, ils pourraient utiliser des accessoires comme des diagrammes colorés ou des anecdotes mémorables pour rendre des idées complexes plus accessibles et mémorables.",
+                                    "Comme Michael achetant 100 ananas ou Antonia devant couper le câble qui est en position impaire, entre deux câbles rouges, pour désamorcer une bombe !"
+                                ]
+                            },
+                            {
+                                "paragraph": [
+                                    "Rendre l'apprentissage intéressant a également le bel avantage de donner lieu à une classe potentiellement plus animée : les étudiants sont plus amusants à côtoyer... quand ils sont engagés !"
+                                ]
+                            },
+                            {
+                                "paragraph": [
+                                    "Un piège courant est de se concentrer trop sur le fait de rendre le cours intéressant, et d'oublier de le faire cohérent : c'est facile à faire parce que les enseignants ont déjà les associations dans leur esprit, mais il est essentiel pour un enseignant de se rappeler que ces associations n'existent pas encore dans l'esprit de leurs étudiants : c'est précisément pour cela que nous leur enseignons!"
+                                ]
+                            },
+                            {
+                                "paragraph": [
+                                    "Faites du matériel intéressant, mais assurez-vous de le relier de manière cohérente !!! Évitons d'autres regards perplexes de type « quel est le rapport ? », et connectons les points brillants que nous illustrons."
+                                ]
+                            },
+                            {
+                                "title": "Faites. Attention."
+                            },
+                            {
+                                "image": "images/vlog_images/paying_attention.jpg",
+                                "caption": "Étudiants attentifs en classe",
+                                "link": "https://img.freepik.com/free-photo/students-paying-attention-class_23-2148844732.jpg?t=st=1723640378~exp=1723640978~hmac=abaafdf40af1f4ffb40cf507582040184e6b23f25e72f8031b52dcbfdd47fb8d"
+                            },
+                            {
+                                "paragraph": [
+                                    "Les humains sont incroyables en multitâche, mais nous sommes terribles en multi-pensée. Mon idée de pourquoi cela se produit est basée sur le travail de Daniel Kahneman, et j’expliquerais mon raisonnement comme suit :"
+                                ]
+                            },
+                            {
+                                "list": [
+                                    "La pensée du Système 2 est brillante en matière de parallélisme, car il n'y a pas de considérations profondes à faire, votre intuition peut prendre des décisions faciles rapidement et en parallèle.",
+                                    "La pensée du Système 1 est coûteuse et délibérée. Si vous êtes distrait, vous déconnectez effectivement des parties de votre ordinateur du Système 1, et vous handicapez toute chance de réfléchir, d'apprendre et de vous souvenir."
+                                ]
+                            },
+                            {
+                                "paragraph": [
+                                    "Si vous faites une tâche difficile, nuancée, sensible ou nouvelle : veuillez vous concentrer.",
+                                    "En tant qu'enseignant : il est plus facile pour les élèves de se concentrer lorsque le matériel est intéressant et que vous en montrez clairement l'utilité."
+                                ]
+                            },
+                            {
+                                "title": "Que ça fasse du sense."
+                            },
+                            {
+                                "image": "images/vlog_images/eureka.jpg",
+                                "caption": "Archimède s'exclamant Eureka, par Pietro Scalvini et Carlo Orsolini",
+                                "link": "https://fr.wikipedia.org/wiki/Eur%C3%AAka"
+                            },
+                            {
+                                "paragraph": [
+                                    "Il est fondamental que le matériel à apprendre soit cohérent de bout en bout. Le matériel doit démontrer chacune de ces affirmations, ou au moins énumérer toutes ses dépendances pour que les élèves puissent rapidement identifier et combler les lacunes. Un peu comme du bon logiciel !"
+                                ]
+                            },
+                            {
+                                "paragraph": [
+                                    "L'élève qui apprend du matériel plein de lacunes devra les combler lui-même. S'il y a des incohérences, il doit également les résoudre. Ne pas le faire amènera l'élève à ne pas comprendre le problème, qui est le premier principe pour le résoudre.",
+                                    "Un enseignant doit toujours viser à avoir un matériel complet et sensé, et idéalement, ses élèves n'auront pas besoin d'intervenir."
+                                ]
+                            },
+                            {
+                                "paragraph": [
+                                    "Un matériel incohérent ne sera pas digne de confiance, et sera oublié beaucoup plus facilement.",
+                                    "Un matériel incohérent, même utile, ne sera pas utilisé aussi souvent, car les élèves ne sauront pas comment l'expliquer."
+                                ]
+                            },
+                            {
+                                "title": "L'importance des pairs et des discussions."
+                            },
+                            {
+                                "image": "images/vlog_images/peers.png",
+                                "caption": "4 conseils pour concevoir une discussion engageante dans Canvas, par Jillian Rubman - MIT",
+                                "link": "https://mitsloanedtech.mit.edu/2022/01/07/4-tips-to-design-an-engaging-discussion-in-canvas/"
+                            },
+                            {
+                                "paragraph": [
+                                    "Enfin, rien de grand ne s'apprend seul. Beaucoup remplacent les discussions en direct par la lecture et l'écriture de papiers, de livres, de lettres, ou de discussions sur des forums, mais chaque étape importante vers l'apprentissage (et symétriquement, vers l'enseignement) est franchie en communiquant avec les autres."
+                                ]
+                            },
+                            {
+                                "paragraph": [
+                                    "Discuter avec un mentor ou un pair d'un problème, d'un sujet, ou de tout ce qui nécessite une compréhension, est l'une des façons les plus efficaces et productives d'apprendre. Une conversation saine nous oblige à utiliser tous les mécanismes discutés dans cet article :"
+                                ]
+                            },
+                            {
+                                "list": [
+                                    "Pratique efficace : une discussion saine a un va-et-vient, où l'on peut se tromper plusieurs fois, être corrigé, et se réengager rapidement dans la conversation.",
+                                    "L'abstrait et le concret : vos pairs arrêteront de vous écouter si vous êtes trop abstrait.",
+                                    "Soyez attentif : à l'inverse, les gens seront mécontents (terrifiant !) si vous ne leur prêtez pas attention lorsqu'ils vous parlent directement (je le sais bien, je m'évade tout le temps, désolé).",
+                                    "Que ça fasse du sense : l'incohérence sera interrompue, ou même plaisamment ridiculisée, donnant ainsi au mentor la chance de s'améliorer. Prendre offense (ou vouloir offenser) serait un terrible gâchis de rétroaction."
+                                ]
+                            },
+                            {
+                                "title": "En conclusion."
+                            },
+                            {
+                                "image": "images/vlog_images/classroom_sunset.jpg",
+                                "caption": "Classroom Sunset | Lofi HipHop Mix |, par Yūgen",
+                                "link": "https://www.youtube.com/watch?v=-nHf84N0Iu4"
+                            },
+                            {
+                                "paragraph": [
+                                    "Pour conclure, notre exploration de l'apprentissage et de l'enseignement a mis en lumière quelques stratégies clés. Nous devons pratiquer avec un but précis et obtenir des retours pour nous améliorer. Nous avons besoin d'un espace sûr pour faire des erreurs. Des leçons intéressantes et pertinentes sont faciles à comprendre et à retenir. Collaborer avec des pairs et des mentors est une superpuissance d'apprentissage."
+                                ]
+                            },
+                            {
+                                "paragraph": [
+                                    "Et rappelez-vous : il y a beaucoup de choses que vous ne pouvez toujours pas enseigner, mais il n'y a rien là-dehors que vous ne puissiez apprendre ! =)"
+                                ]
+                            }                                                  
                         ]
                     },
                     {
@@ -2512,7 +2648,7 @@
                             {"title": "Introduction"},
                             {"paragraph": [
                                 "Parlez. Codez. Lisez. Écrivez.",
-                                "Dessinez. Chantez. Bougez. Écoutez."
+                                "Dessinez. Chantez. Dancez. Écoutez."
                             ]},
                             {
                                 "image": "images/vlog_images/birds_singing.png",
@@ -2520,9 +2656,8 @@
                                 "link": "https://pixabay.com/photos/singing-birds-sing-nature-song-3948645/"
                             },
                             {"paragraph": [
-                                "La joie d'être entendu, la connexion dans le contact visuel. La communication est la fondation de toute espèce sociale. Mais en son cœur, ce n'est que la transmission d'informations.",
-                                "Sans communication, il n'y a pas de compréhension. Pas de connexion. Des progrès lents à inexistants. Quand j'étais enfant, je me souviens d'un moment où ma mère m'a posé cette question. Cela m'a finalement conduit à paniquer; pour chaque réponse que je donnais, il y avait un « mais est-ce qui vous êtes ? ». Qui suis-je ?",
-                                "Et pourtant, lorsque vous me demandez qui est quelqu'un d'autre, c'est une question des plus naturelles, avec des réponses assez simples."
+                                "La joie d'être écouté, la connexion dans le contact visuel. La communication est la fondation de toute espèce sociale. Mais en son cœur, ce n'est que la transmission d'information.",
+                                "Sans communication, il n'y a pas de compréhension. Pas de connexion. Des progrès lents à inexistants."
                             ]},
                             {"paragraph": [
                                 "Nous devons communiquer; cependant, nous nous trouvons souvent en difficulté face aux limitations naturelles pour le faire. Pourquoi ?"
@@ -2530,20 +2665,20 @@
                             {"title": "Ce que les gens enseignent ne sera jamais le même que ce que les gens veulent apprendre."},
                             {"paragraph": [
                                 "Nous avons tous été là. Vous êtes assis dans une salle de classe, vous vous demandez sur un détail de ce que le professeur a expliqué. Vous posez une question, et vous avez l'impression qu'il répond à une question totalement différente. Peut-être avez-vous la chance d'apprendre quelque chose de nouveau, mais votre confusion demeure.",
-                                "Parfois, nous avons été de l'autre côté. Un junior vous pose une question sur un sujet que vous avez déjà expliqué plusieurs fois, vous répondez, et ils hochent la tête cérémonieusement, mais vous savez tous les deux que, quelle que soit la raison de leur question, elle imprègne vos enseignements.",
+                                "Parfois, nous avons été de l'autre côté. Un junior vous pose une question sur un sujet que vous avez déjà expliqué plusieurs fois, vous répondez, et ils hochent la tête cérémonieusement, mais vous savez tous les deux que, quelle que soit la raison de leur question, leur confusion est inaffecté par vos enseignements.",
                                 "Malgré les meilleurs efforts du professeur, l'écart entre ce qui est enseigné et ce qui est compris persiste.",
                                 "Frustrant, mais pourquoi cela se produit-il ? Pourquoi cela continue-t-il à travers les cultures et les vocations ?"
                             ]},
                             {"title": "Contexte"},
                             {"paragraph": [
                                 "Contexte. Les symboles ne signifient rien sans contexte. Tout ce que nous savons, nous le savons dans un ensemble de contraintes, d'assumptions et d'informations adjacentes.",
-                                "Cet ensemble est généralement sous-texte : il n'est explicitement signalé nulle part en particulier, et nous ne sommes même pas nécessairement conscients de son existence. Pourtant, il n'y a aucune pensée dans votre esprit qui serait sensée sans contexte; sans les définitions des mots que vous utilisez pour l'énoncer, les suppositions implicites que vous faites ou les choses que vous supposez que tout le monde doit savoir.",
-                                "La nature discrète de cette information contextuelle est particulièrement problématique pour les experts. Lorsqu'un expert communique, il présume souvent que ce qu'il dit est évident ou du bon sens. Pour eux, c'est le cas, car leurs connaissances contextuelles sont riches dans ce domaine, et donc beaucoup de leurs observations sont de simples conséquences de ce qu'ils savent.",
+                                "Cet ensemble est généralement sous-texte : il n'est explicitement signalé nulle part en particulier, et nous ne sommes même pas nécessairement conscients de son existence. Pourtant, il n'y a aucune pensée dans votre esprit qui serait sensée sans contexte; sans les définitions des mots que vous utilisez pour l'énoncer, les suppositions implicites que vous faites ou les choses que vous pensez que tout le monde doit savoir.",
+                                "La nature subtile de cette information contextuelle est particulièrement problématique pour les experts. Lorsqu'un expert communique, il présume souvent que ce qu'il dit est évident ou du bon sens. Pour eux, c'est le cas, car leurs connaissances contextuelles sont riches dans ce domaine, et donc beaucoup de leurs observations sont de simples conséquences de ce qu'ils savent.",
                                 "Nous échouons -trop fréquemment- à reconnaître que ce contexte est précisément notre expertise, et présumer que cette information est largement partagée bloque effectivement notre capacité à nous comprendre, à travailler ensemble, à nous entendre, et à nous connecter sincèrement.",
                                 "Le contexte interfère avec de nombreuses autres tâches basées sur la communication : la résolution des conflits est plus difficile, lorsque vous ne comprenez pas d'où vient l'autre côté, la culture est plus difficile à apprécier avec une vue superficielle (sans contexte), la collaboration est entravée par des malentendus fondamentaux sur le travail à faire ou ses coûts.",
                                 "D'un autre côté, fournir trop de contexte dans la communication est souvent inutile : cela prend du temps à partager, cela prend du temps à consommer, et n'inclut le plus souvent même pas les informations que l'autre personne veut réellement. Même lorsque nous essayons de mieux communiquer, nous sommes constamment empêchés d'atteindre la perfection.",
                                 "Le contexte nous rend savants, mais il semble entraver tant de choses dans la communication entre nous. Nous devons nous demander : est-ce le contexte ? Ou est-ce nous ?",
-                                "Je soutiens que ce n'est pas vous (le contexte), c'est moi."
+                                "Bof evidemment ce n'est pas le context qu'on doit blâmer, mais nous mêmes."
                             ]},
                             {"title": "Seul je sais ce que je sais :"},
                             {"paragraph": [
@@ -2553,14 +2688,14 @@
                                 "Mais si je vous demande « Qu'est-ce que vous savez ? », en attendant une liste de toutes les informations dans votre cerveau, vous trouveriez cela des plus ridicules. Même en supposant que vous puissiez établir une telle liste, vous ne réussiriez pas à la communiquer correctement (voir le titre de l'article). Mais vous ne pouvez pas établir une telle liste.",
                                 "Pourquoi ?",
                                 "« Qu'est-ce que vous savez ? » tombe, je pense, dans la même branche d'enquête que des questions telles que « Qui êtes-vous ? » (que j'ai explorées dans un autre article : « Vous n'existez pas vraiment »)",
-                                "Pour la plupart d'entre nous, une limitation suffisante pour répondre entièrement à ces questions est la vague de ce que signifie la question. Qu'est-ce que « savoir » vraiment ? Qu'est-ce que « moi » ?",
+                                "Pour la plupart d'entre nous, une limitation suffisante pour ne pas répondre à ces questions est l'ambigüité de la question en soi. Qu'est-ce que « savoir » vraiment ? Qu'est-ce que « moi » ?",
                                 "Est-ce que je sais quelque chose si je sais où le trouver ? Est-ce que je sais quelque chose si cela m'a été enseigné par quelqu'un d'autre ? Comment pouvons-nous être sûrs que cette autre personne le savait correctement ? Qu'est-ce que cela signifie pour eux de savoir ?",
                                 "La question de ce que nous savons est par nature récursive ad nauseam. Il y a toujours l'étape suivante de « Mais comment savons-nous cela ? » jusqu'à ce que nous atteignions des suppositions axiomatiques. Les axiomes ne sont pas connaissables, ils sont simplement supposés. Donc, nous pouvons supposer, puis nous pouvons inférer des suppositions."
                             ]},
                             {"title": "Nous ne pourrons jamais savoir"},
                             {"paragraph": [
                                 "Alors… nous ne pouvons pas savoir les choses. Voilà, merci pour votre lecture, aventurons-nous dans les rues avec une terreur cynique de notre condamnation à l'ignorance éternelle.",
-                                "C'est une interprétation impratique.",
+                                "Valide, mais je trouve que c'est une interprétation impratique.",
                                 "Je pense qu'il existe une interprétation alternative que je trouve non seulement infiniment plus utile, et plus intéressante, mais aussi sincèrement assez libératrice."
                             ]},
                             {
@@ -2569,15 +2704,15 @@
                                 "link": "https://www.audubon.org/news/hummingbirds-shake-their-tail-feathers-generate-high-pitched-sounds"
                             },
                             {"paragraph": [
-                                "L'enseignement, et en effet toute communication, n'a jamais porté sur des choses connaissables. Cela a toujours été -et je pense que cela le sera toujours- de se convaincre et de se persuader mutuellement d'exploiter des informations utiles, des méthodes utiles, des outils utiles, et des pratiques utiles pour vivre mieux. Pour poser de meilleures questions, pour résoudre des problèmes plus importants.",
-                                "Penser à la communication comme un transfert de la vérité est une arrogance très humaine. Nous ne pouvons pas connaître la vérité, pas d'une manière réelle. Mais nous pouvons connaître la vérité de nombreuses façons utiles.",
+                                "L'enseignement, et en effet toute communication, n'a jamais porté sur des choses connaissables. Cela a toujours été -et je pense que cela le sera toujours- de se convaincre et de se persuader mutuellement d'exploiter des informations utiles, des méthodes utiles, des outils utiles, et des pratiques utiles pour mieux vieux. Pour poser de meilleures questions, pour résoudre des problèmes plus importants.",
+                                "Penser à la communication comme un transfert de la vérité est une arrogance très humaine. Nous ne pouvons pas connaître la vérité, pas vraiment. Mais nous pouvons connaître la vérité de nombreuses façons utiles.",
                                 "Les enfants sont d'une transparence excellente à cet égard. Pour toute vérité que vous tenez pour indéniable, ils la remettront en question sans malice mais avec une simple curiosité : car rien de ce que vous savez n'est vraiment indéniable."
                             ]},
                             {"paragraph": [
                                 "Mais qu'est-ce que tout cela nous dit sur la communication entre nous ?",
                                 "S'il n'y a pas de connaissance fondamentale réelle, mais plutôt juste des bribes utiles, que faisons-nous vraiment ?"
                             ]},
-                            {"title": "Conclusion : nous faisons de notre mieux. Mais pas le meilleur."},
+                            {"title": "Conclusion : nous faisons de notre mieux."},
                             {"paragraph": [
                                 "Nous ne savons rien, et pourtant nous continuons... à parler. Nous parlons, nous écrivons, nous chantons, et nous essayons.",
                                 "Nous communiquons nos savoir-faire, nos avertissements, nos récits, nos histoires et nos conseils.",
@@ -2619,12 +2754,12 @@
                                 "Pourquoi prenons-nous la peine de répondre à ces questions ?",
                                 "Qu'essayons-nous vraiment de comprendre avec elles ?",
                                 "Ma thèse est que nous cherchons une description simplifiée des gens : « Oh, ce gars est A, ce gars est B. »",
-                                "Cela facilite la discussion sur nous-mêmes et les autres, en réduisant nos identités à de simples étiquettes."
+                                "Cela facilite la discussion sur nous-mêmes et les autres, en réduisant nos identités à des simples étiquettes."
                             ]},
                             {"paragraph":[
                                 "Mais voici le problème : demander ce que nous voulons être est une erreur, un malentendu.",
                                 "C'est comme confondre la photo avec la personne.",
-                                "L'identité est un instantané, quelque chose de fluide et en constante évolution.",
+                                "L'identité est un moment, quelque chose de fluide et en constante évolution.",
                                 "Plutôt que de se concentrer sur la capture de la photo parfaite - comme nous en avons pris l'habitude - je dirais que le cadre le plus puissant est de danser du mieux que nous pouvons."
                             ]},
                             {"title": "Construire."},
@@ -2646,7 +2781,7 @@
                                 "Si la perfection est l'ennemie du bien, alors l'attente est l'ennemie de l'action. Et l'action est le chemin vers la croissance. Dans l'action et la croissance, vous construisez le moi constant que vous souhaitez être. Construisez des choses, construisez votre vie et construisez-vous : il n'y a pas de projet plus important que vous, car sans vous, il n'y a rien d'autre à faire."
                             ]},
                             {"paragraph":[
-                                "Alors, aimez et jouez. Faites des choses. Visez à faire, pas à être. Ce faisant, vous pourriez découvrir que les étiquettes - si elles importent - viendront naturellement, façonnées par la richesse de vos expériences."
+                                "Alors, aimez et jouez. Faites des choses. Visez à faire, pas à être. Ce faisant, vous pourriez découvrir que les étiquettes - si elles importent - viendront naturellement, formées par la richesse de vos expériences."
                             ]}
                         ]
                     },
@@ -2656,10 +2791,10 @@
                         "image": "images/vlog_thumbnails/emergent_behavior.webp",
                         "contents": [
                             {"paragraph":[
-                                "Règle 1 : Ne pas parler du fight club.", 
-                                "Règle 2 : Pas d'armes.", 
-                                "Règle 3 : Ne pas parler du fight club.",
-                                "L'anarchie s'ensuit."
+                                "Règle n°1 du Fight Club : il est interdit de parler du Fight Club", 
+                                "Règle n°2 du Fight Club : Pas d'armes.", 
+                                "Règle n°3 du Fight Club : il est interdit de parler du Fight Club",
+                                "Puis... du chaos."
                             ]},
                             {"title": "Sur les comportements émergents."},
                             {
@@ -2671,15 +2806,15 @@
                                 "Un atome gigote dans l'espace. Il gigote pas seul mais avec des amis. Ils gigotent plus que d'habitude et tu brûles de fièvre. Ils gigotent moins et tu gèles. Certains gigotent ici, d'autres là."
                             ]},
                             {"paragraph":[
-                                "Certains gigotent juste dans l'espace où se produisent les synapses, formant ton liquide céphalo-rachidien : ces atomes qui gigotent te maintiennent en vie. D'autres gigotent légèrement à côté, disposés de manière très pratique, formant des groupes d'atomes (a.k.a. Boy Bands Gigotants) que nous appelons molécules.",
-                                "Le nom vient du nombre d'atomes dans une molécule, mais je ne prendrai pas le temps d'un Mole pour expliquer."
+                                "Certains gigotent juste dans l'espace où se produisent les synapses, formant ton liquide céphalo-rachidien : ces atomes qui gigotent te maintiennent en vie. D'autres gigotent légèrement à côté, disposés de manière très pratique, formant des groupes d'atomes (a.k.a. Les Gigotants) que nous appelons molécules.",
+                                "Le nom vient du nombre d'atomes dans une molécule, un Mole!"
                             ]},
                             {"paragraph":[
-                                "Ces molécules traînent. Elles se détendent, elles vibrent même. Elles, comme des mots dans une phrase, s'organisent simplement en une cellule.",
-                                "Les cellules elles-mêmes sont organisées d'une manière assez intelligente, et nous l'appelons Neurone. Si elles se cassent d'une manière spécifiquement maléfique, nous l'appelons Cancer."
+                                "Dans notre cas, ces molécules s'organisent d'une façon très spécifique, et forment une cellule!",
+                                "Les cellules elles-mêmes sont organisées d'une manière assez intelligente, et nous les appelons Neurones. Si elles se cassent d'une manière spécifiquement maléfique, nous l'appelons Cancer."
                             ]},
                             {"paragraph":[
-                                "Nous appelons ce groupe qui gigote température. Avec cela seul, nous commençons déjà à voir émerger une complexité significative : tu peux avoir des neurones froids ou des neurones chauds, un cancer froid ou un cancer chaud. Tu peux avoir des cellules faites de ces molécules ou de ces autres molécules. Tu peux avoir quelque chose ici ou quelque chose là."
+                                "Nous appelons leur gigotement groupal température. Avec cela déjà nous commençons à voir émerger une complexité significative : tu peux avoir des neurones froids ou des neurones chauds, un cancer froid ou un cancer chaud. Tu peux avoir des cellules faites de ces molécules ou de ces autres molécules. Tu peux avoir quelque chose ici ou quelque chose là."
                             ]},
                             {"paragraph":[
                                 "Déjà, avec juste quelques choses simples en tête, il y a tant à découvrir."
@@ -2697,19 +2832,19 @@
                             ]},
                             {"paragraph":[
                                 "Je pense que la vie n'est pas une seule chose. Je pense que la vie est cette permutation de règles extrêmement variées et riches.",
-                                "La vie est la combinaison de toutes ces petites choses qui se produisent, et qui parfois se permutent en choses plus grandes que notre cerveau perçoit et classe. La vie, c'est quand nous disons “oh ça, c'est vivant”."
+                                "La vie est la combinaison de toutes ces petites choses qui se produisent, et qui parfois se permutent en choses plus grandes que notre cerveau finalement perçoit et classifie. La vie, c'est quand nous disons “oh ça, c'est vivant”."
                             ]},
                             {"paragraph":[
                                 "Il existe aussi des définitions scientifiques de ce qu'est la vie, mais la science elle-même, c'est quand nous disons “oh ça, c'est de la science”.",
                                 "Bien sûr, c'est moins subjectif que ton goût musical, mais ce n'est pas beaucoup plus objectif qu'une combinaison de toutes nos subjectivités. Opinions et idées mélangées avec des mesures, que nous ne pouvons finalement consommer qu'à travers nos sens.",
-                                "Des singes essayant de faire de leur mieux pour se dissocier de leurs organes sensoriels pour voir une vérité supérieure. C'est tout un combat : même dans la phrase précédente, nous revenons aux sens, nous essayons de voir."
+                                "Des singes essayant de faire de notre mieux pour nous dissocier de nos organes sensoriels pour voir une vérité supérieure. C'est tout un combat : même dans la phrase précédente, nous revenons aux sens, nous essayons de voir."
                             ]},
                             {"paragraph":[
                                 "Qu'est-ce que l'intelligence ? Je pense que la réponse est en effet assez similaire : l'intelligence, c'est que je vois quelque chose et je pense qu'il pense. Singe voit, singe classe.",
                                 "Mais allons au-delà du mot, qu'est-ce que cette idée d'intelligence ? (Quel idéalisme platonicien dans lequel nous nous adonnons)"
                             ]},
                             {"paragraph":[
-                                "Je pense que l'intelligence est aussi juste une combinaison de règles. En nous, ce sont les règles jusqu'à la couche d'abstraction du cerveau, ou parfois de la combinaison de cerveaux dans de nombreux cerveaux : personnes ou autres."
+                                "Je pense que l'intelligence est aussi juste une combinaison de règles. En nous, ce sont les règles jusqu'à la couche d'abstraction du cerveau, ou parfois de la combinaison des nombreux cerveaux : humains ou non."
                             ]},
                             {"paragraph":[
                                 "Eh bien, alors, comment pourrions-nous jamais croire que seuls nous pouvons être intelligents ? N'est-ce pas une grande arrogance -sans fondement- ? Une terrible hybris humaine ?",
@@ -2717,10 +2852,10 @@
                                 "Aujourd'hui, nous essayons en combinant des règles de calcul et de statistiques, car nous avons senti que cela fonctionne mieux que d'autres choses que nous avons essayées (oui, la science semble principalement être “faire n'importe quoi et voir ce qui se passe”) mais ce ne sont que des ensembles arbitraires de règles que nous utilisons. S'il y a une limite à celles-ci, nous pouvons en utiliser d'autres."
                             ]},
                             {"paragraph":[
-                                "Nous venons de types qui gigotent, est-ce si difficile d'imaginer que d'autres choses peuvent venir de nous ?"
+                                "Nous venons des atomes qui gigotent, est-ce si difficile d'imaginer que d'autres choses peuvent venir de nous ?"
                             ]},
                             {"paragraph":[
-                                "C'est tout simplement... des comportements émergents."
+                                "Si à la fin c'est tout juste... des comportements émergents."
                             ]}
                         ]
                     },
@@ -2730,7 +2865,7 @@
                         "image": "images/vlog_thumbnails/good_and_great.jpeg",
                         "contents": [
                             {"paragraph":[
-                                "Dans l'un des contes de Kafka, il nous parle de nombreux fils, nombreux fils archétypaux de nombreux hommes.",
+                                "Dans l'un des contes de Kafka, il nous parle de nombreux fils, nombreux archétypes de l'homme.",
                                 "Chacun remarquable à sa manière, l'un extrêmement charmant, un autre très intelligent, un autre beau au point d'offenser les olympiens.",
                                 "Pourtant, aucun d'eux n'a le charme sincère que je trouve dans celui qui est 'non remarquable'.",
                                 "Non remarquable, naïf, pas très brillant, et pourtant il est aimable.",
@@ -2752,17 +2887,17 @@
                                 "Il y a toujours plus.",
                                 "Le désir est un baril avec des trous, que nous remplissons et remplissons et remplissons, seulement pour le voir fuir et fuir et fuir.",
                                 "La croissance est paradoxalement à la fois désirable et toxique. C'est un moteur, un carburant qui nous pousse en avant, un changement, une amélioration.",
-                                "Pourtant, comme beaucoup d'arbres, il est trop facile de croître de travers."
+                                "Pourtant, comme beaucoup d'arbres, il est trop facile de croître coudé."
                             ]},
                             {"paragraph":[
                                 "Pour croître, nous devons d'abord être très sûrs de la direction dans laquelle nous croissons. Sans une direction claire, nous risquons de ne pas croître du tout mais simplement de vagabonder sans but."
                             ]},
                             {"paragraph":[
                                 "D'un autre côté, la tentation de ne pas croître, de ne pas changer, peut être tout aussi dangereuse.",
-                                "La stabilité a un certain charme, mais c'est un confort imprégné de toxicité.",
+                                "La stabilité a un certain charme, mais l'immobilité est un confort plein de toxicité.",
                                 "Nous devons tous être continuellement en mouvement, ne serait-ce que pour suivre les marées de la terre et la vie autour de nous.",
                                 "Lorsque la vie cesse de bouger, nous l'appelons un cadavre. Vivre, c'est bouger. Et bouger, c'est changer.",
-                                "Si nous devons changer, faisons-le avec intention : grandissons."
+                                "Si nous devons changer, faisons-le avec intention : grandissons. Soyons bons."
                             ]},
                             {"paragraph":[
                                 "Cependant, nous tombons souvent dans le piège de supposer que nous sommes bons simplement parce que nous ne faisons pas de mal. Cette perception est trompeuse : être inoffensif n'est pas la même chose que choisir de ne pas faire de mal."
