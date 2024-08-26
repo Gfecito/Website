@@ -5,13 +5,16 @@
 
     <!-- Show button and div only if at least one article is expanded -->
     <div class="article ml-10 mr-10" v-if="selectedArticle">
-      <button class="close-button bold text-gray-400" @click="toggleAllExpand">
-        {{ data.closeArticleLabel }}
+      <!-- New button to scroll to the bottom -->
+      <button class="article-button" @click="scrollToBottom">
+        {{ data.scrollLabel }}
       </button>
 
-      <!-- New button to scroll to the bottom -->
-      <button class="scroll-to-bottom-button" @click="scrollToBottom">
-        {{ data.scrollLabel }}
+      <button
+        class="article-button bold text-gray-400"
+        @click="toggleAllExpand"
+      >
+        {{ data.closeArticleLabel }}
       </button>
 
       <!-- Article content rendering -->
@@ -229,7 +232,7 @@ br {
 }
 
 .selected {
-  background-color: rgb(219 39 119);
+  background-color: rgba(12, 71, 153, 0.5) !important;
 }
 
 .spaced {
@@ -237,11 +240,11 @@ br {
 }
 
 /* Styling for the new scroll-to-bottom button */
-.scroll-to-bottom-button {
+.article-button {
   display: block;
   margin: 20px auto;
   padding: 10px 20px;
-  background-color: #007bff;
+  background-color: rgba(12, 71, 153, 0.8);
   color: white;
   font-size: 16px;
   border-radius: 5px;

@@ -31,12 +31,17 @@ export default {
     const handleScroll = () => {
       const windowHeight = window.innerHeight;
       const scrollHeight = document.body.scrollHeight;
-      const scrollPositionY = window.scrollY;
+      const scrollPositionY = Math.max(500, window.scrollY);
       const maxOpacityScroll = scrollHeight - windowHeight;
+      // Set minimum opacity at 40% of max
+      const minOpacityScroll = Math.max(
+        scrollPositionY,
+        (scrollHeight - windowHeight) * 0.3
+      );
 
       // Calculate opacity based on scroll position using easing function
       backgroundOpacity.value = easeInOutQuad(
-        Math.min(scrollPositionY / maxOpacityScroll, 1) * 0.5
+        Math.min(minOpacityScroll / maxOpacityScroll, 1) * 0.6
       );
 
       // Use requestAnimationFrame for smoother animation
@@ -359,7 +364,7 @@ main * {
   top: -30%;
   left: 0;
   width: 100%;
-  height: 200%;
+  height: 250%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
