@@ -145,7 +145,7 @@
                         "image": "images/institutions/UdeM.jpeg",
                         "degree": "Bachelors of Science, Computer Science",
                         "details": "Montreal | 2020-2023",
-                        "abreviation": "UdeM",
+                        "abbreviation": "UdeM",
                         "description": 
                             [
                                 "I did my honors project on genome assembly scaffolding with paired sequencing reads -which is a fancy way of saying: I arranged DNA snippets to build a genome", 
@@ -163,7 +163,7 @@
                             "Quantum Informatics",
                             "Databases",
                             "Machine Learning",
-                            "3D Computer vision",
+                            "3D Computer Vision",
                             "Linear Algebra",
                             "Genetics"
                         ]
@@ -171,13 +171,13 @@
                     {
                         "name": "Lycée franco-mexicain",
                         "image": "images/institutions/LFM.jpeg",
-                        "degree": "French Baccalaureat, Engineering Science",
+                        "degree": "French Baccalauréat, Engineering Science",
                         "details": "Mexico | 2017-2020",
-                        "abreviation": "LFM",
+                        "abbreviation": "LFM",
                         "description": 
                             [
                                 "I went on the Science track, specialized in maths and engineering, and finished with a mention très bien: TB -which was the highest honors available at the school.",
-                                "I was a candidate to the concours general in mathematics, physics and engineering (only the best of each school are allowed to participate).",
+                                "I was a candidate to the concours général in mathematics, physics and engineering (only the best of each school are allowed to participate).",
                                 "I founded and led the Machine Learning club, and I was in the Programming Club"
                             ],  
                         "classes": [
@@ -208,9 +208,9 @@
                     {
                         "title": "Orball",
                         "description": [
-                            "Learned to make 2D games using Godot and gdscript.",
-                            "Didn't bother to finish it, but I did implement some procedural generation and per-chunk incremental loading (this prevents the typical case where you open a game and its very slow to boot up) that I'm happy with.",
-                            "You can play it, but honestly it aint a fun game!"
+                            "Learned to make 2D games using Godot and GDScript.",
+                            "Didn't bother to finish it, but I did implement some procedural generation and per-chunk incremental loading (this prevents the typical case where you open a game and it's very slow to boot up) that I'm happy with.",
+                            "You can play it, but honestly it ain't a fun game!"
                         ],
                         "link": "https://gfecito.itch.io/orball?secret=GNoDj8sJ0n9m71KTTVJOJrjcjD8",
                         "websiteLabel":"Play it now (move with WASD; eat by holding down E)",
@@ -241,7 +241,7 @@
                         "title": "Genomics",
                         "description": [
                             "This is a research and development project for UdeM's Laboratory of Computational and Theoretical Biology.",
-                            "Researched and implemented an API for genome assembly refinement, as well as a binning scheme data structure, using JAVA and the htsjdk library.",
+                            "Researched and implemented an API for genome assembly refinement, as well as a binning scheme data structure, using Java and the htsjdk library.",
                             "The work is thoroughly documented and explained here:"
                         ],
                         "link": "https://genome-assembly-scaffolding.web.app/",
@@ -249,7 +249,7 @@
                         "image": "images/projects/Genomics.jpeg"
                     },
                     {
-                        "title": "AI 3D Computer-Vision",
+                        "title": "AI 3D Computer Vision",
                         "description": [
                             "This project for UdeM's Laboratory of 3D Computer Vision involved implementing CNN architectures based on GC-Net for binocular stereoscopy using Mathematica.",
                             "I focused on depth variations, residual nets, estimation quality, and computational expense. Code and models are available online."
@@ -332,7 +332,7 @@
                         "image": "images/projects/Interpreter.png"
                     },
                     {
-                        "title": "Environnemental Simulation",
+                        "title": "Environmental Simulation",
                         "description": [
                             "Using object-oriented programming we made an environmental simulation program.",
                             "It read XML files describing animals or plants and simulated them for a certain amount of epochs: the way they interacted, what they ate, their energy consumption, whether they died or reproduced, and so on."
@@ -366,7 +366,7 @@
                         "image":"images/trophy.png"
                     },
                     {
-                        "title":"DIRO's excellence scholarship",
+                        "title":"DIRO's Excellence Scholarship",
                         "date":"December 2021",
                         "description":[
                             "Excellence scholarship awarded to the top bachelor students in the DIRO (Department of Computer Science and Operations Research)"
@@ -382,7 +382,7 @@
                         "image":"images/trophy.png"
                     },
                     {
-                        "title":"French regional math olympiads",
+                        "title":"French Regional Math Olympiads",
                         "date":"2019",
                         "description":[
                             "For that region, we were the best team, and I was top 3 in the individual section. The only one from my team in the top spots."
@@ -444,7 +444,7 @@
                                 "Naturally, you might’ve remarked that not everything is equally easy to practice!",
                                 "You might think of learning English, where you're severely disadvantaged: your classmates’ parents speak it, and they can practice easily at home, but you can't! ",
                                 "Or math, when their sibling is an accountant who can guide them through the 4 principles.",
-                                "There are even some things that might seem impractice-able: like how to take a test or doing a backflip."
+                                "There are even some things that might seem impracticable: like how to take a test or doing a backflip."
                             ]},
                             {"paragraph":[
                                 "Now here’s where we must be creative. If to learn effectively we must practice time and time again, then we must find a way to turn any learnable topic into a practice-able topic. I’ve observed that to make Deliberate Practice possible, we need two ingredients:"
@@ -509,7 +509,7 @@
                                 "Making it interesting also has the beautiful benefit of giving place to a potentially more lively classroom: students are more fun to be around… when they’re engaged!"
                             ]},
                             {"paragraph":[
-                                "A common trap is to over-index on making it interesting, and forgetting to make it related: this is easy to fall into because teachers already have the associations in their minds, but its essential for a teacher to remember that these associations don’t yet exist in the minds of their students: which is precisely why we’re teaching them!"
+                                "A common trap is to overindex on making it interesting, and forgetting to make it related: this is easy to fall into because teachers already have the associations in their minds, but it's essential for a teacher to remember that these associations don’t yet exist in the minds of their students: which is precisely why we’re teaching them!"
                             ]},
                             {"paragraph":[
                                 "Make it interesting, but make sure to connect it coherently!!! Let’s avoid any further “what does this have to do with anything?” puzzled looks, and connect the shiny dots we illustrate."
@@ -587,7 +587,7 @@
                         "contents": [
                             {"title": "Who are you?"},
                             {"paragraph": [
-                                "No, I asked not your name, not your occupation nor sunday afternoon pastimes. Who are you?", 
+                                "No, I asked not your name, not your occupation nor Sunday afternoon pastimes. Who are you?", 
                                 "When I was a kid, I remember a moment where my mother asked me that question. It eventually led me to panic; for every answer I gave, there was a “but is that who you are?”. Who am I?",
                                 "And yet when you ask me who someone else is, that is a most natural question, with quite simple answers."
                             ]},
@@ -711,7 +711,7 @@
                             ]},
                             {"title": "We can never know"},
                             {"paragraph": [
-                                "So… we can’t know things. Voila merci, thank you for your read, let us venture into the streets in cynical dread of our condemnation to eternal ignorance.",
+                                "So… we can’t know things. Voilà merci, thank you for your read, let us venture into the streets in cynical dread of our condemnation to eternal ignorance.",
                                 "This is an unpragmatic interpretation.",
                                 "I think that there is an alternative interpretation that I find not only infinitely more useful, and more interesting, but also sincerely quite freeing."
                             ]},
@@ -883,9 +883,9 @@
                         "contents": [
                             {"paragraph":[
                                 "In one of Kafka's tales, he tells us of many sons, many sons archetypal for many men.",
-                                "Each remarkable in its own way, one tremendously charming, another greatly intelligent, another beautiful as to offend the olympians.",
+                                "Each remarkable in its own way, one tremendously charming, another greatly intelligent, another beautiful as to offend the Olympians.",
                                 "Yet none of these have the sincere charm that I find in the 'unremarkable' one.",
-                                "Unremarkable, naive, not quite bright, and yet he is kind.",
+                                "Unremarkable, naïve, not quite bright, and yet he is kind.",
                                 "It is he, who leads the best life."
                             ]},
                             {"title": "Be Good And Great."},
@@ -959,11 +959,11 @@
                 "title": "Hola! 👋",
                 "description": [
                     "Soy /h Santiago, un /h Ingeniero /h de /h Software tremendamente mexicano.",
-                    "Disfruto leer, programar, hacer musica, crear, enseñar, aprender, escribir y andar en bici. Y los parques. Y museos. Francamente la vida es un gusto que tengo bien adquirido.",
-                    "Opino que las acciones hablan mas que mil palabras, así que si gustas te invito a explorar este sitio.",
+                    "Disfruto leer, programar, hacer música, crear, enseñar, aprender, escribir y andar en bici. Y los parques. Y museos. Francamente la vida es un gusto que tengo bien adquirido.",
+                    "Opino que las acciones hablan más que mil palabras; así que si gustas, te invito a explorar este sitio.",
                     "Ve lo que hago, lo que he hecho, lo que escribo y lo que pienso.",
-                    "Y de por si es demasiada molestia: con 1 palabra, mis amigos me describirian como inusual, si les agraciamos con 2 le sumarían contradictorio, y si les regalamos 3 espero que admitirian que soy tremendisimamente gracioso.",
-                    "Dicen que eres lo que comes, asi que para empezar te presento humildemente un poco de mi dieta:"
+                    "Y de por si es demasiada molestia: con 1 palabra, mis amigos me describirían como inusual; si les agraciamos con 2, le sumarían contradictorio; y si les regalamos 3, espero que admitirían que soy tremendísimamente gracioso.",
+                    "Dicen que eres lo que comes, así que para empezar te presento humildemente un poco de mi dieta:"
                 ]
             },
             "books": [
@@ -1044,7 +1044,7 @@
                                     "Actualmente, estoy trabajando en nuestra tecnología Multiplayer en Rust/Typescript para la colaboración en tiempo real."
                                 ]
                             },
-                            {"paragraph": "Soy alguien mas enfocado en resultados que en herramientas pero he por ahora he utilizado: Ruby, Rust, TypeScript, Go, React, Terraform y AWS, así como algo de Kubernetes."}
+                            {"paragraph": "Soy alguien más enfocado en resultados que en herramientas pero por ahora he utilizado: Ruby, Rust, TypeScript, Go, React, Terraform y AWS, así como algo de Kubernetes."}
                         ],
                         "image": "images/experience/figma.png"
                     },
@@ -1064,7 +1064,7 @@
                                 ]
                             },
                             {"paragraph": "Le estoy MUY agradecido a los siguientes profesores por haberme tolerado y guiado durante este tiempo: Marc Feeley, Olivier Melançon, Stefan Monnier, Miklós Csűrös, Sébastien Roy, Amal Ben Abdellah y Michel Reid."},
-                            {"paragraph": "Tambien trabaje como asistente de investigacion en colaboracion con el departamento de Psicologia, de Informatica y el equipo de Educacion Digital de la universidad para desarrollar una aplicacion para la salud mental de los estudiantes."}
+                            {"paragraph": "También trabajé como asistente de investigación en colaboración con el departamento de Psicologia, de Informatica y el equipo de Educacion Digital de la universidad para desarrollar una aplicación para la salud mental de los estudiantes."}
                         ],
                         "image": "images/experience/Paradigms.png"
                     },
@@ -1098,11 +1098,11 @@
                             "image": "images/institutions/UdeM.jpeg",
                             "degree": "Licenciatura en Ciencias, Informática",
                             "details": "Montreal | 2020-2023",
-                            "abreviation": "UdeM",
+                            "abbreviation": "UdeM",
                             "description": [
-                                "Hice mi tesis sobre el ensamblaje de genomas con lecturas de secuenciación emparejadas, que es una manera elegante de decir que jugue con ADN como si fuera un rompecabezas para construir un genoma de una bacteria usando computadoras.",
-                                "Es difícil porque las piezas de este rompecabezas estan desordenadas, defectuosas, repetidas, rotas, podrían ir en cualquier parte y no hay un instructivo... entonces... ¿Cómo sabemos como armarlo?",
-                                "El ADN que estudié eran de un Agrobacterium, que es una bacteria que enferma a las plantas =(",
+                                "Hice mi tesis sobre el ensamblaje de genomas con lecturas de secuenciación emparejadas, que es una manera elegante de decir que jugué con ADN como si fuera un rompecabezas para construir un genoma de una bacteria usando computadoras.",
+                                "Es difícil porque las piezas de este rompecabezas están desordenadas, defectuosas, repetidas, rotas, podrían ir en cualquier parte y no hay un instructivo... entonces... ¿Cómo sabemos cómo armarlo?",
+                                "El ADN que estudié era de un Agrobacterium, que es una bacteria que enferma a las plantas =(",
                                 "También participé en los clubes de ML y programación competitiva, y fui director de consultoría en 180DC UdeM."
                             ],
                             "classes": [
@@ -1125,10 +1125,10 @@
                             "image": "images/institutions/LFM.jpeg",
                             "degree": "Bachillerato Francés, Ciencias de la Ingeniería",
                             "details": "México | 2017-2020",
-                            "abreviation": "LFM",
+                            "abbreviation": "LFM",
                             "description": [
                                 "Estuve la rama de Ciencias donde me especialicé en matemáticas e ingeniería. Terminé con una mención très bien: TB -que era el más alto honor disponible en la escuela.",
-                                "Fui candidato al concours général en matemáticas, física e ingeniería (es una competencia donde solo los mejores de cada escuela pueden participar! - oo la la).",
+                                "Fui candidato al concours général en matemáticas, física e ingeniería (es una competencia donde solo los mejores de cada escuela pueden participar! - ô la la).",
                                 "Fundé y dirigí el club de Aprendizaje Automático (IA), y estuve en el Club de Programación."
                             ],
                             "classes": [
@@ -1160,12 +1160,12 @@
                     {
                         "title": "Orball",
                         "description": [
-                            "Aprendí a hacer juegos en 2D usando Godot y gdscript.",
+                            "Aprendí a hacer juegos en 2D usando Godot y GDScript.",
                             "No me molesté en terminarlo, pero implementé algo de generación procedural y carga incremental por fragmentos (esto evita el caso típico en el que abres un juego y carga muy lento) con lo que estoy satisfecho.",
                             "¡Puedes jugarlo, pero sinceramente no es un juego divertido!"
                         ],
                         "link": "https://gfecito.itch.io/orball?secret=GNoDj8sJ0n9m71KTTVJOJrjcjD8",
-                        "websiteLabel": "Juegalo aqui (te mueves con WASD; y comes enemigos manteniendo presionada la E).",
+                        "websiteLabel": "Juega aquí (te mueves con WASD; y comes enemigos manteniendo presionada la E).",
                         "image": "images/projects/Orball.jpg"
                     },
                     {
@@ -1186,14 +1186,14 @@
                             "Organicé a nuestro equipo para mejorar estos modelos con la investigación más reciente, hice un sitio web para el proyecto y trabajé en nuestro preprocesamiento de datos para los modelos."
                         ],
                         "link": "https://climate-model-downscaling.web.app/",
-                        "websiteLabel": "He aqui el sitio web.",
+                        "websiteLabel": "He aquí el sitio web.",
                         "image": "images/projects/MLClimate.png"
                     },
                     {
                         "title": "Genómica",
                         "description": [
                             "Este fue un proyecto de investigación y desarrollo para el Laboratorio de Biología Computacional y Teórica de la UdeM.",
-                            "Investigué e implementé una API para la refinación del ensamblaje de un genoma, así como una estructura de datos de binning, usando JAVA y la biblioteca htsjdk.",
+                            "Investigué e implementé una API para la refinación del ensamblaje de un genoma, así como una estructura de datos de binning, usando Java y la biblioteca htsjdk.",
                             "El trabajo está completamente documentado y explicado aquí:"
                         ],
                         "link": "https://genome-assembly-scaffolding.web.app/",
@@ -1201,13 +1201,13 @@
                         "image": "images/projects/Genomics.jpeg"
                     },
                     {
-                        "title": "AI 3D Computer-Vision",
+                        "title": "AI 3D Computer Vision",
                         "description": [
                             "En este proyecto para el Laboratorio de Visión Computacional 3D de la UdeM experimenté con la implementación de arquitecturas CNN basadas en GC-Net para estereoscopía binocular usando Mathematica.",
                             "Me enfoqué en variaciones de profundidad, redes residuales, calidad de estimación y costo computacional. El código y los modelos están disponibles en línea."
                         ],
                         "link": "https://github.com/Gfecito/GC-Neat",
-                        "websiteLabel": "Codigo en GitHub.",
+                        "websiteLabel": "Código en GitHub.",
                         "image": "images/projects/Disparity.png"
                     },
                     {
@@ -1348,7 +1348,7 @@
         },
         "articles": {
             "title":"Cosas que pienso. Cosas que escribo.",
-            "closeArticleLabel":"Cerrar articulo",
+            "closeArticleLabel":"Cerrar artículo",
             "scrollLabel":"Ir hasta abajo",
             "articles":
                 [
@@ -1357,17 +1357,17 @@
                         "description": "Reflexiones sobre cómo estudiar, aprender y enseñar de manera efectiva.",
                         "image": "images/vlog_thumbnails/teacher_in_class.jpeg",
                         "contents": [
-                            {"title": "De aprender y enseñar."},
+                            {"title": "De Aprender y Enseñar."},
                             {
                                 "image": "images/vlog_images/dead_poets_society.jpg",
                                 "caption": "Robin Williams como John Keating en La sociedad de los poetas muertos",
                                 "link":"https://www.huffpost.com/entry/the-dead-poets-society-gu_b_749665"
                             },
                             {"paragraph":[
-                                "En este artículo compartiré lo que he aprendido, tanto como estudiante como educador a lo largo de los años. El objetivo principal será encontrar metodos efectivos para aprender, así como tecnicas efectivas para enseñar.",
+                                "En este artículo compartiré lo que he aprendido, tanto como estudiante como educador a lo largo de los años. El objetivo principal será encontrar métodos efectivos para aprender, así como técnicas efectivas para enseñar.",
                                 "Para una perspectiva objetivamente más completa, recomendaría ferozmente el libro de G. Polya, “How to Solve It”: es un libro extraordinario tanto para la enseñanza como para el aprendizaje. Una biblia del arte de resolver problemas."
                             ]},
-                            {"paragraph":["Cuando menciono buenos educadores a lo largo del artículo, hay un reconocimiento implícito de que existen malos educadores. Me parece indudable su existencia, mas no inevitable. Los malos docentes, creo, son buenos docentes en potencia; porque la enseñanza en sí misma se aprende."]},
+                            {"paragraph":["Cuando menciono buenos educadores a lo largo del artículo, hay un reconocimiento implícito de que existen malos educadores. Me parece indudable su existencia, más no inevitable. Los malos docentes, creo, son buenos docentes en potencia; porque la enseñanza en sí misma se aprende."]},
                             {"title": "Práctica efectiva:"},
                             {"paragraph":["La práctica hace al maestro. Bueno, no del todo, pero la práctica sí que ayuda. Creo que el siguiente cuento de una clase de cerámica lo ilustra de la forma más clara:"]},
                             {"quote":
@@ -1377,7 +1377,7 @@
                                 "Los estudiantes que buscan mejorar necesitan practicar abundantemente. La Práctica Deliberada es generalmente la mejor manera de hacerlo y ya está bien documentada, es simple: practica, pero hazlo con un plan."
                             ]},
                             {"paragraph":[
-                                "En particular -tomando prestado de nuestro compa el Polya- un buen enfoque para la Práctica Deliberada es hacer múltiples intentos, de manera iterativa, basándose en sus 4 principios: entender el problema, hacer un plan, ejecutar el plan, revisar tu trabajo."
+                                "En particular -tomando prestado de nuestro compa, el Polya- un buen enfoque para la Práctica Deliberada es hacer múltiples intentos de manera iterativa, basándose en sus 4 principios: entender el problema, hacer un plan, ejecutar el plan, revisar tu trabajo."
                             ]},
                             {"paragraph":[
                                 "En mi experiencia, la mayoría de los estudiantes fallan en al menos uno de estos. Creo que esto es un fracaso de los profesores al no comunicar (o quizás no entender) que estos mismos principios son las razones por las que educamos de la manera en que lo hacemos:"
@@ -1395,13 +1395,13 @@
                                 "Buscamos un docente para que nos enseñe: no querrías que tu médico retrasara la cirugía para hablar de su divorcio."
                             ]},
                             {"paragraph":[
-                                "Naturalmente, notaras que no todo es igual de accesible pa practicar.",
+                                "Naturalmente, notarás que no todo es igual de accesible pa practicar.",
                                 "Un ejemplo podría ser aprender inglés. Considera un imaginario con una severa desventaja: los padres de tus compañeros lo hablan, y pueden practicar fácilmente en casa, pero tus padres no. ¡Así que tú no puedes practicar con ellos!",
                                 "O en matemáticas: es mas facil practicar si tu hermana es contadora y puede guiarte a través de los 4 principios de Polya.",
-                                "Incluso hay algunas cosas que podrían parecer impracticables: como cómo hacer un examen o hacer una voltereta en el aire. La unica practica sería hacerlo, y el fallo es la muerte."
+                                "Incluso hay algunas cosas que podrían parecer impracticables: como hacer un examen o hacer una voltereta en el aire. La unica practica sería hacerlo, y el fallo es la muerte."
                             ]},
                             {"paragraph":[
-                                "Aquí es donde necesitamos ser creativos. Si para aprender efectivamente debemos practicar una y otra vez, entonces tenemos que descubrir como hacerle para poder practicar lo no-practicable. Como? Pues en su esencia, me parece que la Práctica Deliberada solo necesita dos ingredientes:"
+                                "Aquí es donde necesitamos ser creativos. Si para aprender efectivamente debemos practicar una y otra vez, entonces tenemos que descubrir como hacerle para poder practicar lo no practicable. Como? Pues en su esencia me parece que la Práctica Deliberada solo necesita dos ingredientes:"
                             ]},
                             {"list":[
                                 "Un espacio seguro para fallar.",
@@ -1464,7 +1464,7 @@
                                 "Hacer una leccion interesante también tiene el hermoso beneficio de dar lugar a un aula potencialmente más animada: ¡los estudiantes son más agradables cuando les interesa la clase!"
                             ]},
                             {"paragraph":[
-                                "Una trampa común es sobrevalorar el hacer que algo sea interesante y olvidar hacerlo relevante. Sucede bastante porque los docentes ya tienen las asociaciones bien establecidas en sus mentes, pero es esencial que un maestro recuerde que estas asociaciones aún no existen en las mentes de sus estudiantes: ¡precisamente por eso les estamos enseñando!"
+                                "Una trampa común es sobrevalorar el hacer que algo sea interesante y olvidarse de hacerlo relevante. Sucede bastante porque los docentes ya tienen las asociaciones bien establecidas en sus mentes, pero es esencial que un maestro recuerde que estas asociaciones aún no existen en las mentes de sus estudiantes: ¡precisamente por eso les estamos enseñando!"
                             ]},
                             {"paragraph":[
                                 "Hazlo interesante, pero asegúrate de conectarlo de manera coherente!!! Evitemos más miradas confusas de '¿Y esto que tiene que ver?' y conectemos los puntos brillantes que ilustramos."
@@ -1480,7 +1480,7 @@
                             ]},
                             {"list":[
                                 "El pensamiento del Sistema 2 (la intuicion) es brillante para paralelizar, porque no hay consideraciones profundas que hacer, tu intuición puede tomar decisiones fáciles rápida y paralelamente.",
-                                "El pensamiento del Sistema 1 (la refleccion) es costoso y deliberado. Si te distraes, practimante desconectas partes de tu computadora del Sistema 1, y obstaculizas cualquier posibilidad de pensar, aprender y recordar de manera efectiva."
+                                "El pensamiento del Sistema 1 (la reflexión) es costoso y deliberado. Si te distraes, prácticamente desconectas partes de tu computadora del Sistema 1, y obstaculizas cualquier posibilidad de pensar, aprender y recordar de manera efectiva."
                             ]},
                             {"paragraph":[
                                 "Si estás haciendo algo difícil, complejo, sensible o novedoso: por favor, concéntrate.",
@@ -1500,7 +1500,7 @@
                                 "Un docente siempre debe aspirar a tener material completo y sensato, y lo ideal sería que sus estudiantes no tuvieran necesidad de intervenir."
                             ]},
                             {"paragraph":[
-                                "Si la leccion es incoherente el estudiante no confiara en ella, y se olvidara de lo que aprenda con mucha más facilidad.",
+                                "Si la leccion es incoherente el estudiante no confiará en ella, y se olvidara de lo que aprenda con mucha más facilidad.",
                                 "Un aprendizaje incoherente, aunque fuese útil, no se utilizará con tanta frecuencia, porque los estudiantes no sabrán cómo explicarlo."
                             ]},
                             {"title": "La importancia de los compañeros y las charlas."},
@@ -1516,10 +1516,10 @@
                                 "Hablar con un mentor o un compañero sobre un problema, un tema o, de hecho, cualquier cosa donde se pueda obtener una idea, es una de las formas más efectivas y productivas de aprender. Una conversación saludable nos obliga a emplear todos los mecanismos discutidos en este artículo:"
                             ]},
                             {"list":[
-                                "Práctica efectiva: una buena charla tiene ida y vuelta tal pendulo, donde uno puede estar equivocado muchas veces, ser corregido y rápidamente volver a involucrarse en la conversación.",
+                                "Práctica efectiva: una buena charla tiene idas y vueltas tal péndulo, donde uno puede estar equivocado muchas veces, ser corregido y rápidamente volver a involucrarse en la conversación.",
                                 "Lo abstracto y lo concreto: tus compañeros dejarán de escucharte si eres demasiado abstracto.",
                                 "Pon. Atención: por otro lado, la gente estará disgustada (¡qué miedo!) si no les prestas atención cuando están hablando directamente contigo (lo sé, me distraigo todo el tiempo, lo siento).",
-                                "Que tenga sentido: la incoherencia será interrumpida, o incluso ridiculizada de manera juguetona, dando a un mentor la oportunidad de hacerlo mejor. Ofenderse (o querer ofender) sería un desperdicio terrible de retroalimentación."
+                                "Que tenga sentido: la incoherencia será interrumpida o incluso ridiculizada de manera juguetona, dando a un mentor la oportunidad de hacerlo mejor. Ofenderse (o querer ofender) sería un desperdicio terrible de retroalimentación."
                             ]},
                             {"title": "En conclusión."},
                             {
@@ -1549,7 +1549,7 @@
                             ]},
                             {"title": "Percepción y Abstracciones."},
                             {"paragraph": [
-                                "El mundo es extremadamente complejo. Hay demasiada información para que nuestro cerebro la procese toda, asi que tenemos que filtrar, que elegir. Nuestra percepción está directamente ligada a nuestra cognición de una manera tan entrelazada que verás principalmente lo que ya esperas (busca el experimento del 'Gorila Invisible' y veras exactamente de lo que estoy hablando).",
+                                "El mundo es extremadamente complejo. Hay demasiada información para que nuestro cerebro la procese toda, así que tenemos que filtrar, que elegir. Nuestra percepción está directamente ligada a nuestra cognición de una manera tan entrelazada que verás principalmente lo que ya esperas (busca el experimento del 'Gorila Invisible' y veras exactamente de lo que estoy hablando).",
                                 "¿Cómo darle sentido a este caos?"
                             ]},
                             {"paragraph": [
@@ -1557,7 +1557,7 @@
                             ]},
                             {"paragraph": [
                                 "Cuando observamos el mundo, diferentes personas ven diferentes cosas. Si bien puede existir tal cosa como un mundo de formas platonicas, existe tambien un mundo de percepciones que le es único y propio a cada uno.",
-                                "Estos mundos percibidos difieren según nuestras formas de pensar, y a veces según las diferencias en nuestros sentidos (¡tus ojos y oidos no son iguales a los míos!).",
+                                "Estos mundos percibidos difieren según nuestras formas de pensar, y a veces según las diferencias en nuestros sentidos (¡tus ojos y oídos no son iguales a los míos!).",
                                 "La percepción que tenemos es únicamente nuestra. Y nuestras interpretaciones de lo que vemos también lo son.",
                                 "Nuestra comprensión del mundo es una mezcla: conocimiento y estímulos. Percibes, sientes y le das sentido a la información con lo que 'sabes' del mundo. Tu razonamiento está enmarcado por las limitaciones de todos tus razonamientos anteriores, de todo lo que has visto. Cada melodía, cada pintura, cada sonrisa y cada error; todos ellos cambian tu forma de pensar.",
                                 "Sin embargo, tu conocimiento es finito: no sabemos nada a detalle infinito, sino solo hasta cierto nivel. Rara es la persona que es simultáneamente consciente de los mecanismos físicos más pequeños en sus uñas y de los juegos de la mente que gobiernan la diplomacia.",
@@ -1566,7 +1566,7 @@
                             {"paragraph": [
                                 "Abstracciones. Modelos y abstracciones.",
                                 "El ámbito de las abstracciones es demasiado amplio, y no es necesario explorarlo a fondo para mostrar que no existes.",
-                                "Aunque abstraemos de muchas maneras (y de manera bastante fascinante), centrémonos en como abstraes todos los días camino al trabajo: como abstraes a las personas.",
+                                "Aunque abstraemos de muchas maneras (y de manera bastante fascinante), centrémonos en cómo abstraes todos los días camino al trabajo: cómo abstraes a las personas.",
                                 "Cuando percibimos a Alguien Más, debemos darle sentido a lo que percibimos: la apariencia de su rostro, sus ojos, el sonido de su voz o el calor de sus manos. Agrupamos toda esta información en una sola aglomeración: una persona.",
                                 "Podemos acumular detalles que asociamos con esa persona: lo que la hace reír, su forma de caminar, cómo mira al cielo estrellado o grita en el tráfico. Si te parece un amigo o un enemigo (que en sí mismos son abstracciones). A medida que aumentamos el detalle, sentimos que la conocemos mejor.",
                                 "Cuando te preguntan quién es, responderás con un subconjunto de estos detalles. Es útil. Si tuvieras que absorber cada detalle sobre alguien antes de poder hablar de él, las interacciones sociales serían absurdamente costosas. Platicar con alguien tomaría todo tu tiempo, toda tu memoria y todo tu cerebro.",
@@ -1606,7 +1606,7 @@
                                 "Cuando levantamos la vista hacia el cielo nocturno, no somos simplemente observadores, sino participantes en una danza eterna, en espacio y tiempo. Nos vemos a nosotros mismos, pasado y futuro.",
                                 "Entonces, cuando nos hacemos la pregunta, '¿Quién eres?' No busquemos respuestas en los confines de la identidad o los límites del cuerpo. En su lugar, abracemos la inmensidad sin fronteras del ser, reconociendo que no estamos separados del universo, sino que formamos partes integras de su historia. De su danza, de su constante evolución.",
                                 "Cuando nos pregunten «¿Quién eres?» Respondamos de manera útil, socialmente, con la información que el interlocutor necesita, pero reconozcamos que la verdadera respuesta se escapara para siempre como arena entre los dedos.",
-                                "La verdadera respuesta es simple. La verdadera respuesta es liberadora, emancipadora. La verdadera respuesta es armonia y es paz."
+                                "La verdadera respuesta es simple. La verdadera respuesta es liberadora, emancipadora. La verdadera respuesta es armonía y es paz."
                             ]},
                             {"paragraph": [
                                 "No existes."
@@ -1651,17 +1651,17 @@
                                 "El contexto es esencial en todo lo que concierne la comunicación: la resolución de conflictos es más difícil cuando no entiendes en que piensa el otro, la cultura es más difícil de apreciar con una vista superficial (sin contexto), la colaboración se ve obstaculizada por malentendidos fundamentales sobre el trabajo que debe realizarse o sus costos.",
                                 "Por otro lado, proporcionar demasiado contexto en la comunicación es a menudo inútil: toma tiempo platicar, toma tiempo leer, y la mayoría de las veces ni siquiera incluye la información que la otra persona realmente quiere. Incluso cuando intentamos comunicarnos mejor, estamos condenados a nunca alcanzar la perfección.",
                                 "El contexto nos deja conocer, pero parece frecuentemente impedir que nos comuniquemos. Habriamos de preguntarnos: ¿es el contexto mismo? ¿O somos nosotros?",
-                                "A mi me parece que no eres tú (contexto), soy yo."
+                                "A mí me parece que no eres tú (contexto), soy yo."
                             ]},
                             {"title": "Solo yo sé lo que sé:"},
                             {"paragraph": [
                                 "La gente es complicada. Sabemos muchas, muchas cosas.",
-                                "Sin embargo, no almacenamos nuestro conocimiento en una memoria compartida. No hay una mente colmena. Una biblioteca telepatica de todos los hechos (aun).",
+                                "Sin embargo, no almacenamos nuestro conocimiento en una memoria compartida. No hay una mente colmena. Una biblioteca telepática de todos los hechos (aún).",
                                 "Tú sabes lo que sabes, y yo sé lo que sé.",
                                 "Pero si te pregunto “¿Qué sabes?”, esperando una lista de toda la información en tu cerebro, te parecería lo más ridículo. Incluso suponiendo que pudieras hacer tal lista, no lograrías comunicarla correctamente (véase el título del artículo). Pero no puedes hacer tal lista.",
                                 "¿Por qué?",
                                 "“¿Qué sabes?” cae, creo, en la misma rama de pensamiento que preguntarse “¿Quién eres?” (que he explorado en otro artículo: “Realmente No Existes”)",
-                                "Para la mayoría de nosotros, una limitación suficiente para responder completamente a estas preguntas es la vaguedad de lo que significa la pregunta. ¿Qué es “saber” realmente? ¿Qué es “yo”?",
+                                "Para la mayoría de nosotros, una limitación suficiente para responder completamente a estas preguntas es la vaguedad de lo que significan las preguntas. ¿Qué es “saber” realmente? ¿Qué es “yo”?",
                                 "¿Sé algo si sé dónde encontrarlo? ¿Sé algo si me lo ha enseñado otra persona? ¿Cómo podemos estar seguros de que esta otra persona lo sabía correctamente? ¿Qué significa para ellos saber?",
                                 "La cuestión de lo que sabemos es por naturaleza recursiva ad nauseam. Siempre hay un siguiente paso de “Pero ¿cómo sabemos eso?” hasta que llegamos a suposiciones axiomáticas. Los axiomas no son conocibles, simplemente se suponen. Entonces, podemos suponer, y luego podemos inferir a partir de suposiciones."
                             ]},
@@ -1678,7 +1678,7 @@
                             },
                             {"paragraph": [
                                 "Enseñar, y de hecho cualquier comunicación, nunca ha sido sobre cosas conocibles. Ha sido -y me parece que siempre será- sobre persuadir y convencer a los demás a usar información útil, métodos útiles, herramientas útiles y prácticas útiles para vivir mejor. Para hacer mejores preguntas, para resolver problemas más importantes.",
-                                "Pensar en la comunicación como la transferencia de la verdad es una arrogancia muy humana. No podemos conocer la verdad, no de ninguna manera fundamental, la verdad en su mas pura esencia. Pero podemos acercarnos a la verdad de muchas maneras muy útiles.",
+                                "Pensar en la comunicación como la transferencia de la verdad es una arrogancia muy humana. No podemos conocer la verdad, no de ninguna manera fundamental, la verdad en su más pura esencia. Pero podemos acercarnos a la verdad de muchas maneras muy útiles.",
                                 "Los niños son excelentemente transparentes con esto. Para cualquier verdad que consideres innegable, ellos la desafiarán sin malicia pero con simple curiosidad: porque nada de lo que sabes es verdaderamente innegable."
                             ]},
                             {"paragraph": [
@@ -1754,7 +1754,7 @@
                                 "La sed de perfección nos puede impedir hacer algo bueno, la expectativa asfixia la acción. Y la acción es el camino hacia el crecimiento. En la acción y el crecimiento construyes el yo constante que quieres ser. Construye cosas, construye tu vida y constrúyete a ti mismo: no hay proyecto más importante que tú, porque sin ti no hay nada más que hacer."
                             ]},
                             {"paragraph":[
-                                "Entonces, ama y juega. Haz cosas. Aspira a hacer, no a ser. Al hacerlo, puede que encuentres que las etiquetas, si es que te importan, vendran naturalmente, formadas por la riqueza de tus experiencias y por el labor de tus manos."
+                                "Entonces, ama y juega. Haz cosas. Aspira a hacer, no a ser. Al hacerlo, puede que encuentres que las etiquetas, si es que te importan, vendrán naturalmente, formadas por la riqueza de tus experiencias y por el labor de tus manos."
                             ]}
                         ]
                     },                    
@@ -1767,7 +1767,7 @@
                                 "Regla 1: Nadie habla sobre el Club de la Lucha.", 
                                 "Regla 2: No se permiten armas.", 
                                 "Regla 3: Nadie habla sobre el Club de la Lucha.",
-                                "Lo dejas asi un par de semanas, y pum! Anarquía."
+                                "Lo dejas así un par de semanas, y pum! Anarquía."
                             ]},
                             {"title": "Sobre los comportamientos emergentes."},
                             {
@@ -1798,7 +1798,7 @@
                             {"paragraph":[
                                 "Sin embargo, cuando apilamos capas sobre capas de simplicidad, obtenemos vida. Obtenemos todo. Puede parecer sorprendente, pero con algo de matemáticas se vuelve bastante obvio.",
                                 "Si tienes n capas, con Xn reglas cada una, entonces tienes un total de X1 * X2 * ... * Xn reglas en total.",
-                                "¡Esas son muchas reglas que pueden definir muchisimas combinaciones diferentes!"
+                                "¡Esas son muchas reglas que pueden definir muchísimas combinaciones diferentes!"
                             ]},
                             {"paragraph":[
                                 "¿Qué es la vida? Mi sospecha es que la palabra en sí misma es simplemente un clasificador. Nuestro cerebro simplificando el mundo para nuestro gran beneficio al vivir, pero para nuestra gran desventaja al entender."
@@ -1810,7 +1810,7 @@
                             {"paragraph":[
                                 "También existen definiciones científicas de lo que es la vida, pero la ciencia en sí existe cuando decimos “oh, eso es ciencia”.",
                                 "Por supuesto, es menos subjetivo que tu gusto musical, pero no es mucho más objetivo que una combinación de todas nuestras subjetividades. Opiniones e ideas mezcladas con medidas y termometros, que en última instancia solo podemos entender a través de nuestros sentidos.",
-                                "Somos monos tratando de desasociarse de sus órganos sensoriales para ver alguna verdad superior. Es toda una lucha: incluso en la frase anterior volvemos a los sentidos, intentamos ver."
+                                "Somos monos tratando de desasociarnos de sus órganos sensoriales para ver alguna verdad superior. Es toda una lucha: incluso en la frase anterior volvemos a los sentidos, intentamos ver."
                             ]},
                             {"paragraph":[
                                 "¿Qué es la inteligencia? Creo que la respuesta es bastante similar: la inteligencia es que veo algo y pienso que piensa. Chango ve, chango clasifica.",
@@ -1820,7 +1820,7 @@
                                 "Creo que la inteligencia también es solo una combinación de reglas. En nosotros, son las reglas hasta la capa de abstracción del cerebro, o a veces de la combinación de muchos cerebros, sean de humanos o no."
                             ]},
                             {"paragraph":[
-                                "Bueno, entonces, ¿cómo es que alguna vez creímos que solo nosotros podemos ser inteligentes? ¿No es eso una gran arrogancia -infundada-? ¿Una terrible hybris humana?",
+                                "Bueno, entonces, ¿cómo es que alguna vez creímos que solo nosotros podemos ser inteligentes? ¿No es eso una gran arrogancia -infundada-? ¿Una terrible hubris humana?",
                                 "¿Y por qué alguna vez pensaríamos que no podemos crear inteligencia? Es solo combinatoria y permutaciones; ni que fuera calculo.",
                                 "Hoy estamos intentando combinando reglas de computación y estadísticas, porque nos parece que funciona mejor que otras cosas que hemos probado (sí, la ciencia es probar cosas y anotarlas) pero es solo algun conjunto arbitrario de reglas que usamos. Si hay un límite para esas, podemos usar otras."
                             ]},
@@ -1828,7 +1828,7 @@
                                 "Venimos de atomos que se agitan, ¿es tan difícil imaginar que otras cosas puedan venir de nosotros?"
                             ]},
                             {"paragraph":[
-                                "A mi me parece muy claro que todo es simplemente... comportamientos emergentes."
+                                "A mí me parece muy claro que todo es simplemente... comportamientos emergentes."
                             ]}
                         ]
                     },
@@ -1842,7 +1842,7 @@
                                 "Cada uno notable a su manera, uno tremendamente encantador, otro muy inteligente, otro tan hermoso que seguro ofende a los dioses.",
                                 "Sin embargo, ninguno de ellos tiene el encanto sincero que encuentro en el 'mediocre'.",
                                 "Olvidable, ingenuo, no muy brillante, y aún así es amable.",
-                                "Y termina siendo el quien vive la mejor vida."
+                                "Y termina siendo el que vive la mejor vida."
                             ]},
                             {"title": "Sé Bueno y Grande."},
                             {
@@ -1882,7 +1882,7 @@
                             ]},
                             {"paragraph":[
                                 "La única manera real de crecer es hacer ambas cosas: adquirir fuerza y dirigirla adecuadamente.",
-                                "El verdadero crecimiento requiere cultivarse a si mismo en tres dimensiones: el ser capaz, el poder de hacer cosas (distinto de lo que a menudo llamamos poder, que yo denominaría corrupción), y el espíritu: el corazón y el alma."
+                                "El verdadero crecimiento requiere cultivarse a sí mismo en tres dimensiones: el ser capaz, el poder de hacer cosas (distinto de lo que a menudo llamamos poder, que yo denominaría corrupción), y el espíritu: el corazón y el alma."
                             ]},
                             {"paragraph":[
                                 "Solo desarrollándonos en estas áreas podemos encontrar la dirección correcta para nuestras vidas y crecer firmemente hacia ella.",
@@ -1917,7 +1917,7 @@
                     "J'suis /h Santiago, un /h Ingénieur /h de /h Logiciel incontestablement mexicain.",
                     "J'aime lire, faire de la musique, créer, enseigner, aprendre, écrire et faire du vélo. Et les parcs. Et les musées. Bref, gros fan de la vie.",
                     "Je pense que les actes valent mieux que les mots, ainsi donc je vous invite à explorer ce site et découvrir ce que je fais, ce que j'ai fait, ce que j'écris et ce que je pense.",
-                    "Si vous n'avez pas le temps pour cela: ayant 1 seule mot mes amis me decriraient comme inhabituel, ayant 2 ils pourraient ajouter contradictoire, et ayant 3 j'espere qu'ils pourraient admettre que je suis remarcablement drôle.",
+                    "Si vous n'avez pas le temps pour cela: ayant 1 seule mot mes amis me décriraient comme inhabituel, ayant 2 ils pourraient ajouter contradictoire, et ayant 3 j'espère qu'ils pourraient admettre que je suis remarquablement drôle.",
                     "'Dis-moi ce que tu manges, je te dirai qui tu es'. Bah voici un peu de ma diète:"
                 ]
             },
@@ -1994,12 +1994,12 @@
                             {"paragraph": "J'ai acquis une réputation pour ma rapidité d'apprentissage et mon efficacité. Mon travail jusqu'au moment inclut:"},
                             {
                                 "list": [
-                                    "Migration du backend de notre API REST; cela était une moitié d'un projet pour simplifier nos systémes qui a permis d'économiser 18 millions des dollars par an.",
+                                    "Migration du backend de notre API REST; cela était une moitié d'un projet pour simplifier nos systèmes qui a permis d'économiser 18 millions dollars par an.",
                                     "Construction de l'infrastructure essentielle pour les fonctionnalités de Search par IA.", 
                                     "Actuellement, je travaille sur notre technologie Multiplayer en Rust/Typescript pour la collaboration en temps réel."
                                 ]
                             },
-                            {"paragraph": "Je suis quelqu'un plus orienté vers résultats que vers outils mais du moment j'ai principalement utilisé : Ruby, Rust, TypeScript, React, Terraform et AWS, ainsi qu'un peu de Kubernetes."}
+                            {"paragraph": "Je suis quelqu'un plus orienté vers les résultats que vers outils mais du moment j'ai principalement utilisé : Ruby, Rust, TypeScript, React, Terraform et AWS, ainsi qu'un peu de Kubernetes."}
                         ],
                         "image": "images/experience/figma.png"
                     },
@@ -2018,8 +2018,8 @@
                                     "Concepts avancés de Java"
                                 ]
                             },
-                            {"paragraph": "Je suis profondement appreciative des enseignants qui m'ont guidé pendant cette période, et je n'aurais pas pû réussir sans eux. Un grand merci à Marc Feeley, Olivier Melançon, Stefan Monnier, Miklós Csűrös, Sébastien Roy, Amal Ben Abdellah et Michel Reid."},
-                            {"paragraph": "J'ai aussi colaboré avec le departament de Psicologie, d'Informatique et l'equipe d'Education Digitalisée pour developper une application pour la resilience etudiante."}
+                            {"paragraph": "Je suis profondement appréciative des enseignants qui m'ont guidé pendant cette période, et je n'aurais pas pu réussir sans eux. Un grand merci à Marc Feeley, Olivier Melançon, Stefan Monnier, Miklós Csűrös, Sébastien Roy, Amal Ben Abdellah et Michel Reid."},
+                            {"paragraph": "J'ai aussi collaboré avec le département de Psychologie, d'Informatique et l'équipe d'Education Digitalisée pour développer une application pour la résilience étudiante."}
 
                         ],
                         "image": "images/experience/Paradigms.png"
@@ -2047,17 +2047,17 @@
 
             "education": {
                 "title":"Où j'ai fait mes études.",
-                "classHeader":"Quelques des mes cours preferés:",
+                "classHeader":"Quelques-uns de mes cours préférés:",
                 "schools": [
                         {
                             "name": "Université de Montréal",
                             "image": "images/institutions/UdeM.jpeg",
                             "degree": "Licence en Sciences, Informatique",
                             "details": "Montréal | 2020-2023",
-                            "abreviation": "UdeM",
+                            "abbreviation": "UdeM",
                             "description": [
                                 "J'ai réalisé mon projet d'honneur sur l'assemblage de génomes avec des lectures de séquençage appariées, ceci dit : j'ai organisé des fragments d'ADN pour construire un génome.",
-                                "C'est difficile parce que les fragments sont désordonnés, défectueux, répetés, pourraient aller n'importe où et il n'y a pas un manuel... alors, comment savoir où les placer?",
+                                "C'est difficile parce que les fragments sont désordonnés, défectueux, répétés, pourraient aller n'importe où et il n'y a pas un manuel... alors, comment savoir où les placer?",
                                 "Les fragments que j'ai étudiés provenaient d'un Agrobacterium, qui est une bactérie qui rend les plantes malades =(",
                                 "J'étais aussi participant aux clubs de ML et de programmation compétitive, et directeur conseil chez 180DC UdeM."
                             ],
@@ -2081,9 +2081,9 @@
                             "image": "images/institutions/LFM.jpeg",
                             "degree": "Baccalauréat Français, Sciences de l'Ingénieur",
                             "details": "Mexique | 2017-2020",
-                            "abreviation": "LFM",
+                            "abbreviation": "LFM",
                             "description": [
-                                "J'ai suivi la filière Scientifique ou je me suis spécialisé en mathématiques et en ingénierie, et j'ai terminé avec une mention très bien: TB -qui était la plus haute distinction disponible à l'école.",
+                                "J'ai suivi la filière Scientifique où je me suis spécialisé en mathématiques et en ingénierie, et j'ai terminé avec une mention très bien: TB -qui était la plus haute distinction disponible à l'école.",
                                 "J'étais candidat au concours général en mathématiques, physique et ingénierie.",
                                 "J'ai fondé et dirigé le club d'Apprentissage Automatique, et j'étais dans le Club de Programmation."
                             ],
@@ -2115,8 +2115,8 @@
                     {
                         "title": "Orball",
                         "description": [
-                            "J'ai appris à créer des jeux en 2D en utilisant Godot et gdscript.",
-                            "Je n'ai pas pris la peine de le terminer, mais j'ai implémenté une génération procédurale et un chargement incrémentiel par morceau (cela évite le cas typique où vous ouvrez un jeu et il est très lent à démarrer) dont je suis satisfait.",
+                            "J'ai appris à créer des jeux en 2D en utilisant Godot et GDScript.",
+                            "Je n'ai pas pris la peine de le terminer, mais j'ai implémenté une génération procédurale et un chargement incrémentiel par morceaux (cela évite le cas typique où vous ouvrez un jeu et il est très lent à démarrer) dont je suis satisfait.",
                             "Vous pouvez y jouer, mais honnêtement, ce n'est pas un jeu amusant !"
                         ],
                         "link": "https://gfecito.itch.io/orball?secret=GNoDj8sJ0n9m71KTTVJOJrjcjD8",
@@ -2148,7 +2148,7 @@
                         "title": "Génomique",
                         "description": [
                             "Il s'agit d'un projet de recherche et développement pour le Laboratoire de Biologie Computationnelle et Théorique de l'UdeM.",
-                            "En bref, j'ai recherché et mis en œuvre une API pour le raffinement de l'assemblage du génome, ainsi qu'une structure de données de schéma de binning, en utilisant JAVA et la bibliothèque htsjdk.",
+                            "En bref, j'ai recherché et mis en œuvre une API pour le raffinement de l'assemblage du génome, ainsi qu'une structure de données de schéma de binning, en utilisant Java et la bibliothèque htsjdk.",
                             "Le travail est entièrement documenté et expliqué ici :"
                         ],
                         "link": "https://genome-assembly-scaffolding.web.app/",
@@ -2176,7 +2176,7 @@
                         "image": "images/projects/ML.png"
                     },
                     {
-                        "title": "Système de gestion de fichiers",
+                        "title": "Système de gestion des fichiers",
                         "description": [
                             "Nous avons mis en œuvre un système de gestion du stockage basé sur la 'File Allocation Table' en utilisant C pour un système Linux 32 bits.",
                             "En termes simples : nous avons construit la section de gestion des fichiers -et de la mémoire- d'un système d'exploitation."
@@ -2261,14 +2261,14 @@
                 ]
             },            
             "awards": {
-                "title":"Awards",
+                "title":"Prix",
                 "dateLabel":"Date: ",
                 "awards": [
                         {
                             "title": "ICPC NE-NA",
                             "date": "Février 2023",
                             "description": [
-                                "La 2ème meilleure équipe de l'histoire du DIRO (Département d'informatique et de recherche opérationnelle) au moment de participer"
+                                "La deuxième meilleure équipe de l'histoire du DIRO (Département d'informatique et de recherche opérationnelle) au moment de participer"
                             ],
                             "image": "images/trophy.png"
                         },
@@ -2301,7 +2301,7 @@
         },
         "articles": {
             "title":"Ce que je pense. Ce que j'écris.",
-            "closeArticleLabel":"Fermer article",
+            "closeArticleLabel":"Fermer l'article",
             "scrollLabel":"Aller au fond",
             "articles":
                 [
@@ -2320,14 +2320,14 @@
                                 "Dans cet article, je partagerai ce que j'ai appris en tant qu'élève et en tant qu'enseignant au fil des ans. Mon but ici est partager des méthodes efficaces pour apprendre, ainsi que des méthodes efficaces pour enseigner.",
                                 "Pour une perspective plus complète, je recommande vivement le livre de G. Polya, 'How to Solve It', qui est un excellent ouvrage sur l'art d'enseigner et d'apprendre à résoudre des problèmes."
                             ]},
-                            {"paragraph":["Quand je parle de bons enseignants tout au long de l'article, il y a une reconnaissance implicite qu'il existe de mauvais enseignants. L'existance de ces dérniers me paraît indéniable. Mais je pense que les mauvais enseignants sont des bons enseignants en puissance; car l'enseignement est en soi quelque chose que l'on apprend."]},
+                            {"paragraph":["Quand je parle des bons enseignants tout au long de l'article, il y a une reconnaissance implicite qu'il existe de mauvais enseignants. L'existence de ces derniers me paraît indéniable. Mais je pense que les mauvais enseignants sont des bons enseignants en puissance; car l'enseignement est en soi quelque chose que l'on apprend."]},
                             {"title": "Pratique efficace:"},
                             {"paragraph":["La pratique rend parfait. Eh bien, pas tout à fait, mais ça aide. Je pense que la parabole de la classe de poterie l'illustre le plus succinctement :"]},
                             {"quote":
                                 "Il était une fois un professeur de poterie nommé Brian. Un mois, il décida de diviser sa classe en deux groupes. Le groupe A devait faire un pot par jour pendant 30 jours (donc 30 pots au total). Le groupe B devait travailler sur un seul pot pendant les 30 jours entiers. À la fin du mois, Brian jugea la qualité des pots. Sans exception, les 10 meilleurs pots provenaient du groupe A, ceux qui faisaient un pot par jour. Aucun ne provenait du groupe qui s'était concentré sur l'amélioration d'un seul pot."
                             },
                             {"paragraph":[
-                                "Les étudiants qui cherchent à s'améliorer doivent pratiquer abondamment. La pratique délibérée est généralement la meilleure approche et elle est déjà bien documentée : pratiquez, mais faites-le avec un plan."
+                                "Les étudiants cherchant à s'améliorer doivent pratiquer abondamment. La pratique délibérée est généralement la meilleure approche et elle est déjà bien documentée : pratiquez, mais faites-le avec un plan."
                             ]},
                             {
                                 "paragraph": [
@@ -2336,7 +2336,7 @@
                             },
                             {
                                 "paragraph": [
-                                    "D'après mon expérience, la plupart des étudiants ne réussissent pas à respecter au moins l'un de ces principes. Je crois que cela est dû à un manque de communication (ou peut-être même de compréhension) de la part des enseignants, qui ne transmettent pas que ces principes mêmes sont les raisons pour lesquelles nous éduquons selon cette structure:"
+                                    "D'après mon expérience, la plupart des étudiants ne réussissent pas à respecter au moins l'un de ces principes. Je crois que cela est dû à un manque de communication (ou peut-être même de compréhension) de la part des enseignants, qui ne transmettent pas que ces principes mêmes sont les raisons pour lesquelles nous enseignons selon cette structure:"
                                 ]
                             },
                             {
@@ -2358,20 +2358,20 @@
                             {
                                 "paragraph": [
                                     "Naturellement, vous avez peut-être remarqué que tout n'est pas aussi facile à pratiquer!",
-                                    "Vous pourriez penser à un cas hypothétique: l'apprentissage de l'anglais, où vous êtes gravement désavantagé : les parents de vos camarades le parlent, et ils peuvent facilement s'exercer chez eux, mais pas les votres, donc vous ne pouvez pas!",
+                                    "Vous pourriez penser à un cas hypothétique: l'apprentissage de l'anglais, où vous êtes gravement désavantagé : les parents de vos camarades le parlent, et ils peuvent facilement s'exercer chez eux, mais pas les vôtres, donc vous ne pouvez pas!",
                                     "Ou aux mathématiques, quand leur frère ou sœur est comptable et peut les guider à travers les 4 principes de Polya.",
                                     "Il y a même des choses qui semblent impossibles à pratiquer : comme passer un test ou faire un salto arrière."
                                 ]
                             },
                             {
                                 "paragraph": [
-                                    "C'est là que nous devons être créatifs. Si pour apprendre efficacement nous devons pratiquer encore et encore, alors nous devons trouver un moyen de transformer tout sujet apprenable en sujet pratiquable. J'ai observé que pour rendre la Pratique Délibérée possible, nous avons besoin de deux ingrédients :"
+                                    "C'est à ce moment-là que nous devons être créatifs. Si pour apprendre efficacement nous devons pratiquer encore et encore, alors nous devons trouver un moyen de transformer tout sujet apprenable en sujet pratiquable. J'ai observé que pour rendre la Pratique Délibérée possible, nous avons besoin de deux ingrédients :"
                                 ]
                             },
                             {
                                 "list": [
                                     "Un espace sûr pour échouer.",
-                                    "Des rétroactions efficaces : les rétroactions efficaces sont rapides, fréquents et exploitables."
+                                    "Des rétroactions efficaces : les rétroactions efficaces sont rapides, fréquentes et exploitables."
                                 ]
                             },
                             {
@@ -2387,7 +2387,7 @@
                             },
                             {
                                 "paragraph": [
-                                    "Construire un espace sûr pour pratiquer et créer un pipeline de rétroactions efficaces est historiquement assez difficile (et ainsi les écoles excellentes sont rares). Je ne connais pas de recette généralisable, mais voici quelques exemples :"
+                                    "Construire un espace sûr pour pratiquer et créer un pipeline de rétroactions efficaces est historiquement assez difficile (et ainsi les écoles excellentes sont rares). Je ne connais pas de recette généralisée, mais voici quelques exemples :"
                                 ]
                             },
                             {
@@ -2449,7 +2449,7 @@
                                 "paragraph": [
                                     "En reliant des concepts abstraits à des objets tangibles ou des scénarios familiers, ils aident les étudiants à établir des connexions significatives qui améliorent l'apprentissage et la rétention.",
                                     "Par exemple, ils pourraient utiliser des accessoires comme des diagrammes colorés ou des anecdotes mémorables pour rendre des idées complexes plus accessibles et mémorables.",
-                                    "Comme Michael achetant 100 ananas ou Antonia devant couper le câble qui est en position impaire, entre deux câbles rouges, pour désamorcer une bombe !"
+                                    "Comme Michael achetant 100 ananas ou Antonia devant couper le câble qui est en position impair, entre deux câbles rouges, pour désamorcer une bombe !"
                                 ]
                             },
                             {
@@ -2678,7 +2678,7 @@
                                 "Le contexte interfère avec de nombreuses autres tâches basées sur la communication : la résolution des conflits est plus difficile, lorsque vous ne comprenez pas d'où vient l'autre côté, la culture est plus difficile à apprécier avec une vue superficielle (sans contexte), la collaboration est entravée par des malentendus fondamentaux sur le travail à faire ou ses coûts.",
                                 "D'un autre côté, fournir trop de contexte dans la communication est souvent inutile : cela prend du temps à partager, cela prend du temps à consommer, et n'inclut le plus souvent même pas les informations que l'autre personne veut réellement. Même lorsque nous essayons de mieux communiquer, nous sommes constamment empêchés d'atteindre la perfection.",
                                 "Le contexte nous rend savants, mais il semble entraver tant de choses dans la communication entre nous. Nous devons nous demander : est-ce le contexte ? Ou est-ce nous ?",
-                                "Bof evidemment ce n'est pas le context qu'on doit blâmer, mais nous mêmes."
+                                "Bof évidemment ce n'est pas le contexte qu'on doit blâmer, mais nous-mêmes."
                             ]},
                             {"title": "Seul je sais ce que je sais :"},
                             {"paragraph": [
@@ -2695,7 +2695,7 @@
                             {"title": "Nous ne pourrons jamais savoir"},
                             {"paragraph": [
                                 "Alors… nous ne pouvons pas savoir les choses. Voilà, merci pour votre lecture, aventurons-nous dans les rues avec une terreur cynique de notre condamnation à l'ignorance éternelle.",
-                                "Valide, mais je trouve que c'est une interprétation impratique.",
+                                "Valide, mais je trouve que c'est une interprétation impraticable.",
                                 "Je pense qu'il existe une interprétation alternative que je trouve non seulement infiniment plus utile, et plus intéressante, mais aussi sincèrement assez libératrice."
                             ]},
                             {
@@ -2754,7 +2754,7 @@
                                 "Pourquoi prenons-nous la peine de répondre à ces questions ?",
                                 "Qu'essayons-nous vraiment de comprendre avec elles ?",
                                 "Ma thèse est que nous cherchons une description simplifiée des gens : « Oh, ce gars est A, ce gars est B. »",
-                                "Cela facilite la discussion sur nous-mêmes et les autres, en réduisant nos identités à des simples étiquettes."
+                                "Cela facilite la discussion sur nous-mêmes et les autres, en réduisant nos identités à des étiquettes simples."
                             ]},
                             {"paragraph":[
                                 "Mais voici le problème : demander ce que nous voulons être est une erreur, un malentendu.",
@@ -2803,7 +2803,7 @@
                                 "link":"https://www.thomasjacksonphotography.com/emergent-behavior.html"
                             },
                             {"paragraph":[
-                                "Un atome gigote dans l'espace. Il gigote pas seul mais avec des amis. Ils gigotent plus que d'habitude et tu brûles de fièvre. Ils gigotent moins et tu gèles. Certains gigotent ici, d'autres là."
+                                "Un atome gigote dans l'espace. Il ne gigote pas seul mais avec des amis. Ils gigotent plus que d'habitude et tu brûles de fièvre. Ils gigotent moins et tu gèles. Certains gigotent ici, d'autres là."
                             ]},
                             {"paragraph":[
                                 "Certains gigotent juste dans l'espace où se produisent les synapses, formant ton liquide céphalo-rachidien : ces atomes qui gigotent te maintiennent en vie. D'autres gigotent légèrement à côté, disposés de manière très pratique, formant des groupes d'atomes (a.k.a. Les Gigotants) que nous appelons molécules.",
@@ -2828,7 +2828,7 @@
                                 "C'est beaucoup de règles qui peuvent définir tant de combinaisons différentes !"
                             ]},
                             {"paragraph":[
-                                "Qu'est-ce que la vie ? Mon soupçon est que le mot en lui-même est simplement un classificateur. Notre cerveau simplifiant le monde à notre grand bénéfice pour vivre, mais à notre grand détriment pour comprendre."
+                                "Qu'est-ce que la vie ? Mon soupçon est que le mot en lui-même est simplement un classificateur. Notre cerveau simplifie le monde à notre grand bénéfice pour vivre, mais à notre grand détriment pour comprendre."
                             ]},
                             {"paragraph":[
                                 "Je pense que la vie n'est pas une seule chose. Je pense que la vie est cette permutation de règles extrêmement variées et riches.",
@@ -2847,7 +2847,7 @@
                                 "Je pense que l'intelligence est aussi juste une combinaison de règles. En nous, ce sont les règles jusqu'à la couche d'abstraction du cerveau, ou parfois de la combinaison des nombreux cerveaux : humains ou non."
                             ]},
                             {"paragraph":[
-                                "Eh bien, alors, comment pourrions-nous jamais croire que seuls nous pouvons être intelligents ? N'est-ce pas une grande arrogance -sans fondement- ? Une terrible hybris humaine ?",
+                                "Eh bien, alors, comment pourrions-nous jamais croire que seuls nous pouvons être intelligents ? N'est-ce pas une grande arrogance -sans fondement- ? Une terrible hubris humaine ?",
                                 "Et pourquoi penserions-nous jamais que nous ne pouvons pas créer de l'intelligence ? C'est juste des combinatoires, pas de la science des fusées.",
                                 "Aujourd'hui, nous essayons en combinant des règles de calcul et de statistiques, car nous avons senti que cela fonctionne mieux que d'autres choses que nous avons essayées (oui, la science semble principalement être “faire n'importe quoi et voir ce qui se passe”) mais ce ne sont que des ensembles arbitraires de règles que nous utilisons. S'il y a une limite à celles-ci, nous pouvons en utiliser d'autres."
                             ]},
