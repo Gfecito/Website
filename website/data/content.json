@@ -417,6 +417,7 @@
                     "title": "On Learning and Teaching",
                     "description": "Reflections on how to study, learn and teach effectively.",
                     "image": "images/vlog_thumbnails/teacher_in_class.jpeg",
+                    "date": "21/04/24",
                     "contents": [
                         {
                             "title": "On learning and teaching."
@@ -691,6 +692,7 @@
                     "title": "You Don’t Really Exist",
                     "description": "Identity is but a useful abstraction; not reality.",
                     "image": "images/vlog_thumbnails/sisyphus.jpeg",
+                    "date": "03/04/24",
                     "contents": [
                         {
                             "title": "Who are you?"
@@ -792,6 +794,7 @@
                     "title": "On The Limits of Communication: Only You Know What You Know",
                     "description": "Only you know what you know",
                     "image": "images/vlog_thumbnails/communication.png",
+                    "date": "31/03/24",
                     "contents": [
                         {
                             "title": "Introduction"
@@ -923,6 +926,7 @@
                     "title": "Aim to do, not to be.",
                     "description": "Reflections on the frame of mind that has given me peace and what I deem healthy, sustainable growth.",
                     "image": "images/vlog_thumbnails/compass.jpeg",
+                    "date": "16/08/24",
                     "contents": [
                         {
                             "title": "Aim to do, not to be."
@@ -991,6 +995,7 @@
                     "title": "On Emergent Behaviors",
                     "description": "Thinking about some of the ways simple rules generate our chaotic world.",
                     "image": "images/vlog_thumbnails/emergent_behavior.webp",
+                    "date": "16/08/24",
                     "contents": [
                         {
                             "paragraph": [
@@ -1096,9 +1101,10 @@
                     ]
                 },
                 {
-                    "title": "Be Good And Great",
+                    "title": "Be Good And Be Great",
                     "description": "A reminder to aspire for growth, but to not grow crooked.",
                     "image": "images/vlog_thumbnails/good_and_great.jpeg",
+                    "date": "16/08/24",
                     "contents": [
                         {
                             "paragraph": [
@@ -1620,6 +1626,7 @@
                     "title": "De Aprender y Enseñar",
                     "description": "Reflexiones sobre cómo estudiar, aprender y enseñar de manera efectiva.",
                     "image": "images/vlog_thumbnails/teacher_in_class.jpeg",
+                    "date": "21/04/24",
                     "contents": [
                         {
                             "title": "De Aprender y Enseñar."
@@ -1895,6 +1902,7 @@
                     "title": "Realmente no existes",
                     "description": "La identidad es solo una abstracción útil; no la realidad.",
                     "image": "images/vlog_thumbnails/sisyphus.jpeg",
+                    "date": "03/04/24",
                     "contents": [
                         {
                             "title": "¿Quién eres?"
@@ -1996,6 +2004,7 @@
                     "title": "Sobre los Límites de la Comunicación: Solo Tú Sabes lo Que Sabes",
                     "description": "Solo tú sabes lo que sabes",
                     "image": "images/vlog_thumbnails/communication.png",
+                    "date": "31/03/24",
                     "contents": [
                         {
                             "title": "Sobre los Límites de la Comunicación: Solo Tú Sabes lo Que Sabes"
@@ -2127,6 +2136,7 @@
                     "title": "Aspira a hacer, no a ser.",
                     "description": "Reflexiones sobre el estado mental que me ha dado paz y lo que considero un crecimiento saludable y sostenible.",
                     "image": "images/vlog_thumbnails/compass.jpeg",
+                    "date": "16/08/24",
                     "contents": [
                         {
                             "title": "Aspira a hacer, no a ser."
@@ -2195,6 +2205,7 @@
                     "title": "Sobre los comportamientos emergentes",
                     "description": "Reflexionando sobre algunas de las formas en que las reglas simples generan nuestro mundo caótico.",
                     "image": "images/vlog_thumbnails/emergent_behavior.webp",
+                    "date": "16/08/24",
                     "contents": [
                         {
                             "paragraph": [
@@ -2303,6 +2314,7 @@
                     "title": "Sé Bueno y Grande",
                     "description": "Un recordatorio para aspirar al crecimiento, pero sin torcerse.",
                     "image": "images/vlog_thumbnails/good_and_great.jpeg",
+                    "date": "16/08/24",
                     "contents": [
                         {
                             "paragraph": [
@@ -2822,6 +2834,7 @@
                     "title": "À propos de l'apprentissage et de l'enseignement",
                     "description": "Réflexions sur la manière d'étudier, d'apprendre et d'enseigner efficacement.",
                     "image": "images/vlog_thumbnails/teacher_in_class.jpeg",
+                    "date": "21/04/24",
                     "contents": [
                         {
                             "title": "À propos de l'apprentissage et de l'enseignement."
@@ -3096,6 +3109,7 @@
                     "title": "Vous n'existez pas vraiment",
                     "description": "L'identité n'est qu'une abstraction utile; pas la réalité.",
                     "image": "images/vlog_thumbnails/sisyphus.jpeg",
+                    "date": "03/04/24",
                     "contents": [
                         {
                             "title": "Qui êtes-vous ?"
@@ -3197,6 +3211,7 @@
                     "title": "Sur les Limites de la Communication: Seul Vous Savez Ce Que Vous Savez",
                     "description": "Seul vous savez ce que vous savez",
                     "image": "images/vlog_thumbnails/communication.png",
+                    "date": "31/03/24",
                     "contents": [
                         {
                             "title": "Introduction"
@@ -3328,6 +3343,7 @@
                     "title": "Visez à faire, pas à être.",
                     "description": "Réflexions sur l'état d'esprit qui m'a apporté la paix et ce que je considère comme une croissance saine et durable.",
                     "image": "images/vlog_thumbnails/compass.jpeg",
+                    "date": "16/08/24",
                     "contents": [
                         {
                             "title": "Visez à faire, pas à être."
@@ -3396,6 +3412,7 @@
                     "title": "Sur les comportements émergents",
                     "description": "Réflexion sur certaines des manières dont des règles simples génèrent notre monde chaotique.",
                     "image": "images/vlog_thumbnails/emergent_behavior.webp",
+                    "date": "16/08/24",
                     "contents": [
                         {
                             "paragraph": [
@@ -3504,6 +3521,7 @@
                     "title": "Soyez Bon et Grand",
                     "description": "Un rappel pour aspirer à la croissance, mais sans se déformer.",
                     "image": "images/vlog_thumbnails/good_and_great.jpeg",
+                    "date": "16/08/24",
                     "contents": [
                         {
                             "paragraph": [

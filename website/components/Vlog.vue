@@ -53,6 +53,9 @@
           </div>
         </template>
       </div>
+
+      <!-- Display the date for the expanded article -->
+      <p class="article-date">{{ selectedArticle.date }}</p>
     </div>
 
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
@@ -70,7 +73,9 @@
               class="w-full h-40 object-cover rounded-md mb-4"
             />
             <h2 class="title-thumbnail mb-2">{{ article.title }}</h2>
-            <p class="gray mb-4">{{ article.description }}</p>
+            <p class="gray mb-2">{{ article.description }}</p>
+            <!-- Display the date for the thumbnail -->
+            <p class="thumbnail-date">{{ article.date }}</p>
           </div>
         </div>
       </div>
@@ -256,6 +261,21 @@ br {
   border-radius: 5px;
   cursor: pointer;
   text-align: center;
+}
+
+/* Styles for article date */
+.article-date {
+  font-size: 0.875rem;
+  color: #6b7280;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/* Styles for thumbnail date */
+.thumbnail-date {
+  font-size: 0.75rem;
+  color: #9ca3af;
+  margin-top: 0.5rem;
 }
 
 /* Responsive Styles */
