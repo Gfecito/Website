@@ -36,7 +36,7 @@
         class="mr-4 hover:text-pink-600"
         @click="setActivePage('blog')"
       >
-        Vlog
+        Blog
       </button>
     </div>
   </div>

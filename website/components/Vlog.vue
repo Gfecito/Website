@@ -112,6 +112,12 @@ export default {
       }
     }
   },
+  mounted() {
+    useHead({
+      title: "Blog",
+      meta: [{ name: "description", content: "My thoughts." }],
+    });
+  },
   setup() {
     let backgroundOpacity = ref(0);
 

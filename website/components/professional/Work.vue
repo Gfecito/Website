@@ -56,6 +56,12 @@ export default {
       required: true,
     },
   },
+  mounted() {
+    useHead({
+      title: "Work",
+      meta: [{ name: "description", content: "My work." }],
+    });
+  },
   methods: {
     textAlignment(index) {
       return this.isImageOnLeft(index) ? "right" : "left";

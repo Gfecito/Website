@@ -6,7 +6,7 @@ export default defineNuxtConfig({
     }
   },
 
-  ssr: false,       // Disable server-side rendering (useful for SPAs)
+  ssr: true,
 
   modules: [
     '@nuxtjs/tailwindcss'

@@ -68,6 +68,11 @@ export default {
   mounted() {
     this.setScrollAnimation(this.$refs.photosContainer, "photos", 100);
     this.setScrollAnimation(this.$refs.paintingsContainer, "paintings", 35);
+
+    useHead({
+      title: "Personal",
+      meta: [{ name: "description", content: "Myself." }],
+    });
   },
   methods: {
     setScrollAnimation(container, type, duration) {
