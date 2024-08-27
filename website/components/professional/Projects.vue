@@ -74,6 +74,7 @@ div[name="project_description"] {
 
 div[name="project_description"] p {
   font-weight: normal;
+  padding: 0.2rem 0;
 }
 
 .project-link {

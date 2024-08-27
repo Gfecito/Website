@@ -130,13 +130,18 @@ h3 {
 .class-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  padding-bottom: 0.5rem;
+}
+
+li {
+  padding: 0.2rem 0;
 }
 
 .institution_description {
   font-weight: normal;
   font-size: 0.8em;
   text-align: justify;
-  padding: 0 2rem;
+  padding: 0.5rem 2rem;
 }
 
 /* Mobile Styles */
@@ -161,6 +166,7 @@ h3 {
 
   .institution_description {
     padding: 0 1rem; /* Reduce padding on mobile */
+    text-align: left;
   }
 }
 </style>

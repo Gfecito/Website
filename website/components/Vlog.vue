@@ -311,5 +311,9 @@ br {
   .spaced {
     margin: 0.5rem;
   }
+
+  .paragraph-container {
+    padding: 0.5rem 0;
+  }
 }
 </style>

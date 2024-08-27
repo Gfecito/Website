@@ -124,6 +124,7 @@ li {
   font-weight: 500;
   list-style-type: disc;
   margin-left: 30px;
+  padding-top: 0.25rem;
 }
 
 .right {
@@ -155,6 +156,10 @@ li {
 
 .image-opacity {
   opacity: 0.7;
+}
+
+.p {
+  padding: 0.2rem 0;
 }
 
 /* Mobile Styles */
