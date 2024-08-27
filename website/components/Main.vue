@@ -210,7 +210,7 @@ export default {
     @language-change="languageChange"
     @theme-change="isDarkMode = $event"
     @page-change="activePage = $event"
-    :data="translatedData.languages"
+    :data="translatedData.header"
   />
   <main
     v-if="!isLoading"

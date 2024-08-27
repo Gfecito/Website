@@ -1,7 +1,7 @@
 <template>
   <div class="relative mx-10" ref="dropdownWrapper">
     <div
-      class="h-6 w-6 cursor-pointer rounded-lg hover:bg-pink-600 flex items-center justify-center"
+      class="icon cursor-pointer hover:bg-pink-600 flex items-center justify-center"
       @click="toggleDropdown"
     >
       <img src="public/images/world_icon.png" alt="" />
@@ -85,5 +85,17 @@ export default {
 div > :nth-child(3) {
   border-bottom-right-radius: 0.5rem; /* 8px */
   border-bottom-left-radius: 0.5rem; /* 8px */
+}
+
+img {
+  margin: auto;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.icon {
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 50%;
 }
 </style>

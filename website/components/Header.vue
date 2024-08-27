@@ -3,15 +3,13 @@
     class="fixed top-0 w-full bg-gray-800 text-white flex items-center justify-between py-4 px-6 z-50"
   >
     <div class="flex items-center">
-      <button
-        @click="toggleDarkMode()"
-        class="h-6 w-6 rounded-lg hover:bg-pink-600"
-      >
-        <img :src="theme_icon" alt="darkmode" class="mr-4" />
+      <button @click="toggleDarkMode()" class="icon hover:bg-pink-600">
+        <img :src="theme_icon" alt="darkmode" />
       </button>
       <HamburgerMenu
-        :languages="data"
+        :languages="data.languages"
         :use-button="true"
+        class="icon hover:bg-pink-600"
         @language-change="languageChange"
         @header-height="handleHeaderHeight"
       />
@@ -22,21 +20,21 @@
         class="mr-4 hover:text-pink-600"
         @click="setActivePage('me')"
       >
-        Me
+        {{ data.pages[0] }}
       </button>
       <button
         to=""
         class="mr-4 hover:text-pink-600"
         @click="setActivePage('work')"
       >
-        Work
+        {{ data.pages[1] }}
       </button>
       <button
         to=""
         class="mr-4 hover:text-pink-600"
         @click="setActivePage('blog')"
       >
-        Blog
+        {{ data.pages[2] }}
       </button>
     </div>
   </div>
@@ -86,5 +84,17 @@ export default {
 <style scoped>
 button {
   font-size: 1rem;
+}
+
+img {
+  margin: auto;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.icon {
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 50%;
 }
 </style>

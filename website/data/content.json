@@ -1,10 +1,17 @@
 {
     "en": {
-        "languages": [
-            "english",
-            "spanish",
-            "french"
-        ],
+        "header": {
+            "languages": [
+                "english",
+                "spanish",
+                "french"
+            ],
+            "pages": [
+                "Me",
+                "Work",
+                "Blog"
+            ]
+        },
         "personal": {
             "journey": {
                 "title": "Welcome! 👋",
@@ -1208,11 +1215,18 @@
         }
     },
     "es": {
-        "languages": [
-            "ingles",
-            "español",
-            "frances"
-        ],
+        "header": {
+            "languages": [
+                "ingles",
+                "español",
+                "frances"
+            ],
+            "pages": [
+                "Yo",
+                "Chamba",
+                "Blog"
+            ]
+        },
         "personal": {
             "journey": {
                 "title": "Hola! 👋",
@@ -2418,11 +2432,18 @@
         }
     },
     "fr": {
-        "languages": [
-            "anglais",
-            "espagnol",
-            "français"
-        ],
+        "header": {
+            "languages": [
+                "anglais",
+                "espagnol",
+                "français"
+            ],
+            "pages": [
+                "Moi",
+                "Boulot",
+                "Blog"
+            ]
+        },
         "personal": {
             "journey": {
                 "title": "Salut! 👋",
