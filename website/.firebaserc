@@ -1,5 +1,18 @@
 {
   "projects": {
     "default": "santiagomez-website"
-  }
+  },
+  "targets": {
+    "santiagomez-website": {
+      "hosting": {
+        "live": [
+          "santigo-live"
+        ],
+        "legacy": [
+          "santiagomez-website"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }
